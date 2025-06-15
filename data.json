@@ -1,0 +1,56 @@
+[{
+  "data": {
+    "id": "0001",
+    "name": "Don't Forget"
+  },
+  "group": "nodes",
+  "removed": false,
+  "selected": false,
+  "selectable": true,
+  "classes": "dontforget original"
+},
+{
+  "data": {
+    "id": "0002",
+    "name": "Field of Hopes and Dreams"
+  },
+  "group": "nodes",
+  "removed": false,
+  "selected": false,
+  "selectable": true,
+  "classes": "dontforget area"
+},
+{
+  "data": {
+    "id": "0003",
+    "name": "three"
+  },
+  "group": "nodes",
+  "removed": false,
+  "selected": false,
+  "selectable": true,
+  "classes": "dontforget area"
+},
+{
+  "data": {
+    "id": "0004",
+    "name": "four"
+  },
+  "group": "nodes",
+  "removed": false,
+  "selected": false,
+  "selectable": true,
+  "classes": "dontforget area"
+},
+{
+  "data": {
+    "id": "0005",
+    "name": "five"
+  },
+  "group": "nodes",
+  "removed": false,
+  "selected": false,
+  "selectable": true,
+  "classes": "dontforget area"
+}
+]
