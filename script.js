@@ -12,17 +12,20 @@ var cy = cytoscape({
       selector: 'node',
       style: {
         'shape': 'rectangle',
-        'height': '10px', // to try node.degree() as height/weight
-        'width': '10px',
-        'background-color': 'purple',
+        'height': '15px',
+        'width': '15px',
+        'background-color': 'black',
+        'outline-width': 0.8,
+        'outline-color': 'purple',
         'label': 'data(label)',
-        /* 'font-family': 'VT323', */
         'font-size': 4,
         'text-justification': 'center',
         'text-wrap': 'wrap',
         'text-max-width': '30px',
-        'text-margin-y': '1px',
+        'text-margin-y': '2.5px',
         'color': '#fff',
+        'text-outline-color': '#000',
+        'text-outline-width': 0.5,
         'text-valign': 'bottom',
         'text-halign': 'center'
       }
@@ -42,118 +45,134 @@ var cy = cytoscape({
     {
       selector: '.undertale',
       style: {
-        'background-color': 'red'
+        'outline-color': 'red'
       }
     },
     {
       selector: '.other',
       style: {
-        'background-color': 'blue'
+        'outline-color': 'blue'
       }
     },
     {
       selector: 'edge',
       style: {
-        'width': 0.3,
-        'line-color': '#555',
-        'curve-style': 'bezier',
-        'target-arrow-color': '#555',
+        'width': 0.35,
+        'line-color': '#fff',
+        'opacity': 0.8,
+        'curve-style': 'unbundled-bezier',
+        'control-point-step-size': 8,
+        'target-arrow-color': '#fff',
         'target-arrow-shape': 'triangle',
-        'arrow-scale': 0.2
+        'arrow-scale': 0.3,
+        'target-distance-from-node': 2,
+        'target-endpoint': 'outside-to-line-or-label'
+      }
+    },
+    {
+      selector: '.ori2',
+      style: {
+        'width': 0.25,
+        'opacity': '0.5'
+      }
+    },
+    {
+      selector: '.ori3',
+      style: {
+        'width': 0.3,
+        'line-style': 'dotted',
+        'opacity': '0.5'
       }
     }
   ],
    elements: [
-/*
-  (((CLASSES)))
-  SONG INFO:
-    Is origin/main reference of a motif ['main']
-    Has no leitmotif ['none']
-    Song from Undertale ['undertale']
-    Song from Deltarune ['deltarune'] (NOT IMPLEMENTED)
-    Song from other ['other']
-  HAS LEITMOTIF (UNDERTALE)
-    Once Upon a Time ['u001']
-    Gaster's Theme ['u666']
-    ...etc ['u+id']
-  HAS LEITMOTIF (DELTARUNE)
-    Don't Forget ['d001']
-    The Door / Nightmare Knight ['d002']
-    The Legend ['d003']
-    ...etc ['d+id']
-*/
+
+    // Nodes.leitmotifs
+    { data: { id: 'l01', label: 'Freedom Motif', ori2: ['101'] }, classes: ['leitmotif'] },
     // Nodes.songs.other
     { data: { id: 'x01', label: 'Nightmare Knight - Cucumber Quest' }, classes: ['other'] },
-    { data: { id: 'x02', label: 'Theme - Rose of Winter' }, classes: ['other'] },
+    //{ data: { id: 'x02', label: 'Theme - Rose of Winter' }, classes: ['other'] },
+	  { data: { id: 'x03', label: 'Penumbra Phantasm' }, classes: ['other'] },
     // Nodes.songs.undertale
     { data: { id: '001', label: 'Once Upon a Time' }, classes: ['undertale'] },
     { data: { id: '011', label: 'Determination' }, classes: ['undertale'] },
     { data: { id: '022', label: 'Snowdin Town' }, classes: ['undertale'] },
     { data: { id: '079', label: 'Your Best Nightmare' }, classes: ['undertale'] },
     { data: { id: '666', label: "Gaster's Theme" }, classes: ['undertale'] },
-    // Nodes.songs.deltarune
-    { data: { id: '101', label: 'ANOTHER HIM', origin: ['666'] }, classes: ['main'], },
-    { data: { id: '102', label: 'Beginning', origin: ['001', '139'] } },
-    { data: { id: '103', label: 'School', origin: ['137', '022', '139'] } },
+    // Ch.1
+    { data: { id: '101', label: 'ANOTHER HIM', ori1: ['666'] }, classes: ['main'], },
+    { data: { id: '102', label: 'Beginning', ori1: ['001', '139'] } },
+    { data: { id: '103', label: 'School', ori1: ['137', '022', '139'] } },
     { data: { id: '104', label: 'Susie' }, classes: ['main'] },
-    { data: { id: '105', label: 'The Door', origin: ['x01'] }, classes: ['main'] },
+    { data: { id: '105', label: 'The Door', ori2: ['x01'] }, classes: ['main'] },
     { data: { id: '106', label: 'Cliffs' }, classes: ['none'] },
-    { data: { id: '107', label: 'The Chase', origin: ['105'] } },
+    { data: { id: '107', label: 'The Chase', ori1: ['105'] } },
     { data: { id: '108', label: 'The Legend' }, classes: ['main'] },
     { data: { id: '109', label: 'Lancer' }, classes: ['main'] },
-    { data: { id: '110', label: 'Rude Buster', origin: ['011'] }, classes: ['main'] },
-    { data: { id: '111', label: 'Empty Town', origin: ['108'] } },
+    { data: { id: '110', label: 'Rude Buster', ori2: ['011'] }, classes: ['main'] },
+    { data: { id: '111', label: 'Empty Town', ori1: ['108'] } },
     { data: { id: '112', label: 'Weird Birds' }, classes: ['none'] },
-    { data: { id: '113', label: 'Field of Hopes and Dreams', origin: ['139'] } },
-    { data: { id: '114', label: 'Fanfare (From Rose of Winter)', origin: ['x02'] } },
-    { data: { id: '115', label: 'Lantern', origin: ['110', '108'] } },
-    { data: { id: '116', label: "I'm Very Bad", origin: ['109'] } },
+    { data: { id: '113', label: 'Field of Hopes and Dreams', ori1: ['139'] } },
+    { data: { id: '114', label: 'Fanfare (From Rose of Winter)' }, classes: ['none'] },
+    { data: { id: '115', label: 'Lantern', ori1: ['110', '108'] } }, //legend where?
+    { data: { id: '116', label: "I'm Very Bad", ori1: ['109'] } },
     { data: { id: '117', label: 'Checker Dance' }, classes: ['none'] },
-    { data: { id: '118', label: 'Quiet Autumn', origin: ['119'] } },
+    { data: { id: '118', label: 'Quiet Autumn', ori1: ['119'] } },
     { data: { id: '119', label: 'Scarlet Forest' } }, //don't forget, gaster?
-    { data: { id: '120', label: 'Thrash Machine', origin: ['109'] } },
-    { data: { id: '121', label: 'Vs. Lancer', origin: ['109'] } },
-    { data: { id: '122', label: 'Basement', origin: ['125']  } },
-    { data: { id: '123', label: 'Imminent Death', origin: ['079']  } },
-    { data: { id: '124', label: 'Vs. Susie', origin: ['104', '123']  } },
-    { data: { id: '125', label: 'Card Castle', origin: ['109']  }, classes: ['main'] },
-    { data: { id: '126', label: 'Rouxls Kaard' }, classes: ['main']  },
-    { data: { id: '127', label: 'April 2012' }, classes: ['none']  },
-    { data: { id: '128', label: 'Hip Shop', origin: ['126'] }, },
-    { data: { id: '129', label: '' } },
-    { data: { id: '130', label: '' } },
-    { data: { id: '131', label: '' } },
-    { data: { id: '132', label: '' } },
-    { data: { id: '133', label: 'THE WORLD REVOLVING' } },
-    { data: { id: '134', label: 'Friendship' } },
-    { data: { id: '135', label: '' } },
-    { data: { id: '136', label: '' } },
-    { data: { id: '137', label: 'A Town Called Hometown' } },
-    { data: { id: '138', label: '' } },
-    { data: { id: '139', label: "Don't Forget" } },
-    { data: { id: '140', label: '' } },
-    { data: { id: '141', label: '' } },
+    { data: { id: '120', label: 'Thrash Machine', ori1: ['109'] } },
+    { data: { id: '121', label: 'Vs. Lancer', ori1: ['109'] } },
+    { data: { id: '122', label: 'Basement', ori1: ['125'] } },
+    { data: { id: '123', label: 'Imminent Death', ori1: ['079']  } },
+    { data: { id: '124', label: 'Vs. Susie', ori1: ['104', '123']  } },
+    { data: { id: '125', label: 'Card Castle', ori1: ['109'] }, classes: ['main'] },
+    { data: { id: '126', label: 'Rouxls Kaard' }, classes: ['main'] },
+    { data: { id: '127', label: 'April 2012' }, classes: ['none'] },
+    { data: { id: '128', label: 'Hip Shop' } },
+    { data: { id: '129', label: 'Gallery' } },
+    { data: { id: '130', label: 'Chaos King', ori1: ['109', '125'] } },
+    { data: { id: '131', label: 'Darkness Falls', ori1: ['101'] } },
+    { data: { id: '132', label: 'The Circus', ori1: ['108', '133', 'l01'] } },
+    { data: { id: '133', label: 'THE WORLD REVOLVING', ori1: ['105', '139', 'l01'] } },
+    { data: { id: '134', label: 'Friendship', ori1: ['139'] } },
+    { data: { id: '135', label: 'THE HOLY', ori1: ['x03'] } },
+    { data: { id: '136', label: 'Your Power', ori1: ['139'] } },
+    { data: { id: '137', label: 'A Town Called Hometown', ori1: ['108', '022', '139'] } },  // hometown theme og
+    { data: { id: '138', label: 'You Can Always Come Home', ori1: ['001','139'] } },
+    { data: { id: '139', label: "Don't Forget" }, classes: ['main'] },
+    { data: { id: '140', label: 'Before The Story', ori1: ['001'] } }
+    // dog check w dont forget
   ]
 });
 
-/* cy.ready(function BuildEdges()  {            // Wait for nodes to be added
-    cy.layout(                     // Call layout
-    ).run();
-}); */
+const array1 = cy.nodes();
 
-/* for (let i = 0; i < cy.nodes(); i++ ) {
-  if (ele.origin) {
-        var edge = { id: ele.origin + ' ' + ele.id, source: ele.origin, target: ele.id };
-        var edges = edges.push(edge);
-        cy.add(edge);
-      }
-} */
-
-// var coll = cy.$('node[origin]')
-
-cy.nodes().forEach(function( ele ){
-    cy.add({
-      group: 'edges',
-      data: { source: ele.data().origin, target: ele.id() }
-    })
+array1.forEach(function( ele ){
+  if ("ori1" in ele.data()) {
+    for (let i = (ele.data().ori1.length) - 1 ; i > -1 ; i--) {
+      cy.add({
+        group: 'edges',
+        data: { source: ele.data().ori1[i], target: ele.id() },
+        classes: ['ori1']
+      })
+    }
+  }
+  return 0;
 });
+
+array1.forEach(function( ele ){
+  if ("ori2" in ele.data()) {
+    for (let i = (ele.data().ori2.length) - 1 ; i > -1 ; i--) {
+      cy.add({
+        group: 'edges',
+        data: { source: ele.data().ori2[i], target: ele.id() },
+        classes: ['ori2']
+      })
+    }
+  }
+  return 0;
+});
+
+var fulllayout = cy.layout({
+  name: 'cose'
+});
+fulllayout.run();
