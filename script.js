@@ -9,18 +9,7 @@ var cy = cytoscape({
   maxZoom: 8,
   wheelSensitivity: 1.2,
   autoungrabify: true,
-  elements: data,
-  
-/*   { 
-    nodes: [
-      { data: { id: 'a', label: 'Test A', img: 'img/bg0089.png' }},
-      { data: { id: 'b' } }
-    ],
-    edges: [
-      { data: { id: 'ab', source: 'a', target: 'b' } }
-    ]
-  }, */
-  
+  elements: data,  
   style: [
     {
       selector: 'node',
@@ -28,11 +17,11 @@ var cy = cytoscape({
         'shape': 'rectangle',
         'height': '15px',
         'width': '15px',
+        'background-image': 'data(img)',
+        'background-fit': 'cover',
+        'background-color': '#000',
         'outline-width': 0.8,
         'outline-color': 'purple',
-        'background-fit': 'contain',
-        'background-image': 'data(img)',
-        'background-image-containment': 'over',
         'label': 'data(label)',
         'font-size': 4,
         'text-justification': 'center',

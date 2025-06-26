@@ -2,14 +2,15 @@
 
     { "data": { "id": "l01", "label": "Freedom Motif", "ori2": ["101"] }, "classes": ["leitmotif"] },
 
-    { "data": { "id": "x01", "label": "Nightmare Knight (Cucumber Quest)", "img": "img/bg0089.png" }, "classes": ["other"] },
+    { "data": { "id": "x01", "label": "Nightmare Knight (Cucumber Quest)" }, "classes": ["other"] },
     { "data": { "id": "x03", "label": "Penumbra Phantasm" }, "classes": ["other"] },
 
-    { "data": { "id": "001", "label": "Once Upon a Time" }, "classes": ["undertale"] },
-    { "data": { "id": "011", "label": "Determination" }, "classes": ["undertale"] },
-    { "data": { "id": "022", "label": "Snowdin Town" }, "classes": ["undertale"] },
+    { "data": { "id": "001", "label": "Once Upon a Time", "img": "img/001.jpg" }, "classes": ["undertale"] },
+    { "data": { "id": "011", "label": "Determination", "img": "img/011.jpg" }, "classes": ["undertale"] },
+    { "data": { "id": "022", "label": "Snowdin Town", "img": "img/022.jpg" }, "classes": ["undertale"] },
     { "data": { "id": "079", "label": "Your Best Nightmare" }, "classes": ["undertale"] },
     { "data": { "id": "666", "label": "Gaster's Theme" }, "classes": ["undertale"] },
+
     { "data": { "id": "101", "label": "ANOTHER HIM", "ori1": ["666"] }, "classes": ["main"] },
     { "data": { "id": "102", "label": "Beginning", "ori1": ["001", "139"] } },
     { "data": { "id": "103", "label": "School", "ori1": ["137", "022", "139"] } },
