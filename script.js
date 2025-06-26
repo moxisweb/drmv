@@ -9,6 +9,18 @@ var cy = cytoscape({
   maxZoom: 8,
   wheelSensitivity: 1.2,
   autoungrabify: true,
+  elements: data,
+  
+/*   { 
+    nodes: [
+      { data: { id: 'a', label: 'Test A', img: 'img/bg0089.png' }},
+      { data: { id: 'b' } }
+    ],
+    edges: [
+      { data: { id: 'ab', source: 'a', target: 'b' } }
+    ]
+  }, */
+  
   style: [
     {
       selector: 'node',
@@ -16,9 +28,11 @@ var cy = cytoscape({
         'shape': 'rectangle',
         'height': '15px',
         'width': '15px',
-        'background-color': 'black',
         'outline-width': 0.8,
         'outline-color': 'purple',
+        'background-fit': 'contain',
+        'background-image': 'data(img)',
+        'background-image-containment': 'over',
         'label': 'data(label)',
         'font-size': 4,
         'text-justification': 'center',
@@ -87,7 +101,6 @@ var cy = cytoscape({
       }
     }
   ],
-   elements: data,
 });
 
 const array1 = cy.nodes();
@@ -123,7 +136,16 @@ var fulllayout = cy.layout({
 });
 fulllayout.run();
 
-// Menus
+});
+
+// Interactive functions
+
+cy.on('tap', 'node', function(evt){
+  var node = evt.target;
+  console.log( 'tapped ' + node.id() );
+});
+
+// Menu buttons
 
 function aboutOn() {
   document.getElementById("overlay").style.display = "block";
@@ -133,10 +155,15 @@ function thanksOn() {
   document.getElementById("overlay").style.display = "block";
   document.getElementById("thanks").style.display = "block";
 }
-function infoOff() {
+function menuOff() {
   document.getElementById("overlay").style.display = "none";
   document.getElementById("about").style.display = "none";
   document.getElementById("thanks").style.display = "none";
 }
 
-});
+// Song info
+
+function songInfoOn() {
+  document.getElementById("overlay").style.display = "block";
+  document.getElementById("songinfo").style.display = "block";
+}

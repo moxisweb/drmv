@@ -6,7 +6,7 @@
     url("fonts/8bitoperator.otf.woff2") format("woff2");
 }
 body {
-  font-family: Verdana, Tahoma, '8bitoperator', Arial, sans-serif;
+  font-family: 'Times New Roman', Tahoma, '8bitoperator', Arial, sans-serif;
   color: white;
 }
 #cy {  
@@ -89,7 +89,7 @@ button {
   right: 30px;
   z-index: 1;
 }
-.info{
+.menu{
   position: absolute;
   display: none;
   width: 480px;
@@ -111,5 +111,18 @@ button {
   left: 50%;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
+  z-index: 1;
+}
+#songinfo{
+  position: absolute;
+  width: 350px;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  padding: 40px 30px;
+  font-size: 16px;
+  background-color: rgb(10, 10, 12);
+  outline: 1.4px dotted purple;
+  border-radius: 20px;
   z-index: 1;
 }
