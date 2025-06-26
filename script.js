@@ -91,7 +91,6 @@ var cy = cytoscape({
     { data: { id: 'l01', label: 'Freedom Motif', ori2: ['101'] }, classes: ['leitmotif'] },
     // Nodes.songs.other
     { data: { id: 'x01', label: 'Nightmare Knight - Cucumber Quest' }, classes: ['other'] },
-    //{ data: { id: 'x02', label: 'Theme - Rose of Winter' }, classes: ['other'] },
 	  { data: { id: 'x03', label: 'Penumbra Phantasm' }, classes: ['other'] },
     // Nodes.songs.undertale
     { data: { id: '001', label: 'Once Upon a Time' }, classes: ['undertale'] },
@@ -136,11 +135,10 @@ var cy = cytoscape({
     { data: { id: '134', label: 'Friendship', ori1: ['139'] } },
     { data: { id: '135', label: 'THE HOLY', ori1: ['x03'] } },
     { data: { id: '136', label: 'Your Power', ori1: ['139'] } },
-    { data: { id: '137', label: 'A Town Called Hometown', ori1: ['108', '022', '139'] } },  // hometown theme og
+    { data: { id: '137', label: 'A Town Called Hometown', ori1: ['108', '022', '139'] } },
     { data: { id: '138', label: 'You Can Always Come Home', ori1: ['001','139'] } },
     { data: { id: '139', label: "Don't Forget" }, classes: ['main'] },
     { data: { id: '140', label: 'Before The Story', ori1: ['001'] } }
-    // dog check w dont forget
   ]
 });
 
@@ -176,3 +174,19 @@ var fulllayout = cy.layout({
   name: 'cose'
 });
 fulllayout.run();
+
+// Menus
+
+function aboutOn() {
+  document.getElementById("overlay").style.display = "block";
+  document.getElementById("about").style.display = "block";
+}
+function thanksOn() {
+  document.getElementById("overlay").style.display = "block";
+  document.getElementById("thanks").style.display = "block";
+}
+function infoOff() {
+  document.getElementById("overlay").style.display = "none";
+  document.getElementById("about").style.display = "none";
+  document.getElementById("thanks").style.display = "none";
+}

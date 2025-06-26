@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Deltarune Leitmotif Visualizer</title>
+  <title>Deltarune Music Visualizer</title>
   <link rel="stylesheet" href="styles.css">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v2/polyfill.min.js?features=Promise,fetch"></script>
@@ -11,16 +11,43 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.32.0/cytoscape.min.js"></script>
 </head>
 <body>
-  <div id="top">
-      <a href="about.html">About</a> &emsp; <a href="thanks.html">Special Thanks</a> &emsp;&emsp;
+
+  <div id="aboutbutton">
+      <button onclick="aboutOn()">About</button>
   </div>
+    <div id="overlay" onclick="infoOff()">
+    </div>
+    <div id="about">
+      <h2>About</h2>
+      <p>This is a fan-made visualizer for the music of Deltarune.
+        It's currently a work in progress.
+      </p>
+      <h2>FAQ</h2>
+      <p><b>Q: Why did you make this?</b></p>
+      <p>I wanted a resource that compiled community knowledge in one spot, while being editable, looking nice, and trying to be as complete and accurate as possible.</p>
+      <p><b>Q: How do you organize the connections?</b></p>
+      <p>I try to stay consistent, prioritizing release order unless there's a thematic reason to do otherwise. Songs reference other songs through leitmotifs or otherwise, represented by edges. The <span style="color: rgb(255, 236, 68)">Freedom Motif</span> having its own node is an exception.</p>
+      <p><b>Q: I noticed a mistake. / How can I contribute?</b></p>
+      <p>You can contribute by commenting on the <a href="https://github.com/moxis-web/DRMV"><u>GitHub</u></a> or sending a message on Bluesky (coming soon). Thank you so much!</p>
+    </div>
+
+  <div id="thanksbutton">
+      <button onclick="thanksOn()">Thanks</button>
+  </div>
+    <div id="overlay" onclick="infoOff()">
+    </div>
+    <div id="thanks">
+      <h2>Special Thanks</h2>
+      <p>This is a project to compile community knowledge, so I want to thank everyone who analyzed Deltarune's music and shared their findings.
+        Here are some of the resources that helped me while making this.
+      </p>
+      <p>(Coming soon!)</p>
+    </div>
 
   <div id="corner">
     <h3>Legend</h3>
-    <p>Reference 1</p>
-    <p>Reference 2</p>
-    <p>Reference 3</p>
-  </div>
+    <p>(Work in progress)</p>
+  </div></script>
 
   <div id="footer">
     <p>UNDERTALE and DELTARUNE are &#169; Toby Fox. Made using Cytoscape.js</p>

@@ -1,12 +1,18 @@
-.vt323-regular {
-  font-family: "8bitoperator", monospace;
+@font-face {
+  font-family: "8bitoperator";
+  src:
+    local("8bitoperator"),
+    url("/fonts/8bitoperator.otf") format("opentype"),
+    url("/fonts/8bitoperator.otf.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
 }
 body {
-  font-family: Tahoma, Arial, sans-serif;
+  font-family: "8bitoperator", Tahoma, Arial, sans-serif;
   color: white;
 }
 #cy {  
-	height: 94%; 
+	height: 100%; 
 	width: 100%;
   position:absolute;
   bottom: 0px;
@@ -20,17 +26,8 @@ a { /* For links to not be formatted */
   color: inherit;
   text-decoration: none;
 }
-#top {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  height: 50px;
-  width: 100%;
-  background-color: black;
-  outline: 2px solid rgb(90, 36, 82);
-  font-size: 32px;
-  text-align: right;
-  z-index: 1;
+u { /* For links to not be underlined */
+  color: purple;
 }
 #corner {
   position: absolute;
@@ -56,24 +53,67 @@ a { /* For links to not be formatted */
   text-align: center;
   z-index: 1;
 }
-#page {
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+button {
+  background-color: black;
+  border: 2px solid rgb(90, 36, 82);
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+  cursor: pointer;
+  z-index: 1;
+}
+#aboutbutton {
   position: absolute;
-  align-items: center;
-  top: 0px;
-  height: 100%;
-  width: 50%;
+  top: 10px;
+  right: 170px;
+  z-index: 1;
+}
+#thanksbutton {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  z-index: 1;
+}
+#about{
+  position: absolute;
+  display: none;
+  width: 420px;
+  top: 50%;
+  left: 50%;
+  font-size: 16px;
   background-color: black;
   outline: 2px solid rgb(90, 36, 82);
-  font-size: 16px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
+  padding: 20px 45px;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  z-index: 2;
 }
-#bg {
+#thanks{
   position: absolute;
-  top: 0px;
-  left: 0px;
-  height: 100%;
-  width: 100%;
-  background-image: url("img/bg0089.png");
+  display: none;
+  width: 420px;
+  top: 50%;
+  left: 50%;
+  font-size: 16px;
+  background-color: black;
+  outline: 2px solid rgb(90, 36, 82);
+  padding: 20px 45px;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  z-index: 2;
 }
