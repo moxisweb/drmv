@@ -1,4 +1,5 @@
-[
+{ "nodes": [
+
     { "data": { "id": "l01", "label": "Freedom Motif", "ori2": ["101"] }, "classes": ["leitmotif"] },
 
     { "data": { "id": "x01", "label": "Nightmare Knight - Cucumber Quest" }, "classes": ["other"] },
@@ -51,4 +52,5 @@
     { "data": { "id": "139", "label": "Don't Forget" }, "classes": ["main"] },
     { "data": { "id": "140", "label": "Before The Story", "ori1": ["001"] } },
     { "data": { "id": "141", "label": "Dogcheck" } }
-]
+
+] }
