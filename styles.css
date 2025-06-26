@@ -2,13 +2,13 @@
   font-family: "8bitoperator";
   src:
     local("8bitoperator"),
-    url("/fonts/8bitoperator.otf") format("opentype"),
-    url("/fonts/8bitoperator.otf.woff2") format("woff2");
+    url("fonts/8bitoperator.otf") format("opentype"),
+    url("fonts/8bitoperator.otf.woff2") format("woff2");
     font-style: normal;
     font-display: swap;
 }
 body {
-  font-family: "8bitoperator", Tahoma, Arial, sans-serif;
+  font-family: '8bitoperator', Tahoma, Arial, sans-serif;
   color: white;
 }
 #cy {  
