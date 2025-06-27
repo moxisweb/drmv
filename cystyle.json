@@ -3,25 +3,32 @@
       "selector": "node",
       "style": {
         "shape": "rectangle",
-        "height": "15px",
-        "width": "15px",
+        "height": "30px",
+        "width": "30px",
         "background-image": "data(img)",
         "background-fit": "cover",
         "background-color": "#000",
-        "outline-width": 0.8,
+        "outline-width": 1.6,
         "outline-color": "purple",
         "label": "data(label)",
-        "font-size": 4,
+        "font-size": 8,
         "text-justification": "center",
         "text-wrap": "wrap",
-        "text-max-width": "30px",
-        "text-margin-y": "2.5px",
+        "text-max-width": "60px",
+        "text-margin-y": "5px",
         "color": "#fff",
         "text-outline-color": "#000",
-        "text-outline-width": 0.5,
+        "text-outline-width": 1,
         "text-valign": "bottom",
         "text-halign": "center"
       }
+    },
+    {
+        "selector": "selected",
+        "style": {
+            "background-color": "yellow",
+            "outline-color": "yellow"
+        }
     },
     {
       "selector": ".main",
@@ -50,29 +57,29 @@
     {
       "selector": "edge",
       "style": {
-        "width": 0.35,
+        "width": 0.6,
         "line-color": "#fff",
         "opacity": 0.8,
         "curve-style": "unbundled-bezier",
         "control-point-step-size": 8,
         "target-arrow-color": "#fff",
         "target-arrow-shape": "triangle",
-        "arrow-scale": 0.3,
-        "target-distance-from-node": 2,
+        "arrow-scale": 0.6,
+        "target-distance-from-node": 4,
         "target-endpoint": "outside-to-line-or-label"
       }
     },
     {
       "selector": ".ori2",
       "style": {
-        "width": 0.25,
+        "width": 0.5,
         "opacity": 0.5
       }
     },
     {
       "selector": ".ori3",
       "style": {
-        "width": 0.3,
+        "width": 0.6,
         "line-style": "dotted",
         "opacity": 0.5
       }
