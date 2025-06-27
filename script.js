@@ -1,4 +1,5 @@
 $.getJSON("data.json", function (data) {
+  $.getJSON("cystyle.json", function (cystyle) {
 
 var cy = cytoscape({
   container: document.getElementById('cy'),
@@ -10,7 +11,8 @@ var cy = cytoscape({
   wheelSensitivity: 1.2,
   autoungrabify: true,
   elements: data,  
-  style: [
+  style: cystyle,
+/*   [
     {
       selector: 'node',
       style: {
@@ -89,7 +91,7 @@ var cy = cytoscape({
         'opacity': '0.5'
       }
     }
-  ],
+  ], */
 });
 
 const array1 = cy.nodes();
@@ -126,8 +128,11 @@ var fulllayout = cy.layout({
 fulllayout.run();
 
 });
+});
 
-// Interactive functions
+//////////////////////////////////////////////////////////////
+
+// Interactive function: tap node to select + open song info
 
 cy.on('tap', 'node', function(evt){
   var node = evt.target;
