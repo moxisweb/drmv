@@ -51,12 +51,12 @@
     {
       "selector": "edge",
       "style": {
-        "width": 0.3,
-        "line-color": "#fff",
-        "opacity": 0.8,
+        "width": 0.4,
+        "line-color": "LightGrey",
+        "opacity": 0.9,
         "curve-style": "unbundled-bezier",
         "control-point-step-size": 8,
-        "target-arrow-color": "#fff",
+        "target-arrow-color": "LightGrey",
         "target-arrow-shape": "triangle",
         "arrow-scale": 0.25,
         "target-distance-from-node": 2,
@@ -80,15 +80,15 @@
     {
       "selector": "[motif = 'legend']",
       "style": {
-        "line-color": "purple",
-        "target-arrow-color": "purple"
+        "line-color": "royalblue",
+        "target-arrow-color": "royalblue"
       }
     },
     {
       "selector": "[motif = 'dont']",
       "style": {
-        "line-color": "blue",
-        "target-arrow-color": "blue"
+        "line-color": "purple",
+        "target-arrow-color": "purple"
       }
     }
   ]
