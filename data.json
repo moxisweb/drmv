@@ -22,10 +22,10 @@
     { "data": { "id": "109", "label": "Lancer", "img": "img/109.jpg" }, "classes": ["lancer"] },
     { "data": { "id": "110", "label": "Rude Buster", "img": "img/110.jpg" }, "classes": ["rude"] },
     { "data": { "id": "111", "label": "Empty Town", "img": "img/111.jpg" }, "classes": ["legend"] },
-
     { "data": { "id": "112", "label": "Weird Birds" }, "classes": ["none"] },
-    { "data": { "id": "113", "label": "Field of Hopes and Dreams", "ori1": ["139"] } },
+    { "data": { "id": "113", "label": "Field of Hopes and Dreams" }, "classes": ["dont"] },
     { "data": { "id": "114", "label": "Fanfare (From Rose of Winter)" }, "classes": ["none"] },
+
     { "data": { "id": "115", "label": "Lantern", "ori1": ["110", "108"] } },
     { "data": { "id": "116", "label": "I'm Very Bad", "ori1": ["109"] } },
     { "data": { "id": "117", "label": "Checker Dance" }, "classes": ["none"] },
@@ -57,16 +57,17 @@
 ],
 "edges": [
 
-    { "data": { "source": "101", "target": "666", "motif": "gaster" } },
-    { "data": { "source": "102", "target": "001", "motif": "once" } },
-    { "data": { "source": "102", "target": "139", "motif": "dont" } },
-    { "data": { "source": "103", "target": "137", "motif": "town" } },
-    { "data": { "source": "103", "target": "022", "motif": "snowdin" } },
-    { "data": { "source": "103", "target": "139", "motif": "dont" } },
-    { "data": { "source": "105", "target": "x01", "motif": "door" } },
-    { "data": { "source": "107", "target": "105", "motif": "door" } },
-    { "data": { "source": "110", "target": "011", "motif": "none" }, "classes":["dotted"] },
-    { "data": { "source": "111", "target": "108", "motif": "legend" } }
+    { "data": { "source": "666", "target": "101", "motif": "gaster" } },
+    { "data": { "source": "001", "target": "102", "motif": "once" } },
+    { "data": { "source": "139", "target": "102", "motif": "dont" } },
+    { "data": { "source": "137", "target": "103", "motif": "town" } },
+    { "data": { "source": "022", "target": "103", "motif": "snowdin" } },
+    { "data": { "source": "139", "target": "103", "motif": "dont" } },
+    { "data": { "source": "x01", "target": "105", "motif": "door" } },
+    { "data": { "source": "105", "target": "107", "motif": "door" } },
+    { "data": { "source": "011", "target": "110", "motif": "none" }, "classes":["weak"] },
+    { "data": { "source": "108", "target": "111", "motif": "legend" } },
+    { "data": { "source": "139", "target": "113", "motif": "dont" } }
 
 ]
 }

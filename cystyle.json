@@ -26,21 +26,10 @@
     {
         "selector": ":selected",
         "style": {
-            "background-color": "green",
-            "outline-color": "green"
+            "background-color": "white",
+            "outline-color": "white",
+            "outline-width": 1.2
         }
-    },
-    {
-      "selector": ".main",
-      "style": {
-        "font-weight": "bold"
-      }
-    },
-    {
-      "selector": ".none",
-      "style": {
-        "opacity": "0.3"
-      }
     },
     {
       "selector": ".undertale",
@@ -51,37 +40,48 @@
     {
       "selector": ".other",
       "style": {
-        "outline-color": "blue"
+        "outline-color": "grey"
+      }
+    },
+    {
+      "selector": ".none",
+      "style": {
+        "opacity": "0.3"
       }
     },
     {
       "selector": "edge",
       "style": {
-        "width": 0.6,
+        "width": 0.3,
         "line-color": "#fff",
         "opacity": 0.8,
         "curve-style": "unbundled-bezier",
         "control-point-step-size": 8,
         "target-arrow-color": "#fff",
         "target-arrow-shape": "triangle",
-        "arrow-scale": 0.6,
+        "arrow-scale": 0.3,
         "target-distance-from-node": 4,
         "target-endpoint": "outside-to-line-or-label"
       }
     },
     {
-      "selector": ".ori2",
+      "selector": ".strong",
       "style": {
         "width": 0.5,
-        "opacity": 0.5
+        "opacity": 1
       }
     },
     {
-      "selector": ".ori3",
+      "selector": ".weak",
       "style": {
-        "width": 0.6,
         "line-style": "dotted",
-        "opacity": 0.5
+        "opacity": 0.6
+      }
+    },
+    {
+      "selector": ".legend",
+      "style": {
+        "line-color": "purple"
       }
     }
   ]
