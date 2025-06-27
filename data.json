@@ -22,13 +22,13 @@
     { "data": { "id": "109", "label": "Lancer", "img": "img/109.jpg" }, "classes": ["lancer"] },
     { "data": { "id": "110", "label": "Rude Buster", "img": "img/110.jpg" }, "classes": ["rude"] },
     { "data": { "id": "111", "label": "Empty Town", "img": "img/111.jpg" }, "classes": ["legend"] },
-    { "data": { "id": "112", "label": "Weird Birds" }, "classes": ["none"] },
-    { "data": { "id": "113", "label": "Field of Hopes and Dreams" }, "classes": ["dont"] },
-    { "data": { "id": "114", "label": "Fanfare (From Rose of Winter)" }, "classes": ["none"] },
+    { "data": { "id": "112", "label": "Weird Birds", "img": "img/112.jpg" }, "classes": ["none"] },
+    { "data": { "id": "113", "label": "Field of Hopes and Dreams", "img": "img/113.jpg" }, "classes": ["dont"] },
+    { "data": { "id": "114", "label": "Fanfare (From Rose of Winter)", "img": "img/114.jpg" }, "classes": ["none"] },
+    { "data": { "id": "115", "label": "Lantern", "img": "img/115.jpg" }, "classes": ["rude", "legend"] },
+    { "data": { "id": "116", "label": "I'm Very Bad", "img": "img/116.jpg" }, "classes": ["lancer"] },
+    { "data": { "id": "117", "label": "Checker Dance", "img": "img/117.jpg" }, "classes": ["none"] },
 
-    { "data": { "id": "115", "label": "Lantern", "ori1": ["110", "108"] } },
-    { "data": { "id": "116", "label": "I'm Very Bad", "ori1": ["109"] } },
-    { "data": { "id": "117", "label": "Checker Dance" }, "classes": ["none"] },
     { "data": { "id": "118", "label": "Quiet Autumn", "ori1": ["119"] } },
     { "data": { "id": "119", "label": "Scarlet Forest", "ori1": ["101", "139"] } },
     { "data": { "id": "120", "label": "Thrash Machine", "ori1": ["109"] } },
@@ -67,7 +67,10 @@
     { "data": { "source": "105", "target": "107", "motif": "door" } },
     { "data": { "source": "011", "target": "110", "motif": "none" }, "classes":["weak"] },
     { "data": { "source": "108", "target": "111", "motif": "legend" } },
-    { "data": { "source": "139", "target": "113", "motif": "dont" } }
+    { "data": { "source": "139", "target": "113", "motif": "dont" } },
+    { "data": { "source": "110", "target": "115", "motif": "rude" } },
+    { "data": { "source": "108", "target": "115", "motif": "legend" } },
+    { "data": { "source": "109", "target": "116", "motif": "lancer" } }
 
 ]
 }
