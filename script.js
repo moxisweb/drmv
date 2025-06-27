@@ -14,8 +14,7 @@ var cy = cytoscape({
   container: document.getElementById('cy'),
   layout: {
     name: 'fcose',
-    animate: true,
-    idealEdgeLength: 200
+    animate: true
   },
   //minZoom: 2,
   //maxZoom: 8,
@@ -25,7 +24,7 @@ var cy = cytoscape({
   elements: dataArray[1]
 });
 
-const array1 = cy.nodes();
+/* const array1 = cy.nodes();
 
 array1.forEach(function( ele ){
   if ("ori1" in ele.data()) {
@@ -56,7 +55,7 @@ array1.forEach(function( ele ){
 var fulllayout = cy.layout({
   name: 'fcose'
 });
-fulllayout.run();
+fulllayout.run(); */
 
 });
 

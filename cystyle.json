@@ -80,13 +80,15 @@
     {
       "selector": "[motif = 'legend']",
       "style": {
-        "line-color": "purple"
+        "line-color": "purple",
+        "target-arrow-color": "purple"
       }
     },
     {
       "selector": "[motif = 'dont']",
       "style": {
-        "line-color": "blue"
+        "line-color": "blue",
+        "target-arrow-color": "blue"
       }
     }
   ]
