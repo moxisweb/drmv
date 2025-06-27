@@ -1,5 +1,14 @@
-$.getJSON("data.json", function (data) {
-  $.getJSON("cystyle.json", function (cystyle) {
+Promise.all([
+  fetch('cystyle.json', {mode: 'no-cors'})
+    .then(function(res) {
+      return res.json()
+    }),
+  fetch('data.json', {mode: 'no-cors'})
+    .then(function(res) {
+      return res.json()
+    })
+])
+  .then(function(dataArray) {
 
 var cy = cytoscape({
   container: document.getElementById('cy'),
@@ -10,8 +19,8 @@ var cy = cytoscape({
   maxZoom: 8,
   wheelSensitivity: 1.2,
   autoungrabify: true,
-  elements: data,  
-  style: cystyle,
+  style: dataArray[0],
+  elements: dataArray[1]
 /*   [
     {
       selector: 'node',
@@ -127,7 +136,6 @@ var fulllayout = cy.layout({
 });
 fulllayout.run();
 
-});
 });
 
 //////////////////////////////////////////////////////////////
