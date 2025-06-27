@@ -3,31 +3,31 @@
       "selector": "node",
       "style": {
         "shape": "rectangle",
-        "height": "30px",
-        "width": "30px",
+        "height": "15px",
+        "width": "15px",
         "background-image": "data(img)",
         "background-fit": "cover",
         "background-color": "#000",
-        "outline-width": 1.6,
+        "outline-width": 0.8,
         "outline-color": "purple",
         "label": "data(label)",
-        "font-size": 8,
+        "font-size": 4,
         "text-justification": "center",
         "text-wrap": "wrap",
-        "text-max-width": "60px",
-        "text-margin-y": "5px",
+        "text-max-width": "30px",
+        "text-margin-y": "2.5px",
         "color": "#fff",
         "text-outline-color": "#000",
-        "text-outline-width": 1,
+        "text-outline-width": 0.5,
         "text-valign": "bottom",
         "text-halign": "center"
       }
     },
     {
-        "selector": "selected",
+        "selector": ":selected",
         "style": {
-            "background-color": "yellow",
-            "outline-color": "yellow"
+            "background-color": "green",
+            "outline-color": "green"
         }
     },
     {
