@@ -13,9 +13,8 @@ Promise.all([
 var cy = cytoscape({
   container: document.getElementById('cy'),
   layout: {
-    name: 'cose',
-    animate: true,
-    idealEdgeLength: 200
+    name: 'spread',
+    animate: true
   },
   //minZoom: 2,
   //maxZoom: 8,

@@ -28,10 +28,10 @@
     { "data": { "id": "115", "label": "Lantern", "img": "img/115.jpg" }, "classes": ["rude", "legend"] },
     { "data": { "id": "116", "label": "I'm Very Bad", "img": "img/116.jpg" }, "classes": ["lancer"] },
     { "data": { "id": "117", "label": "Checker Dance", "img": "img/117.jpg" }, "classes": ["none"] },
+    { "data": { "id": "118", "label": "Quiet Autumn", "img": "img/118.jpg" } },
+    { "data": { "id": "119", "label": "Scarlet Forest", "img": "img/119.jpg" }, "classes":["dont", "gaster"] },
+    { "data": { "id": "120", "label": "Thrash Machine", "img": "img/120.jpg" }, "classes":["lancer"] },
 
-    { "data": { "id": "118", "label": "Quiet Autumn", "ori1": ["119"] } },
-    { "data": { "id": "119", "label": "Scarlet Forest", "ori1": ["101", "139"] } },
-    { "data": { "id": "120", "label": "Thrash Machine", "ori1": ["109"] } },
     { "data": { "id": "121", "label": "Vs. Lancer", "ori1": ["109"] } },
     { "data": { "id": "122", "label": "Basement", "ori1": ["125"] } },
     { "data": { "id": "123", "label": "Imminent Death", "ori1": ["079"] } },
@@ -70,7 +70,11 @@
     { "data": { "source": "139", "target": "113", "motif": "dont" } },
     { "data": { "source": "110", "target": "115", "motif": "rude" } },
     { "data": { "source": "108", "target": "115", "motif": "legend" } },
-    { "data": { "source": "109", "target": "116", "motif": "lancer" } }
+    { "data": { "source": "109", "target": "116", "motif": "lancer" } },
+    { "data": { "source": "119", "target": "118", "motif": "none" } },
+    { "data": { "source": "139", "target": "119", "motif": "dont" } },
+    { "data": { "source": "101", "target": "119", "motif": "gaster" } },
+    { "data": { "source": "109", "target": "120", "motif": "lancer" } }
 
 ]
 }

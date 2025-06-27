@@ -11,14 +11,14 @@
         "outline-width": 0.8,
         "outline-color": "purple",
         "label": "data(label)",
-        "font-size": 4,
+        "font-size": 3.5,
         "text-justification": "center",
         "text-wrap": "wrap",
         "text-max-width": "30px",
-        "text-margin-y": "2.5px",
+        "text-margin-y": 2,
         "color": "#fff",
         "text-outline-color": "#000",
-        "text-outline-width": 0.5,
+        "text-outline-width": 0.4,
         "text-valign": "bottom",
         "text-halign": "center"
       }
@@ -26,9 +26,8 @@
     {
         "selector": ":selected",
         "style": {
-            "background-color": "white",
             "outline-color": "white",
-            "outline-width": 1.2
+            "outline-width": 1.4
         }
     },
     {
@@ -79,9 +78,15 @@
       }
     },
     {
-      "selector": ".legend",
+      "selector": "[motif = 'legend']",
       "style": {
         "line-color": "purple"
+      }
+    },
+    {
+      "selector": "[motif = 'dont']",
+      "style": {
+        "line-color": "blue"
       }
     }
   ]
