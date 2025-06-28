@@ -78,6 +78,13 @@
       }
     },
     {
+      "selector": "[motif = 'gaster']",
+      "style": {
+        "line-color": "gold",
+        "target-arrow-color": "gold"
+      }
+    },
+    {
       "selector": "[motif = 'legend']",
       "style": {
         "line-color": "royalblue",
@@ -89,6 +96,13 @@
       "style": {
         "line-color": "purple",
         "target-arrow-color": "purple"
+      }
+    },
+    {
+      "selector": "[motif = 'lancer']",
+      "style": {
+        "line-color": "steelblue",
+        "target-arrow-color": "steelblue"
       }
     }
   ]

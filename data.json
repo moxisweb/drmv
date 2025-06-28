@@ -3,7 +3,7 @@
     { "data": { "id": "x01", "label": "Nightmare Knight (Cucumber Quest)" }, "classes": ["other"] },
     { "data": { "id": "x02", "label": "Penumbra Phantasm" }, "classes": ["other"] },
 
-    { "data": { "id": "o01", "label": "man", "img": "img/o01.jpg" }, "classes": ["hidden"] },
+    { "data": { "id": "o01", "label": "man", "img": "img/o01.jpg" }, "classes": ["hidden", "none"] },
 
     { "data": { "id": "001", "label": "Once Upon a Time", "img": "img/001.jpg" }, "classes": ["undertale"] },
     { "data": { "id": "011", "label": "Determination", "img": "img/011.jpg" }, "classes": ["undertale"] },
@@ -38,7 +38,7 @@
     { "data": { "id": "125", "label": "Card Castle", "img": "img/125.jpg" }, "classes": ["lancer", "card"] },
     { "data": { "id": "126", "label": "Rouxls Kaard", "img": "img/126.jpg" }, "classes": ["rouxls"] },
     { "data": { "id": "127", "label": "April 2012", "img": "img/127.jpg" }, "classes": ["none"] },
-    { "data": { "id": "128", "label": "Hip Shop", "img": "img/128.jpg" }, "classes":["other"] },
+    { "data": { "id": "128", "label": "Hip Shop", "img": "img/128.jpg" }, "classes":["shop"] },
     { "data": { "id": "129", "label": "Gallery", "img": "img/129.jpg" }, "classes":["none"] },
     { "data": { "id": "130", "label": "Chaos King", "img": "img/130.jpg" }, "classes": ["lancer", "card"] },
     { "data": { "id": "131", "label": "Darkness Falls", "img": "img/131.jpg" }, "classes": ["gaster"] },
