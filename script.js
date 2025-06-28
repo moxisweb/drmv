@@ -16,10 +16,10 @@ var cy = cytoscape({
     name: 'fcose',
     animate: true,
     quality: "proof",
-
+    nodeSeparation: 75,
   },
   minZoom: 2,
-  maxZoom: 8,
+  maxZoom: 7,
   wheelSensitivity: 1.2,
   autoungrabify: true,
   style: dataArray[0],
