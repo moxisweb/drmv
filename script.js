@@ -15,8 +15,11 @@ var cy = cytoscape({
   layout: {
     name: 'fcose',
     animate: true,
-    quality: "proof",
-    nodeSeparation: 75,
+    fit: true,
+    componentSpacing: 40,
+    nodeOverlap: 4,
+    gravity: 1,
+    quality: "proof"
   },
   minZoom: 2,
   maxZoom: 7,
