@@ -4,10 +4,8 @@
   <meta charset="UTF-8">
   <title>Deltarune Music Visualizer</title>
   <link rel="stylesheet" href="styles.css">
-
   <script src="https://cdnjs.cloudflare.com/polyfill/v2/polyfill.min.js?features=Promise,fetch"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js'></script>
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.32.0/cytoscape.min.js"></script>
   <script src="https://unpkg.com/layout-base/layout-base.js"></script>
   <script src="https://unpkg.com/cose-base/cose-base.js"></script>
@@ -23,16 +21,23 @@
     </div>
     <div class="menu" id="about">
       <h2>About</h2>
-      <p>This is a fan-made visualizer for the music of Deltarune.
-        It's currently a work in progress.
+      <p>This is a fan-made visualizer for the music of Deltarune. It's currently a work in progress.
       </p>
-      <h2>FAQ</h2>
+      <h3>Disclaimer</h3>
+      <p>Personal interpretation is necessary for attempting to identify leitmotifs and connections between melodies.
+      Please use your own judgement and compare resources before coming to conclusions.</p>
+      <h3>FAQ</h3>
       <p><b>Q: Why did you make this?</b></p>
-      <p>I wanted a resource that compiled community knowledge in one spot, while being editable, looking nice, and trying to be as complete and accurate as possible.</p>
+      <p>For fun, mostly! I wanted a resource that compiled community knowledge in visual form, while trying to be as complete and accurate as possible.
+        There is no analysis or in-depth descriptions here, just a visual representation of the connections between songs.
+        Check out the Thanks section for useful links to resources that do provide more detailed analysis. More useful features coming soon.
+      </p>
+      <p><b>Q: Will you add the Undertale songs too?</b></p>
+      <p>As of now, and for the foreseeable future, this project is focused only on Deltarune, and will include Undertale songs only when directly relevant.</p>
       <p><b>Q: How do you organize the connections?</b></p>
       <p>I try to stay consistent, prioritizing release order unless there's a thematic reason to do otherwise. Songs reference other songs through leitmotifs or otherwise, represented by edges.</p>
       <p><b>Q: I noticed a mistake. / How can I contribute?</b></p>
-      <p>You can contribute by commenting on the <a href="https://github.com/moxis-web/DRMV"><u>GitHub</u></a> or sending a message on Bluesky (coming soon). Thank you so much!</p>
+      <p>You can send me a message on Discord (@moxis) or Bluesky (coming soon). I'm happy to receive any comments or suggestions, or just to discuss any doubts. Thank you!</p>
     </div>
 
   <div id="thanksbutton">
@@ -42,11 +47,17 @@
     </div>
     <div class="menu" id="thanks">
       <h2>Special Thanks</h2>
-      <p>This is a project to compile community knowledge, so I want to thank everyone who analyzed Deltarune's music and shared their findings.
+      <p>This is just yet another project to compile community knowledge, so I want to thank everyone who has analyzed Deltarune's music and shared their findings.
         Here are some of the resources that helped me while making this.
       </p>
-      <p>(Coming soon!)</p>
-      <h4>Credits</h4>
+      <ul>
+        <li><a href="https://jcoxeye.github.io/leitmotif-index/main.html"><u>JCoxeye's Leitmotif Index</u></a>,</li>
+        <li><a href="https://www.youtube.com/user/JakobRW"><u>JakobTheQuizGuy</u></a>,</li>
+        <li><a href="https://www.youtube.com/c/MediaMotifs"><u>MediaMotifs</u></a>,</li>
+        <li><a href="https://www.youtube.com/watch?v=H89ZT0jjiO8"><u>Andrew Cunningham and his iconic DMCA666bn</u></a>,</li>
+        <li>and all the people who contributed to the Wikis and comment sections.</li>
+      </ul>
+      <h4>Further Credits</h4>
       <p>This website was made using <a href="https://js.cytoscape.org/"><u>Cytoscape.js</u></a>.</p>
       <p>The FontStruction “8bitoperator” [<a href="https://fontstruct.com/fontstructions/show/534034"><u>link</u></a>] by “nipcen” is licensed
 under a Creative Commons Attribution Share Alike license [<a href="http://creativecommons.org/licenses/by-sa/3.0/"><u>link</u></a>].</p>

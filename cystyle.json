@@ -37,7 +37,7 @@
       }
     },
     {
-      "selector": ".other",
+      "selector": ".extra",
       "style": {
         "outline-color": "grey"
       }
@@ -49,9 +49,15 @@
       }
     },
     {
+      "selector": ".hidden",
+      "style": {
+        "display": "none"
+      }
+    },
+    {
       "selector": "edge",
       "style": {
-        "width": 0.4,
+        "width": 0.3,
         "line-color": "LightGrey",
         "opacity": 0.9,
         "curve-style": "unbundled-bezier",
@@ -75,6 +81,13 @@
       "style": {
         "line-style": "dotted",
         "opacity": 0.6
+      }
+    },
+    {
+      "selector": ".double",
+      "style": {
+        "width": 0.5,
+        "line-style": "double"
       }
     },
     {
