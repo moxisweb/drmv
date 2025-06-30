@@ -1,5 +1,24 @@
 [
     {
+        "selector": "node:selected",
+        "style": {
+            "border-style": "dotted"
+        }
+    },
+    {
+        "selector": "edge:selected",
+        "style": {
+            "line-outline-color": "white",
+            "line-outline-width": 0.5
+        }
+    },
+    {
+        "selector": ".fade",
+        "style": {
+            "opacity": 0.2
+        }
+    },
+    {
       "selector": "node",
       "style": {
         "shape": "rectangle",
@@ -26,7 +45,7 @@
     {
       "selector": ".undertale",
       "style": {
-        "outline-color": "#326932"
+        "outline-color": "#1E4E1E"
       }
     },
     {
@@ -167,24 +186,5 @@
         "line-color": "cyan",
         "target-arrow-color": "cyan"
       }
-    },
-    {
-        "selector": "node:selected",
-        "style": {
-            "border-style": "dotted"
-        }
-    },
-    {
-        "selector": "edge:selected",
-        "style": {
-            "line-outline-color": "white",
-            "line-outline-width": 0.5
-        }
-    },
-    {
-        "selector": ".fade",
-        "style": {
-            "opacity": 0.2
-        }
     }
   ]
