@@ -65,7 +65,7 @@ cy.on('tap', 'edge', function(evt){
   edge.addClass('highlight');
 }); */
 
-cy.on('click', function(e){
+cy.on('click', 'node', function(){
       cy.nodes().addClass('fade');
 });
 

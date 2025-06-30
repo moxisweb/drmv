@@ -2,13 +2,14 @@
     {
         "selector": "node:selected",
         "style": {
-            "border-style": "dotted"
+            "outline-style": "dotted",
+            "outline-color": "blue"
         }
     },
     {
         "selector": "edge:selected",
         "style": {
-            "line-outline-color": "white",
+            "line-outline-color": "blue",
             "line-outline-width": 0.5
         }
     },
