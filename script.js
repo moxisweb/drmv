@@ -65,6 +65,9 @@ cy.on('tap', 'edge', function(evt){
   edge.addClass('highlight');
 }); */
 
+var fulllayout = cy.layout({
+  name: 'fcose'
+});
 cy.on('click', 'node', function(){
       cy.nodes().addClass('fade');
       fulllayout.run();
