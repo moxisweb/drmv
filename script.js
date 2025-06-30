@@ -17,7 +17,7 @@ var cy = cytoscape({
     randomize: true,
     animate: true,
     fit: true,
-    nodeRepulsion: node => 6500,
+    nodeRepulsion: 6500,
     componentSpacing: 40,
     nodeOverlap: 6,
     gravity: 1,
@@ -58,8 +58,8 @@ fulllayout.run(); */
 
 // Interactive function: tap edge to color shared motif (WIP)
 
-cy.on('tap', 'edge', function(evt){
-  cy.$('edge').select();
+cy.on('tap', 'edge', function(){
+  cy.nodes().select();
 });
 
 /* cy.on('tap', 'edge', function(evt){
