@@ -68,7 +68,7 @@
     { "data": { "id": "207", "label": "A Simple Diversion", "img": "img/207.jpg" }, "classes": ["queen"] },
     { "data": { "id": "208", "label": "Almost To The Guys!", "img": "img/208.jpg" }, "classes": ["sweet"] },
     { "data": { "id": "209", "label": "Cool Beat", "img": "img/209.jpg" }, "classes": ["sweet"] },
-    { "data": { "id": "210", "label": "When I Get Mad I Dance Like This", "img": "img/210.jpg" }, "classes": ["sweet"] },
+    { "data": { "id": "210", "label": "When I Get Mad I Dance Like This", "img": "img/210.jpg" }, "classes": ["none"] },
     { "data": { "id": "211", "label": "Cyber Battle (Solo)", "img": "img/211.jpg" }, "classes": ["sweet"] },
     { "data": { "id": "212", "label": "When I Get Happy I Dance Like This ", "img": "img/212.jpg" }, "classes": ["sweet"] },
     { "data": { "id": "213", "label": "Sound Studio", "img": "img/213.jpg" }, "classes": ["sweet"] },

@@ -84,7 +84,7 @@ cy.on('click', function(e){
       cy.edges().removeClass('highlight');  
    }
    else { 
-      cy.edges("[motif='" + e.target.data("motif") + "']").addClass('highlight');
+      cy.edges().addClass('highlight');
    }
 });
 
