@@ -9,7 +9,7 @@
         "background-fit": "cover",
         "background-color": "#000",
         "outline-width": 0.7,
-        "outline-color": "#332033",
+        "outline-color": "#3d1f3d",
         "label": "data(label)",
         "font-size": 3.5,
         "text-justification": "center",
@@ -169,7 +169,14 @@
       }
     },
     {
-        "selector": ":selected",
+        "selector": "node:selected",
+        "style": {
+            "outline-color": "blue",
+            "outline-width": 1
+        }
+    },
+    {
+        "selector": "edge:selected",
         "style": {
             "outline-color": "blue",
             "outline-width": 1
@@ -183,7 +190,7 @@
         }
     },
     {
-        "selector": ".highlight",
+        "selector": "edge.highlight",
         "style": {
             "line-outline-color": "white",
             "line-width": 2,

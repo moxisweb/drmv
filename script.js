@@ -69,7 +69,7 @@ fulllayout.run(); */
 
 // Interactive function: tap node to select + open song info (WIP)
 
-cy.on('tap', 'node', function(evt){
+/* cy.on('tap', 'node', function(evt){
   var node = evt.target;
   node.addClass('highlight');
 });
@@ -77,6 +77,15 @@ cy.on('tap', 'node', function(evt){
 cy.on('tap', 'edge', function(evt){
   var edge = evt.target;
   edge.addClass('highlight');
+}); */
+
+cy.on('click', function(e){
+   if (e.target === cy || e.target.group() == "nodes" )  {
+      cy.edges().removeClass('highlight');  
+   }
+   else { 
+      cy.edges("[motif='" + e.target.data("motif") + "']").addClass('highlight');
+   }
 });
 
 // Interactive function: tap edge to color shared motif (WIP)
