@@ -171,31 +171,20 @@
     {
         "selector": "node:selected",
         "style": {
-            "outline-color": "blue",
-            "outline-width": 1
+            "border-style": "dotted"
         }
     },
     {
         "selector": "edge:selected",
         "style": {
-            "line-color": "blue",
             "line-outline-color": "white",
-            "line-outline-width": 3
+            "line-outline-width": 0.5
         }
     },
     {
-        "selector": "node.highlight",
+        "selector": ".fade",
         "style": {
-            "outline-color": "white",
-            "outline-width": 1.5
-        }
-    },
-    {
-        "selector": "edge.highlight",
-        "style": {
-            "line-outline-color": "white",
-            "line-width": 2,
-            "line-outline-width": 3
+            "opacity": 0.2
         }
     }
   ]

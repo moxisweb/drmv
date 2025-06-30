@@ -67,10 +67,10 @@ cy.on('tap', 'edge', function(evt){
 
 cy.on('click', function(e){
    if (e.target === cy || e.target.group() == "nodes" )  {
-      cy.edges().removeClass('highlight');  
+      cy.edges().removeClass('fade');  
    }
    else { 
-      cy.edges().addClass('highlight');
+      cy.edges().addClass('fade');
    }
 });
 
