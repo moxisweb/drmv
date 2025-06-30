@@ -8,8 +8,8 @@
         "background-image": "data(img)",
         "background-fit": "cover",
         "background-color": "#000",
-        "outline-width": 0.8,
-        "outline-color": "purple",
+        "outline-width": 0.7,
+        "outline-color": "#332033",
         "label": "data(label)",
         "font-size": 3.5,
         "text-justification": "center",
@@ -24,16 +24,30 @@
       }
     },
     {
-        "selector": ":selected",
+        "selector": "node:selected",
+        "style": {
+            "outline-color": "blue",
+            "outline-width": 1
+        }
+    },
+    {
+        "selector": "node.highlight",
         "style": {
             "outline-color": "white",
             "outline-width": 1.4
         }
     },
     {
+        "selector": "edge.highlight",
+        "style": {
+            "line-outline-color": "white",
+            "line-outline-width": 1
+        }
+    },
+    {
       "selector": ".undertale",
       "style": {
-        "outline-color": "red"
+        "outline-color": "#BF8227"
       }
     },
     {
@@ -108,8 +122,15 @@
     {
       "selector": "[motif = 'door']",
       "style": {
-        "line-color": "DarkSlateBlue",
-        "target-arrow-color": "DarkSlateBlue"
+        "line-color": "#3f2dad",
+        "target-arrow-color": "#3f2dad"
+      }
+    },
+    {
+      "selector": "[motif = 'holy']",
+      "style": {
+        "line-color": "LightGreen",
+        "target-arrow-color": "LightGreen"
       }
     },
     {
@@ -124,6 +145,13 @@
       "style": {
         "line-color": "steelblue",
         "target-arrow-color": "steelblue"
+      }
+    },
+    {
+      "selector": "[motif = 'susie']",
+      "style": {
+        "line-color": "#e342b8",
+        "target-arrow-color": "#e342b8"
       }
     },
         {

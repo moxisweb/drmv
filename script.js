@@ -22,7 +22,7 @@ var cy = cytoscape({
     gravity: 1,
     quality: "proof"
   },
-  minZoom: 2,
+  minZoom: 1,
   maxZoom: 7,
   wheelSensitivity: 1.2,
   autoungrabify: true,
@@ -83,7 +83,16 @@ cy.on('tap', 'edge', function(evt){
     cy.elements("edge[motif = '" + m + "']").forEach(function(ele) {
       ele.addClass("highlight");
     });
+    cy.nodes("node." + m).forEach(function(node) {
+      node.addClass("highlight");
+    });
   }
+});
+
+cy.on('tap', 'cy', function(){
+    cy.elements().forEach(function(ele) {
+      ele.removeClass("highlight");
+    });
 });
 
 // Menu buttons
