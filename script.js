@@ -55,22 +55,9 @@ fulllayout.run(); */
 
 // Interactive function: tap node to select + open song info (WIP)
 
-/* cy.on('tap', 'node', function(evt){
+cy.on('tap', 'node', function(evt){
   var node = evt.target;
-  node.addClass('highlight');
-});
-
-cy.on('tap', 'edge', function(evt){
-  var edge = evt.target;
-  edge.addClass('highlight');
-}); */
-
-var fulllayout = cy.layout({
-  name: 'fcose'
-});
-cy.on('click', 'node', function(){
-      cy.nodes().addClass('fade');
-      fulllayout.run();
+  node.addClass('fade');
 });
 
 // Interactive function: tap edge to color shared motif (WIP)

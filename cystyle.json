@@ -46,8 +46,8 @@
     {
         "selector": "[[degree >= 4]]",
         "style": {
-          "height": "25px",
-          "width": "25px"
+          "height": 25,
+          "width": 25
         }
     },
     {
