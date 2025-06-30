@@ -59,7 +59,7 @@
       "style": {
         "width": 0.25,
         "line-color": "LightGrey",
-        "opacity": 0.9,
+        "opacity": 0.8,
         "curve-style": "unbundled-bezier",
         "control-point-step-size": 8,
         "target-arrow-color": "LightGrey",
@@ -87,15 +87,15 @@
     {
       "selector": "[motif = 'gaster']",
       "style": {
-        "line-color": "violet",
-        "target-arrow-color": "violet"
+        "line-color": "DeepPink",
+        "target-arrow-color": "DeepPink"
       }
     },
     {
       "selector": "[motif = 'freedom']",
       "style": {
-        "line-color": "hotpink",
-        "target-arrow-color": "hotpink"
+        "line-color": "gold",
+        "target-arrow-color": "gold"
       }
     },
     {
@@ -103,6 +103,13 @@
       "style": {
         "line-color": "royalblue",
         "target-arrow-color": "royalblue"
+      }
+    },
+    {
+      "selector": "[motif = 'door']",
+      "style": {
+        "line-color": "DarkSlateBlue",
+        "target-arrow-color": "DarkSlateBlue"
       }
     },
     {
@@ -122,8 +129,8 @@
         {
       "selector": "[motif = 'queen']",
       "style": {
-        "line-color": "greenyellow",
-        "target-arrow-color": "greenyellow"
+        "line-color": "Chartreuse",
+        "target-arrow-color": "Chartreuse"
       }
     },
         {
@@ -136,15 +143,15 @@
             {
       "selector": "[motif = 'berdly']",
       "style": {
-        "line-color": "springgreen",
-        "target-arrow-color": "springgreen"
+        "line-color": "DeepSkyBlue",
+        "target-arrow-color": "DeepSkyBlue"
       }
     },
             {
       "selector": "[motif = 'girl']",
       "style": {
-        "line-color": "yellow",
-        "target-arrow-color": "yellow"
+        "line-color": "#b3ffff",
+        "target-arrow-color": "#b3ffff"
       }
     }
   ]
