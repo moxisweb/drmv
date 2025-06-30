@@ -178,8 +178,9 @@
     {
         "selector": "edge:selected",
         "style": {
-            "outline-color": "blue",
-            "outline-width": 1
+            "line-color": "blue",
+            "line-outline-color": "white",
+            "line-outline-width": 3
         }
     },
     {

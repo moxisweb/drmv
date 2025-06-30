@@ -31,7 +31,6 @@ var cy = cytoscape({
 });
 
 /* const array1 = cy.nodes();
-
 array1.forEach(function( ele ){
   if ("ori1" in ele.data()) {
     for (let i = (ele.data().ori1.length) - 1 ; i > -1 ; i--) {
@@ -39,19 +38,6 @@ array1.forEach(function( ele ){
         group: 'edges',
         data: { source: ele.data().ori1[i], target: ele.id() },
         classes: ['ori1']
-      })
-    }
-  }
-  return 0;
-});
-
-array1.forEach(function( ele ){
-  if ("ori2" in ele.data()) {
-    for (let i = (ele.data().ori2.length) - 1 ; i > -1 ; i--) {
-      cy.add({
-        group: 'edges',
-        data: { source: ele.data().ori2[i], target: ele.id() },
-        classes: ['ori2']
       })
     }
   }
