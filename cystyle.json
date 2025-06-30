@@ -44,7 +44,14 @@
         }
     },
     {
-        "selector": "[[degree >= 4]]",
+        "selector": "[[degree >= 3]]",
+        "style": {
+          "height": 20,
+          "width": 20
+        }
+    },
+    {
+        "selector": "[[degree >= 5]]",
         "style": {
           "height": 25,
           "width": 25
