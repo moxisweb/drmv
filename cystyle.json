@@ -1,19 +1,5 @@
 [
     {
-        "selector": "node:selected",
-        "style": {
-            "outline-style": "dotted",
-            "outline-color": "blue"
-        }
-    },
-    {
-        "selector": "edge:selected",
-        "style": {
-            "line-outline-color": "blue",
-            "line-outline-width": 0.5
-        }
-    },
-    {
       "selector": "node",
       "style": {
         "shape": "rectangle",
@@ -36,12 +22,6 @@
         "text-valign": "bottom",
         "text-halign": "center"
       }
-    },
-    {
-        "selector": ".fade",
-        "style": {
-            "opacity": 0.2
-        }
     },
     {
         "selector": "[[degree >= 3]]",
@@ -208,5 +188,23 @@
         "line-color": "FireBrick",
         "target-arrow-color": "FireBrick"
       }
+    },
+    {
+        "selector": "node:selected",
+        "style": {
+            "outline-color": "blue"
+        }
+    },
+    {
+        "selector": "edge:selected",
+        "style": {
+            "line-color": "blue"
+        }
+    },
+    {
+        "selector": ".fade",
+        "style": {
+            "opacity": 0.2
+        }
     }
   ]

@@ -17,7 +17,7 @@ var cy = cytoscape({
     randomize: true,
     animate: true,
     fit: true,
-    nodeRepulsion: node => 4500,
+    nodeRepulsion: node => 6500,
     componentSpacing: 40,
     nodeOverlap: 6,
     gravity: 1,
@@ -49,9 +49,6 @@ var fulllayout = cy.layout({
   name: 'fcose'
 });
 fulllayout.run(); */
-cy.on('tap', function(event){
-  event.cyTarget.addClass('fade');
-});
 
 });
 
@@ -59,9 +56,11 @@ cy.on('tap', function(event){
 
 // Interactive function: tap node to select + open song info (WIP)
 
-
-
 // Interactive function: tap edge to color shared motif (WIP)
+
+cy.on('tap', 'edge', function(evt){
+  cy.$('edge').select();
+});
 
 /* cy.on('tap', 'edge', function(evt){
   var edge = evt.target;
