@@ -26,13 +26,13 @@
     {
       "selector": ".undertale",
       "style": {
-        "outline-color": "#cccccc"
+        "outline-color": "darkgreen"
       }
     },
     {
       "selector": ".extra",
       "style": {
-        "outline-color": "#666666"
+        "outline-color": "#595959"
       }
     },
     {
@@ -176,17 +176,18 @@
         }
     },
     {
-        "selector": ".highlight",
+        "selector": "node.highlight",
         "style": {
             "outline-color": "white",
-            "outline-width": 1.4
+            "outline-width": 1.5
         }
     },
     {
-        "selector": "edge.highlight",
+        "selector": ".highlight",
         "style": {
             "line-outline-color": "white",
-            "line-outline-width": 1
+            "line-width": 2,
+            "line-outline-width": 3
         }
     }
   ]

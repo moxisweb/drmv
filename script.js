@@ -71,12 +71,17 @@ fulllayout.run(); */
 
 cy.on('tap', 'node', function(evt){
   var node = evt.target;
-  console.log( 'tapped ' + node.id() );
+  node.addClass('highlight');
+});
+
+cy.on('tap', 'edge', function(evt){
+  var edge = evt.target;
+  edge.addClass('highlight');
 });
 
 // Interactive function: tap edge to color shared motif (WIP)
 
-cy.on('tap', 'edge', function(evt){
+/* cy.on('tap', 'edge', function(evt){
   var edge = evt.target;
   if ("motif" in edge.data()) {
     var m = edge.data("motif");
@@ -87,7 +92,7 @@ cy.on('tap', 'edge', function(evt){
       node.addClass("highlight");
     });
   }
-});
+}); */
 
 /* cy.on('tap', 'cy', function(){
     cy.elements().forEach(function(ele) {
