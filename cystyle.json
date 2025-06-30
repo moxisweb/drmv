@@ -24,36 +24,15 @@
       }
     },
     {
-        "selector": "node:selected",
-        "style": {
-            "outline-color": "blue",
-            "outline-width": 1
-        }
-    },
-    {
-        "selector": "node.highlight",
-        "style": {
-            "outline-color": "white",
-            "outline-width": 1.4
-        }
-    },
-    {
-        "selector": "edge.highlight",
-        "style": {
-            "line-outline-color": "white",
-            "line-outline-width": 1
-        }
-    },
-    {
       "selector": ".undertale",
       "style": {
-        "outline-color": "#BF8227"
+        "outline-color": "#cccccc"
       }
     },
     {
       "selector": ".extra",
       "style": {
-        "outline-color": "grey"
+        "outline-color": "#666666"
       }
     },
     {
@@ -181,5 +160,33 @@
         "line-color": "#b3ffff",
         "target-arrow-color": "#b3ffff"
       }
+    },
+            {
+      "selector": "[motif = 'neo']",
+      "style": {
+        "line-color": "cyan",
+        "target-arrow-color": "cyan"
+      }
+    },
+    {
+        "selector": ":selected",
+        "style": {
+            "outline-color": "blue",
+            "outline-width": 1
+        }
+    },
+    {
+        "selector": ".highlight",
+        "style": {
+            "outline-color": "white",
+            "outline-width": 1.4
+        }
+    },
+    {
+        "selector": "edge.highlight",
+        "style": {
+            "line-outline-color": "white",
+            "line-outline-width": 1
+        }
     }
   ]

@@ -89,11 +89,11 @@ cy.on('tap', 'edge', function(evt){
   }
 });
 
-cy.on('tap', 'cy', function(){
+/* cy.on('tap', 'cy', function(){
     cy.elements().forEach(function(ele) {
       ele.removeClass("highlight");
     });
-});
+}); */
 
 // Menu buttons
 
