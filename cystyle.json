@@ -120,8 +120,8 @@
     {
       "selector": "[motif = 'door']",
       "style": {
-        "line-color": "#3f2dad",
-        "target-arrow-color": "#3f2dad"
+        "line-color": "#311bb5",
+        "target-arrow-color": "#311bb5"
       }
     },
     {

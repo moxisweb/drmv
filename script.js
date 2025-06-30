@@ -66,12 +66,7 @@ cy.on('tap', 'edge', function(evt){
 }); */
 
 cy.on('click', function(e){
-   if (e.target === cy || e.target.group() == "nodes" )  {
-      cy.edges().removeClass('fade');  
-   }
-   else { 
-      cy.edges().addClass('fade');
-   }
+      cy.nodes().addClass('fade');
 });
 
 // Interactive function: tap edge to color shared motif (WIP)
