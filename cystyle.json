@@ -195,11 +195,18 @@
         "target-arrow-color": "#b3ffff"
       }
     },
-            {
+    {
       "selector": "[motif = 'neo']",
       "style": {
         "line-color": "cyan",
         "target-arrow-color": "cyan"
+      }
+    },
+    {
+      "selector": "[motif = 'nightmare']",
+      "style": {
+        "line-color": "FireBrick",
+        "target-arrow-color": "FireBrick"
       }
     }
   ]

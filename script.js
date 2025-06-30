@@ -14,11 +14,12 @@ var cy = cytoscape({
   container: document.getElementById('cy'),
   layout: {
     name: 'fcose',
+    randomize: true,
     animate: true,
     fit: true,
     nodeRepulsion: node => 4500,
     componentSpacing: 40,
-    nodeOverlap: 4,
+    nodeOverlap: 6,
     gravity: 1,
     quality: "proof"
   },
