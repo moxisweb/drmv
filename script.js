@@ -67,6 +67,7 @@ cy.on('tap', 'edge', function(evt){
 
 cy.on('click', 'node', function(){
       cy.nodes().addClass('fade');
+      fulllayout.run();
 });
 
 // Interactive function: tap edge to color shared motif (WIP)
