@@ -21,7 +21,7 @@ var cy = cytoscape({
     nodeRepulsion: 12500,
     componentSpacing: 80,
     nodeOverlap: 20,
-    gravity: 80,
+    gravity: 0,
     quality: "proof"
   },
   minZoom: 1,
