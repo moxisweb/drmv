@@ -29,7 +29,7 @@ u { /* For links to not be underlined */
 }
 h3 {
   column-span: all;
-  font-size: 30px;
+  font-size: 20px;
 }
 #corner {
   position: absolute;
