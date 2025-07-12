@@ -204,5 +204,12 @@
           "text-outline-width": 2,
           "opacity": 0.2
         }
+    },
+    {
+        "selector": "edge.fade",
+        "style": {
+          "width": 1,
+          "line-color": "red"
+        }
     }
   ]
