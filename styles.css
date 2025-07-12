@@ -47,8 +47,8 @@ h3 {
   outline: 2px solid rgb(90, 36, 82);
   font-size: 16px;
   font-family: '8bitoperator', Tahoma;
-  line-height: 0.2;
-  padding: 0px 10px;
+  line-height: 0.1;
+  padding: 5px 10px;
   z-index: 1;
 }
 #footer {
