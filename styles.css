@@ -27,13 +27,17 @@ a { /* For links to not be formatted */
 u { /* For links to not be underlined */
   color: purple;
 }
+h3 {
+  column-span: all;
+}
 #corner {
   position: absolute;
   column-count: 2;
-  column-rule-width: 1px;
+  column-fill: balance;
+  column-gap: 10px;
+  column-rule-width: 2px;
   column-rule-style: dotted;
-  column-rule-color: grey;
-  column-gap: 20px;
+  column-rule-color: #3d1f3d;
   bottom: 2px;
   right: 2px;
   height: 140px;
