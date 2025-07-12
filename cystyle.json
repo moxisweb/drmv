@@ -153,13 +153,6 @@
         "target-arrow-color": "green"
       }
     },
-        {
-      "selector": "[motif = 'sweet']",
-      "style": {
-        "line-color": "red",
-        "target-arrow-color": "red"
-      }
-    },
             {
       "selector": "[motif = 'berdly']",
       "style": {

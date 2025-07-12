@@ -29,10 +29,15 @@ u { /* For links to not be underlined */
 }
 #corner {
   position: absolute;
+  column-count: 2;
+  column-rule-width: 1px;
+  column-rule-style: dotted;
+  column-rule-color: grey;
+  column-gap: 20px;
   bottom: 2px;
   right: 2px;
-  height: 100px;
-  width: 300px;
+  height: 140px;
+  width: 360px;
   background-color: black;
   outline: 2px solid rgb(90, 36, 82);
   font-size: 16px;
