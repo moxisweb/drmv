@@ -29,6 +29,7 @@ u { /* For links to not be underlined */
 }
 h3 {
   column-span: all;
+  font-size: 30px;
 }
 #corner {
   position: absolute;
@@ -46,8 +47,8 @@ h3 {
   outline: 2px solid rgb(90, 36, 82);
   font-size: 16px;
   font-family: '8bitoperator', Tahoma;
-  line-height: 0.3;
-  padding: 0px 5px;
+  line-height: 0.2;
+  padding: 0px 10px;
   z-index: 1;
 }
 #footer {

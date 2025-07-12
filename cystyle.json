@@ -163,15 +163,15 @@
             {
       "selector": "[motif = 'girl']",
       "style": {
-        "line-color": "#b3ffff",
-        "target-arrow-color": "#b3ffff"
+        "line-color": "cyan",
+        "target-arrow-color": "cyan"
       }
     },
     {
       "selector": "[motif = 'neo']",
       "style": {
-        "line-color": "cyan",
-        "target-arrow-color": "cyan"
+        "line-color": "#00bfbc",
+        "target-arrow-color": "#00bfbc"
       }
     },
     {
