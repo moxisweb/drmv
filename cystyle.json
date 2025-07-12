@@ -182,19 +182,6 @@
       }
     },
     {
-        "selector": "node:selected",
-        "style": {
-            "outline-color": "blue"
-        }
-    },
-    {
-        "selector": "edge:selected",
-        "style": {
-            "line-color": "blue",
-            "target-arrow-color": "blue"
-        }
-    },
-    {
         "selector": "node.fade",
         "style": {
           "label": "data(name)",
