@@ -24,18 +24,18 @@
       }
     },
     {
-        "selector": "[[degree >= 3]]",
-        "style": {
-          "height": 20,
-          "width": 20
-        }
+      "selector": "[[degree >= 3]]",
+      "style": {
+        "height": 20,
+        "width": 20
+      }
     },
     {
-        "selector": "[[degree >= 5]]",
-        "style": {
-          "height": 25,
-          "width": 25
-        }
+      "selector": "[[degree >= 5]]",
+      "style": {
+        "height": 25,
+        "width": 25
+      }
     },
     {
       "selector": ".undertale",
@@ -184,7 +184,7 @@
     {
         "selector": "node:selected",
         "style": {
-            "outline-color": "blue"
+            "outline-color": "yellow"
         }
     },
     {
@@ -197,6 +197,7 @@
         "selector": ".fade",
         "style": {
             "opacity": 0.1,
+            "outline-width": 1,
             "outline-color": "red"
         }
     }
