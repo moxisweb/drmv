@@ -64,7 +64,7 @@
     {
       "selector": "edge",
       "style": {
-        "width": 0.25,
+        "width": 0.4,
         "line-color": "LightGrey",
         "opacity": 0.8,
         "curve-style": "unbundled-bezier",
@@ -77,17 +77,9 @@
       }
     },
     {
-      "selector": ".strong",
-      "style": {
-        "width": 0.5,
-        "opacity": 1
-      }
-    },
-    {
       "selector": ".weak",
       "style": {
         "line-style": "dotted",
-        "width": 0.35,
         "opacity": 0.6
       }
     },
@@ -115,8 +107,8 @@
     {
       "selector": "[motif = 'door']",
       "style": {
-        "line-color": "#270cc9",
-        "target-arrow-color": "#270cc9"
+        "line-color": "#451ff0",
+        "target-arrow-color": "#451ff0"
       }
     },
     {
@@ -159,6 +151,13 @@
       "style": {
         "line-color": "green",
         "target-arrow-color": "green"
+      }
+    },
+        {
+      "selector": "[motif = 'sweet']",
+      "style": {
+        "line-color": "red",
+        "target-arrow-color": "red"
       }
     },
             {
