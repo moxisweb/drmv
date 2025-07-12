@@ -37,13 +37,16 @@ h3 {
   column-gap: 10px;
   column-rule-width: 2px;
   column-rule-style: dotted;
-  column-rule-color: #3d1f3d;
+  column-rule-color: rgb(90, 36, 82);
   bottom: 2px;
   right: 2px;
+  height: 140px;
+  width: 360px;
   background-color: black;
   outline: 2px solid rgb(90, 36, 82);
   font-size: 16px;
   font-family: '8bitoperator', Tahoma;
+  line-height: 0.1;
   padding: 0px 15px;
   z-index: 1;
 }
