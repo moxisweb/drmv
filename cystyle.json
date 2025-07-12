@@ -194,10 +194,15 @@
         }
     },
     {
-        "selector": ".fade",
+        "selector": "node.fade",
         "style": {
-            "opacity": 0.1,
-            "color": "red"
+          "label": "data(name)",
+          "border-width": 3,
+          "border-color": "red",
+          "color": "white",
+          "text-outline-color": "red",
+          "text-outline-width": 2,
+          "opacity": 0.2
         }
     }
   ]

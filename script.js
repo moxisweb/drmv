@@ -19,7 +19,7 @@ var cy = cytoscape({
     fit: true,
     nodeRepulsion: 6500,
     componentSpacing: 40,
-    nodeOverlap: 1,
+    nodeOverlap: 20,
     gravity: 1,
     quality: "proof"
   },
@@ -58,10 +58,12 @@ fulllayout.run(); */
 
 // Interactive function: tap edge to color shared motif (WIP)
 
-cy.on("tap", "node", function(evt) {
-  var node = evt.target;
-  console.log("tapped " + node.id());
-  cy.nodes(node).addClass("fade");
+cy.on('tap', 'node', function (e) {
+    var ele = e.target;
+    if (cy.elements('node')) {
+        cy.elements().difference(ele.outgoers());
+        ele.addClass('fade').outgoers().addClass('fade');
+    }
 });
 
 /* cy.on('tap', 'edge', function(evt){
