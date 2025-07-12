@@ -163,15 +163,15 @@
             {
       "selector": "[motif = 'girl']",
       "style": {
-        "line-color": "cyan",
-        "target-arrow-color": "cyan"
+        "line-color": "#63e5ff",
+        "target-arrow-color": "#63e5ff"
       }
     },
     {
       "selector": "[motif = 'neo']",
       "style": {
-        "line-color": "#00bfbc",
-        "target-arrow-color": "#00bfbc"
+        "line-color": "#00d6ba",
+        "target-arrow-color": "#00d6ba"
       }
     },
     {
@@ -184,13 +184,14 @@
     {
         "selector": "node:selected",
         "style": {
-            "outline-color": "yellow"
+            "outline-color": "blue"
         }
     },
     {
         "selector": "edge:selected",
         "style": {
-            "line-color": "blue"
+            "line-color": "blue",
+            "target-arrow-color": "blue"
         }
     },
     {

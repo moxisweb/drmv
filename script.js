@@ -26,7 +26,6 @@ var cy = cytoscape({
   minZoom: 1,
   maxZoom: 7,
   wheelSensitivity: 1.2,
-  autoungrabify: true,
   style: dataArray[0],
   elements: dataArray[1]
 });
@@ -59,13 +58,8 @@ fulllayout.run(); */
 // Interactive function: tap edge to color shared motif (WIP)
 
 cy.unbind('click');
-cy.bind('click', function(e){
-   if (e.target === cy || e.target.group() == "edges")  {
-      cy.edges().removeClass('fade');  
-   }
-   else { 
-      cy.edges("[source='" + e.target.id() + "']").addClass('fade');
-   }
+cy.bind('click', 'node', function(e){
+    e.target().addClass('fade');
 });
 
 /* cy.on('tap', 'node', function (e) {
