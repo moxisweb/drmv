@@ -58,9 +58,7 @@ fulllayout.run(); */
 
 // Interactive function: tap edge to color shared motif (WIP)
 
-cy.unbind("click");
 cy.bind("click", "node", evt => {
-  cy.elements().removeClass("fade");
   evt.target.addClass("fade");
 });
 

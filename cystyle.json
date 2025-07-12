@@ -197,8 +197,7 @@
         "selector": ".fade",
         "style": {
             "opacity": 0.1,
-            "outline-width": 1,
-            "outline-color": "red"
+            "color": "red"
         }
     }
   ]
