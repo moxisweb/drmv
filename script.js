@@ -59,10 +59,7 @@ fulllayout.run(); */
 
 eles.on('tap', 'node', function (e) {
     var ele = e.target;
-    if (cy.elements('node')) {
-        cy.elements().difference(ele.outgoers());
-        ele.addClass('fade').outgoers().addClass('fade');
-    }
+        ele.addClass('fade');
 });
 
 /* cy.on('tap', 'edge', function(evt){
