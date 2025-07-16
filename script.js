@@ -57,7 +57,7 @@ fulllayout.run(); */
 
 // Interactive function: tap edge to color shared motif (WIP)
 
-cy.on('tap', 'node', function (e) {
+eles.on('tap', 'node', function (e) {
     var ele = e.target;
     if (cy.elements('node')) {
         cy.elements().difference(ele.outgoers());
