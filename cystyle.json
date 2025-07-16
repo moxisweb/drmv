@@ -11,30 +11,16 @@
         "outline-width": 0.7,
         "outline-color": "#3d1f3d",
         "label": "data(label)",
-        "font-size": 3.5,
+        "font-size": 4,
         "text-justification": "center",
         "text-wrap": "wrap",
-        "text-max-width": "30px",
+        "text-max-width": "40px",
         "text-margin-y": 2,
         "color": "#fff",
         "text-outline-color": "#000",
-        "text-outline-width": 0.4,
+        "text-outline-width": 0.5,
         "text-valign": "bottom",
         "text-halign": "center"
-      }
-    },
-    {
-      "selector": "[[degree >= 3]]",
-      "style": {
-        "height": 16,
-        "width": 16
-      }
-    },
-    {
-      "selector": "[[degree >= 5]]",
-      "style": {
-        "height": 20,
-        "width": 20
       }
     },
     {
@@ -86,8 +72,8 @@
     {
       "selector": "[motif = 'gaster']",
       "style": {
-        "line-color": "DeepPink",
-        "target-arrow-color": "DeepPink"
+        "line-color": "gold",
+        "target-arrow-color": "gold"
       }
     },
     {
@@ -156,15 +142,29 @@
             {
       "selector": "[motif = 'berdly']",
       "style": {
-        "line-color": "DeepSkyBlue",
-        "target-arrow-color": "DeepSkyBlue"
+        "line-color": "#12c3ff",
+        "target-arrow-color": "#12c3ff"
       }
     },
-            {
+    {
       "selector": "[motif = 'girl']",
       "style": {
         "line-color": "#63e5ff",
         "target-arrow-color": "#63e5ff"
+      }
+    },
+    {
+      "selector": "[motif = 'spamton']",
+      "style": {
+        "line-color": "hotpink",
+        "target-arrow-color": "hotpink"
+      }
+    },
+    {
+      "selector": "[motif = 'bigshot']",
+      "style": {
+        "line-color": "hotpink",
+        "target-arrow-color": "hotpink"
       }
     },
     {
