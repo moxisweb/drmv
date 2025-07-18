@@ -62,7 +62,8 @@ fulllayout.run(); */
 
 cy.on('tap', function(e){
    if (e.target === cy)  {
-      cy.elements().removeClass('highlight', 'fade');
+      cy.elements().removeClass('fade');
+      cy.elements().removeClass('highlight');
    }
 });
 
@@ -85,10 +86,10 @@ cy.on('tap', 'edge', function(e){
     cy.animate({
       fit: {
         eles: cy.nodes("node." + m),
-        padding: 20
+        padding: 40
       }
     },
-    { duration: 1000 });
+    { duration: 800 });
   }
 });
 
