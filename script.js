@@ -80,9 +80,10 @@ cy.on('tap', 'edge', function(e){
     cy.elements().difference("edge[motif = '" + m + "']").forEach(function(edge) {
       edge.addClass("fade");
     });
-    cy.nodes().difference("node." + m).forEach(function(node) {
+    cy.elements().difference("node." + m).forEach(function(node) {
       node.addClass("fade");
     });
+    cy.fit( cy.nodes("node." + m) );
   }
 });
 

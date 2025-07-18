@@ -184,19 +184,19 @@
     {
         "selector": "node.fade",
         "style": {
-          "opacity": 0.2
+          "opacity": 0.4
         }
     },
     {
         "selector": "edge.fade",
         "style": {
-          "opacity": 0.2
+          "opacity": 0.4
         }
     },
         {
         "selector": "node.highlight",
         "style": {
-          "outline-width": 1.2
+          "outline-color": "white"
         }
     },
     {
