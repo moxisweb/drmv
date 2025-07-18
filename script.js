@@ -49,39 +49,37 @@ var fulllayout = cy.layout({
 });
 fulllayout.run(); */
 
-cy.on('tap', 'node', function (e) {
-    var ele = e.target;
-        ele.addClass('fade');
-});
-
-});
-
 //////////////////////////////////////////////////////////////
 
 // Interactive function: tap node to select + open song info (WIP)
 
+/* cy.on('tap', 'node', function (e) {
+    var node = e.target;
+        node.addClass('highlight');
+}); */
+
 // Interactive function: tap edge to color shared motif (WIP)
 
-
-
-/* cy.on('tap', 'edge', function(evt){
-  var edge = evt.target;
+cy.on('tap', 'edge', function(e){
+  var edge = e.target;
   if ("motif" in edge.data()) {
     var m = edge.data("motif");
-    cy.elements("edge[motif = '" + m + "']").forEach(function(ele) {
-      ele.addClass("highlight");
+    cy.elements("edge[motif = '" + m + "']").forEach(function(edge) {
+      edge.addClass("highlight");
     });
     cy.nodes("node." + m).forEach(function(node) {
       node.addClass("highlight");
     });
   }
-}); */
+});
 
 /* cy.on('tap', 'cy', function(){
     cy.elements().forEach(function(ele) {
       ele.removeClass("highlight");
     });
 }); */
+
+});
 
 // Menu buttons
 

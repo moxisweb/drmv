@@ -184,19 +184,27 @@
     {
         "selector": "node.fade",
         "style": {
-          "border-width": 3,
-          "border-color": "red",
-          "color": "white",
-          "text-outline-color": "red",
-          "text-outline-width": 2,
           "opacity": 0.2
         }
     },
     {
         "selector": "edge.fade",
         "style": {
-          "width": 1,
-          "line-color": "red"
+          "opacity": 0.2
+        }
+    },
+        {
+        "selector": "node.highlight",
+        "style": {
+          "outline-width": 1.4
+        }
+    },
+    {
+        "selector": "edge.highlight",
+        "style": {
+          "width": 0.8,
+          "opacity": 1,
+          "arrow-scale": 0.5
         }
     }
   ]
