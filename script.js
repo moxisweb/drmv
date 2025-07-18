@@ -60,30 +60,37 @@ fulllayout.run(); */
 
 // Interactive function: tap edge to color shared motif (WIP)
 
-cy.on('tap', function(e){
+/* cy.on('tap', function(e){
    if (e.target === cy)  {
       cy.elements().removeClass('highlight');
       cy.elements().removeClass('fade');  
    }
-});
+}); */
 
 cy.on('tap', 'edge', function(e){
+  cy.elements().removeClass('highlight', 'fade');
   var edge = e.target;
-  if ("motif" in edge.data()) {
+  if ( edge === 'edge' && "motif" in edge.data() ) {
     var m = edge.data("motif");
-    cy.elements("edge[motif = '" + m + "']").forEach(function(edge) {
+    cy.edges("edge[motif = '" + m + "']").forEach(function(edge) {
       edge.addClass("highlight");
     });
     cy.nodes("node." + m).forEach(function(node) {
       node.addClass("highlight");
     });
-    cy.elements().difference("edge[motif = '" + m + "']").forEach(function(edge) {
+    cy.edges().difference("edge[motif = '" + m + "']").forEach(function(edge) {
       edge.addClass("fade");
     });
-    cy.elements().difference("node." + m).forEach(function(node) {
+    cy.nodes().difference("node." + m).forEach(function(node) {
       node.addClass("fade");
     });
-    cy.fit( cy.nodes("node." + m) );
+    cy.animate({
+      fit: {
+        eles: cy.nodes("node." + m),
+        padding: 20
+      }
+    },
+    { duration: 1000 });
   }
 });
 
