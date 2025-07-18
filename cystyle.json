@@ -14,7 +14,7 @@
         "font-size": 4,
         "text-justification": "center",
         "text-wrap": "wrap",
-        "text-max-width": "40px",
+        "text-max-width": "38px",
         "text-margin-y": 2,
         "color": "#fff",
         "text-outline-color": "#000",
@@ -184,7 +184,6 @@
     {
         "selector": "node.fade",
         "style": {
-          "label": "data(name)",
           "border-width": 3,
           "border-color": "red",
           "color": "white",

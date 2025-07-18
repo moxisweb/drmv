@@ -49,6 +49,11 @@ var fulllayout = cy.layout({
 });
 fulllayout.run(); */
 
+cy.on('tap', 'node', function (e) {
+    var ele = e.target;
+        ele.addClass('fade');
+});
+
 });
 
 //////////////////////////////////////////////////////////////
@@ -57,10 +62,7 @@ fulllayout.run(); */
 
 // Interactive function: tap edge to color shared motif (WIP)
 
-eles.on('tap', 'node', function (e) {
-    var ele = e.target;
-        ele.addClass('fade');
-});
+
 
 /* cy.on('tap', 'edge', function(evt){
   var edge = evt.target;
