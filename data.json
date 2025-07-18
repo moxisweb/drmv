@@ -43,7 +43,7 @@
     { "data": { "id": "121", "label": "Vs. Lancer", "img": "img/121.jpg" }, "classes": ["lancer"] },
     { "data": { "id": "122", "label": "Basement", "img": "img/122.jpg" }, "classes":["card"] },
     { "data": { "id": "123", "label": "Imminent Death", "img": "img/123.jpg" }, "classes":["nightmare"] },
-    { "data": { "id": "124", "label": "Vs. Susie", "img": "img/124.jpg" }, "classes": ["susie"] },
+    { "data": { "id": "124", "label": "Vs. Susie", "img": "img/124.jpg" }, "classes": ["susie", "nightmare"] },
     { "data": { "id": "125", "label": "Card Castle", "img": "img/125.jpg" }, "classes": ["lancer", "card"] },
     { "data": { "id": "126", "label": "Rouxls Kaard", "img": "img/126.jpg" }, "classes": ["rouxls"] },
     { "data": { "id": "127", "label": "April 2012", "img": "img/127.jpg" }, "classes": ["none"] },

@@ -196,15 +196,14 @@
         {
         "selector": "node.highlight",
         "style": {
-          "outline-width": 1.4
+          "outline-width": 1.2
         }
     },
     {
         "selector": "edge.highlight",
         "style": {
-          "width": 0.8,
-          "opacity": 1,
-          "arrow-scale": 0.5
+          "width": 0.6,
+          "opacity": 1
         }
     }
   ]
