@@ -38,7 +38,7 @@
     { "data": { "id": "116", "label": "I'm Very Bad", "img": "img/116.jpg" }, "classes": ["lancer"] },
     { "data": { "id": "117", "label": "Checker Dance", "img": "img/117.jpg" }, "classes": ["none"] },
     { "data": { "id": "118", "label": "Quiet Autumn", "img": "img/118.jpg" }, "classes":["scarlet"] },
-    { "data": { "id": "119", "label": "Scarlet Forest", "img": "img/119.jpg" }, "classes":["dont", "gaster"] },
+    { "data": { "id": "119", "label": "Scarlet Forest", "img": "img/119.jpg" }, "classes":["dont", "gaster", "scarlet"] },
     { "data": { "id": "120", "label": "Thrash Machine", "img": "img/120.jpg" }, "classes":["lancer"] },
     { "data": { "id": "121", "label": "Vs. Lancer", "img": "img/121.jpg" }, "classes": ["lancer"] },
     { "data": { "id": "122", "label": "Basement", "img": "img/122.jpg" }, "classes":["card"] },
@@ -112,6 +112,7 @@
 
     { "data": { "source": "001", "target": "012", "motif": "once" } },
     { "data": { "source": "010", "target": "036", "motif": "ghost" } },
+    { "data": { "source": "079", "target": "088", "motif": "nightmare" } },
     { "data": { "source": "098", "target": "099", "motif": "neo" } },
     { "data": { "source": "666", "target": "101", "motif": "gaster" }, "classes": ["strong"] },
     { "data": { "source": "001", "target": "102", "motif": "once" } },
