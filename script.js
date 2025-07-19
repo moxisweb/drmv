@@ -112,6 +112,7 @@ cy.on('tap', 'edge', function(e){
         break;
       case "girl":
         mn = "Girl Next Door / Lost Girl";
+        break;
       default:
         mn = m;
     }

@@ -129,8 +129,8 @@ button {
   position: absolute;
   display: none;
   top: 10%;
-  margin-left: auto;
-  padding: 10px 0px;
+  left: 30%;
+  padding: 0px 20px;
   font-family: '8bitoperator';
   font-size: 18px;
   background-color: #080808;

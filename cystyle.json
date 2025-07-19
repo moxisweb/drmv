@@ -8,7 +8,7 @@
         "background-image": "data(img)",
         "background-fit": "cover",
         "background-color": "#000",
-        "border-width": 0.5,
+        "border-width": 0.4,
         "border-color": "#3d1f3d",
         "label": "data(label)",
         "font-size": 4,
@@ -99,7 +99,7 @@
       }
     },
     {
-      "selector": "[motif = 'holy']",
+      "selector": "[motif = 'The Holy']",
       "style": {
         "line-color": "LightGreen",
         "target-arrow-color": "LightGreen"
@@ -113,21 +113,21 @@
       }
     },
     {
-      "selector": "[motif = 'lancer']",
+      "selector": "[motif = 'Lancer']",
       "style": {
         "line-color": "steelblue",
         "target-arrow-color": "steelblue"
       }
     },
     {
-      "selector": "[motif = 'susie']",
+      "selector": "[motif = 'Susie']",
       "style": {
         "line-color": "#e342b8",
         "target-arrow-color": "#e342b8"
       }
     },
         {
-      "selector": "[motif = 'queen']",
+      "selector": "[motif = 'Queen']",
       "style": {
         "line-color": "Chartreuse",
         "target-arrow-color": "Chartreuse"
@@ -141,7 +141,7 @@
       }
     },
             {
-      "selector": "[motif = 'berdly']",
+      "selector": "[motif = 'Berdly']",
       "style": {
         "line-color": "#12c3ff",
         "target-arrow-color": "#12c3ff"
@@ -155,14 +155,14 @@
       }
     },
     {
-      "selector": "[motif = 'spamton']",
+      "selector": "[motif = 'Spamton']",
       "style": {
         "line-color": "hotpink",
         "target-arrow-color": "hotpink"
       }
     },
     {
-      "selector": "[motif = 'bigshot']",
+      "selector": "[motif = 'BIG SHOT']",
       "style": {
         "line-color": "hotpink",
         "target-arrow-color": "hotpink"
