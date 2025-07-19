@@ -116,7 +116,7 @@ button {
 }
 #wip{
   position: absolute;
-  top: 0%;
+  top: 8%;
   left: 50%;
   opacity: 70%;
   font-family: '8bitoperator';
@@ -128,7 +128,7 @@ button {
 #motifinfo{
   position: absolute;
   display: none;
-  top: 10%;
+  top: 15%;
   left: 50%;
   padding: 0px 20px;
   font-family: '8bitoperator';

@@ -99,7 +99,7 @@
     { "data": { "id": "236", "label": "The Dark Truth", "img": "img/236.jpg" }, "classes": ["dont", "nightmare"] },
     { "data": { "id": "237", "label": "Digital Roots", "img": "img/237.jpg" }, "classes": ["nightmare"] },
     { "data": { "id": "238", "label": "Deal Gone Wrong", "img": "img/238.jpg" }, "classes": ["Spamton", "none"] },
-    { "data": { "id": "239", "label": "BIG SHOT", "img": "img/239.jpg" }, "classes": ["bigshot","Spamton","freedom", "neo","Dummy!"] },
+    { "data": { "id": "239", "label": "BIG SHOT", "img": "img/239.jpg" }, "classes": ["bigshot","Spamton","freedom", "neo","Dummy!","gaster"] },
     { "data": { "id": "240", "label": "A Real Boy!", "img": "img/240.jpg" }, "classes": ["hey"] },
     { "data": { "id": "241", "label": "Dialtone", "img": "img/241.jpg" }, "classes": ["freedom", "gaster"] },
     { "data": { "id": "242", "label": "sans.", "img": "img/242.jpg" }, "classes": ["none"] },
