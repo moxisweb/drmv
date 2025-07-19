@@ -83,6 +83,9 @@ cy.on('tap', 'edge', function(e){
       case "once":
         mn = "Once Upon a Time";
         break;
+      case "ghost":
+        mn = "Ghost Fight";
+        break;
       case "dont":
         mn = "Don't Forget";
         break;
@@ -101,17 +104,50 @@ cy.on('tap', 'edge', function(e){
       case "door":
         mn = "The Door / Nightmare Knight";
         break;
+      case "girl":
+        mn = "Girl Next Door / Lost Girl";
+        break;
       case "legend":
         mn = "The Legend";
         break;
       case "freedom":
         mn = "Freedom Theme / The World Revolving";
         break;
+      case "bigshot":
+        mn = "BIG SHOT";
+        break;
+      case "hey":
+        mn = "HEY EVERY !";
+        break;
+      case "holy":
+        mn = "The Holy";
+        break;
+      case "ScarletForest":
+        mn = "Scarlet Forest";
+        break;
+      case "cardcastle":
+        mn = "Card Castle";
+        break;
       case "sweet":
         mn = "Sweet Cap'n Cakes";
         break;
-      case "girl":
-        mn = "Girl Next Door / Lost Girl";
+      case "DarknessFalls":
+        mn = "Darkness Falls";
+        break;
+      case "cyber":
+        mn = "A CYBER'S WORLD";
+        break;
+      case "rouxls":
+        mn = "Rouxls Kaard";
+        break;
+      case "pandora":
+        mn = "Pandora Palace";
+        break;
+      case "burn":
+        mn = "Burn in Despair!";
+        break;
+      case "powers":
+        mn = "Powers Combined";
         break;
       default:
         mn = m;
@@ -120,13 +156,13 @@ cy.on('tap', 'edge', function(e){
     cy.edges("edge[motif = '" + m + "']").forEach(function(edge) { //highlight edges
       edge.addClass("highlight");
     });
-    cy.nodes("node.'" + m + "'").forEach(function(node) { //color node borders
+    cy.nodes("node." + m).forEach(function(node) { //color node borders
       node.style("border-color", mc );
     });
     cy.edges().difference("edge[motif = '" + m + "']").forEach(function(edge) { //fade other edges
       edge.addClass("fade");
     });
-    cy.nodes().difference("node.'" + m + "'").forEach(function(node) { //fade other nodes
+    cy.nodes().difference("node." + m).forEach(function(node) { //fade other nodes
       node.addClass("fade");
     });
     document.getElementById('motifname').innerHTML = mn;
@@ -134,7 +170,7 @@ cy.on('tap', 'edge', function(e){
     cy.maxZoom(4); //limit zoom
     cy.animate({
       fit: {
-        eles: cy.nodes("node.'" + m + "'"),
+        eles: cy.nodes("node." + m),
         padding: 40
       }
     },
