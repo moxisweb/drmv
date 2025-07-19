@@ -148,7 +148,7 @@
     { "data": { "source": "139", "target": "134", "motif": "dont" }, "classes": ["strong"] },
     { "data": { "source": "x02", "target": "135", "motif": "holy" }, "classes": ["weak"] },
     { "data": { "source": "139", "target": "136", "motif": "dont" }, "classes": ["strong"] },
-    { "data": { "source": "122", "target": "137", "motif": "snowdin" } },
+    { "data": { "source": "022", "target": "137", "motif": "snowdin" } },
     { "data": { "source": "139", "target": "137", "motif": "dont" } },
     { "data": { "source": "012", "target": "138", "motif": "home" }, "classes": ["strong"] },
     { "data": { "source": "001", "target": "138", "motif": "once" } },

@@ -125,6 +125,18 @@ button {
   -ms-transform: translate(-50%,-50%);
   z-index: 1;
 }
+#motifinfo{
+  position: absolute;
+  display: none;
+  left: 0px;
+  top: 0px;
+  padding: 30px 10px;
+  font-size: 16px;
+  background-color: #0f0f0f;
+  outline: 1.4px solid purple;
+  border-radius: 10px;
+  z-index: 1;
+}
 #songinfo{
   position: absolute;
   width: 350px;

@@ -120,9 +120,12 @@ function menuOff() {
   document.getElementById("thanks").style.display = "none";
 }
 
-// Song info
+// Motif/Song info
+
+function motifInfoOn() {
+  document.getElementById("motifinfo").style.display = "block";
+}
 
 function songInfoOn() {
-  document.getElementById("overlay").style.display = "block";
   document.getElementById("songinfo").style.display = "block";
 }
