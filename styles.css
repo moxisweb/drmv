@@ -116,11 +116,11 @@ button {
 }
 #wip{
   position: absolute;
-  font-size: 42px;
-  opacity: 80%;
-  font-family: '8bitoperator';
-  top: 45%;
+  top: 0%;
   left: 50%;
+  opacity: 70%;
+  font-family: '8bitoperator';
+  font-size: 42px;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   z-index: 1;
@@ -129,13 +129,15 @@ button {
   position: absolute;
   display: none;
   top: 10%;
-  left: 30%;
+  left: 50%;
   padding: 0px 20px;
   font-family: '8bitoperator';
   font-size: 18px;
   background-color: #080808;
   outline: 1.4px solid rgb(90, 36, 82);
   color: rgb(90, 36, 82);
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
   z-index: 1;
 }
 #songinfo{
