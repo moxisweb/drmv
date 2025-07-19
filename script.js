@@ -69,6 +69,9 @@ cy.on('tap', function(e){
 });
 
 cy.on('tap', 'edge', function(e){
+  cy.elements().removeClass('fade');
+  cy.elements().removeClass('highlight');
+  cy.elements().removeStyle();
   var edge = e.target;
   if ( "motif" in edge.data() ) {
     var m = edge.data("motif");

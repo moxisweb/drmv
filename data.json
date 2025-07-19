@@ -1,7 +1,7 @@
 { "nodes": [
 
-    { "data": { "id": "x01", "label": "Nightmare Knight (Cucumber Quest)" }, "classes": ["extra"] },
-    { "data": { "id": "x02", "label": "Penumbra Phantasm" }, "classes": ["extra"] },
+    { "data": { "id": "x01", "label": "Nightmare Knight (Cucumber Quest)" }, "classes": ["extra", "door"] },
+    { "data": { "id": "x02", "label": "Penumbra Phantasm" }, "classes": ["extra", "holy"] },
     { "data": { "id": "o01", "label": "man", "img": "img/o01.jpg" }, "classes": ["none"] },
     { "data": { "id": "o02", "label": "d.ogg", "img": "img/o02.jpg" }, "classes": ["extra"] },
 
