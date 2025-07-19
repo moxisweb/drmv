@@ -8,12 +8,12 @@
     { "data": { "id": "001", "label": "Once Upon a Time", "img": "img/001.jpg" }, "classes": ["undertale", "once"] },
     { "data": { "id": "006", "label": "Uwa!! So Temperate♫", "img": "img/006.jpg" }, "classes": ["undertale", "uwa"] },
     { "data": { "id": "007", "label": "Anticipation", "img": "img/007.jpg" }, "classes": ["undertale", "anticipation"] },
-    { "data": { "id": "010", "label": "Ghost", "img": "img/010.jpg" }, "classes": ["undertale", "ghost"] },
+    { "data": { "id": "010", "label": "Ghost Fight", "img": "img/010.jpg" }, "classes": ["undertale", "Ghost Fight"] },
     { "data": { "id": "011", "label": "Determination", "img": "img/011.jpg" }, "classes": ["undertale", "determination"] },
     { "data": { "id": "012", "label": "Home", "img": "img/012.jpg" }, "classes": ["undertale", "once", "home"] },
     { "data": { "id": "022", "label": "Snowdin Town", "img": "img/022.jpg" }, "classes": ["undertale", "snowdin"] },
     { "data": { "id": "028", "label": "Premonition", "img": "img/028.jpg" }, "classes": ["undertale", "premonition"] },
-    { "data": { "id": "036", "label": "Dummy!", "img": "img/036.jpg" }, "classes": ["undertale", "ghost", "dummy"] },
+    { "data": { "id": "036", "label": "Dummy!", "img": "img/036.jpg" }, "classes": ["undertale", "Ghost Fight", "dummy"] },
     { "data": { "id": "079", "label": "Your Best Nightmare", "img": "img/079.jpg" }, "classes": ["undertale", "nightmare"] },
     { "data": { "id": "088", "label": "Burn in  Despair!", "img": "img/088.jpg" }, "classes": ["undertale", "nightmare", "burn"] },
     { "data": { "id": "098", "label": "Battle Against a True Hero", "img": "img/098.jpg" }, "classes": ["undertale", "neo"] },
@@ -103,7 +103,7 @@
     { "data": { "id": "240", "label": "A Real Boy!", "img": "img/240.jpg" }, "classes": ["hey"] },
     { "data": { "id": "241", "label": "Dialtone", "img": "img/241.jpg" }, "classes": ["freedom", "gaster"] },
     { "data": { "id": "242", "label": "sans.", "img": "img/242.jpg" }, "classes": ["none"] },
-    { "data": { "id": "243", "label": "Chill JailBreak Alarm To Study And Relax To", "img": "img/243.jpg" }, "classes": ["ghost"] },
+    { "data": { "id": "243", "label": "Chill JailBreak Alarm To Study And Relax To", "img": "img/243.jpg" }, "classes": ["Ghost Fight"] },
     { "data": { "id": "244", "label": "You Can Always Come Home", "img": "img/244.jpg" }, "classes": ["hidden"] },
     { "data": { "id": "245", "label": "Until Next Time", "img": "img/245.jpg" }, "classes": ["dont"] }
 
@@ -111,7 +111,7 @@
 "edges": [
 
     { "data": { "source": "001", "target": "012", "motif": "once" } },
-    { "data": { "source": "010", "target": "036", "motif": "ghost" } },
+    { "data": { "source": "010", "target": "036", "motif": "Ghost Fight" } },
     { "data": { "source": "079", "target": "088", "motif": "nightmare" } },
     { "data": { "source": "098", "target": "099", "motif": "neo" } },
     { "data": { "source": "666", "target": "101", "motif": "gaster" }, "classes": ["strong"] },
@@ -208,7 +208,7 @@
     { "data": { "source": "036", "target": "239", "motif": "dummy" } },
     { "data": { "source": "221", "target": "240", "motif": "hey" }, "classes": ["strong"] },
     { "data": { "source": "133", "target": "241", "motif": "freedom" } },
-    { "data": { "source": "010", "target": "243", "motif": "ghost" } },
+    { "data": { "source": "010", "target": "243", "motif": "Ghost Fight" } },
     { "data": { "source": "139", "target": "245", "motif": "dont" } }
 
 ]

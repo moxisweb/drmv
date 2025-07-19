@@ -74,9 +74,22 @@ cy.on('tap', 'edge', function(e){
   cy.elements().removeClass('highlight');
   cy.elements().removeStyle();
   motifInfoOff();
+
   var edge = e.target;
   if ( "motif" in edge.data() ) {
     var m = edge.data("motif");
+    var mn = "no data";
+    switch (m) {
+      case "once":
+        mn = "Once Upon a Time";
+        break;
+      case "dont":
+        mn = "Don't Forget";
+        break;
+      case "nightmare":
+        mn = "Your Best Nightmare";
+        break;
+    }
     var mc = edge.style("line-color");
     cy.edges("edge[motif = '" + m + "']").forEach(function(edge) { //highlight edges
       edge.addClass("highlight");
