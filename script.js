@@ -88,6 +88,7 @@ cy.on('tap', 'edge', function(e){
     cy.nodes().difference("node." + m).forEach(function(node) { //fade other nodes
       node.addClass("fade");
     });
+    motifInfoOn(); //open motif info element
     cy.maxZoom(4); //limit zoom
     cy.animate({
       fit: {
@@ -116,14 +117,16 @@ function thanksOn() {
 }
 function menuOff() {
   document.getElementById("overlay").style.display = "none";
-  document.getElementById("about").style.display = "none";
-  document.getElementById("thanks").style.display = "none";
+  document.getElementsByClassName("menu").style.display = "none";
 }
 
 // Motif/Song info
 
 function motifInfoOn() {
   document.getElementById("motifinfo").style.display = "block";
+}
+function motifInfoOff() {
+  document.getElementById("motifinfo").style.display = "none";
 }
 
 function songInfoOn() {
