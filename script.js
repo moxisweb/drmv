@@ -72,6 +72,7 @@ cy.on('tap', 'edge', function(e){
   cy.elements().removeClass('fade');
   cy.elements().removeClass('highlight');
   cy.elements().removeStyle();
+  motifInfoOff();
   var edge = e.target;
   if ( "motif" in edge.data() ) {
     var m = edge.data("motif");
@@ -117,7 +118,8 @@ function thanksOn() {
 }
 function menuOff() {
   document.getElementById("overlay").style.display = "none";
-  document.getElementsByClassName("menu").style.display = "none";
+  document.getElementById("about").style.display = "none";
+  document.getElementById("thanks").style.display = "none";
 }
 
 // Motif/Song info
