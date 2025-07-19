@@ -80,7 +80,7 @@ cy.on('tap', 'edge', function(e){
       edge.addClass("highlight");
     });
     cy.nodes("node." + m).forEach(function(node) { //color node borders
-      node.style("border-color", "'" + mc + "'");
+      node.style("border-color", "yellow");
     });
     cy.edges().difference("edge[motif = '" + m + "']").forEach(function(edge) { //fade other edges
       edge.addClass("fade");
