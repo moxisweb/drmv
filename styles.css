@@ -130,11 +130,12 @@ button {
   display: none;
   top: 10%;
   margin-left: auto;
-  padding: 0px 10px;
+  padding: 10px 0px;
   font-family: '8bitoperator';
   font-size: 18px;
   background-color: #080808;
   outline: 1.4px solid rgb(90, 36, 82);
+  color: rgb(90, 36, 82);
   z-index: 1;
 }
 #songinfo{

@@ -89,6 +89,31 @@ cy.on('tap', 'edge', function(e){
       case "nightmare":
         mn = "Your Best Nightmare";
         break;
+      case "neo":
+        mn = "Power of NEO";
+        break;
+      case "gaster":
+        mn = "Gaster's Theme";
+        break;
+      case "hopes":
+        mn = "Hopes and Dreams";
+        break;
+      case "door":
+        mn = "The Door / Nightmare Knight";
+        break;
+      case "legend":
+        mn = "The Legend";
+        break;
+      case "freedom":
+        mn = "Freedom Theme / The World Revolving";
+        break;
+      case "sweet":
+        mn = "Sweet Cap'n Cakes";
+        break;
+      case "girl":
+        mn = "Girl Next Door / Lost Girl";
+      default:
+        mn = m;
     }
     var mc = edge.style("line-color");
     cy.edges("edge[motif = '" + m + "']").forEach(function(edge) { //highlight edges
@@ -103,7 +128,7 @@ cy.on('tap', 'edge', function(e){
     cy.nodes().difference("node." + m).forEach(function(node) { //fade other nodes
       node.addClass("fade");
     });
-    document.getElementById('motifname').innerHTML = m;
+    document.getElementById('motifname').innerHTML = mn;
     motifInfoOn(); //open motif info element
     cy.maxZoom(4); //limit zoom
     cy.animate({
