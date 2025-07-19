@@ -128,13 +128,13 @@ button {
 #motifinfo{
   position: absolute;
   display: none;
-  top: 15%;
-  left: 50%;
+  top: 10%;
+  margin-left: auto;
+  padding: 0px 10px;
   font-family: '8bitoperator';
-  font-size: 16px;
+  font-size: 18px;
   background-color: #080808;
-  outline: 1.4px solid purple;
-  border-radius: 10px;
+  outline: 1.4px solid rgb(90, 36, 82);
   z-index: 1;
 }
 #songinfo{
@@ -145,7 +145,7 @@ button {
   top: 0px;
   padding: 40px 30px;
   font-size: 16px;
-  background-color: rgb(10, 10, 12);
+  background-color: rgb(90, 36, 82);
   outline: 1.4px dotted purple;
   border-radius: 20px;
   z-index: 1;
