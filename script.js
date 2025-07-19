@@ -89,6 +89,7 @@ cy.on('tap', 'edge', function(e){
     cy.nodes().difference("node." + m).forEach(function(node) { //fade other nodes
       node.addClass("fade");
     });
+    document.getElementById('motifname').innerHTML = m;
     motifInfoOn(); //open motif info element
     cy.maxZoom(4); //limit zoom
     cy.animate({

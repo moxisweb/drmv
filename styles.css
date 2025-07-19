@@ -119,7 +119,7 @@ button {
   font-size: 42px;
   opacity: 80%;
   font-family: '8bitoperator';
-  top: 15%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
@@ -128,9 +128,9 @@ button {
 #motifinfo{
   position: absolute;
   display: none;
-  left: 0px;
-  top: 0px;
-  padding: 0px 10px;
+  top: 15%;
+  left: 50%;
+  font-family: '8bitoperator';
   font-size: 16px;
   background-color: #080808;
   outline: 1.4px solid purple;
