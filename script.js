@@ -24,7 +24,7 @@ var cy = cytoscape({
     quality: "proof"
   },
   minZoom: 1,
-  maxZoom: 7,
+  maxZoom: 6,
   wheelSensitivity: 1.2,
   style: dataArray[0],
   elements: dataArray[1]
@@ -64,6 +64,7 @@ cy.on('tap', function(e){
    if (e.target === cy)  {
       cy.elements().removeClass('fade');
       cy.elements().removeClass('highlight');
+      cy.elements().removeStyle();
    }
 });
 
@@ -71,11 +72,12 @@ cy.on('tap', 'edge', function(e){
   var edge = e.target;
   if ( "motif" in edge.data() ) {
     var m = edge.data("motif");
+    var mc = edge.style("line-color");
     cy.edges("edge[motif = '" + m + "']").forEach(function(edge) {
       edge.addClass("highlight");
     });
     cy.nodes("node." + m).forEach(function(node) {
-      node.addClass("highlight");
+      node.style("border-color", "'" + m + "'");
     });
     cy.edges().difference("edge[motif = '" + m + "']").forEach(function(edge) {
       edge.addClass("fade");

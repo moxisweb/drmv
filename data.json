@@ -10,7 +10,7 @@
     { "data": { "id": "007", "label": "Anticipation", "img": "img/007.jpg" }, "classes": ["undertale", "anticipation"] },
     { "data": { "id": "010", "label": "Ghost", "img": "img/010.jpg" }, "classes": ["undertale", "ghost"] },
     { "data": { "id": "011", "label": "Determination", "img": "img/011.jpg" }, "classes": ["undertale", "determination"] },
-    { "data": { "id": "012", "label": "Home", "img": "img/012.jpg" }, "classes": ["undertale", "home"] },
+    { "data": { "id": "012", "label": "Home", "img": "img/012.jpg" }, "classes": ["undertale", "once", "home"] },
     { "data": { "id": "022", "label": "Snowdin Town", "img": "img/022.jpg" }, "classes": ["undertale", "snowdin"] },
     { "data": { "id": "028", "label": "Premonition", "img": "img/028.jpg" }, "classes": ["undertale", "premonition"] },
     { "data": { "id": "036", "label": "Dummy!", "img": "img/036.jpg" }, "classes": ["undertale", "ghost", "dummy"] },
