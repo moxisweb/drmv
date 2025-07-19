@@ -120,13 +120,13 @@ cy.on('tap', 'edge', function(e){
     cy.edges("edge[motif = '" + m + "']").forEach(function(edge) { //highlight edges
       edge.addClass("highlight");
     });
-    cy.nodes("node." + m).forEach(function(node) { //color node borders
+    cy.nodes("node.'" + m + "'").forEach(function(node) { //color node borders
       node.style("border-color", mc );
     });
     cy.edges().difference("edge[motif = '" + m + "']").forEach(function(edge) { //fade other edges
       edge.addClass("fade");
     });
-    cy.nodes().difference("node." + m).forEach(function(node) { //fade other nodes
+    cy.nodes().difference("node.'" + m + "'").forEach(function(node) { //fade other nodes
       node.addClass("fade");
     });
     document.getElementById('motifname').innerHTML = mn;
@@ -134,7 +134,7 @@ cy.on('tap', 'edge', function(e){
     cy.maxZoom(4); //limit zoom
     cy.animate({
       fit: {
-        eles: cy.nodes("node." + m),
+        eles: cy.nodes("node.'" + m + "'"),
         padding: 40
       }
     },
