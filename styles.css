@@ -164,11 +164,11 @@ button {
   z-index: 1;
 }
 #closebtn{
-  position: relative;
-  top: 0px;
-  right: 0px;
+  position: absolute;
+  float: right;
   font-family: 'arial';
   font-weight: bold;
   font-size: 22px;
+  color: rgb(90, 36, 82);
   cursor: pointer;
 }
