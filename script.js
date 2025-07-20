@@ -17,8 +17,7 @@ var cy = cytoscape({
     infinite: true,
     fit: false,
     ungrabifyWhileSimulating: true,
-    avoidOverlap: true,
-    edgeSymDiffLength: 10,
+    avoidOverlap: true
   },
   minZoom: 1,
   maxZoom: 6,
