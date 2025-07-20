@@ -50,9 +50,9 @@
     {
       "selector": "edge",
       "style": {
-        "width": 0.4,
+        "width": 0.5,
         "line-color": "LightGrey",
-        "opacity": 0.6,
+        "opacity": 0.5,
         "curve-style": "unbundled-bezier",
         "control-point-step-size": 8,
         "target-arrow-color": "LightGrey",
@@ -195,7 +195,6 @@
     {
         "selector": "edge.highlight",
         "style": {
-          "width": 0.5,
           "opacity": 1
         }
     }

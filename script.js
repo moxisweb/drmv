@@ -17,11 +17,11 @@ var cy = cytoscape({
     randomize: true,
     animate: true,
     fit: true,
-    nodeRepulsion: 20000,
+    nodeRepulsion: 40000,
     componentSpacing: 80,
     nodeOverlap: 200,
     gravity: 0.5,
-    idealEdgeLength: 60,
+    idealEdgeLength: 40,
     quality: "proof"
   },
   minZoom: 0.8,
