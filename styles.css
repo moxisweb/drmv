@@ -165,10 +165,10 @@ button {
   z-index: 1;
 }
 #closebtn{
-  margin-left: 15px;
+  position: relative;
+  top: 0px;
+  right: 0px;
   font-weight: bold;
   float: right;
   font-size: 22px;
-  line-height: 20px;
-  transition: 0.3s;
 }
