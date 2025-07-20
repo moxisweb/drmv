@@ -158,7 +158,8 @@ button {
   top: 20%;
   left: 10%;
   width: 260px;
-  font-size: 14px;
+  padding: 0px 10px;
+  font-size: 16px;
   background-color: black;
   outline: 2px solid rgb(90, 36, 82);
   z-index: 1;
@@ -168,6 +169,7 @@ button {
   font-family: 'arial';
   font-weight: bold;
   font-size: 22px;
+  font-stretch: expanded;
   color: rgb(90, 36, 82);
   cursor: pointer;
 }
