@@ -30,16 +30,16 @@ u { /* For links to not be underlined */
 }
 h1 {
   font-family: '8bitoperator';
-  line-height: 80%;
+  line-height: 70%;
 }
 h2 {
   font-family: '8bitoperator';
-  font-size: 31px;
+  font-size: 28px;
 }
 h3 {
   font-family: '8bitoperator';
   column-span: all;
-  font-size: 31px;
+  font-size: 23px;
 }
 #corner {
   position: absolute;
