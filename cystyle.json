@@ -3,8 +3,8 @@
       "selector": "node",
       "style": {
         "shape": "rectangle",
-        "height": "14px",
-        "width": "14px",
+        "height": "16px",
+        "width": "16px",
         "background-image": "data(img)",
         "background-fit": "cover",
         "background-color": "#000",
@@ -50,7 +50,7 @@
     {
       "selector": "edge",
       "style": {
-        "width": 0.5,
+        "width": 0.6,
         "line-color": "LightGrey",
         "opacity": 0.5,
         "curve-style": "unbundled-bezier",

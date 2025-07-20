@@ -21,7 +21,7 @@ var cy = cytoscape({
     componentSpacing: 80,
     nodeOverlap: 200,
     gravity: 0.5,
-    idealEdgeLength: 40,
+    idealEdgeLength: 30,
     quality: "proof"
   },
   minZoom: 0.8,
@@ -167,6 +167,7 @@ cy.on('tap', 'edge', function(e){
       node.addClass("fade");
     });
     document.getElementById('motifname').innerHTML = mn;
+    document.getElementById("motifname").style.color = mc;
     motifInfoOn(); //open motif info element
     cy.maxZoom(4); //limit zoom
     cy.animate({
