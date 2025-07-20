@@ -164,7 +164,6 @@ button {
   z-index: 1;
 }
 #closebtn{
-  position: absolute;
   float: right;
   font-family: 'arial';
   font-weight: bold;
