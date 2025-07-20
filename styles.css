@@ -34,14 +34,14 @@ h1 {
 }
 h2 {
   font-family: '8bitoperator';
-  font-size: 26px;
-  line-height: 80%;
+  font-size: 24px;
+  line-height: 85%;
 }
 h3 {
   font-family: '8bitoperator';
   column-span: all;
   font-size: 24px;
-  line-height: 80%;
+  line-height: 50%;
 }
 #corner {
   position: absolute;
