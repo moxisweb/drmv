@@ -6,7 +6,7 @@
     url("fonts/8bitoperator.otf.woff2") format("woff2");
 }
 body {
-  font-family: 'Times New Roman', Tahoma, '8bitoperator', Arial, sans-serif;
+  font-family: Tahoma, '8bitoperator', Arial, sans-serif;
   color: white;
 }
 #cy {  
@@ -27,7 +27,14 @@ a { /* For links to not be formatted */
 u { /* For links to not be underlined */
   color: purple;
 }
+h1 {
+  font-family: '8bitoperator';
+}
+h2 {
+  font-family: '8bitoperator';
+}
 h3 {
+  font-family: '8bitoperator';
   column-span: all;
   font-size: 20px;
 }
@@ -46,7 +53,6 @@ h3 {
   background-color: black;
   outline: 2px solid rgb(90, 36, 82);
   font-size: 16px;
-  font-family: '8bitoperator', Tahoma;
   line-height: 0.1;
   padding: 0px 0px 10px 10px;
   z-index: 1;
@@ -109,7 +115,7 @@ button {
   font-size: 16px;
   background-color: black;
   outline: 2px solid rgb(90, 36, 82);
-  padding: 20px 45px;
+  padding: 20px 30px;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   z-index: 2;
