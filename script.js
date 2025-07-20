@@ -13,7 +13,12 @@ Promise.all([
 var cy = cytoscape({
   container: document.getElementById('cy'),
   layout: {
-    name: 'cola'
+    name: 'cola',
+    infinite: true,
+    fit: false,
+    ungrabifyWhileSimulating: true,
+    avoidOverlap: true,
+    edgeSymDiffLength: 10,
   },
   minZoom: 1,
   maxZoom: 6,
