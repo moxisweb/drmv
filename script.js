@@ -187,9 +187,9 @@ cy.on('tap', 'edge', function(e){
 
 // Welcome message
 
-function welcomeOff() {
-  document.getElementById("welcome").style.display = "none"; //tbd
-}
+/* function welcomeOff() {
+  document.getElementById("welcome").style.display = "none";
+} */
 
 // Menu buttons
 
