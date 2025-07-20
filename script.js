@@ -150,6 +150,9 @@ cy.on('tap', 'edge', function(e){
       case "powers":
         mn = "Powers Combined";
         break;
+      case "dummy":
+        mn = "Dummy!";
+        break;
       default:
         mn = m;
     }
@@ -159,6 +162,7 @@ cy.on('tap', 'edge', function(e){
     });
     cy.nodes("node." + m).forEach(function(node) { //color node borders
       node.style("border-color", mc );
+      node.style("border-width", 0.4 );
     });
     cy.edges().difference("edge[motif = '" + m + "']").forEach(function(edge) { //fade other edges
       edge.addClass("fade");

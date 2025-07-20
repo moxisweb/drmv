@@ -8,7 +8,7 @@
         "background-image": "data(img)",
         "background-fit": "cover",
         "background-color": "#000",
-        "border-width": 0.4,
+        "border-width": 0.5,
         "border-color": "#3d1f3d",
         "label": "data(label)",
         "font-size": 4,
@@ -50,7 +50,7 @@
     {
       "selector": "edge",
       "style": {
-        "width": 0.6,
+        "width": 0.7,
         "line-color": "LightGrey",
         "opacity": 0.5,
         "curve-style": "unbundled-bezier",
@@ -195,7 +195,8 @@
     {
         "selector": "edge.highlight",
         "style": {
-          "opacity": 1
+          "opacity": 1,
+          "width": 0.6
         }
     }
   ]
