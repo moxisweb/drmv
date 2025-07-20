@@ -2,9 +2,9 @@
   font-family: "8bitoperator";
   src:
     local("8bitoperator"),
-    url("fonts/8bitoperator_jve.ttf") format("truetype"),
     url("fonts/8bitoperator.otf") format("opentype"),
-    url("fonts/8bitoperator.otf.woff2") format("woff2");
+    url("fonts/8bitoperator.otf.woff2") format("woff2"),
+    url("fonts/8bitoperator_jve.ttf") format("truetype");
 }
 body {
   font-family: 'Times New Roman', Tahoma, '8bitoperator', Arial, sans-serif;
@@ -30,14 +30,16 @@ u { /* For links to not be underlined */
 }
 h1 {
   font-family: '8bitoperator';
+  line-height: 80%;
 }
 h2 {
   font-family: '8bitoperator';
+  font-size: 31px;
 }
 h3 {
   font-family: '8bitoperator';
   column-span: all;
-  font-size: 21px;
+  font-size: 31px;
 }
 #corner {
   position: absolute;
