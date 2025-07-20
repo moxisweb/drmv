@@ -123,6 +123,9 @@ cy.on('tap', 'edge', function(e){
       case "holy":
         mn = "The Holy";
         break;
+      case "rude":
+        mn = "Rude Buster";
+        break;
       case "scarletforest":
         mn = "Scarlet Forest";
         break;
