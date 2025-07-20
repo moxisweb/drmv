@@ -184,7 +184,6 @@
     { "data": { "source": "126", "target": "229", "motif": "rouxls" }, "classes": ["strong"] },
     { "data": { "source": "109", "target": "229", "motif": "Lancer" } },
     { "data": { "source": "202", "target": "230", "motif": "girl" }, "classes": ["strong"] },
-    { "data": { "source": "139", "target": "230", "motif": "dont" }, "classes": ["weak"] },
     { "data": { "source": "202", "target": "231", "motif": "girl" }, "classes": ["strong"] },
     { "data": { "source": "230", "target": "231", "motif": "girl" } },
     { "data": { "source": "220", "target": "232", "motif": "Queen" }, "classes": ["strong"] },
