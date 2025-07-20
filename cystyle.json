@@ -50,9 +50,9 @@
     {
       "selector": "edge",
       "style": {
-        "width": 0.3,
+        "width": 0.4,
         "line-color": "LightGrey",
-        "opacity": 0.8,
+        "opacity": 0.6,
         "curve-style": "unbundled-bezier",
         "control-point-step-size": 8,
         "target-arrow-color": "LightGrey",
@@ -65,9 +65,7 @@
     {
       "selector": ".weak",
       "style": {
-        "width": 0.4,
-        "line-style": "dotted",
-        "opacity": 0.6
+        "line-style": "dotted"
       }
     },
     {
