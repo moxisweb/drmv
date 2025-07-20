@@ -99,7 +99,7 @@
       }
     },
     {
-      "selector": "[motif = 'The Holy']",
+      "selector": "[motif = 'holy']",
       "style": {
         "line-color": "LightGreen",
         "target-arrow-color": "LightGreen"
@@ -162,7 +162,7 @@
       }
     },
     {
-      "selector": "[motif = 'BIG SHOT']",
+      "selector": "[motif = 'bigshot']",
       "style": {
         "line-color": "hotpink",
         "target-arrow-color": "hotpink"

@@ -13,15 +13,10 @@ Promise.all([
 var cy = cytoscape({
   container: document.getElementById('cy'),
   layout: {
-    name: 'fcose',
+    name: 'cola',
     randomize: true,
     animate: true,
-    fit: true,
-    nodeRepulsion: 12500,
-    componentSpacing: 80,
-    nodeOverlap: 20,
-    gravity: 1,
-    quality: "proof"
+    animationDuration: 1000
   },
   minZoom: 1,
   maxZoom: 6,
@@ -122,7 +117,7 @@ cy.on('tap', 'edge', function(e){
       case "holy":
         mn = "The Holy";
         break;
-      case "ScarletForest":
+      case "scarletforest":
         mn = "Scarlet Forest";
         break;
       case "cardcastle":
