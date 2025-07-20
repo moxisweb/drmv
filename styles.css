@@ -157,7 +157,7 @@ button {
   position: absolute;
   top: 20%;
   left: 10%;
-  width: 310px;
+  width: 320px;
   padding: 0px 10px;
   font-size: 16px;
   background-color: black;
@@ -166,11 +166,10 @@ button {
 }
 #closebtn{
   float: right;
-  padding: 15px;
+  padding: 10px 7px;
   font-family: 'arial';
   font-weight: bold;
   font-size: 24px;
-  font-stretch: 200%;
   color: rgb(90, 36, 82);
   cursor: pointer;
 }
