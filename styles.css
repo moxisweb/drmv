@@ -2,11 +2,12 @@
   font-family: "8bitoperator";
   src:
     local("8bitoperator"),
+    url("fonts/8bitoperator_jve.ttf") format("truetype"),
     url("fonts/8bitoperator.otf") format("opentype"),
     url("fonts/8bitoperator.otf.woff2") format("woff2");
 }
 body {
-  font-family: Tahoma, '8bitoperator', Arial, sans-serif;
+  font-family: 'Times New Roman', Tahoma, '8bitoperator', Arial, sans-serif;
   color: white;
 }
 #cy {  
@@ -36,7 +37,7 @@ h2 {
 h3 {
   font-family: '8bitoperator';
   column-span: all;
-  font-size: 20px;
+  font-size: 21px;
 }
 #corner {
   position: absolute;
@@ -112,10 +113,10 @@ button {
   width: 480px;
   top: 50%;
   left: 50%;
+  padding: 0px 30px 20px 30px;
   font-size: 16px;
   background-color: black;
   outline: 2px solid rgb(90, 36, 82);
-  padding: 20px 30px;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   z-index: 2;
@@ -172,7 +173,7 @@ button {
 }
 #closebtn{
   float: right;
-  padding: 10px 5px;
+  padding: 10px 0px;
   font-family: 'arial';
   font-weight: bold;
   font-size: 24px;
