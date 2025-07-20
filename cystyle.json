@@ -57,7 +57,7 @@
         "control-point-step-size": 8,
         "target-arrow-color": "LightGrey",
         "target-arrow-shape": "triangle",
-        "arrow-scale": 0.25,
+        "arrow-scale": 0.3,
         "target-distance-from-node": 2,
         "target-endpoint": "outside-to-line-or-label"
       }
