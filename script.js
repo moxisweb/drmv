@@ -50,16 +50,7 @@ var fulllayout = cy.layout({
 });
 fulllayout.run(); */
 
-//////////////////////////////////////////////////////////////
-
-// Interactive function: tap node to select + open song info (WIP)
-
-/* cy.on('tap', 'node', function (e) {
-    var node = e.target;
-        node.addClass('highlight');
-}); */
-
-// Interactive function: tap edge to color shared motif (WIP)
+// Interactive functions
 
 cy.on('tap', function(e){
    if (e.target === cy)  {
@@ -67,8 +58,26 @@ cy.on('tap', function(e){
       cy.elements().removeClass('highlight');
       cy.elements().removeStyle();
       motifInfoOff();
+      songInfoOff();
    }
 });
+
+// WIP
+
+/* cy.on('tap', 'node', function(e){
+  var node = e.target;
+  var sName = node.data("label");
+  document.getElementById('songname').innerHTML = sName;
+  var nId = node.id();
+  var sRelease = "no data";
+  if (nId < 100) { sRelease = "Undertale"; } else
+  if (nId < 200) { sRelease = "Chapter 1"; } else
+  if (nId < 300) { sRelease = "Chapter 2"; } else
+  if (nId < 339) { sRelease = "Chapter 3"; } else
+  if (nId > 999) { sRelease = "Other"; }
+  document.getElementById('songrelease').innerHTML = sRelease;
+  songInfoOn();
+}); */
 
 cy.on('tap', 'edge', function(e){
   cy.elements().removeClass('fade');
@@ -81,83 +90,32 @@ cy.on('tap', 'edge', function(e){
     var m = edge.data("motif");
     var mn = "no data";
     switch (m) {
-      case "once":
-        mn = "Once Upon a Time";
-        break;
-      case "ghost":
-        mn = "Ghost Fight";
-        break;
-      case "dont":
-        mn = "Don't Forget";
-        break;
-      case "nightmare":
-        mn = "Your Best Nightmare";
-        break;
-      case "neo":
-        mn = "Power of NEO";
-        break;
-      case "gaster":
-        mn = "Gaster's Theme";
-        break;
-      case "hopes":
-        mn = "Hopes and Dreams";
-        break;
-      case "door":
-        mn = "The Door / Nightmare Knight";
-        break;
-      case "girl":
-        mn = "Girl Next Door / Lost Girl";
-        break;
-      case "legend":
-        mn = "The Legend";
-        break;
-      case "freedom":
-        mn = "Freedom Theme / The World Revolving";
-        break;
-      case "bigshot":
-        mn = "BIG SHOT";
-        break;
-      case "hey":
-        mn = "HEY EVERY !";
-        break;
-      case "holy":
-        mn = "The Holy";
-        break;
-      case "rude":
-        mn = "Rude Buster";
-        break;
-      case "scarletforest":
-        mn = "Scarlet Forest";
-        break;
-      case "cardcastle":
-        mn = "Card Castle";
-        break;
-      case "sweet":
-        mn = "Sweet Cap'n Cakes";
-        break;
-      case "DarknessFalls":
-        mn = "Darkness Falls";
-        break;
-      case "cyber":
-        mn = "A CYBER'S WORLD";
-        break;
-      case "rouxls":
-        mn = "Rouxls Kaard";
-        break;
-      case "pandora":
-        mn = "Pandora Palace";
-        break;
-      case "burn":
-        mn = "Burn in Despair!";
-        break;
-      case "powers":
-        mn = "Powers Combined";
-        break;
-      case "dummy":
-        mn = "Dummy!";
-        break;
-      default:
-        mn = m;
+      case "once": mn = "Once Upon a Time"; break;
+      case "ghost": mn = "Ghost Fight"; break;
+      case "dont": mn = "Don't Forget"; break;
+      case "nightmare": mn = "Your Best Nightmare"; break;
+      case "neo": mn = "Power of NEO"; break;
+      case "gaster": mn = "Gaster's Theme"; break;
+      case "hopes": mn = "Hopes and Dreams"; break;
+      case "door": mn = "The Door / Nightmare Knight"; break;
+      case "girl": mn = "Girl Next Door / Lost Girl"; break;
+      case "legend": mn = "The Legend"; break;
+      case "freedom": mn = "Freedom Theme / The World Revolving"; break;
+      case "bigshot": mn = "BIG SHOT"; break;
+      case "hey": mn = "HEY EVERY !"; break;
+      case "holy": mn = "The Holy"; break;
+      case "rude": mn = "Rude Buster"; break;
+      case "scarletforest": mn = "Scarlet Forest"; break;
+      case "cardcastle": mn = "Card Castle"; break;
+      case "sweet": mn = "Sweet Cap'n Cakes"; break;
+      case "darknessfalls": mn = "Darkness Falls"; break;
+      case "cyber": mn = "Cyber's World"; break;
+      case "rouxls": mn = "Rouxls Kaard"; break;
+      case "pandora": mn = "Pandora Palace"; break;
+      case "burn": mn = "Burn in Despair!"; break;
+      case "powers": mn = "Powers Combined"; break;
+      case "dummy": mn = "Dummy!"; mn = "Dummy!"; break;
+      default: mn = m;
     }
     var mc = edge.style("line-color");
     cy.edges("edge[motif = '" + m + "']").forEach(function(edge) { //highlight edges
@@ -192,13 +150,7 @@ cy.on('tap', 'edge', function(e){
 
 });
 
-// Welcome message
-
-/* function welcomeOff() {
-  document.getElementById("welcome").style.display = "none";
-} */
-
-// Menu buttons
+// Menus
 
 function aboutOn() {
   document.getElementById("overlay").style.display = "block";
@@ -225,4 +177,7 @@ function motifInfoOff() {
 
 function songInfoOn() {
   document.getElementById("songinfo").style.display = "block";
+}
+function songInfoOff() {
+  document.getElementById("songinfo").style.display = "none";
 }

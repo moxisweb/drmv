@@ -5,7 +5,7 @@
   <meta property="og:title" content="Mox's Deltarune Music Visualizer">
   <meta property="og:description" content="A fan-made graph of songs and leitmotifs.">
   <meta property="og:image" content="img/embed_thumb.png">
-  <meta name="theme-color" content="purple">
+  <meta name="theme-color" content="#800080">
   <title>Deltarune Music Visualizer</title>
   <link rel="stylesheet" href="styles.css">
   <script src="https://cdnjs.cloudflare.com/polyfill/v2/polyfill.min.js?features=Promise,fetch"></script>
@@ -22,14 +22,14 @@
     <p>Leitmotif: <span id="motifname"></span></p>
   </div>
 
-<!--   <div id="songinfo">
-    <h2>[Song Title]</h2>
-    <p>Released on Chapter [Chapter Number]</p>
+  <div id="songinfo">
+    <span id="closebtn" onclick="this.parentElement.style.display='none';">X</span>
+    <h2><span id="songname"></span></h2>
+    <p>Released: <span id="songrelease"></span></p>
     <p>Listen on [Bandcamp] or [Youtube]</p>
-    <p>Appears in: [Chapter list]</p>
-    <p>Leitmotifs appearing in [Song]:</p>
-    <p>Tracks that [Song] references:</p>
-  </div> -->
+    <p>Leitmotifs:</p>
+    <h2>This feature is a work in progress</h2>
+  </div>
 
   <div id="welcome">
     <span id="closebtn" onclick="this.parentElement.style.display='none';">X</span>

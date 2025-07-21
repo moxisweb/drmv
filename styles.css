@@ -42,6 +42,17 @@ h3 {
   column-span: all;
   font-size: 22px;
 }
+#welcome{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 360px;
+  padding: 0px 15px;
+  font-size: 16px;
+  background-color: #080808;
+  outline: 2px solid rgb(90, 36, 82);
+  z-index: 2;
+}
 #corner {
   position: absolute;
   column-count: 2;
@@ -85,6 +96,15 @@ h3 {
   background-color: rgba(0,0,0,0.6); /* Black background with opacity */
   z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer; /* Add a pointer on hover */
+}
+#closebtn{
+  float: right;
+  padding: 10px 0px;
+  font-family: 'arial';
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(90, 36, 82);
+  cursor: pointer;
 }
 button {
   background-color: #080808;
@@ -152,34 +172,12 @@ button {
 }
 #songinfo{
   position: absolute;
-  width: 350px;
-  height: 100%;
-  left: 0px;
-  top: 0px;
-  padding: 40px 30px;
-  font-size: 16px;
-  background-color: #080808;
-  outline: 1.4px dotted purple;
-  border-radius: 20px;
-  z-index: 1;
-}
-#welcome{
-  position: absolute;
-  top: 20%;
+  display: none;
   left: 10%;
-  width: 360px;
+  top: 5%;
   padding: 0px 15px;
   font-size: 16px;
   background-color: #080808;
-  outline: 2px solid rgb(90, 36, 82);
+  outline: 1.4px solid rgb(90, 36, 82);
   z-index: 1;
-}
-#closebtn{
-  float: right;
-  padding: 10px 0px;
-  font-family: 'arial';
-  font-weight: bold;
-  font-size: 24px;
-  color: rgb(90, 36, 82);
-  cursor: pointer;
 }

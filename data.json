@@ -125,7 +125,7 @@
     { "data": { "source": "011", "target": "110", "motif": "Determination" }, "classes": ["weak"] },
     { "data": { "source": "108", "target": "111", "motif": "legend" }, "classes": ["strong"] },
     { "data": { "source": "139", "target": "113", "motif": "dont" } },
-    { "data": { "source": "110", "target": "115", "motif": "rude" } },
+    { "data": { "source": "110", "target": "115", "motif": "rudebuster" } },
     { "data": { "source": "109", "target": "116", "motif": "Lancer" }, "classes": ["strong"] },
     { "data": { "source": "119", "target": "118", "motif": "scarletforest" } },
     { "data": { "source": "139", "target": "119", "motif": "dont" } },
