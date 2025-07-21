@@ -18,7 +18,7 @@ body {
   left: 0px;
   background-image: url("img/bg0089.png");
   background-size: 900px;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.5);
   background-blend-mode: multiply;
 }
 a { /* For links to not be formatted */
