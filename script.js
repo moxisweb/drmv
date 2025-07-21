@@ -148,6 +148,7 @@ function fullMotif(m) {
       case "dummy": mn = "Dummy!"; mn = "Dummy!"; break;
       default: mn = m;
     }
+    return mn;
 }
 
 // Menus
