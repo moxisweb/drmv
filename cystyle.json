@@ -24,13 +24,13 @@
       }
     },
     {
-      "selector": ".undertale",
+      "selector": "[ost = 'Undertale']",
       "style": {
         "border-color": "#1E4E1E"
       }
     },
     {
-      "selector": ".extra",
+      "selector": "[ost = 'Other']",
       "style": {
         "border-color": "#595959"
       }
