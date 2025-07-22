@@ -42,10 +42,6 @@ h3 {
   column-span: all;
   font-size: 22px;
 }
-td {
-  text-align: left;
-  vertical-align: top;
-}
 #wip{
   position: absolute;
   top: 60%;
@@ -173,17 +169,22 @@ button {
 #songinfo{
   position: absolute;
   display: none;
-  left: 0px;
+  left: 2px;
   top: 10%;
   height: 60%;
   width: 300px;
-  padding: 0px 15px 0px 0px;
+  padding: 0px 15px 0px 15px;
   background-color: #080808;
   outline: 1.4px solid rgb(90, 36, 82);
   z-index: 1;
 }
 #songimg{
   float: left;
-  padding: 25px 25px;
-  border: 1.4px solid #3d1f3d;
+}
+td {
+  text-align: left;
+  vertical-align: sub;
+  font-family: '8bitoperator';
+  font-size: 18px;
+  color: rgb(90, 36, 82);
 }
