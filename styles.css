@@ -42,7 +42,7 @@ h3 {
   column-span: all;
   font-size: 22px;
 }
-table {
+td {
   text-align: left;
   vertical-align: top;
 }
@@ -150,7 +150,7 @@ button {
   position: absolute;
   top: 20%;
   left: 8%;
-  padding: 0px 15px 0px 10px;
+  padding: 0px 15px 0px 15px;
   background-color: #080808;
   outline: 1.4px solid rgb(90, 36, 82);
   z-index: 2;
@@ -185,5 +185,5 @@ button {
 #songimg{
   float: left;
   padding: 25px 25px;
-  outline: 1.4px solid rgb(90, 36, 82);
+  border: 1.4px solid #3d1f3d;
 }
