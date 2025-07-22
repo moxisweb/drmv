@@ -170,10 +170,10 @@ button {
   position: absolute;
   display: none;
   left: 2px;
-  top: 10%;
-  height: 60%;
+  top: 5%;
+  height: 50%;
   width: 300px;
-  padding: 0px 15px 0px 15px;
+  padding: 15px 15px 0px 15px;
   background-color: #080808;
   outline: 1.4px solid rgb(90, 36, 82);
   z-index: 1;
@@ -187,4 +187,7 @@ td {
   font-family: '8bitoperator';
   font-size: 18px;
   color: rgb(90, 36, 82);
+}
+img {
+  border: 1px solid #3d1f3d;
 }
