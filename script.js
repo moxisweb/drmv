@@ -39,7 +39,6 @@ cy.on('tap', function(e){
       cy.elements().removeClass('highlight');
       cy.elements().removeStyle();
       motifInfoOff();
-      songInfoOff();
    }
 });
 

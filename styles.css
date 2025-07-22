@@ -42,16 +42,20 @@ h3 {
   column-span: all;
   font-size: 22px;
 }
-#welcome{
+table {
+  text-align: left;
+  vertical-align: top;
+}
+#wip{
   position: absolute;
-  top: 20%;
-  left: 8%;
-  width: 370px;
-  padding: 0px 15px;
-  font-size: 16px;
-  background-color: #080808;
-  outline: 2px solid rgb(90, 36, 82);
-  z-index: 2;
+  top: 60%;
+  left: 50%;
+  opacity: 50%;
+  font-family: '8bitoperator';
+  font-size: 42px;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  z-index: 1;
 }
 #corner {
   position: absolute;
@@ -66,8 +70,7 @@ h3 {
   height: 130px;
   width: 380px;
   background-color: #080808;
-  outline: 2px solid rgb(90, 36, 82);
-  font-size: 16px;
+  outline: 1.4px solid rgb(90, 36, 82);
   line-height: 0.1;
   padding: 0px 0px 10px 10px;
   z-index: 1;
@@ -136,24 +139,21 @@ button {
   width: 480px;
   top: 50%;
   left: 50%;
-  padding: 0px 30px 20px 30px;
-  font-size: 16px;
+  padding: 0px 25px 20px 25px;
   background-color: #080808;
-  outline: 2px solid rgb(90, 36, 82);
+  outline: 1.4px solid rgb(90, 36, 82);
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   z-index: 2;
 }
-#wip{
+#welcome{
   position: absolute;
-  top: 5%;
-  left: 50%;
-  opacity: 70%;
-  font-family: '8bitoperator';
-  font-size: 42px;
-  transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  z-index: 1;
+  top: 20%;
+  left: 8%;
+  padding: 0px 15px 0px 10px;
+  background-color: #080808;
+  outline: 1.4px solid rgb(90, 36, 82);
+  z-index: 2;
 }
 #motifinfo{
   position: absolute;
@@ -176,14 +176,14 @@ button {
   left: 0px;
   top: 10%;
   height: 60%;
-  width: 320px;
-  padding: 0px 15px;
-  font-size: 16px;
+  width: 300px;
+  padding: 0px 15px 0px 0px;
   background-color: #080808;
   outline: 1.4px solid rgb(90, 36, 82);
   z-index: 1;
 }
 #songimg{
   float: left;
-  padding: 25px 10px;
+  padding: 25px 25px;
+  outline: 1.4px solid rgb(90, 36, 82);
 }
