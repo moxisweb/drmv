@@ -181,3 +181,10 @@ button {
   outline: 1.4px solid rgb(90, 36, 82);
   z-index: 1;
 }
+#infoimg{
+  float: left;
+  padding: 10px 0px;
+  font-size: 24px;
+  color: rgb(90, 36, 82);
+  cursor: pointer;
+}

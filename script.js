@@ -31,26 +31,7 @@ var cy = cytoscape({
   elements: dataArray[1]
 });
 
-/* const array1 = cy.nodes();
-array1.forEach(function( ele ){
-  if ("ori1" in ele.data()) {
-    for (let i = (ele.data().ori1.length) - 1 ; i > -1 ; i--) {
-      cy.add({
-        group: 'edges',
-        data: { source: ele.data().ori1[i], target: ele.id() },
-        classes: ['ori1']
-      })
-    }
-  }
-  return 0;
-});
-
-var fulllayout = cy.layout({
-  name: 'fcose'
-});
-fulllayout.run(); */
-
-// Interactive functions
+///////////////////////////// Interactive functions
 
 cy.on('tap', function(e){
    if (e.target === cy)  {
@@ -63,12 +44,19 @@ cy.on('tap', function(e){
 });
 
 // WIP
-
 cy.on('tap', 'node', function(e){
   var node = e.target;
   var sName = node.data("label");
-  var sOst = node.data("ost");
   document.getElementById('songname').innerHTML = sName;
+  var sId = node.id();
+  var sOst = "no data";
+  if (sId > 100 && sId < 800) {
+    sOst = "Chapter " + sId.charAt(0);
+  } else if (sId < 100) {
+    sOst = "Undertale";
+  } else {
+    sOst = "Other";
+  }
   document.getElementById('songost').innerHTML = sOst;
   songInfoOn();
 });
