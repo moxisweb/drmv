@@ -175,6 +175,7 @@ button {
   display: none;
   left: 0px;
   top: 10%;
+  height: 60%;
   width: 320px;
   padding: 0px 15px;
   font-size: 16px;
@@ -184,5 +185,5 @@ button {
 }
 #songimg{
   float: left;
-  padding: 10px 0px;
+  padding: 25px 10px;
 }
