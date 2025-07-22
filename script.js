@@ -46,17 +46,19 @@ cy.on('tap', function(e){
 // WIP
 cy.on('tap', 'node', function(e){
   var node = e.target;
-  var sName = node.data("label");
-  document.getElementById('songname').innerHTML = sName;
+    var sImg = node.data("img"); //name & img
+    document.getElementById('songimg').src = sImg;
+    var sName = node.data("label");
+    document.getElementById('songname').innerHTML = sName;
   var sId = node.id();
-  var sOst = "no data";
-  if (sId > 100 && sId < 800) {
-    sOst = "Chapter " + sId.charAt(0);
-  } else if (sId < 100) {
-    sOst = "Undertale";
-  } else {
-    sOst = "Other";
-  }
+  var sOst = "no data"; //ost
+    if (sId > 100 && sId < 800) {
+      sOst = "Chapter " + sId.charAt(0);
+    } else if (sId < 100) {
+      sOst = "Undertale";
+    } else {
+      sOst = "Other";
+    }
   document.getElementById('songost').innerHTML = sOst;
   songInfoOn();
 });

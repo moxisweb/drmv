@@ -173,18 +173,16 @@ button {
 #songinfo{
   position: absolute;
   display: none;
-  left: 10%;
-  top: 5%;
+  left: 0px;
+  top: 10%;
+  width: 320px;
   padding: 0px 15px;
   font-size: 16px;
   background-color: #080808;
   outline: 1.4px solid rgb(90, 36, 82);
   z-index: 1;
 }
-#infoimg{
+#songimg{
   float: left;
   padding: 10px 0px;
-  font-size: 24px;
-  color: rgb(90, 36, 82);
-  cursor: pointer;
 }
