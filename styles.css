@@ -180,7 +180,7 @@ button {
   z-index: 1;
 }
 #songost {
-  padding: 0px 0px 5px 0px;
+  padding-inline: 30px 0px;
   font-family: '8bitoperator';
   font-size: 18px;
   color: rgb(90, 36, 82);
