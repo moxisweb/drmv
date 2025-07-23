@@ -67,6 +67,12 @@ cy.on('tap', 'node', function(e){
   var sYoutube = dataArray[2].songs.find(song => song.id === sId).youtube;
   document.getElementById('songbandcamp').href = sBandcamp; //bandcamp
   document.getElementById('songyoutube').href = sYoutube; //youtube
+  var classlist = node.classes();
+  var htmlOut = '';
+  for (i = 0; i < classlist.length; i++) {
+    htmlOut += '<li>' + fullMotif(classlist[i]) + '</li>';
+  }
+  document.getElementById('motiflist').innerHTML = htmlOut;
   songInfoOn();
 });
 
