@@ -6,6 +6,11 @@
     url("fonts/8bitoperator.otf.woff2") format("woff2"),
     url("fonts/8bitoperator_jve.ttf") format("truetype");
 }
+@media only screen and (max-width: 600px) {
+  #motifinfo {
+    top: 30px;
+  }
+}
 body {
   font-family: 'Times New Roman', 'Tinos', Tahoma, '8bitoperator', Arial, sans-serif;
   color: white;
@@ -136,10 +141,10 @@ button {
 .menu{
   position: absolute;
   display: none;
-  width: 420px;
+  width: 400px;
   top: 50%;
   left: 50%;
-  padding: 0px 20px 20px 25px;
+  padding: 0px 25px 20px 25px;
   background-color: #080808;
   outline: 1.4px solid rgb(90, 36, 82);
   transform: translate(-50%,-50%);
