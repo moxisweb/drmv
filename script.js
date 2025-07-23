@@ -6,9 +6,13 @@ Promise.all([
   fetch('data.json', {mode: 'no-cors'})
     .then(function(res) {
       return res.json()
-    })
+    }),
+  fetch('links.json', {mode: 'no-cors'})
+    .then(function(res) {
+      return res.json()
+    }),
 ])
-  .then(function(dataArray) {
+.then(function(dataArray) {
 
 var cy = cytoscape({
   container: document.getElementById('cy'),
@@ -45,12 +49,12 @@ cy.on('tap', function(e){
 // WIP
 cy.on('tap', 'node', function(e){
   var node = e.target;
-    var sImg = node.data("img"); //name & img
-    document.getElementById('songimg').src = sImg;
-    var sName = node.data("label");
-    document.getElementById('songname').innerHTML = sName;
+  var sImg = node.data("img");
+    document.getElementById('songimg').src = sImg; //img
+  var sName = node.data("label");
+    document.getElementById('songname').innerHTML = sName; //name
   var sId = node.id();
-  var sOst = "no data"; //ost
+  var sOst = "no data";
     if (sId > 100 && sId < 800) {
       sOst = "Chapter " + sId.charAt(0);
     } else if (sId < 100) {
@@ -60,7 +64,11 @@ cy.on('tap', 'node', function(e){
     } else {
       sOst = "Other";
     }
-  document.getElementById('songost').innerHTML = sOst;
+  document.getElementById('songost').innerHTML = sOst; //ost
+  var sBandcamp = dataArray[2].songs.find(song => song.id === sId).bandcamp;
+  var sYoutube = dataArray[2].songs.find(song => song.id === sId).youtube;
+  document.getElementById('songbandcamp').href = sBandcamp; //bandcamp
+  document.getElementById('songyoutube').href = sYoutube; //youtube
   songInfoOn();
 });
 
