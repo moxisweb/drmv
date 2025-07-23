@@ -43,8 +43,8 @@ h3 {
   font-family: '8bitoperator';
   column-span: all;
   font-size: 22px;
-  margin-top: .80em;
-  margin-bottom: .50em;
+  margin-top: .90em;
+  margin-bottom: .60em;
 }
 #wip{
   position: absolute;
@@ -160,7 +160,7 @@ button {
   position: absolute;
   display: none;
   top: 15%;
-  left: 50%;
+  left: 310px;
   padding: 0px 20px;
   font-family: '8bitoperator';
   font-size: 18px;
@@ -171,11 +171,22 @@ button {
   -ms-transform: translate(-50%,-50%);
   z-index: 1;
 }
+#songheader {
+  position: absolute;
+  top: 1px;
+  left: 5%;
+  width: 290px;
+  height: 20px;
+  font-family: '8bitoperator';
+  color: rgb(90, 36, 82);
+  outline: 1.4px solid rgb(90, 36, 82);
+  z-index: 2;
+}
 #songinfo{
   position: absolute;
   display: none;
-  left: 1px;
-  top: 10%;
+  left: 5%;
+  top: 20px;
   height: 50%;
   width: 290px;
   padding: 20px 15px 0px 15px;
@@ -200,10 +211,4 @@ hr {
   border-bottom: 1.6px dotted rgb(90, 36, 82);
   margin: 0px 0px;
   padding: 0px 0px;
-}
-header {
-  font-family: '8bitoperator';
-  font-size: 12px;
-  color: rgb(90, 36, 82);
-  border-bottom: 1.2px solid rgb(90, 36, 82);
 }
