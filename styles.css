@@ -196,6 +196,19 @@ button {
   outline: 1.4px solid rgb(90, 36, 82);
   z-index: 1;
 }
+#foldbtn {
+  position: absolute;
+  bottom: -26px;
+  left: 10px;
+  width: 26px;
+  height: 26px;
+  font-family: 'arial';
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(90, 36, 82);
+  outline: 1.4px solid rgb(90, 36, 82);
+  cursor: pointer;
+}
 #imgost {
   padding: 0px 0px 3px 5px;
 }
