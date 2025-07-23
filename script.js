@@ -69,10 +69,10 @@ cy.on('tap', 'node', function(e){
   document.getElementById('songyoutube').href = sYoutube; //youtube
   var classlist = node.classes();
   var htmlOut = '';
-  for (i = 0; i < classlist.length; i++) {
-    htmlOut += '<li>' + fullMotif(classlist[i]) + '</li>';
-  };
-  document.getElementById('motiflist').innerHTML = htmlOut;
+    for (i = 0; i < classlist.length; i++) {
+      htmlOut += '<li>' + fullMotif(classlist[i]) + '</li>';
+    };
+  document.getElementById('motiflist').innerHTML = htmlOut; //motif list
   songInfoOn();
 });
 
