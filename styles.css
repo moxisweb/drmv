@@ -153,8 +153,8 @@ button {
 }
 #welcome{
   position: absolute;
-  top: 15%;
-  left: 22%;
+  left: 15px;
+  bottom: 10px;
   width: 375px;
   padding: 0px 14px 0px 16px;
   background-color: #080808;
