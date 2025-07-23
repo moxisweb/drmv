@@ -1,9 +1,9 @@
 { "nodes": [
 
-    { "data": { "ost": "Other", "id": "901", "label": "Nightmare Knight (Cucumber Quest)" }, "classes": ["door"] },
-    { "data": { "ost": "Other", "id": "902", "label": "Penumbra Phantasm" }, "classes": ["holy"] },
-    { "data": { "ost": "Other", "id": "801", "label": "man", "img": "img/o01.jpg" }, "classes": ["none"] },
-    { "data": { "ost": "Other", "id": "802", "label": "d.ogg", "img": "img/o02.jpg" }, "classes": ["raiseupyourbat"] },
+    { "data": { "ost": "Other", "id": "901", "label": "Nightmare Knight (Cucumber Quest)", "img": "img/901.jpg" }, "classes": ["door"] },
+    { "data": { "ost": "Other", "id": "902", "label": "Penumbra Phantasm", "img": "img/902.jpg" }, "classes": ["holy"] },
+    { "data": { "ost": "Other", "id": "801", "label": "man", "img": "img/801.jpg" }, "classes": ["none"] },
+    { "data": { "ost": "Other", "id": "802", "label": "d.ogg", "img": "img/802.jpg" }, "classes": ["raiseupyourbat"] },
     { "data": { "ost": "Other", "id": "666", "label": "Gaster's Theme", "img": "img/666.jpg" }, "classes": ["gaster"] },
 
     { "data": { "ost": "Undertale", "id": "001", "label": "Once Upon a Time", "img": "img/001.jpg" }, "classes": ["once"] },
