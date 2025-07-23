@@ -36,13 +36,15 @@ h2 {
   font-family: '8bitoperator';
   font-size: 28px;
   line-height: 85%;
-  margin-top: 0em;
-  margin-bottom: 0em;
+  margin-top: .50em;
+  margin-bottom: .50em;
 }
 h3 {
   font-family: '8bitoperator';
   column-span: all;
   font-size: 22px;
+  margin-top: .50em;
+  margin-bottom: .50em;
 }
 #wip{
   position: absolute;
@@ -188,7 +190,7 @@ img {
   border: 1.3px solid #3d1f3d;
 }
 #songost {
-  padding-inline: 20px 0px;
+  padding-inline: 15px 0px;
   font-family: '8bitoperator';
   font-size: 18px;
   color: rgb(90, 36, 82);

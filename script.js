@@ -148,7 +148,8 @@ function fullMotif(m) {
       case "pandora": mn = "Pandora Palace"; break;
       case "burn": mn = "Burn in Despair!"; break;
       case "powers": mn = "Powers Combined"; break;
-      case "dummy": mn = "Dummy!"; mn = "Dummy!"; break;
+      case "dummy": mn = "Dummy!"; break;
+      case "uwa": mn = "Uwa!! So Temperate♫"; break;
       default: mn = m;
     }
     return mn;
