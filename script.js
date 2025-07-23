@@ -68,8 +68,11 @@ cy.on('tap', 'node', function(e){
   document.getElementById('songbandcamp').href = sBandcamp; //bandcamp
   document.getElementById('songyoutube').href = sYoutube; //youtube
   var classlist = node.classes();
-  var htmlOut = '';
-  document.getElementById('motiflist').innerHTML = htmlOut;
+  var sMotifs = '';
+  for (i = 0; i < classlist.length; i++) {
+    sMotifs += '<li>' + fullMotif(classlist[i]) + '</li>';
+  }
+  document.getElementById('songmotifs').innerHTML = sMotifs;
   songInfoOn();
 });
 

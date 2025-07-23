@@ -36,6 +36,8 @@ h2 {
   font-family: '8bitoperator';
   font-size: 28px;
   line-height: 85%;
+  margin-top: 0em;
+  margin-bottom: 0em;
 }
 h3 {
   font-family: '8bitoperator';
@@ -179,14 +181,17 @@ button {
   outline: 1.4px solid rgb(90, 36, 82);
   z-index: 1;
 }
-#songost {
-  padding-inline: 30px 0px;
-  font-family: '8bitoperator';
-  font-size: 18px;
-  color: rgb(90, 36, 82);
+#imgost {
+  padding: 0px 0px 5px 0px;
 }
 img {
   border: 1.3px solid #3d1f3d;
+}
+#songost {
+  padding-inline: 20px 0px;
+  font-family: '8bitoperator';
+  font-size: 18px;
+  color: rgb(90, 36, 82);
 }
 hr {
   border: none;
