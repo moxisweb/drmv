@@ -70,7 +70,7 @@ cy.on('tap', 'node', function(e){
   var classlist = node.classes();
   var sMotifs = '';
   for (i = 0; i < classlist.length; i++) {
-    sMotifs += '<li>' + fullMotif(classlist[i]) + '</li>';
+    sMotifs += '<li style="color:green" >' + fullMotif(classlist[i]) + '</li>';
   }
   document.getElementById('songmotifs').innerHTML = sMotifs;
   songInfoOn();
