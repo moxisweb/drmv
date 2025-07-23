@@ -149,14 +149,17 @@ button {
 #welcome{
   position: absolute;
   top: 20%;
-  left: 8%;
+  left: 50%;
   width: 370px;
   padding: 0px 15px 0px 15px;
   background-color: #080808;
   outline: 1.4px solid rgb(90, 36, 82);
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
   z-index: 2;
 }
 #motifinfo{
+  position: absolute;
   display: none;
   top: 5%;
   left: 600px;
@@ -166,11 +169,10 @@ button {
   background-color: #080808;
   outline: 1.4px solid rgb(90, 36, 82);
   color: rgb(90, 36, 82);
-  transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
   z-index: 2;
 }
 #songheader {
+  position: absolute;
   top: 1px;
   left: 2%;
   width: 290px;
@@ -183,6 +185,7 @@ button {
   z-index: 2;
 }
 #songinfo{
+  position: absolute;
   display: none;
   left: 2%;
   top: 20px;
