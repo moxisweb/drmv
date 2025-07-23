@@ -70,11 +70,12 @@ cy.on('tap', 'node', function(e){
   var classlist = node.classes();
   var sMotifs = '';
   for (i = 0; i < classlist.length; i++) {
+    if (classlist[i] === "fade") { continue; } //skip "fade" class
     var cyEdges = cy.edges("edge[motif = '" + classlist[i] + "']")
     var mc = cyEdges.style("line-color");
     sMotifs += '<li style="color:' + mc + '">' + fullMotif(classlist[i]) + '</li>';
   }
-  document.getElementById('songmotifs').innerHTML = sMotifs;
+  document.getElementById('songmotifs').innerHTML = sMotifs; //colored motif list
   songInfoOn();
 });
 

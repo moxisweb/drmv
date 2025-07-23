@@ -187,10 +187,11 @@ button {
   padding: 0px 0px 3px 0px;
 }
 img {
+  padding-inline: 5px 0px;
   border: 1.3px solid #3d1f3d;
 }
 #songost {
-  padding-inline: 15px 0px;
+  padding-inline: 14px 0px;
   font-family: '8bitoperator';
   font-size: 18px;
   color: rgb(90, 36, 82);

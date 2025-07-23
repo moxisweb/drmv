@@ -4,6 +4,7 @@
     { "data": { "ost": "Other", "id": "902", "label": "Penumbra Phantasm" }, "classes": ["holy"] },
     { "data": { "ost": "Other", "id": "801", "label": "man", "img": "img/o01.jpg" }, "classes": ["none"] },
     { "data": { "ost": "Other", "id": "802", "label": "d.ogg", "img": "img/o02.jpg" }, "classes": ["raiseupyourbat"] },
+    { "data": { "ost": "Other", "id": "666", "label": "Gaster's Theme", "img": "img/666.jpg" }, "classes": ["gaster"] },
 
     { "data": { "ost": "Undertale", "id": "001", "label": "Once Upon a Time", "img": "img/001.jpg" }, "classes": ["once"] },
     { "data": { "ost": "Undertale", "id": "006", "label": "Uwa!! So Temperate♫", "img": "img/006.jpg" }, "classes": ["uwa"] },
@@ -18,7 +19,6 @@
     { "data": { "ost": "Undertale", "id": "088", "label": "Burn in Despair!", "img": "img/088.jpg" }, "classes": ["nightmare", "burn"] },
     { "data": { "ost": "Undertale", "id": "098", "label": "Battle Against a True Hero", "img": "img/098.jpg" }, "classes": ["neo"] },
     { "data": { "ost": "Undertale", "id": "099", "label": "Power of \"NEO\"", "img": "img/099.jpg" }, "classes": ["neo"] },
-    { "data": { "ost": "Undertale", "id": "666", "label": "Gaster's Theme", "img": "img/666.jpg" }, "classes": ["gaster"] },
 
     { "data": { "ost": "Ch. 1", "id": "101", "label": "ANOTHER HIM", "img": "img/101.jpg" }, "classes": ["gaster"] },
     { "data": { "ost": "Ch. 1", "id": "102", "label": "Beginning", "img": "img/102.jpg" }, "classes": ["once", "dont"] },
