@@ -59,8 +59,6 @@ cy.on('tap', 'node', function(e){
       sOst = "Chapter " + sId.charAt(0);
     } else if (sId < 100) {
       sOst = "Undertale";
-    } else if (sId > 800 && sId < 900) {
-      sOst = "Deltarune (unlisted)";
     } else {
       sOst = "Other";
     }
