@@ -10,6 +10,9 @@
   #motifinfo {
     top: 30px;
   }
+  #closebtn{
+  font-family: 'Tinos';
+  }
 }
 body {
   font-family: 'Times New Roman', 'Tinos', Tahoma, '8bitoperator', Arial, sans-serif;
