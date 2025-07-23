@@ -199,7 +199,8 @@ button {
 }
 #foldbtn {
   position: absolute;
-  display : flex;
+  display: flex;
+  justify-content: center;
   align-items : center;
   bottom: -27px;
   left: 10px;
