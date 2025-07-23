@@ -148,7 +148,7 @@ button {
 }
 #welcome{
   position: absolute;
-  top: 20%;
+  top: 40%;
   left: 50%;
   width: 370px;
   padding: 0px 15px 0px 15px;
@@ -162,7 +162,7 @@ button {
   position: absolute;
   display: none;
   top: 10px;
-  left: 340px;
+  left: 345px;
   padding: 0px 20px;
   font-family: '8bitoperator';
   font-size: 18px;
@@ -176,7 +176,7 @@ button {
   top: 1px;
   left: 10px;
   width: 290px;
-  height: 26px;
+  height: 24px;
   padding: 0px 15px;
   font-family: '8bitoperator';
   vertical-align: middle;
@@ -189,7 +189,7 @@ button {
   position: absolute;
   display: none;
   left: 10px;
-  top: 20px;
+  top: 25px;
   width: 290px;
   padding: 20px 15px 10px 15px;
   background-color: #080808;
@@ -198,16 +198,19 @@ button {
 }
 #foldbtn {
   position: absolute;
-  bottom: -26px;
+  bottom: -27px;
   left: 10px;
   width: 26px;
   height: 26px;
+  text-align: center;
+  vertical-align: middle;
   font-family: 'arial';
   font-weight: bold;
   font-size: 24px;
   color: rgb(90, 36, 82);
   outline: 1.4px solid rgb(90, 36, 82);
   cursor: pointer;
+  z-index: 1;
 }
 #imgost {
   padding: 0px 0px 3px 5px;
