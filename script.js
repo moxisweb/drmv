@@ -71,7 +71,7 @@ cy.on('tap', 'node', function(e){
   var htmlOut = '';
   for (i = 0; i < classlist.length; i++) {
     htmlOut += '<li>' + fullMotif(classlist[i]) + '</li>';
-  }
+  };
   document.getElementById('motiflist').innerHTML = htmlOut;
   songInfoOn();
 });
