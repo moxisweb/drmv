@@ -1,9 +1,9 @@
 { "nodes": [
 
-    { "data": { "ost": "Other", "id": "x01", "label": "Nightmare Knight (Cucumber Quest)" }, "classes": ["door"] },
-    { "data": { "ost": "Other", "id": "x02", "label": "Penumbra Phantasm" }, "classes": ["holy"] },
-    { "data": { "ost": "Other", "id": "o01", "label": "man", "img": "img/o01.jpg" }, "classes": ["none"] },
-    { "data": { "ost": "Other", "id": "o02", "label": "d.ogg", "img": "img/o02.jpg" }, "classes": ["raiseupyourbat"] },
+    { "data": { "ost": "Other", "id": "901", "label": "Nightmare Knight (Cucumber Quest)" }, "classes": ["door"] },
+    { "data": { "ost": "Other", "id": "902", "label": "Penumbra Phantasm" }, "classes": ["holy"] },
+    { "data": { "ost": "Other", "id": "801", "label": "man", "img": "img/o01.jpg" }, "classes": ["none"] },
+    { "data": { "ost": "Other", "id": "802", "label": "d.ogg", "img": "img/o02.jpg" }, "classes": ["raiseupyourbat"] },
 
     { "data": { "ost": "Undertale", "id": "001", "label": "Once Upon a Time", "img": "img/001.jpg" }, "classes": ["once"] },
     { "data": { "ost": "Undertale", "id": "006", "label": "Uwa!! So Temperate♫", "img": "img/006.jpg" }, "classes": ["uwa"] },
@@ -120,7 +120,7 @@
     { "data": { "source": "137", "target": "103", "motif": "Hometown" }, "classes": ["strong"] },
     { "data": { "source": "022", "target": "103", "motif": "hopes" } },
     { "data": { "source": "139", "target": "103", "motif": "dont" } },
-    { "data": { "source": "x01", "target": "105", "motif": "door" }, "classes": ["weak"] },
+    { "data": { "source": "901", "target": "105", "motif": "door" }, "classes": ["weak"] },
     { "data": { "source": "105", "target": "107", "motif": "door" } },
     { "data": { "source": "011", "target": "110", "motif": "Determination" }, "classes": ["weak"] },
     { "data": { "source": "108", "target": "111", "motif": "legend" }, "classes": ["strong"] },
@@ -146,7 +146,7 @@
     { "data": { "source": "105", "target": "133", "motif": "door" }, "classes": ["weak"] },
     { "data": { "source": "139", "target": "133", "motif": "dont" } },
     { "data": { "source": "139", "target": "134", "motif": "dont" }, "classes": ["strong"] },
-    { "data": { "source": "x02", "target": "135", "motif": "holy" }, "classes": ["weak"] },
+    { "data": { "source": "902", "target": "135", "motif": "holy" }, "classes": ["weak"] },
     { "data": { "source": "139", "target": "136", "motif": "dont" }, "classes": ["strong"] },
     { "data": { "source": "022", "target": "137", "motif": "hopes" } },
     { "data": { "source": "139", "target": "137", "motif": "dont" } },
