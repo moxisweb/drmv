@@ -142,7 +142,7 @@ function fullMotif(m) {
       case "bigshot": mn = "BIG SHOT"; break;
       case "hey": mn = "HEY EVERY !"; break;
       case "holy": mn = "The Holy"; break;
-      case "rude": mn = "Rude Buster"; break;
+      case "rudebuster": mn = "Rude Buster"; break;
       case "scarletforest": mn = "Scarlet Forest"; break;
       case "cardcastle": mn = "Card Castle"; break;
       case "sweet": mn = "Sweet Cap'n Cakes"; break;
@@ -153,7 +153,9 @@ function fullMotif(m) {
       case "burn": mn = "Burn in Despair!"; break;
       case "powers": mn = "Powers Combined"; break;
       case "dummy": mn = "Dummy!"; break;
-      case "uwa": mn = "Uwa!! So Temperate♫"; break;
+      case "uwa": mn = "Uwa!!♫"; break;
+      case "hipshop": mn = "Hip Shop"; break;
+      case "doomboard": mn = "Doom Board"; break;
       default: mn = m;
     }
     return mn;

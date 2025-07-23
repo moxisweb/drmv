@@ -181,6 +181,20 @@
       }
     },
     {
+      "selector": "[motif = 'hey']",
+      "style": {
+        "line-color": "orange",
+        "target-arrow-color": "orange"
+      }
+    },
+    {
+      "selector": "[motif = 'Tenna']",
+      "style": {
+        "line-color": "#fc6d42",
+        "target-arrow-color": "#fc6d42"
+      }
+    },
+    {
         "selector": "node.fade",
         "style": {
           "opacity": 0.35
