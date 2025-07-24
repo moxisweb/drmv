@@ -6,17 +6,32 @@
     url("fonts/8bitoperator.otf.woff2") format("woff2"),
     url("fonts/8bitoperator_jve.ttf") format("truetype");
 }
+body {
+  font-family: 'Times New Roman', 'Tinos', Tahoma, '8bitoperator', 'Roboto', 'Arial', sans-serif;
+  color: white;
+}
 @media only screen and (max-width: 600px) {
+  #welcome {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    width: 50%;
+  }
+  .menu {
+    height: 100%;
+    width: 100%;
+  }
+  #legend {
+    width: 100%;
+  }
   #motifinfo {
-    top: 30px;
+    top: 0px;
+    width: 100%;
   }
   #closebtn{
-  font-family: 'Tinos';
+    font-family: 'Roboto';
   }
-}
-body {
-  font-family: 'Times New Roman', 'Tinos', Tahoma, '8bitoperator', Arial, sans-serif;
-  color: white;
 }
 #cy {  
 	height: 100%; 
@@ -42,7 +57,7 @@ h1 {
 }
 h2 {
   font-family: '8bitoperator';
-  font-size: 1.8em;
+  font-size: 1.7em;
   line-height: 85%;
   margin-top: .50em;
   margin-bottom: .50em;
@@ -56,7 +71,8 @@ h3 {
 }
 h4 {
   font-family: '8bitoperator';
-  font-size: 1.2em;
+  font-size: 1.3em;
+  margin: 0.8em 0;
 }
 #wip{
   position: absolute;
@@ -148,10 +164,10 @@ button {
 .menu{
   position: absolute;
   display: none;
-  width: 400px;
+  width: 420px;
   top: 50%;
   left: 50%;
-  padding: 0px 25px 20px 25px;
+  padding: 0px 25px 20px 20px;
   background-color: #080808;
   outline: 1.4px solid rgb(90, 36, 82);
   transform: translate(-50%,-50%);
