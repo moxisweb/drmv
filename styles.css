@@ -224,16 +224,15 @@ hr {
     font-family: 'system-ui';
   }
   #songinfo{
-  left: 0%;
-  top: 0%;
-  width: 60%;
-  padding: 15px 15px 10px 15px;
+  left: 1%;
+  top: 1%;
+  max-width: 80%;
+  padding: 15px 15px 5px 15px;
   }
   #motifinfo{
-  position: absolute;
-  display: none;
-  bottom: 5%;
-  width: 60%;
+  left: 1%;
+  bottom: 1%;
+  max-width: 80%;
   padding: 0px 10px;
 }
 }
