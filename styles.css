@@ -204,6 +204,9 @@ hr {
   padding: 0px 0px;
 }
 @media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 1.8em;
+  }
   #welcome {
     display: none;
   }
@@ -212,10 +215,25 @@ hr {
   }
   .menu {
     position: absolute;
-    height: 50%;
-    width: 50%;
+    height: 60%;
+    width: 60%;
+    padding: 0px 15px 0px 15px;
+    overflow: scroll;
   }
   #closebtn{
     font-family: 'system-ui';
   }
+  #songinfo{
+  left: 0%;
+  top: 0%;
+  width: 60%;
+  padding: 15px 15px 10px 15px;
+  }
+  #motifinfo{
+  position: absolute;
+  display: none;
+  bottom: 5%;
+  width: 60%;
+  padding: 0px 10px;
+}
 }
