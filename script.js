@@ -74,7 +74,7 @@ cy.on('tap', 'node', function(e){
   var sBandcamp = dataArray[2].songs.find(song => song.id === sId).bandcamp;
   var sYoutube = dataArray[2].songs.find(song => song.id === sId).youtube;
   if ( sBandcamp != "none" ){
-    document.getElementById('songbandcamp').href = sBandcamp + " and"; //bandcamp
+    document.getElementById('songbandcamp').href = sBandcamp + " or "; //bandcamp
   }
   document.getElementById('songyoutube').href = sYoutube; //youtube
   var classlist = node.classes();

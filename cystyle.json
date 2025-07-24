@@ -197,13 +197,13 @@
     {
         "selector": "node.fade",
         "style": {
-          "opacity": 0.3
+          "opacity": 0.2
         }
     },
     {
         "selector": "edge.fade",
         "style": {
-          "opacity": 0.3
+          "opacity": 0.2
         }
     },
     {
