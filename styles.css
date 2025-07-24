@@ -16,6 +16,7 @@ body {
     top: 10%;
     left: 5%;
     width: 90%;
+    height: 40%;
   }
   .menu {
     position: absolute;
@@ -24,13 +25,13 @@ body {
   }
   #legend {
     position: absolute;
-    left: 0px;
+    left: 0%;
     width: 100%;
   }
   #motifinfo {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0%;
+    left: 0%;
     width: 100%;
   }
   #closebtn{
