@@ -76,6 +76,9 @@ cy.on('tap', 'node', function(e){
   if ( sBandcamp != "none" ){
     document.getElementById('songbandcamp').href = sBandcamp; //bandcamp
     document.getElementById('linkor').innerHTML = " or ";
+  } else {
+    document.getElementById('songbandcamp').href = ''; //empty bandcamp field
+    document.getElementById('linkor').innerHTML = '';
   }
   document.getElementById('songyoutube').href = sYoutube; //youtube
   var classlist = node.classes();
