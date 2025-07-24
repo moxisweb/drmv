@@ -12,31 +12,35 @@ body {
 }
 @media only screen and (max-width: 600px) {
   #welcome {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    width: 50%;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 90%;
   }
   .menu {
+    position: absolute;
     height: 100%;
     width: 100%;
   }
   #legend {
+    position: absolute;
+    left: 0px;
     width: 100%;
   }
   #motifinfo {
+    position: absolute;
     top: 0px;
+    left: 0px;
     width: 100%;
   }
   #closebtn{
-    font-family: 'Roboto';
+    font-family: 'system-ui';
   }
 }
 #cy {  
 	height: 100%; 
 	width: 100%;
-  position:absolute;
+  position: absolute;
   bottom: 0px;
   left: 0px;
   background-image: url("img/bg0089.png");
@@ -167,7 +171,7 @@ button {
   width: 420px;
   top: 50%;
   left: 50%;
-  padding: 0px 25px 20px 20px;
+  padding: 0px 25px 20px 25px;
   background-color: #080808;
   outline: 1.4px solid rgb(90, 36, 82);
   transform: translate(-50%,-50%);
