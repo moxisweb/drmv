@@ -10,34 +10,6 @@ body {
   font-family: 'Times New Roman', 'Tinos', Tahoma, '8bitoperator', 'Roboto', 'Arial', sans-serif;
   color: white;
 }
-@media only screen and (max-width: 600px) {
-  #welcome {
-    position: absolute;
-    top: 10%;
-    left: 5%;
-    width: 90%;
-    height: 40%;
-  }
-  .menu {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-  }
-  #legend {
-    position: absolute;
-    left: 0%;
-    width: 100%;
-  }
-  #motifinfo {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-  }
-  #closebtn{
-    font-family: 'system-ui';
-  }
-}
 #cy {  
 	height: 100%; 
 	width: 100%;
@@ -230,4 +202,26 @@ hr {
   border-bottom: 1.6px dotted rgb(90, 36, 82);
   margin: 0px 0px;
   padding: 0px 0px;
+}
+@media only screen and (max-width: 600px) {
+  #welcome {
+    display: none;
+  }
+  #legend {
+    display: none;
+  }
+  .menu {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  #motifinfo {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+  }
+  #closebtn{
+    font-family: 'system-ui';
+  }
 }
