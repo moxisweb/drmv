@@ -38,11 +38,11 @@ u { /* For links to not be underlined */
 }
 h1 {
   font-family: '8bitoperator';
-  font-size: 36px;
+  font-size: 2.4em;
 }
 h2 {
   font-family: '8bitoperator';
-  font-size: 28px;
+  font-size: 1.8em;
   line-height: 85%;
   margin-top: .50em;
   margin-bottom: .50em;
@@ -50,9 +50,13 @@ h2 {
 h3 {
   font-family: '8bitoperator';
   column-span: all;
-  font-size: 22px;
+  font-size: 1.4em;
   margin-top: .90em;
   margin-bottom: .60em;
+}
+h4 {
+  font-family: '8bitoperator';
+  font-size: 1.2em;
 }
 #wip{
   position: absolute;
@@ -65,7 +69,7 @@ h3 {
   -ms-transform: translate(-50%,-50%);
   z-index: 1;
 }
-#corner {
+#legend {
   position: absolute;
   column-count: 2;
   column-fill: balance;
@@ -183,7 +187,7 @@ button {
   left: 15px;
   top: 10px;
   width: 290px;
-  padding: 20px 15px 10px 15px;
+  padding: 15px 15px 10px 15px;
   background-color: #080808;
   outline: 1.4px solid rgb(90, 36, 82);
   z-index: 2;
@@ -191,7 +195,7 @@ button {
 #imgost {
   padding: 0px 0px 3px 5px;
 }
-img {
+#songimg {
   border: 1.3px solid #3d1f3d;
 }
 #songost {

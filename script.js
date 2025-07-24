@@ -35,6 +35,10 @@ var cy = cytoscape({
   elements: dataArray[1]
 });
 
+///////////////////////////// Auto data changes
+
+
+
 ///////////////////////////// Interactive functions
 
 cy.on('tap', function(e){
@@ -51,7 +55,9 @@ cy.on('tap', function(e){
 cy.on('tap', 'node', function(e){
   var node = e.target;
   var sImg = node.data("img");
+  var sImgBorder = node.style("border-color");
     document.getElementById('songimg').src = sImg; //img
+    document.getElementById('songimg').style.border = "1.4px solid " + sImgBorder; //img border
   var sName = node.data("label");
     document.getElementById('songname').innerHTML = sName; //name
   var sId = node.id();

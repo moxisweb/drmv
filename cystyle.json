@@ -8,7 +8,7 @@
         "background-image": "data(img)",
         "background-fit": "cover",
         "background-color": "#000",
-        "border-width": 0.5,
+        "border-width": 0.6,
         "border-color": "#3d1f3d",
         "label": "data(label)",
         "font-size": 4,

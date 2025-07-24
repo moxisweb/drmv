@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="google-site-verification" content="RlxGmpMoHjExeiAJ35elJnn0GQLk2AqDl9c1jbxJqrw" /> <!-- Google verification -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Mobile responsiveness -->
   <meta charset="UTF-8">
   <meta property="og:title" content="Mox's Deltarune Music Visualizer">
   <meta property="og:description" content="A fan-made graph of songs and leitmotifs.">
@@ -61,13 +63,16 @@
         Songs are displayed and connected by arrows which signify leitmotifs or other melodies/patterns.
         It's currently a work in progress.
       </p>
-      <p>If you find a mistake or have suggestions, feel free to reach out on Discord (@moxis) or Bluesky (coming soon).</p>
       <h4>Disclaimers</h4>
-      <p>This is a project to compile community knowledge, so many sources were referenced.
-      Check out the Thanks section for links to resources that provide more detailed analysis.
+      <p>Not all "leitmotifs" on this page are technically, actually leitmotifs. Some are just matching notes or even drum patterns.
+        The consistent use of "leitmotif" is to make my life easier, sorry.
+      </p>
+      <p>Many sources were referenced to make this project. Check out the Thanks section for links to resources that provide more detailed analysis.
       </p>
       <p>Some choices in organizing or identifying leitmotifs can be subjective.
       This is my own attempt, so use your own judgement and compare resources before coming to conclusions.</p>
+      <h4>Contact</h4>
+      <p><p>If you find a mistake or have suggestions, feel free to reach out on Discord (@moxis) or Bluesky (coming soon).</p></p>
   </div>
   <div id="thanksbutton">
       <button onclick="thanksOn()">Thanks</button>
@@ -75,8 +80,7 @@
   <div class="menu" id="thanks">
     <span id="closebtn" onclick="menuOff()">&#128473;</span>
       <h1>Special Thanks</h1>
-      <p>This is just  another project to compile community knowledge, so thanks to everyone who has analyzed Deltarune's music and shared their findings.
-        Here are some resources that helped me while making this.
+      <p>This project aims to compile community knowledge; here are some resources that were especially helpful in making this.
       </p>
       <ul>
         <li><a href="https://hsmusic.wiki/"><u>The Homestuck Music Wiki</u></a> and the Homestuck Music Visualizer for the original idea.</li>
@@ -87,13 +91,13 @@
         <li>...and all the people who contributed to Wikis and comment sections.</li>
       </ul>
       <h4>Further Credits</h4>
-      <div>This website was made using <a href="https://js.cytoscape.org/"><u>Cytoscape.js</u></a>.</div>
-      <div>The FontStruction “8bitoperator” [<a href="https://fontstruct.com/fontstructions/show/534034"><u>link</u></a>] by “nipcen” is licensed
-        under a Creative Commons Attribution Share Alike license [<a href="http://creativecommons.org/licenses/by-sa/3.0/"><u>link</u></a>].</div>
-      <div>Undertale, Deltarune, and all materials derived from them are © Toby Fox.</div>
+      <div style="font-size: 0.8em;">This website was made using <a href="https://js.cytoscape.org/"><u>Cytoscape.js</u></a>.<br>
+      The FontStruction “8bitoperator” [<a href="https://fontstruct.com/fontstructions/show/534034"><u>link</u></a>] by “nipcen” is licensed
+        under a Creative Commons Attribution Share Alike license [<a href="http://creativecommons.org/licenses/by-sa/3.0/"><u>link</u></a>].<br>
+      Undertale, Deltarune, and all materials derived from them are © Toby Fox.</div>
   </div>
 
-  <div id="corner">
+  <div id="legend">
     <h3>&nbsp;Legend</h3>
     <p><span style='font-size: 30px;vertical-align: sub'>&#8594;</span> Leitmotif/reference</p>
     <p><span style='font-size: 30px;vertical-align: sub'>&#10513;</span> Subtle/debatable</p>
