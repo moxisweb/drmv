@@ -52,7 +52,7 @@
       "style": {
         "width": 0.7,
         "line-color": "LightGrey",
-        "opacity": 0.5,
+        "opacity": 0.6,
         "curve-style": "unbundled-bezier",
         "control-point-step-size": 8,
         "target-arrow-color": "LightGrey",
@@ -197,13 +197,13 @@
     {
         "selector": "node.fade",
         "style": {
-          "opacity": 0.35
+          "opacity": 0.3
         }
     },
     {
         "selector": "edge.fade",
         "style": {
-          "opacity": 0.35
+          "opacity": 0.3
         }
     },
     {

@@ -141,7 +141,7 @@ button {
 .menu{
   position: absolute;
   display: none;
-  width: 420px;
+  width: 430px;
   top: 50%;
   left: 50%;
   padding: 0px 24px 20px 28px;
@@ -207,6 +207,9 @@ hr {
   h1 {
     font-size: 1.8em;
   }
+  h2 {
+    font-size: 1.5em;
+  }
   #welcome {
     display: none;
   }
@@ -225,14 +228,16 @@ hr {
   }
   #songinfo{
   left: 1%;
+  right: 1%;
   top: 1%;
   max-width: 80%;
   padding: 15px 15px 5px 15px;
   }
   #motifinfo{
   left: 1%;
+  right: 1%;
   bottom: 1%;
-  max-width: 80%;
+  top: initial;
   padding: 0px 10px;
 }
 }

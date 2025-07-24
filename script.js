@@ -51,7 +51,8 @@ cy.on('tap', function(e){
    }
 });
 
-// WIP
+// SONG INFO
+
 cy.on('tap', 'node', function(e){
   var node = e.target;
   var sImg = node.data("img");
@@ -72,7 +73,9 @@ cy.on('tap', 'node', function(e){
   document.getElementById('songost').innerHTML = sOst; //ost
   var sBandcamp = dataArray[2].songs.find(song => song.id === sId).bandcamp;
   var sYoutube = dataArray[2].songs.find(song => song.id === sId).youtube;
-  document.getElementById('songbandcamp').href = sBandcamp; //bandcamp
+  if ( sBandcamp != "none" ){
+    document.getElementById('songbandcamp').href = sBandcamp + " and"; //bandcamp
+  }
   document.getElementById('songyoutube').href = sYoutube; //youtube
   var classlist = node.classes();
   var sMotifs = '';
@@ -85,6 +88,8 @@ cy.on('tap', 'node', function(e){
   document.getElementById('songmotifs').innerHTML = sMotifs; //colored motif list
   songInfoOn();
 });
+
+// EDGE HIGHLIGHT
 
 cy.on('tap', 'edge', function(e){
   cy.elements().removeClass('fade');
@@ -162,6 +167,8 @@ function fullMotif(m) {
       case "uwa": mn = "Uwa!!♫"; break;
       case "hipshop": mn = "Hip Shop"; break;
       case "doomboard": mn = "Doom Board"; break;
+      case "maracas": mn = "Dog Check (Maracas)"; break;
+      case "dogg": mn = "d.ogg"; break;
       default: mn = m;
     }
     return mn;
