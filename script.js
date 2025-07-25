@@ -41,9 +41,8 @@ var cy = cytoscape({
 
 cy.ready(function(){
   cy.nodes().forEach(function(node) { 
-    var nodeClasses = node.data("classes");
-    var nodeSClasses = "testvalue"
-    node.data( "sclasses", nodeSClasses )
+    var nodeClasses = node.classes();
+    var nodeSClasses = nodeClasses.map(function(x){return x.replace( /[\W_\s]+/g, '' )});
   });
 });
 
@@ -95,7 +94,7 @@ cy.on('tap', 'node', function(e){
   var sMotifs = '';
   for (i = 0; i < classlist.length; i++) {
     if (classlist[i] === "fade") { continue; } //skip "fade" class
-    var cyEdges = cy.edges("edge[motif = '" + classlist[i] + "']")
+    var cyEdges = cy.edges("edge[motif = '" + classlist[i] + "']");
     var mc = cyEdges.style("line-color");
     sMotifs += '<li style="color:' + mc + '">' + fullMotif(classlist[i]) + '</li>';
   }
