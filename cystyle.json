@@ -195,6 +195,13 @@
       }
     },
     {
+      "selector": "[motif = 'rudebuster']",
+      "style": {
+        "line-color": "DarkViolet",
+        "target-arrow-color": "DarkViolet"
+      }
+    },
+    {
         "selector": "node.fade",
         "style": {
           "opacity": 0.2

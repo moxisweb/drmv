@@ -21,7 +21,7 @@ var cy = cytoscape({
     randomize: true,
     animate: true,
     fit: true,
-    nodeRepulsion: 40000,
+    nodeRepulsion: 80000,
     componentSpacing: 80,
     nodeOverlap: 200,
     gravity: 0.5,
@@ -150,9 +150,9 @@ function fullMotif(m) {
       case "gaster": mn = "Gaster's Theme"; break;
       case "hopes": mn = "Hopes and Dreams"; break;
       case "door": mn = "The Door / Nightmare Knight"; break;
-      case "girl": mn = "Girl Next Door / Lost Girl"; break;
+      case "girl": mn = "Lost Girl"; break;
       case "legend": mn = "The Legend"; break;
-      case "freedom": mn = "Freedom Theme / The World Revolving"; break;
+      case "freedom": mn = "Freedom / The World Revolving"; break;
       case "bigshot": mn = "BIG SHOT"; break;
       case "hey": mn = "HEY EVERY !"; break;
       case "holy": mn = "The Holy"; break;
