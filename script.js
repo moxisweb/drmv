@@ -39,6 +39,7 @@ var cy = cytoscape({
 
 
 
+
 ///////////////////////////// Interactive functions
 
 cy.on('tap', function(e){
@@ -79,6 +80,7 @@ cy.on('tap', 'node', function(e){
     document.getElementById('linkor').innerHTML = " or ";
   } else {
     document.getElementById('songbandcamp').href = ''; //empty bandcamp field
+    document.getElementById('songbandcamp').innerHTML = '';
     document.getElementById('linkor').innerHTML = '';
   }
   document.getElementById('songyoutube').href = sYoutube; //youtube
