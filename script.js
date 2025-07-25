@@ -62,8 +62,8 @@ cy.on('tap', function(e){
 // SONG INFO
 
 cy.on('tap', 'node', function(e){
-  console.log( 'sclasses is ' + node.data('scalsses') );
   var node = e.target;
+  console.log( 'sclasses is ' + node.data('scalsses') );
   var sImg = node.data("img");
   var sImgBorder = node.style("border-color");
     document.getElementById('songimg').src = sImg; //img
