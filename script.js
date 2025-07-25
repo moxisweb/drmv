@@ -120,29 +120,29 @@ cy.on('tap', 'edge', function(e){
 
   var edge = e.target;
   if ( "motif" in edge.data() ) {
-    var m = edge.data("smotif");
-    var mn = edge.data("motif");
+    var sm = edge.data("smotif");
+    var m = edge.data("motif");
     var mc = edge.style("line-color");
-    cy.edges("edge[smotif = '" + m + "']").forEach(function(edge) { //highlight edges
+    cy.edges("edge[smotif = '" + sm + "']").forEach(function(edge) { //highlight edges
       edge.addClass("highlight");
     });
-    cy.nodes("node." + m).forEach(function(node) { //color node borders
+    cy.nodes("node[sclasses = '" + sm + "']").forEach(function(node) { //color node borders
       node.style("border-color", mc );
       node.style("border-width", 0.4 );
     });
-    cy.edges().difference("edge[smotif = '" + m + "']").forEach(function(edge) { //fade other edges
+    cy.edges().difference("edge[smotif = '" + sm + "']").forEach(function(edge) { //fade other edges
       edge.addClass("fade");
     });
-    cy.nodes().difference("node." + m).forEach(function(node) { //fade other nodes
+    cy.nodes().difference("node[sclasses = '" + sm + "']").forEach(function(node) { //fade other nodes
       node.addClass("fade");
     });
-    document.getElementById('motifname').innerHTML = mn;
+    document.getElementById('motifname').innerHTML = m;
     document.getElementById("motifname").style.color = mc;
     motifInfoOn(); //open motif info element
     cy.maxZoom(4); //limit zoom
     cy.animate({
       fit: {
-        eles: cy.nodes("node." + m),
+        eles: cy.nodes("node[sclasses = '" + sm + "']"),
         padding: 40
       }
     },
