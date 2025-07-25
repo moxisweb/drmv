@@ -34,23 +34,6 @@ var cy = cytoscape({
   elements: dataArray[1]
 });
 
-///////////////////////////// Auto data changes
-
-//add simplified motif names
-
-cy.ready(function(){
-  cy.nodes().forEach(function(node) { 
-    var nodeClasses = node.classes();
-    var nodeSClasses = nodeClasses.map(function(x){return x.replace( /[\W_\s]+/g, '' )});
-    node.data( 'sclasses', nodeSClasses );
-  });
-  cy.edges().forEach(function(edge) {
-    var edgeMotif = edge.data('motif');
-    var edgeSMotif = edgeMotif.replace( /[\W_\s]+/g, '' );
-    edge.data( 'smotif', edgeSMotif );
-  });
-});
-
 ///////////////////////////// Interactive functions
 
 cy.on('tap', function(e){
@@ -67,8 +50,8 @@ cy.on('tap', function(e){
 
 cy.on('tap', 'node', function(e){
   var node = e.target;
-  console.info( 'data sclasses: ' + node.data('sclasses') ); //
-  console.info( 'classes: ' + node.classes() ) //
+  var sc = node.data('sclasses') //
+  console.info( 'sclasses is ' + sc ); //
   var sImg = node.data("img");
   var sImgBorder = node.style("border-color");
     document.getElementById('songimg').src = sImg; //img
@@ -98,15 +81,14 @@ cy.on('tap', 'node', function(e){
   }
   document.getElementById('songyoutube').href = sYoutube; //youtube
   var classlist = node.classes();
-  var sclasslist = node.data('sclasses');
-  var htmlOutput = '';
-  for (i = 0; i < sclasslist.length; i++) {
+  var sMotifs = '';
+  for (i = 0; i < classlist.length; i++) {
     if (classlist[i] === "fade") { continue; } //skip "fade" class
-    var sampleEdges = cy.edges("edge[smotif = '" + sclasslist[i] + "']");
-    var mc = sampleEdges.style("line-color");
-    htmlOutput += '<li style="color:' + mc + '">' + classlist[i] + '</li>';
+    var cyEdges = cy.edges("edge[motif = '" + classlist[i] + "']");
+    var mc = cyEdges.style("line-color");
+    sMotifs += '<li style="color:' + mc + '">' + fullMotif(classlist[i]) + '</li>';
   }
-  document.getElementById('songmotifs').innerHTML = htmlOutput; //colored motif list
+  document.getElementById('songmotifs').innerHTML = sMotifs; //colored motif list
   songInfoOn();
 });
 
@@ -120,29 +102,30 @@ cy.on('tap', 'edge', function(e){
 
   var edge = e.target;
   if ( "motif" in edge.data() ) {
-    var sm = edge.data("smotif");
     var m = edge.data("motif");
+    var mn = "no data";
+    mn = fullMotif(m); //convert motif name
     var mc = edge.style("line-color");
-    cy.edges("edge[smotif = '" + sm + "']").forEach(function(edge) { //highlight edges
+    cy.edges("edge[motif = '" + m + "']").forEach(function(edge) { //highlight edges
       edge.addClass("highlight");
     });
-    cy.nodes("node[sclasses = '" + sm + "']").forEach(function(node) { //color node borders
+    cy.nodes("node." + m).forEach(function(node) { //color node borders
       node.style("border-color", mc );
       node.style("border-width", 0.4 );
     });
-    cy.edges().difference("edge[smotif = '" + sm + "']").forEach(function(edge) { //fade other edges
+    cy.edges().difference("edge[motif = '" + m + "']").forEach(function(edge) { //fade other edges
       edge.addClass("fade");
     });
-    cy.nodes().difference("node[sclasses = '" + sm + "']").forEach(function(node) { //fade other nodes
+    cy.nodes().difference("node." + m).forEach(function(node) { //fade other nodes
       node.addClass("fade");
     });
-    document.getElementById('motifname').innerHTML = m;
+    document.getElementById('motifname').innerHTML = mn;
     document.getElementById("motifname").style.color = mc;
     motifInfoOn(); //open motif info element
     cy.maxZoom(4); //limit zoom
     cy.animate({
       fit: {
-        eles: cy.nodes("node[sclasses = '" + sm + "']"),
+        eles: cy.nodes("node." + m),
         padding: 40
       }
     },
