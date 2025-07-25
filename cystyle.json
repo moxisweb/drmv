@@ -69,7 +69,7 @@
       }
     },
     {
-      "selector": "[smotif = 'gaster']",
+      "selector": "[motif = 'Gaster's Theme']",
       "style": {
         "line-color": "gold",
         "target-arrow-color": "gold"
@@ -83,7 +83,7 @@
       }
     },
     {
-      "selector": "[smotif = 'legend']",
+      "selector": "[motif = 'The Legend']",
       "style": {
         "line-color": "royalblue",
         "target-arrow-color": "royalblue"
