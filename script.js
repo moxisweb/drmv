@@ -42,7 +42,12 @@ cy.ready(function(){
   cy.nodes().forEach(function(node) { 
     var nodeClasses = node.classes();
     var nodeSClasses = nodeClasses.map(function(x){return x.replace( /[\W_\s]+/g, '' )});
-    node.data( 'sclasses', nodeSClasses ); //
+    node.data( 'sclasses', nodeSClasses );
+  });
+  cy.edges().forEach(function(edge) {
+    var edgeMotif = edge.data('motif');
+    var edgeSMotif = edgeMotif.replace( /[\W_\s]+/g, '' );
+    edge.data( 'smotif', edgeSMotif );
   });
 });
 
@@ -92,15 +97,16 @@ cy.on('tap', 'node', function(e){
     document.getElementById('linkor').innerHTML = '';
   }
   document.getElementById('songyoutube').href = sYoutube; //youtube
-  var classlist = node.data('sclasses');
-  var sMotifs = '';
-  for (i = 0; i < classlist.length; i++) {
+  var classlist = node.classes();
+  var sclasslist = node.data('sclasses');
+  var htmlOutput = '';
+  for (i = 0; i < sclasslist.length; i++) {
     if (classlist[i] === "fade") { continue; } //skip "fade" class
-    var cyEdges = cy.edges("edge[motif = '" + classlist[i] + "']");
-    var mc = cyEdges.style("line-color");
-    sMotifs += '<li style="color:' + mc + '">' + fullMotif(classlist[i]) + '</li>';
+    var sampleEdges = cy.edges("edge[smotif = '" + sclasslist[i] + "']");
+    var mc = sampleEdges.style("line-color");
+    htmlOutput += '<li style="color:' + mc + '">' + classlist[i] + '</li>';
   }
-  document.getElementById('songmotifs').innerHTML = sMotifs; //colored motif list
+  document.getElementById('songmotifs').innerHTML = htmlOutput; //colored motif list
   songInfoOn();
 });
 
@@ -114,18 +120,17 @@ cy.on('tap', 'edge', function(e){
 
   var edge = e.target;
   if ( "motif" in edge.data() ) {
-    var m = edge.data("motif");
-    var mn = "no data";
-    mn = fullMotif(m); //convert motif name
+    var m = edge.data("smotif");
+    var mn = edge.data("motif");
     var mc = edge.style("line-color");
-    cy.edges("edge[motif = '" + m + "']").forEach(function(edge) { //highlight edges
+    cy.edges("edge[smotif = '" + m + "']").forEach(function(edge) { //highlight edges
       edge.addClass("highlight");
     });
     cy.nodes("node." + m).forEach(function(node) { //color node borders
       node.style("border-color", mc );
       node.style("border-width", 0.4 );
     });
-    cy.edges().difference("edge[motif = '" + m + "']").forEach(function(edge) { //fade other edges
+    cy.edges().difference("edge[smotif = '" + m + "']").forEach(function(edge) { //fade other edges
       edge.addClass("fade");
     });
     cy.nodes().difference("node." + m).forEach(function(node) { //fade other nodes
@@ -150,7 +155,7 @@ cy.on('tap', 'edge', function(e){
 
 });
 
-// Motif name conversion
+// Motif name conversion // delete
 
 function fullMotif(m) {
     switch (m) {
