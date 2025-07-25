@@ -76,7 +76,7 @@
       }
     },
     {
-      "selector": "[smotif = 'freedom']",
+      "selector": "[motif = 'Freedom']",
       "style": {
         "line-color": "gold",
         "target-arrow-color": "gold"
@@ -90,105 +90,105 @@
       }
     },
     {
-      "selector": "[smotif = 'door']",
+      "selector": "[motif = 'The Door']",
       "style": {
         "line-color": "#451ff0",
         "target-arrow-color": "#451ff0"
       }
     },
     {
-      "selector": "[smotif = 'holy']",
+      "selector": "[motif = 'The Holy']",
       "style": {
         "line-color": "LightGreen",
         "target-arrow-color": "LightGreen"
       }
     },
     {
-      "selector": "[smotif = 'dont']",
+      "selector": "[motif = 'Don't Forget']",
       "style": {
         "line-color": "purple",
         "target-arrow-color": "purple"
       }
     },
     {
-      "selector": "[smotif = 'Lancer']",
+      "selector": "[motif = 'Lancer']",
       "style": {
         "line-color": "steelblue",
         "target-arrow-color": "steelblue"
       }
     },
     {
-      "selector": "[smotif = 'Susie']",
+      "selector": "[motif = 'Susie']",
       "style": {
         "line-color": "#e342b8",
         "target-arrow-color": "#e342b8"
       }
     },
         {
-      "selector": "[smotif = 'Queen']",
+      "selector": "[motif = 'Queen']",
       "style": {
         "line-color": "Chartreuse",
         "target-arrow-color": "Chartreuse"
       }
     },
         {
-      "selector": "[smotif = 'sweet']",
+      "selector": "[motif = 'Sweet Cap'n Cakes']",
       "style": {
         "line-color": "green",
         "target-arrow-color": "green"
       }
     },
             {
-      "selector": "[smotif = 'Berdly']",
+      "selector": "[motif = 'Berdly']",
       "style": {
         "line-color": "#12c3ff",
         "target-arrow-color": "#12c3ff"
       }
     },
     {
-      "selector": "[smotif = 'girl']",
+      "selector": "[motif = 'Lost Girl']",
       "style": {
         "line-color": "#63e5ff",
         "target-arrow-color": "#63e5ff"
       }
     },
     {
-      "selector": "[smotif = 'Spamton']",
+      "selector": "[motif = 'Spamton']",
       "style": {
         "line-color": "hotpink",
         "target-arrow-color": "hotpink"
       }
     },
     {
-      "selector": "[smotif = 'bigshot']",
+      "selector": "[motif = 'BIG SHOT']",
       "style": {
         "line-color": "hotpink",
         "target-arrow-color": "hotpink"
       }
     },
     {
-      "selector": "[smotif = 'neo']",
+      "selector": "[motif = 'Power of NEO']",
       "style": {
         "line-color": "#00d6ba",
         "target-arrow-color": "#00d6ba"
       }
     },
     {
-      "selector": "[smotif = 'nightmare']",
+      "selector": "[motif = 'Your Best Nightmare']",
       "style": {
         "line-color": "FireBrick",
         "target-arrow-color": "FireBrick"
       }
     },
     {
-      "selector": "[smotif = 'hey']",
+      "selector": "[motif = 'HEY EVERY !']",
       "style": {
         "line-color": "orange",
         "target-arrow-color": "orange"
       }
     },
     {
-      "selector": "[smotif = 'Tenna']",
+      "selector": "[motif = 'Tenna']",
       "style": {
         "line-color": "#fc6d42",
         "target-arrow-color": "#fc6d42"
