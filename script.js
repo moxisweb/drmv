@@ -37,8 +37,12 @@ var cy = cytoscape({
 
 ///////////////////////////// Auto data changes
 
-
-
+//add simplified motif names
+cy.nodes().forEach(function(node) { 
+  var nodeClasses = node.data("classes");
+  var nodeSClasses = nodeClasses.replace( /[\W_\s]+/g, '' )
+    node.data( "sclasses", nodeSClasses )
+  });
 
 ///////////////////////////// Interactive functions
 
