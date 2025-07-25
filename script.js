@@ -43,6 +43,7 @@ cy.ready(function(){
   cy.nodes().forEach(function(node) { 
     var nodeClasses = node.classes();
     var nodeSClasses = nodeClasses.map(function(x){return x.replace( /[\W_\s]+/g, '' )});
+    node.data( 'sclasses', nodeSClasses );
   });
 });
 
