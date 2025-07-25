@@ -42,7 +42,7 @@ cy.ready(function(){
   cy.nodes().forEach(function(node) { 
     var nodeClasses = node.classes();
     var nodeSClasses = nodeClasses.map(function(x){return x.replace( /[\W_\s]+/g, '' )});
-    node.data( 'sclasses', nodeClasses ); //
+    node.data( 'sclasses', nodeSClasses ); //
   });
 });
 
@@ -62,9 +62,8 @@ cy.on('tap', function(e){
 
 cy.on('tap', 'node', function(e){
   var node = e.target;
-  var sc = node.data('sclasses') //
-  console.info( 'class string is ' + sc ); //
-  console.info( 'actual classes are' + node.classes() ) //
+  console.info( 'data sclasses: ' + node.data('sclasses') ); //
+  console.info( 'classes: ' + node.classes() ) //
   var sImg = node.data("img");
   var sImgBorder = node.style("border-color");
     document.getElementById('songimg').src = sImg; //img
