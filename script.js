@@ -75,6 +75,7 @@ cy.on('tap', 'node', function(e){
   var sYoutube = dataArray[2].songs.find(song => song.id === sId).youtube;
   if ( sBandcamp != "none" ){
     document.getElementById('songbandcamp').href = sBandcamp; //bandcamp
+    document.getElementById('songbandcamp').innerHTML = "Bandcamp";
     document.getElementById('linkor').innerHTML = " or ";
   } else {
     document.getElementById('songbandcamp').href = ''; //empty bandcamp field
