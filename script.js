@@ -42,7 +42,7 @@ cy.ready(function(){
   cy.nodes().forEach(function(node) { 
     var nodeClasses = node.classes();
     var nodeSClasses = nodeClasses.map(function(x){return x.replace( /[\W_\s]+/g, '' )});
-    node.data( 'sclasses', 'testvalue' );
+    node.data( 'sclasses', 'testvalue' ); //
   });
 });
 
@@ -62,7 +62,8 @@ cy.on('tap', function(e){
 
 cy.on('tap', 'node', function(e){
   var node = e.target;
-  console.log( 'sclasses is ' + node.data('img') );
+  var sc = node.data('sclasses') //
+  console.info( 'sclasses is ' + sc ); //
   var sImg = node.data("img");
   var sImgBorder = node.style("border-color");
     document.getElementById('songimg').src = sImg; //img
