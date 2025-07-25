@@ -30,7 +30,6 @@ var cy = cytoscape({
   },
   minZoom: 0.8,
   maxZoom: 6,
-  wheelSensitivity: 1.2,
   style: dataArray[0],
   elements: dataArray[1]
 });
@@ -43,7 +42,7 @@ cy.ready(function(){
   cy.nodes().forEach(function(node) { 
     var nodeClasses = node.classes();
     var nodeSClasses = nodeClasses.map(function(x){return x.replace( /[\W_\s]+/g, '' )});
-    node.data( 'sclasses', nodeSClasses );
+    node.data( 'sclasses', 'testvalue' );
   });
 });
 
