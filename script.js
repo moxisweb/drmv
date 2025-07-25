@@ -92,7 +92,7 @@ cy.on('tap', 'node', function(e){
     document.getElementById('linkor').innerHTML = '';
   }
   document.getElementById('songyoutube').href = sYoutube; //youtube
-  var classlist = node.classes();
+  var classlist = node.data('sclasses');
   var sMotifs = '';
   for (i = 0; i < classlist.length; i++) {
     if (classlist[i] === "fade") { continue; } //skip "fade" class
