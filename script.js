@@ -63,7 +63,8 @@ cy.on('tap', function(e){
 cy.on('tap', 'node', function(e){
   var node = e.target;
   var sc = node.data('sclasses') //
-  console.info( 'sclasses is ' + sc ); //
+  console.info( 'class string is ' + sc ); //
+  console.info( 'actual classes are' + node.classes() ) //
   var sImg = node.data("img");
   var sImgBorder = node.style("border-color");
     document.getElementById('songimg').src = sImg; //img
