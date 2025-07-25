@@ -24,13 +24,13 @@
       }
     },
     {
-      "selector": "[ost = 'Undertale']",
+      "selector": "[id < '100']",
       "style": {
         "border-color": "#1E4E1E"
       }
     },
     {
-      "selector": "[ost = 'Other']",
+      "selector": "[id > '800']",
       "style": {
         "border-color": "#595959"
       }
