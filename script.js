@@ -42,7 +42,8 @@ var cy = cytoscape({
 cy.ready(function(){
   cy.nodes().forEach(function(node) { 
     var nodeClasses = node.data("classes");
-    var nodeSClasses = nodeClasses.map(function(x){return x.replace( /[\W_\s]+/g, '' )});
+    var nodeSClasses = "testvalue"
+    node.data( "sclasses", nodeSClasses )
   });
 });
 
