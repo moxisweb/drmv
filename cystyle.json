@@ -69,126 +69,126 @@
       }
     },
     {
-      "selector": "[motif = 'gaster']",
+      "selector": "[smotif = 'gaster']",
       "style": {
         "line-color": "gold",
         "target-arrow-color": "gold"
       }
     },
     {
-      "selector": "[motif = 'freedom']",
+      "selector": "[smotif = 'freedom']",
       "style": {
         "line-color": "gold",
         "target-arrow-color": "gold"
       }
     },
     {
-      "selector": "[motif = 'legend']",
+      "selector": "[smotif = 'legend']",
       "style": {
         "line-color": "royalblue",
         "target-arrow-color": "royalblue"
       }
     },
     {
-      "selector": "[motif = 'door']",
+      "selector": "[smotif = 'door']",
       "style": {
         "line-color": "#451ff0",
         "target-arrow-color": "#451ff0"
       }
     },
     {
-      "selector": "[motif = 'holy']",
+      "selector": "[smotif = 'holy']",
       "style": {
         "line-color": "LightGreen",
         "target-arrow-color": "LightGreen"
       }
     },
     {
-      "selector": "[motif = 'dont']",
+      "selector": "[smotif = 'dont']",
       "style": {
         "line-color": "purple",
         "target-arrow-color": "purple"
       }
     },
     {
-      "selector": "[motif = 'Lancer']",
+      "selector": "[smotif = 'Lancer']",
       "style": {
         "line-color": "steelblue",
         "target-arrow-color": "steelblue"
       }
     },
     {
-      "selector": "[motif = 'Susie']",
+      "selector": "[smotif = 'Susie']",
       "style": {
         "line-color": "#e342b8",
         "target-arrow-color": "#e342b8"
       }
     },
         {
-      "selector": "[motif = 'Queen']",
+      "selector": "[smotif = 'Queen']",
       "style": {
         "line-color": "Chartreuse",
         "target-arrow-color": "Chartreuse"
       }
     },
         {
-      "selector": "[motif = 'sweet']",
+      "selector": "[smotif = 'sweet']",
       "style": {
         "line-color": "green",
         "target-arrow-color": "green"
       }
     },
             {
-      "selector": "[motif = 'Berdly']",
+      "selector": "[smotif = 'Berdly']",
       "style": {
         "line-color": "#12c3ff",
         "target-arrow-color": "#12c3ff"
       }
     },
     {
-      "selector": "[motif = 'girl']",
+      "selector": "[smotif = 'girl']",
       "style": {
         "line-color": "#63e5ff",
         "target-arrow-color": "#63e5ff"
       }
     },
     {
-      "selector": "[motif = 'Spamton']",
+      "selector": "[smotif = 'Spamton']",
       "style": {
         "line-color": "hotpink",
         "target-arrow-color": "hotpink"
       }
     },
     {
-      "selector": "[motif = 'bigshot']",
+      "selector": "[smotif = 'bigshot']",
       "style": {
         "line-color": "hotpink",
         "target-arrow-color": "hotpink"
       }
     },
     {
-      "selector": "[motif = 'neo']",
+      "selector": "[smotif = 'neo']",
       "style": {
         "line-color": "#00d6ba",
         "target-arrow-color": "#00d6ba"
       }
     },
     {
-      "selector": "[motif = 'nightmare']",
+      "selector": "[smotif = 'nightmare']",
       "style": {
         "line-color": "FireBrick",
         "target-arrow-color": "FireBrick"
       }
     },
     {
-      "selector": "[motif = 'hey']",
+      "selector": "[smotif = 'hey']",
       "style": {
         "line-color": "orange",
         "target-arrow-color": "orange"
       }
     },
     {
-      "selector": "[motif = 'Tenna']",
+      "selector": "[smotif = 'Tenna']",
       "style": {
         "line-color": "#fc6d42",
         "target-arrow-color": "#fc6d42"
