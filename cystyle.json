@@ -76,6 +76,13 @@
       }
     },
     {
+      "selector": "[motif = 'once']",
+      "style": {
+        "line-color": "#BF8227",
+        "target-arrow-color": "#BF8227"
+      }
+    },
+    {
       "selector": "[motif = 'freedom']",
       "style": {
         "line-color": "gold",
@@ -183,15 +190,15 @@
     {
       "selector": "[motif = 'hey']",
       "style": {
-        "line-color": "orange",
-        "target-arrow-color": "orange"
+        "line-color": "#ffb300",
+        "target-arrow-color": "#ffb300"
       }
     },
     {
       "selector": "[motif = 'Tenna']",
       "style": {
-        "line-color": "#fc6d42",
-        "target-arrow-color": "#fc6d42"
+        "line-color": "#fc4e42",
+        "target-arrow-color": "#fc4e42"
       }
     },
     {
