@@ -115,7 +115,6 @@ h4 {
   cursor: pointer;
 }
 
-* { box-sizing: border-box; }
 .searchbar {
   position: absolute;
   overflow: hidden;
@@ -142,10 +141,6 @@ input {
 input[type=text] {
   background-color: #f1f1f1;
   width: 100%;
-}
-input[type=submit] {
-  background-color: DodgerBlue;
-  color: #fff;
 }
 .autocomplete-items {
   position: absolute;
