@@ -140,8 +140,7 @@ cy.on('tap', 'edge', function(e){
 
 // ALL songs list
 
-var songlist = ["Beginning", "School", "Susie", "ANOTHER HIM", "Song 1", "Song 2"]
-var countries = ["Afghanistan","Albania","Algeria","Andorra","Angola","Anguilla"]
+var songlist = ["Beginning", "School", "Susie", "ANOTHER HIM", "Song 1", "Song 2", "Song 3"]
 autocomplete(document.getElementById("myInput"), songlist);
 
 function autocomplete(inp, arr) {
