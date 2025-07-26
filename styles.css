@@ -150,13 +150,12 @@ button {
   box-sizing: border-box;
   position: relative;
   display: inline-block;
-  width: 100px;
   z-index: 1;
 }
 input {
   border: 1px solid transparent;
   background-color: #f1f1f1;
-  width: 100%;
+  width: 120px;
   padding: 10px;
   font-family: Arial;
   font-size: 16px;

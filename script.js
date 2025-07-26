@@ -245,6 +245,16 @@ function showResults(input) {
   cy.nodes().difference("[label = '" + input + "']").forEach(function(node) {
       node.addClass("fade");
     });
+  cy.edges().forEach(function(edge) { //fade other edges
+    edge.addClass("fade");
+  });
+  cy.animate({
+    fit: {
+      eles: cy.nodes().difference("[label = '" + input + "']"),
+      padding: 100
+    }
+  },
+  { duration: 800 });
 }
 
 // End of cy functions
