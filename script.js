@@ -61,7 +61,9 @@ cy.on('tap', function(e){
 });
 
 // SONG INFO
-cy.on('tap', 'node', function(e){
+cy.on('tap', 'node', songinfoOn(e));
+
+function songinfoOn(){
   var node = e.target;
   console.info( 'slabel is ' + node.data("slabel") ); // slabel check console info
   var sImg = node.data("img");
@@ -102,7 +104,7 @@ cy.on('tap', 'node', function(e){
   }
   document.getElementById('songmotifs').innerHTML = sMotifs; //colored motif list
   songInfoOn();
-});
+};
 
 // EDGE HIGHLIGHT
 cy.on('tap', 'edge', function(e){
@@ -248,6 +250,7 @@ document.addEventListener("click", function (e) {
 
 // SHOW RESULTS
 function showResults(input) {
+  node.data("[slabel = '" + input + "']").removeClass(fade);
   cy.nodes().difference("[slabel = '" + input + "']").forEach(function(node) {
       node.addClass("fade");
     });
