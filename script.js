@@ -40,7 +40,7 @@ var cy = cytoscape({
 
 ///////////////////////////// Auto functions
 
-// SLABEL CREATION (unused)
+// SLABEL CREATION
 cy.nodes().forEach(function(node) { 
   var nodeLabel = node.data('label');
   var nodeSLabel = nodeLabel.replace( /[\W_\s]+/g, '' );
@@ -177,8 +177,10 @@ function autocomplete(inp, arr) {
               /*insert the value for the autocomplete text field:*/
               inp.value = this.getElementsByTagName("input")[0].value;
               /* SHOW RESULTS (CY FUNCTION) */
-              showResults(inp.value);
+              var sInput = inp.value.replace( /[\W_\s]+/g, '' );
+              showResults(sInput);
               console.log('inp.value is: ' + inp.value);
+              console.log('SInput value is: ' + sInput);
               /*close the list of autocompleted values,
               (or any other open lists of autocompleted values:*/
               closeAllLists();
@@ -246,7 +248,7 @@ document.addEventListener("click", function (e) {
 
 // SHOW RESULTS
 function showResults(input) {
-  cy.nodes().difference("[label = '" + input + "']").forEach(function(node) {
+  cy.nodes().difference("[slabel = '" + input + "']").forEach(function(node) {
       node.addClass("fade");
     });
   cy.edges().forEach(function(edge) { //fade other edges
@@ -254,7 +256,7 @@ function showResults(input) {
   });
   cy.animate({
     fit: {
-      eles: cy.nodes("[label = '" + input + "']"),
+      eles: cy.nodes("[slabel = '" + input + "']"),
       padding: 60
     }
   },
