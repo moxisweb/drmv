@@ -63,7 +63,7 @@ cy.on('tap', function(e){
 // SONG INFO
 cy.on('tap', 'node', songinfoOn(e));
 
-function songinfoOn(){
+function songinfoOn(e){
   var node = e.target;
   console.info( 'slabel is ' + node.data("slabel") ); // slabel check console info
   var sImg = node.data("img");
