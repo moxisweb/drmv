@@ -248,9 +248,8 @@ document.addEventListener("click", function (e) {
 
 // SHOW RESULTS
 function showResults(input) {
-  var result = node.data("[slabel = '" + input + "']")
-  result.removeClass(fade);
-  eles.difference(result).forEach(function(node) {
+  node.data("[slabel = '" + input + "']").removeClass(fade);
+  cy.nodes().difference("[slabel = '" + input + "']").forEach(function(node) {
       node.addClass("fade");
     });
   cy.edges().forEach(function(edge) { //fade other edges
@@ -258,7 +257,7 @@ function showResults(input) {
   });
   cy.animate({
     fit: {
-      eles: result,
+      eles: cy.nodes("[slabel = '" + input + "']"),
       padding: 60
     }
   },
