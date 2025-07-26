@@ -61,7 +61,7 @@ cy.on('tap', function(e){
 });
 
 // SONG INFO
-cy.on('tap', 'node', songinfoOn(e));
+cy.on('tap', 'node', songinfoOn(event.target));
 
 function songinfoOn(e){
   var node = e.target;
