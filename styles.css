@@ -120,8 +120,6 @@ h4 {
   box-sizing: border-box;
   position: relative;
   display: inline-block;
-  top: 10px;
-  right: 310px;
   z-index: 1;
 }
 input {
