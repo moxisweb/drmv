@@ -140,10 +140,14 @@ cy.on('tap', 'edge', function(e){
 
 // ALL songs list
 
-var songlist = ["Beginning", "School", "Susie", "ANOTHER HIM"];
+var songlist = ["Beginning", "School", "Susie", "ANOTHER HIM", "Song 1", "Song 2"];
 autocomplete(document.getElementById("searchInput"), songlist);
 
+var countries = ["Afghanistan","Albania","Algeria","Andorra","Angola","Anguilla"]
+
 function autocomplete(inp, arr) {
+  /*the autocomplete function takes two arguments,
+  the text field element and an array of possible autocompleted values:*/
   var currentFocus;
   /*execute a function when someone writes in the text field:*/
   inp.addEventListener("input", function(e) {
@@ -237,6 +241,8 @@ document.addEventListener("click", function (e) {
     closeAllLists(e.target);
 });
 }
+
+autocomplete(document.getElementById("myInput"), countries);
 
 // Motif name conversion
 

@@ -114,6 +114,8 @@ h4 {
   color: rgb(90, 36, 82);
   cursor: pointer;
 }
+
+* { box-sizing: border-box; }
 .searchbar {
   position: absolute;
   overflow: hidden;
@@ -123,19 +125,32 @@ h4 {
   right: 310px;
   z-index: 1;
 }
+
+.autocomplete {
+  /*the container must be positioned relative:*/
+  position: relative;
+  display: inline-block;
+}
 input {
   border: 1px solid transparent;
   background-color: #f1f1f1;
   padding: 10px;
   font-size: 16px;
+}
+input[type=text] {
+  background-color: #f1f1f1;
   width: 100%;
+}
+input[type=submit] {
+  background-color: DodgerBlue;
+  color: #fff;
 }
 .autocomplete-items {
   position: absolute;
   border: 1px solid #d4d4d4;
   border-bottom: none;
   border-top: none;
-  z-index: 3;
+  z-index: 99;
   /*position the autocomplete items to be the same width as the container:*/
   top: 100%;
   left: 0;
@@ -156,6 +171,7 @@ input {
   background-color: DodgerBlue !important;
   color: #ffffff;
 }
+
 button {
   background-color: #080808;
   color: white;

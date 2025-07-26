@@ -253,7 +253,6 @@
     { "data": { "source": "135", "target": "301", "motif": "holy" } },
     { "data": { "source": "230", "target": "301", "motif": "girl" }, "classes": ["weak"] },
     { "data": { "source": "221", "target": "302", "motif": "hey" } },
-    { "data": { "source": "139", "target": "302", "motif": "dont" }, "classes": ["weak"] },
     { "data": { "source": "803", "target": "303", "motif": "maracas" } },
     { "data": { "source": "302", "target": "304", "motif": "Tenna" } },
     { "data": { "source": "304", "target": "303", "motif": "Tenna" } },

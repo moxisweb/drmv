@@ -54,9 +54,12 @@
     </ul>
   </div>
 
-  <div class="searchbar">
-    <input type="text" placeholder="Song" id="searchInput" name="songSearch" data-placement="bottom" onkeyup='displaymatch()'>
+<form autocomplete="off" action="/action_page.php">
+  <div class="autocomplete" style="width:300px;">
+    <input id="myInput" type="text" name="myCountry" placeholder="Country">
   </div>
+  <input type="submit">
+</form>
 
   <div id="overlay" onclick="menuOff()">
   </div>
