@@ -117,8 +117,6 @@ h4 {
 
 .container {
   display: flex;
-  align-items: flex-start;
-  flex-flow: row wrap;
   justify-content: flex-end;
   margin-left: auto;
   margin-right: auto;
