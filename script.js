@@ -11,6 +11,10 @@ Promise.all([
     .then(function(res) {
       return res.json()
     }),
+  fetch('songlist.json', {mode: 'no-cors'})
+    .then(function(res) {
+      return res.json()
+    }),
 ])
 .then(function(dataArray) {
 
@@ -134,7 +138,7 @@ cy.on('tap', 'edge', function(e){
   }
 });
 
-var songlist = ["Beginning", "School", "Susie", "ANOTHER HIM", "Song 1", "Song 2", "Song 3"]
+var songlist = dataArray[3];
 autocomplete(document.getElementById("myInput"), songlist);
 
 function autocomplete(inp, arr) {
@@ -168,6 +172,7 @@ function autocomplete(inp, arr) {
               /*insert the value for the autocomplete text field:*/
               inp.value = this.getElementsByTagName("input")[0].value;
               /* SHOW RESULTS (CY FUNCTION) */
+              showResults(inp.value);
               console.log('inp.value is: ' + inp.value);
               /*close the list of autocompleted values,
               (or any other open lists of autocompleted values:*/
