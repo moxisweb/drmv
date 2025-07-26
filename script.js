@@ -140,7 +140,8 @@ cy.on('tap', 'edge', function(e){
 
 // ALL songs list
 
-var songlist = ["Beginning", "School", "Susie"]
+var songlist = ["Beginning", "School", "Susie", "ANOTHER HIM"];
+autocomplete(document.getElementById("searchInput"), songlist);
 
 function autocomplete(inp, arr) {
   var currentFocus;
@@ -236,8 +237,6 @@ document.addEventListener("click", function (e) {
     closeAllLists(e.target);
 });
 }
-
-autocomplete(document.getElementById("myInput"), countries);
 
 // Motif name conversion
 
