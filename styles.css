@@ -152,6 +152,7 @@ button {
   box-sizing: border-box;
   position: relative;
   display: inline-block;
+  width: 100px;
   z-index: 1;
 }
 input {
