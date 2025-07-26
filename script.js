@@ -140,14 +140,9 @@ cy.on('tap', 'edge', function(e){
 
 // ALL songs list
 
-var songlist = ["Beginning", "School", "Susie", "ANOTHER HIM", "Song 1", "Song 2"];
-
-var countries = ["Afghanistan","Albania","Algeria","Andorra","Angola","Anguilla"]
 autocomplete(document.getElementById("myInput"), countries);
 
 function autocomplete(inp, arr) {
-  /*the autocomplete function takes two arguments,
-  the text field element and an array of possible autocompleted values:*/
   var currentFocus;
   /*execute a function when someone writes in the text field:*/
   inp.addEventListener("input", function(e) {
@@ -280,6 +275,9 @@ function fullMotif(m) {
     }
     return mn;
 }
+
+var songlist = ["Beginning", "School", "Susie", "ANOTHER HIM", "Song 1", "Song 2"]
+var countries = ["Afghanistan","Albania","Algeria","Andorra","Angola","Anguilla"]
 
 // Menus
 
