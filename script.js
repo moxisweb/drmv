@@ -134,12 +134,6 @@ cy.on('tap', 'edge', function(e){
   }
 });
 
-// End of cy functions
-
-});
-
-// ALL songs list
-
 var songlist = ["Beginning", "School", "Susie", "ANOTHER HIM", "Song 1", "Song 2", "Song 3"]
 autocomplete(document.getElementById("myInput"), songlist);
 
@@ -174,7 +168,7 @@ function autocomplete(inp, arr) {
               /*insert the value for the autocomplete text field:*/
               inp.value = this.getElementsByTagName("input")[0].value;
               /* SHOW RESULTS (CY FUNCTION) */
-              /* showResults(inp.value); */
+              showResults(inp.value);
               console.log('inp.value is: ' + inp.value);
               /*close the list of autocompleted values,
               (or any other open lists of autocompleted values:*/
@@ -240,6 +234,18 @@ document.addEventListener("click", function (e) {
     closeAllLists(e.target);
 });
 }
+
+// SHOW RESULTS
+
+/* function showResults(input) {
+  cy.nodes().difference("[label = '" + input + "']").forEach(function(node) {
+      node.addClass("fade");
+    });
+} */
+
+// End of cy functions
+
+});
 
 // Motif name conversion
 

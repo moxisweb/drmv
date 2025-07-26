@@ -160,7 +160,6 @@ input {
   font-family: Arial;
   font-size: 16px;
   z-index: 1;
-  width: 100%;
 }
 .autocomplete-items {
   width: 100%;
