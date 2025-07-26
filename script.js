@@ -38,8 +38,18 @@ var cy = cytoscape({
   elements: dataArray[1]
 });
 
+///////////////////////////// Auto functions
+
+// SLABEL CREATION
+cy.nodes().forEach(function(node) { 
+  var nodeLabel = node.data('label');
+  var nodeSLabel = nodeLabel.replace( /[\W_\s]+/g, '' );
+  node.data( "slabel", nodeSLabel );
+  });
+
 ///////////////////////////// Interactive functions
 
+// CLEAR
 cy.on('tap', function(e){
    if (e.target === cy)  {
       cy.elements().removeClass('fade');
@@ -51,11 +61,9 @@ cy.on('tap', function(e){
 });
 
 // SONG INFO
-
 cy.on('tap', 'node', function(e){
   var node = e.target;
-  var sc = node.data('sclasses') //
-  console.info( 'sclasses is ' + sc ); //
+  console.info( 'slabel is ' + node.data("slabel") ); // slabel check console info
   var sImg = node.data("img");
   var sImgBorder = node.style("border-color");
     document.getElementById('songimg').src = sImg; //img
@@ -97,13 +105,11 @@ cy.on('tap', 'node', function(e){
 });
 
 // EDGE HIGHLIGHT
-
 cy.on('tap', 'edge', function(e){
   cy.elements().removeClass('fade');
   cy.elements().removeClass('highlight');
   cy.elements().removeStyle();
   motifInfoOff();
-
   var edge = e.target;
   if ( "motif" in edge.data() ) {
     var m = edge.data("motif");
@@ -138,9 +144,9 @@ cy.on('tap', 'edge', function(e){
   }
 });
 
+// SEARCH AUTOCOMPLETE
 var songlist = dataArray[3];
 autocomplete(document.getElementById("myInput"), songlist);
-
 function autocomplete(inp, arr) {
   var currentFocus;
   /*execute a function when someone writes in the text field:*/
@@ -154,7 +160,6 @@ function autocomplete(inp, arr) {
       a = document.createElement("DIV");
       a.setAttribute("id", this.id + "autocomplete-list");
       a.setAttribute("class", "autocomplete-items");
-      /*append the DIV element as a child of the autocomplete container:*/
       this.parentNode.appendChild(a);
       /*for each item in the array...*/
       for (i = 0; i < arr.length; i++) {
@@ -172,8 +177,10 @@ function autocomplete(inp, arr) {
               /*insert the value for the autocomplete text field:*/
               inp.value = this.getElementsByTagName("input")[0].value;
               /* SHOW RESULTS (CY FUNCTION) */
-              showResults(inp.value);
+              var sInput = inp.value.replace( /[\W_\s]+/g, '' );
+              showResults(sInput);
               console.log('inp.value is: ' + inp.value);
+              console.log('SInput value is: ' + sInput);
               /*close the list of autocompleted values,
               (or any other open lists of autocompleted values:*/
               closeAllLists();
@@ -240,9 +247,8 @@ document.addEventListener("click", function (e) {
 }
 
 // SHOW RESULTS
-
 function showResults(input) {
-  cy.nodes().difference("[label = '" + input + "']").forEach(function(node) {
+  cy.nodes().difference("[slabel = '" + input + "']").forEach(function(node) {
       node.addClass("fade");
     });
   cy.edges().forEach(function(edge) { //fade other edges
@@ -250,14 +256,14 @@ function showResults(input) {
   });
   cy.animate({
     fit: {
-      eles: cy.nodes().difference("[label = '" + input + "']"),
-      padding: 100
+      eles: cy.nodes("[slabel = '" + input + "']"),
+      padding: 40
     }
   },
   { duration: 800 });
 }
 
-// End of cy functions
+////////////////////////////////// End of cy functions
 
 });
 
