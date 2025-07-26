@@ -116,9 +116,15 @@ h4 {
 }
 
 .container {
+  top: 10px;
+  width: 500px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .autocomplete {
@@ -171,12 +177,12 @@ button {
   border: 2px solid rgb(90, 36, 82);
   padding: 10px 30px;
   text-align: center;
-  display: inline-block;
   font-size: 21px;
   font-family: '8bitoperator';
   cursor: pointer;
   z-index: 1;
 }
+
 .menu{
   position: absolute;
   display: none;
