@@ -271,7 +271,7 @@
     { "data": { "source": "304", "target": "316", "motif": "Tenna" } },
     { "data": { "source": "221", "target": "317", "motif": "hey" } },
     { "data": { "source": "304", "target": "317", "motif": "Tenna" } },
-    { "data": { "source": "227", "target": "318", "motif": "keygen" } },
+    { "data": { "source": "227", "target": "318", "motif": "KEYGEN" } },
     { "data": { "source": "202", "target": "320", "motif": "girl" } },
     { "data": { "source": "802", "target": "320", "motif": "dogg" } },
     { "data": { "source": "804", "target": "320", "motif": "sneaking" }, "classes": ["weak"] },
