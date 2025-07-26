@@ -142,7 +142,7 @@ cy.on('tap', 'edge', function(e){
 
 var songlist = ["Beginning", "School", "Susie", "ANOTHER HIM", "Song 1", "Song 2"]
 var countries = ["Afghanistan","Albania","Algeria","Andorra","Angola","Anguilla"]
-autocomplete(document.getElementById("myInput"), countries);
+autocomplete(document.getElementById("myInput"), songlist);
 
 function autocomplete(inp, arr) {
   var currentFocus;

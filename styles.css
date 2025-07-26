@@ -115,20 +115,13 @@ h4 {
   cursor: pointer;
 }
 
-.searchbar {
-  position: absolute;
-  overflow: hidden;
-  background-color: grey;
-  color: black;
-  top: 10px;
-  right: 310px;
-  z-index: 1;
-}
-
 .autocomplete {
   /*the container must be positioned relative:*/
+  box-sizing: border-box;
   position: relative;
   display: inline-block;
+  top: 10px;
+  right: 310px;
   z-index: 1;
 }
 input {
@@ -140,7 +133,6 @@ input {
   width: 100%;
 }
 .autocomplete-items {
-  box-sizing: border-box;
   width: 100%;
   position: absolute;
   border: 1px solid #d4d4d4;
