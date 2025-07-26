@@ -121,7 +121,7 @@ cy.on('tap', 'edge', function(e){
     });
     cy.nodes("node." + m).forEach(function(node) { //color node borders
       node.style("border-color", mc );
-      node.style("border-width", 0.4 );
+      node.style("border-width", 0.5 );
     });
     cy.edges().difference("edge[motif = '" + m + "']").forEach(function(edge) { //fade other edges
       edge.addClass("fade");
@@ -250,14 +250,17 @@ document.addEventListener("click", function (e) {
 function showResults(input) {
   cy.nodes().difference("[slabel = '" + input + "']").forEach(function(node) {
       node.addClass("fade");
-    });
+  });
+  cy.nodes("[slabel = '" + input + "']").forEach(function(node) { //unfade result
+      node.removeClass("fade");
+  });
   cy.edges().forEach(function(edge) { //fade other edges
     edge.addClass("fade");
   });
   cy.animate({
     fit: {
       eles: cy.nodes("[slabel = '" + input + "']"),
-      padding: 60
+      padding: 80
     }
   },
   { duration: 800 });

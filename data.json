@@ -135,7 +135,7 @@
     { "data": { "id": "324", "label": "Doom Board", "img": "img/324.jpg" }, "classes": ["Tenna", "doomboard"] },
     { "data": { "id": "325", "label": "Metaphysical Challenge", "img": "img/325.jpg" }, "classes": ["Tenna"] },
     { "data": { "id": "326", "label": "TV WORLD", "img": "img/326.jpg" }, "classes": ["hipshop", "Tenna", "hey"] },
-    { "data": { "id": "327", "label": "It's TV Time!", "img": "img/327.jpg" }, "classes": ["Tenna", "doomboard", "hey", "dont", "Feature"] },
+    { "data": { "id": "327", "label": "It's TV Time!", "img": "img/327.jpg" }, "classes": ["Tenna", "doomboard", "hey", "Feature"] },
     { "data": { "id": "328", "label": "Hall of Fame", "img": "img/328.jpg" }, "classes": ["hey"] },
     { "data": { "id": "329", "label": "Breath", "img": "img/329.jpg" }, "classes": ["none"] },
     { "data": { "id": "330", "label": "Black Knife", "img": "img/330.jpg" }, "classes": ["burn", "door", "girl"] },
