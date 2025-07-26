@@ -116,15 +116,15 @@ h4 {
 }
 
 .container {
-  top: 10px;
-  width: 500px;
   display: flex;
-  justify-content: flex-end;
   align-items: flex-start;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: flex-end;
   margin-left: auto;
   margin-right: auto;
+  top: 10px;
+  width: 500px;
+  z-index: 1;
 }
 
 .autocomplete {
@@ -172,13 +172,14 @@ input {
 }
 
 button {
-  background-color: #080808;
-  color: white;
-  border: 2px solid rgb(90, 36, 82);
+  display: block;
   padding: 10px 30px;
   text-align: center;
   font-size: 21px;
   font-family: '8bitoperator';
+  background-color: #080808;
+  color: white;
+  border: 2px solid rgb(90, 36, 82);
   cursor: pointer;
   z-index: 1;
 }
