@@ -125,6 +125,23 @@ h4 {
   z-index: 1;
 }
 
+.menubutton {
+  display: inline-block;
+  position: relative;
+}
+
+button {
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 21px;
+  font-family: '8bitoperator';
+  background-color: #080808;
+  color: white;
+  border: 2px solid rgb(90, 36, 82);
+  cursor: pointer;
+  z-index: 1;
+}
+
 .autocomplete {
   /*the container must be positioned relative:*/
   box-sizing: border-box;
@@ -167,19 +184,6 @@ input {
 .autocomplete-active {
   background-color: purple !important;
   color: #ffffff;
-}
-
-button {
-  display: block;
-  padding: 10px 30px;
-  text-align: center;
-  font-size: 21px;
-  font-family: '8bitoperator';
-  background-color: #080808;
-  color: white;
-  border: 2px solid rgb(90, 36, 82);
-  cursor: pointer;
-  z-index: 1;
 }
 
 .menu{
