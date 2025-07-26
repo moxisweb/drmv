@@ -138,7 +138,13 @@ cy.on('tap', 'edge', function(e){
 
 });
 
-// Motif name conversion // delete
+// ALL songs list
+
+var songlist = ["Beginning", "School", "Susie"]
+
+
+
+// Motif name conversion
 
 function fullMotif(m) {
     switch (m) {
