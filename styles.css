@@ -152,6 +152,7 @@ input[type=submit] {
   border: 1px solid #d4d4d4;
   border-bottom: none;
   border-top: none;
+  color: black;
   z-index: 99;
   /*position the autocomplete items to be the same width as the container:*/
   top: 100%;
