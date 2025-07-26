@@ -248,7 +248,6 @@ document.addEventListener("click", function (e) {
 
 // SHOW RESULTS
 function showResults(input) {
-  cy.nodes("[slabel = '" + input + "']").removeClass(fade);
   cy.nodes().difference("[slabel = '" + input + "']").forEach(function(node) {
       node.addClass("fade");
     });
