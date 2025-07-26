@@ -61,9 +61,7 @@ cy.on('tap', function(e){
 });
 
 // SONG INFO
-cy.on('tap', 'node', songinfoOn(event.target));
-
-function songinfoOn(e){
+cy.on('tap', 'node', function(e){
   var node = e.target;
   console.info( 'slabel is ' + node.data("slabel") ); // slabel check console info
   var sImg = node.data("img");
@@ -104,7 +102,7 @@ function songinfoOn(e){
   }
   document.getElementById('songmotifs').innerHTML = sMotifs; //colored motif list
   songInfoOn();
-};
+});
 
 // EDGE HIGHLIGHT
 cy.on('tap', 'edge', function(e){
@@ -250,8 +248,9 @@ document.addEventListener("click", function (e) {
 
 // SHOW RESULTS
 function showResults(input) {
-  node.data("[slabel = '" + input + "']").removeClass(fade);
-  cy.nodes().difference("[slabel = '" + input + "']").forEach(function(node) {
+  var result = node.data("[slabel = '" + input + "']")
+  result.removeClass(fade);
+  eles.difference(result).forEach(function(node) {
       node.addClass("fade");
     });
   cy.edges().forEach(function(edge) { //fade other edges
@@ -259,7 +258,7 @@ function showResults(input) {
   });
   cy.animate({
     fit: {
-      eles: cy.nodes("[slabel = '" + input + "']"),
+      eles: result,
       padding: 60
     }
   },
