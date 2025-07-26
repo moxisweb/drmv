@@ -54,14 +54,10 @@
     </ul>
   </div>
 
-  <div id="overlay" onclick="menuOff()"></div>
-
 <div class="container">
-  <form autocomplete="off" action="/action_page.php">
     <div class="autocomplete" style="width:300px;">
       <input id="myInput" type="text" name="searchBar" placeholder="Search song" onkeyup="autocomplete()">
     </div>
-  </form>
   <div class="menubutton">
       <button onclick="aboutOn()">About</button>
   </div>
@@ -69,6 +65,8 @@
       <button onclick="thanksOn()">Thanks</button>
   </div>
 </div>
+
+  <div id="overlay" onclick="menuOff()"></div>
 
   <div class="menu" id="about">
     <span id="closebtn" onclick="menuOff()">&#10005;</span>

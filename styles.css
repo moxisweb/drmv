@@ -117,17 +117,19 @@ h4 {
 
 .container {
   display: flex;
+  flex-flow: row nowrap;
   justify-content: flex-end;
   margin-left: auto;
   margin-right: auto;
   top: 10px;
   width: 500px;
-  z-index: 1;
+  z-index: 3;
 }
 
 .menubutton {
   display: inline-block;
   position: relative;
+  z-index: 3;
 }
 
 button {
@@ -139,7 +141,7 @@ button {
   color: white;
   border: 2px solid rgb(90, 36, 82);
   cursor: pointer;
-  z-index: 1;
+  z-index: 3;
 }
 
 .autocomplete {
