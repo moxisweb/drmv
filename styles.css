@@ -130,6 +130,7 @@ h4 {
   /*the container must be positioned relative:*/
   position: relative;
   display: inline-block;
+  z-index: 1;
 }
 input {
   border: 1px solid transparent;
