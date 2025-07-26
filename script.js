@@ -257,7 +257,7 @@ function showResults(input) {
   cy.animate({
     fit: {
       eles: cy.nodes("[slabel = '" + input + "']"),
-      padding: 40
+      padding: 60
     }
   },
   { duration: 800 });
