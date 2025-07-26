@@ -54,17 +54,22 @@
     </ul>
   </div>
 
-<form autocomplete="off" action="/action_page.php">
-  <div class="autocomplete" style="width:300px;">
-    <input id="myInput" type="text" name="searchBar" placeholder="Search song" onkeyup="autocomplete()">
-  </div>
-</form>
+  <div id="overlay" onclick="menuOff()"></div>
 
-  <div id="overlay" onclick="menuOff()">
-  </div>
+<div class="container">
+  <form autocomplete="off" action="/action_page.php">
+    <div class="autocomplete" style="width:300px;">
+      <input id="myInput" type="text" name="searchBar" placeholder="Search song" onkeyup="autocomplete()">
+    </div>
+  </form>
   <div id="aboutbutton">
       <button onclick="aboutOn()">About</button>
   </div>
+  <div id="thanksbutton">
+      <button onclick="thanksOn()">Thanks</button>
+  </div>
+</div>
+
   <div class="menu" id="about">
     <span id="closebtn" onclick="menuOff()">&#10005;</span>
       <h1>About</h1>
@@ -77,9 +82,6 @@
       This is my own attempt, so use your own judgement and compare resources before coming to conclusions.</p>
       <h4>Contact</h4>
       <p><p>If you find a mistake or have suggestions, feel free to reach out on Discord (@moxis) or Bluesky (coming soon).</p></p>
-  </div>
-  <div id="thanksbutton">
-      <button onclick="thanksOn()">Thanks</button>
   </div>
   <div class="menu" id="thanks">
     <span id="closebtn" onclick="menuOff()">&#10005;</span>
