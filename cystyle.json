@@ -211,13 +211,13 @@
     {
         "selector": "node.fade",
         "style": {
-          "opacity": 0.2
+          "opacity": 0.25
         }
     },
     {
         "selector": "edge.fade",
         "style": {
-          "opacity": 0.2
+          "opacity": 0.25
         }
     },
     {

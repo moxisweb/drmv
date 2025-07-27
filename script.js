@@ -255,15 +255,6 @@ function showResults(input) {
   var sInput = input.replace( /[\W_\s]+/g, '' ).toLowerCase();
   var results = cy.nodes("[slabel = '" + sInput + "']")
   if ( results.length != 0 ){
-    cy.nodes().difference("[slabel = '" + sInput + "']").forEach(function(node) {
-        node.addClass("fade");
-    });
-    cy.nodes("[slabel = '" + sInput + "']").forEach(function(node) { //unfade result
-        node.removeClass("fade");
-    });
-    cy.edges().forEach(function(edge) { //fade all edges
-      edge.addClass("fade");
-    });
     cy.animate({
       fit: {
         eles: results,
