@@ -152,6 +152,7 @@ function autocomplete(inp, arr) {
   /*execute a function when someone writes in the text field:*/
   inp.addEventListener("input", function(e) {
       var a, b, i, val = this.value;
+      console.info("on input, this.value is: " + val)
       /*close any already open lists of autocompleted values*/
       closeAllLists();
       if (!val) { return false;}
@@ -191,7 +192,8 @@ function autocomplete(inp, arr) {
   /*execute a function presses a key on the keyboard:*/
   inp.addEventListener("keydown", function(e) {
       var x = document.getElementById(this.id + "autocomplete-list");
-      //var inp = this.value; //WIP
+      var inp = this.value; //WIP
+      console.info("on key press, this.value is: " + inp)
       if (x) x = x.getElementsByTagName("div");
       if (e.keyCode == 40) {
         /*If the arrow DOWN key is pressed,
@@ -212,9 +214,9 @@ function autocomplete(inp, arr) {
           /*and simulate a click on the "active" item:*/
           if (x) x[currentFocus].click();
         } /* else if (inp == ) {
-          var sInput = inp.value.replace( /[\W_\s]+/g, '' );
+          var sInput = inp );
           showResults(sInput);
-        } //WIP */
+        } //WIP  */
       }
   });
   function addActive(x) {
