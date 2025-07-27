@@ -55,6 +55,7 @@ cy.on('tap', function(e){
       cy.elements().removeClass('fade');
       cy.elements().removeClass('highlight');
       cy.elements().removeStyle();
+      document.getElementById('motifname').innerHTML = "";
       motifInfoOff();
       songInfoOff();
    }
@@ -107,30 +108,30 @@ cy.on('tap', 'node', function(e){
 // EDGE HIGHLIGHT
 cy.on('tap', 'edge', function(e){
   cy.elements().removeClass('fade');
-  cy.elements().removeClass('highlight');
-  cy.elements().removeStyle();
-  motifInfoOff();
   var edge = e.target;
   if ( "motif" in edge.data() ) {
     var m = edge.data("motif");
-    var mn = "no data";
+    var mn = "no data"; //delete
     mn = fullMotif(m); //convert motif name
     var mc = edge.style("line-color");
     cy.edges("edge[motif = '" + m + "']").forEach(function(edge) { //highlight edges
       edge.addClass("highlight");
     });
-    cy.nodes("node." + m).forEach(function(node) { //color node borders
+    cy.nodes("node." + m).forEach(function(node) { //color node borders and highlight
       node.style("border-color", mc );
       node.style("border-width", 0.5 );
+      node.addClass("highlight");
     });
-    cy.edges().difference("edge[motif = '" + m + "']").forEach(function(edge) { //fade other edges
+    cy.edges().difference("edge[motif = '" + m + "']").difference("edge.highlight").forEach(function(edge) { //fade edges that aren't highlighted already
       edge.addClass("fade");
     });
-    cy.nodes().difference("node." + m).forEach(function(node) { //fade other nodes
+    cy.nodes().difference("node." + m).difference("edge.highlight").forEach(function(node) { //fade other nodes that aren't highlighted
       node.addClass("fade");
     });
-    document.getElementById('motifname').innerHTML = mn;
-    document.getElementById("motifname").style.color = mc;
+    //
+    var infoList = "";
+    infoList += '<span style="color:' + mc + '">' + mn + '</span><br>';
+    document.getElementById('motifname').innerHTML = infoList;
     motifInfoOn(); //open motif info element
     cy.maxZoom(4); //limit zoom
     cy.animate({
@@ -267,7 +268,7 @@ function showResults(input) {
     cy.animate({
       fit: {
         eles: results,
-        padding: 90
+        padding: 110
       }
     },
     { duration: 800 });
