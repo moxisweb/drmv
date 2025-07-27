@@ -127,24 +127,6 @@ h4 {
   width: 100%;
   z-index: 3;
 }
-
-.menubutton {
-  display: inline-block;
-  position: relative;
-  z-index: 3;
-}
-button {
-  padding: 10px 30px;
-  text-align: center;
-  font-size: 21px;
-  font-family: '8bitoperator';
-  background-color: #080808;
-  color: white;
-  border: 2px solid rgb(90, 36, 82);
-  cursor: pointer;
-  z-index: 3;
-}
-
 .autocomplete {
   /*the container must be positioned relative:*/
   box-sizing: border-box;
@@ -156,10 +138,11 @@ button {
 input {
   border: 1px solid transparent;
   background-color: #f1f1f1;
-  width: 220px;
   padding: 10px;
   font-family: Arial;
   font-size: 16px;
+  left: 0;
+  right: 0;
   z-index: 1;
 }
 .autocomplete-items {
@@ -188,7 +171,22 @@ input {
   background-color: purple !important;
   color: #ffffff;
 }
-
+.menubutton {
+  display: inline-block;
+  position: relative;
+  z-index: 3;
+}
+button {
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 21px;
+  font-family: '8bitoperator';
+  background-color: #080808;
+  color: white;
+  border: 2px solid rgb(90, 36, 82);
+  cursor: pointer;
+  z-index: 3;
+}
 .menu{
   position: absolute;
   display: none;
@@ -262,7 +260,7 @@ hr {
     font-size: 1.5em;
   }
   #welcome {
-    display: none;
+    width: 70%;
   }
   #legend {
     display: none;
@@ -290,5 +288,8 @@ hr {
   bottom: 1%;
   top: initial;
   padding: 0px 10px;
-}
+  }
+  .container {
+  flex-flow: row wrap;
+  }
 }
