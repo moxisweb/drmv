@@ -180,7 +180,7 @@ function autocomplete(inp, arr) {
               /* SHOW RESULTS (CY FUNCTION) */
               var lInput = inp.value
               showResults(lInput);
-              console.log('lInput value is: ' + inp.value);
+              console.log('on div click, this.value is: ' + this.value);
               /*close the list of autocompleted values,
               (or any other open lists of autocompleted values:*/
               closeAllLists();
@@ -213,10 +213,9 @@ function autocomplete(inp, arr) {
         if (currentFocus > -1) {
           /*and simulate a click on the "active" item:*/
           if (x) x[currentFocus].click();
-        } /* else if (inp == ) {
-          var sInput = inp );
-          showResults(sInput);
-        } //WIP  */
+        } else {
+          showResults(inp);
+        } //WIP
       }
   });
   function addActive(x) {
@@ -253,23 +252,26 @@ document.addEventListener("click", function (e) {
 
 // SHOW RESULTS
 function showResults(input) {
-var sInput = input.replace( /[\W_\s]+/g, '' );
-  cy.nodes().difference("[slabel = '" + sInput + "']").forEach(function(node) {
-      node.addClass("fade");
-  });
-  cy.nodes("[slabel = '" + sInput + "']").forEach(function(node) { //unfade result
-      node.removeClass("fade");
-  });
-  cy.edges().forEach(function(edge) { //fade other edges
-    edge.addClass("fade");
-  });
-  cy.animate({
-    fit: {
-      eles: cy.nodes("[slabel = '" + sInput + "']"),
-      padding: 80
-    }
-  },
-  { duration: 800 });
+  var sInput = input.replace( /[\W_\s]+/g, '' );
+  var results = cy.nodes("[slabel = '" + sInput + "']")
+  if ( results.length != 0 ){
+    cy.nodes().difference("[slabel = '" + sInput + "']").forEach(function(node) {
+        node.addClass("fade");
+    });
+    cy.nodes("[slabel = '" + sInput + "']").forEach(function(node) { //unfade result
+        node.removeClass("fade");
+    });
+    cy.edges().forEach(function(edge) { //fade other edges
+      edge.addClass("fade");
+    });
+    cy.animate({
+      fit: {
+        eles: results,
+        padding: 90
+      }
+    },
+    { duration: 800 });
+  }
 }
 
 ////////////////////////////////// End of cy functions
