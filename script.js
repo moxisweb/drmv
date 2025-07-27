@@ -122,21 +122,19 @@ cy.on('tap', 'edge', function(e){
       node.style("border-width", 0.5 );
       node.addClass("highlight");
     });
-    cy.edges().difference("edge[motif = '" + m + "']").difference("edge.highlight").forEach(function(edge) { //fade edges that aren't highlighted already
+    cy.edges().difference("edge[motif = '" + m + "']").forEach(function(edge) { //fade other edges
       edge.addClass("fade");
     });
-    cy.nodes().difference("node." + m).difference("edge.highlight").forEach(function(node) { //fade other nodes that aren't highlighted
+    cy.nodes().difference("node." + m).forEach(function(node) { //fade other nodes
       node.addClass("fade");
     });
-    //
-    var infoList = "";
-    infoList += '<span style="color:' + mc + '">' + mn + '</span><br>';
-    document.getElementById('motifname').innerHTML = infoList;
+    var infoList = '<span style="color:' + mc + '">' + mn + '</span><br>'; // prep latest motif name
+    document.getElementById('motifname').innerHTML += infoList; // add to list
     motifInfoOn(); //open motif info element
     cy.maxZoom(4); //limit zoom
     cy.animate({
       fit: {
-        eles: cy.nodes("node." + m),
+        eles: cy.nodes("node.highlight"),
         padding: 40
       }
     },

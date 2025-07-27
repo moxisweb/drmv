@@ -221,6 +221,12 @@
         }
     },
     {
+        "selector": "node.highlight",
+        "style": {
+          "opacity": 1
+        }
+    },
+    {
         "selector": "edge.highlight",
         "style": {
           "opacity": 1,
