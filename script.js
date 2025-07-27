@@ -32,7 +32,7 @@ var cy = cytoscape({
     idealEdgeLength: 40,
     quality: "proof"
   },
-  minZoom: 0.8,
+  minZoom: 0.5,
   maxZoom: 6,
   style: dataArray[0],
   elements: dataArray[1]
@@ -177,10 +177,9 @@ function autocomplete(inp, arr) {
               /*insert the value for the autocomplete text field:*/
               inp.value = this.getElementsByTagName("input")[0].value;
               /* SHOW RESULTS (CY FUNCTION) */
-              var sInput = inp.value.replace( /[\W_\s]+/g, '' );
-              showResults(sInput);
-              console.log('inp.value is: ' + inp.value);
-              console.log('SInput value is: ' + sInput);
+              var lInput = inp.value
+              showResults(lInput);
+              console.log('lInput value is: ' + inp.value);
               /*close the list of autocompleted values,
               (or any other open lists of autocompleted values:*/
               closeAllLists();
@@ -192,6 +191,7 @@ function autocomplete(inp, arr) {
   /*execute a function presses a key on the keyboard:*/
   inp.addEventListener("keydown", function(e) {
       var x = document.getElementById(this.id + "autocomplete-list");
+      //var inp = this.value; //WIP
       if (x) x = x.getElementsByTagName("div");
       if (e.keyCode == 40) {
         /*If the arrow DOWN key is pressed,
@@ -211,7 +211,10 @@ function autocomplete(inp, arr) {
         if (currentFocus > -1) {
           /*and simulate a click on the "active" item:*/
           if (x) x[currentFocus].click();
-        }
+        } /* else if (inp == ) {
+          var sInput = inp.value.replace( /[\W_\s]+/g, '' );
+          showResults(sInput);
+        } //WIP */
       }
   });
   function addActive(x) {
@@ -248,10 +251,11 @@ document.addEventListener("click", function (e) {
 
 // SHOW RESULTS
 function showResults(input) {
-  cy.nodes().difference("[slabel = '" + input + "']").forEach(function(node) {
+var sInput = input.replace( /[\W_\s]+/g, '' );
+  cy.nodes().difference("[slabel = '" + sInput + "']").forEach(function(node) {
       node.addClass("fade");
   });
-  cy.nodes("[slabel = '" + input + "']").forEach(function(node) { //unfade result
+  cy.nodes("[slabel = '" + sInput + "']").forEach(function(node) { //unfade result
       node.removeClass("fade");
   });
   cy.edges().forEach(function(edge) { //fade other edges
@@ -259,7 +263,7 @@ function showResults(input) {
   });
   cy.animate({
     fit: {
-      eles: cy.nodes("[slabel = '" + input + "']"),
+      eles: cy.nodes("[slabel = '" + sInput + "']"),
       padding: 80
     }
   },
