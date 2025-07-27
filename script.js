@@ -43,7 +43,7 @@ var cy = cytoscape({
 // SLABEL CREATION
 cy.nodes().forEach(function(node) { 
   var nodeLabel = node.data('label');
-  var nodeSLabel = nodeLabel.replace( /[\W_\s]+/g, '' );
+  var nodeSLabel = nodeLabel.replace( /[\W_\s]+/g, '' ).toLowerCase();
   node.data( "slabel", nodeSLabel );
   });
 
@@ -165,7 +165,7 @@ function autocomplete(inp, arr) {
       /*for each item in the array...*/
       for (i = 0; i < arr.length; i++) {
         /*check if the item starts with the same letters as the text field value:*/
-        if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+        if (arr[i].substr(0, val.length).toLowerCase() == val.toLowerCase()) {
           /*create a DIV element for each matching element:*/
           b = document.createElement("DIV");
           /*make the matching letters bold:*/
@@ -252,13 +252,13 @@ document.addEventListener("click", function (e) {
 
 // SHOW RESULTS
 function showResults(input) {
-  var sInput = input.replace( /[\W_\s]+/g, '' );
-  var results = cy.nodes("[slabel = '" + sInput + "'i]")
+  var sInput = input.replace( /[\W_\s]+/g, '' ).toLowerCase();
+  var results = cy.nodes("[slabel = '" + sInput + "']")
   if ( results.length != 0 ){
-    cy.nodes().difference("[slabel = '" + sInput + "'i]").forEach(function(node) {
+    cy.nodes().difference("[slabel = '" + sInput + "']").forEach(function(node) {
         node.addClass("fade");
     });
-    cy.nodes("[slabel = '" + sInput + "'i]").forEach(function(node) { //unfade result
+    cy.nodes("[slabel = '" + sInput + "']").forEach(function(node) { //unfade result
         node.removeClass("fade");
     });
     cy.edges().forEach(function(edge) { //fade all edges
