@@ -129,7 +129,6 @@ h4 {
 }
 .autocomplete {
   /*the container must be positioned relative:*/
-  box-sizing: border-box;
   position: relative;
   display: inline-block;
   width: 220px;
@@ -261,6 +260,8 @@ hr {
   }
   #welcome {
     width: 70%;
+    left: auto;
+    right: auto;
   }
   #legend {
     display: none;
