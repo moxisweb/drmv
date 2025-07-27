@@ -253,15 +253,15 @@ document.addEventListener("click", function (e) {
 // SHOW RESULTS
 function showResults(input) {
   var sInput = input.replace( /[\W_\s]+/g, '' );
-  var results = cy.nodes("[slabel = '" + sInput + "']")
+  var results = cy.nodes("[slabel = '" + sInput + "'i]")
   if ( results.length != 0 ){
-    cy.nodes().difference("[slabel = '" + sInput + "']").forEach(function(node) {
+    cy.nodes().difference("[slabel = '" + sInput + "'i]").forEach(function(node) {
         node.addClass("fade");
     });
-    cy.nodes("[slabel = '" + sInput + "']").forEach(function(node) { //unfade result
+    cy.nodes("[slabel = '" + sInput + "'i]").forEach(function(node) { //unfade result
         node.removeClass("fade");
     });
-    cy.edges().forEach(function(edge) { //fade other edges
+    cy.edges().forEach(function(edge) { //fade all edges
       edge.addClass("fade");
     });
     cy.animate({
