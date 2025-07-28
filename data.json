@@ -98,7 +98,7 @@
     { "data": { "id": "233", "label": "Giga Size", "img": "img/233.jpg" }, "classes": ["Queen", "burn"] },
     { "data": { "id": "234", "label": "Powers Combined", "img": "img/234.jpg" }, "classes": ["powers", "Anticipation"] },
     { "data": { "id": "235", "label": "Knock You Down !!", "img": "img/235.jpg" }, "classes": ["powers", "Anticipation", "Queen", "Berdly"] },
-    { "data": { "id": "236", "label": "The Dark Truth", "img": "img/236.jpg" }, "classes": ["nightmare", "dont"] },
+    { "data": { "id": "236", "label": "The Dark Truth", "img": "img/236.jpg" }, "classes": ["nightmare", "darktruth", "dont"] },
     { "data": { "id": "237", "label": "Digital Roots", "img": "img/237.jpg" }, "classes": ["nightmare"] },
     { "data": { "id": "238", "label": "Deal Gone Wrong", "img": "img/238.jpg" }, "classes": ["Spamton"] },
     { "data": { "id": "239", "label": "BIG SHOT", "img": "img/239.jpg" }, "classes": ["bigshot", "Spamton", "freedom", "neo", "dummy"] },
@@ -143,7 +143,7 @@
     { "data": { "id": "332", "label": "Dump", "img": "img/332.jpg" }, "classes": ["hipshop", "hey", "holy"] },
     { "data": { "id": "333", "label": "SWORD", "img": "img/333.jpg" }, "classes": ["Tenna", "holy"] },
     { "data": { "id": "334", "label": "NORTHERNLIGHT", "img": "img/334.jpg" }, "classes": ["Flashback"] },
-    { "data": { "id": "335", "label": "GLACIER", "img": "img/335.jpg" }, "classes": ["none"] },
+    { "data": { "id": "335", "label": "GLACEIR", "img": "img/335.jpg" }, "classes": ["none"] },
     { "data": { "id": "336", "label": "BIT ROOTS", "img": "img/336.jpg" }, "classes": ["nightmare"] },
     { "data": { "id": "337", "label": "ERAM", "img": "img/337.jpg" }, "classes": ["none"] },
     { "data": { "id": "338", "label": "BURNING EYES", "img": "img/338.jpg" }, "classes": [ "burn", "neo", "Lancer"] }

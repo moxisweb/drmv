@@ -303,6 +303,7 @@ function fullMotif(m) {
       case "doomboard": mn = "Doom Board"; break;
       case "maracas": mn = "Dog Check (Maracas)"; break;
       case "dogg": mn = "d.ogg"; break;
+      case "darktruth": mn = "The Dark Truth / Nightmare?"; break;
       default: mn = m;
     }
     return mn;

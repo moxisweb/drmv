@@ -60,7 +60,7 @@ h4 {
   font-size: 42px;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
-  z-index: 1;
+  z-index: 9;
 }
 #legend {
   position: absolute;
@@ -125,14 +125,14 @@ h4 {
   top: 1px;
   padding: 0px, 30px;
   width: 100%;
-  z-index: 3;
+  z-index: 4;
 }
 .autocomplete {
   /*the container must be positioned relative:*/
   position: relative;
   display: inline-block;
   width: 220px;
-  z-index: 4;
+  z-index: 5;
 }
 input {
   border: 1px solid transparent;
@@ -142,7 +142,7 @@ input {
   font-size: 16px;
   left: 0;
   right: 0;
-  z-index: 4;
+  z-index: 5;
 }
 .autocomplete-items {
   position: absolute;
@@ -197,7 +197,7 @@ button {
   outline: 1.4px solid rgb(90, 36, 82);
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
-  z-index: 2;
+  z-index: 5;
 }
 #welcome{
   position: absolute;
@@ -207,7 +207,7 @@ button {
   padding: 0px 14px 0px 16px;
   background-color: #080808;
   outline: 1.4px solid rgb(90, 36, 82);
-  z-index: 2;
+  z-index: 3;
 }
 #motifinfo{
   position: absolute;
@@ -259,10 +259,9 @@ hr {
     font-size: 1.5em;
   }
   #welcome {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 80%;
+    width: 70%;
+    left: auto;
+    right: auto;
   }
   #legend {
     display: none;
