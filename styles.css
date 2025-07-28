@@ -259,12 +259,16 @@ hr {
     font-size: 1.5em;
   }
   #welcome {
-    width: 70%;
-    left: auto;
-    right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
   }
   #legend {
     display: none;
+  }
+  #footer {
+  font-size: 8px;
   }
   .menu {
     position: absolute;
@@ -272,6 +276,9 @@ hr {
     width: 60%;
     padding: 0px 15px 0px 15px;
     overflow: scroll;
+  }
+  button {
+  font-size: 18px;
   }
   #closebtn{
     font-family: 'system-ui';
@@ -291,6 +298,6 @@ hr {
   padding: 0px 10px;
   }
   .container {
-  flex-flow: row wrap;
+  flex-flow: row wrap-reverse;
   }
 }
