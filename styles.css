@@ -102,7 +102,7 @@ h4 {
   right: 0;
   bottom: 0;
   background-color: rgba(0,0,0,0.6); /* Black background with opacity */
-  z-index: 5;
+  z-index: 8;
   cursor: pointer;
 }
 #closebtn{
@@ -132,7 +132,6 @@ h4 {
   position: relative;
   display: inline-block;
   width: 220px;
-  z-index: 5;
 }
 input {
   border: 1px solid transparent;
@@ -142,7 +141,6 @@ input {
   font-size: 16px;
   left: 0;
   right: 0;
-  z-index: 5;
 }
 .autocomplete-items {
   position: absolute;
@@ -173,7 +171,6 @@ input {
 .menubutton {
   display: inline-block;
   position: relative;
-  z-index: 3;
 }
 button {
   padding: 10px 30px;
@@ -184,7 +181,6 @@ button {
   color: white;
   border: 2px solid rgb(90, 36, 82);
   cursor: pointer;
-  z-index: 3;
 }
 .menu{
   position: absolute;
@@ -197,7 +193,7 @@ button {
   outline: 1.4px solid rgb(90, 36, 82);
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
-  z-index: 5;
+  z-index: 9;
 }
 #welcome{
   position: absolute;
@@ -207,7 +203,7 @@ button {
   padding: 0px 14px 0px 16px;
   background-color: #080808;
   outline: 1.4px solid rgb(90, 36, 82);
-  z-index: 3;
+  z-index: 7;
 }
 #motifinfo{
   position: absolute;
@@ -220,7 +216,7 @@ button {
   background-color: #080808;
   outline: 1.4px solid rgb(90, 36, 82);
   color: rgb(90, 36, 82);
-  z-index: 2;
+  z-index: 5;
 }
 #songinfo{
   position: absolute;
@@ -231,7 +227,7 @@ button {
   padding: 15px 15px 10px 15px;
   background-color: #080808;
   outline: 1.4px solid rgb(90, 36, 82);
-  z-index: 2;
+  z-index: 5;
 }
 #imgost {
   padding: 0px 0px 3px 5px;
@@ -259,25 +255,26 @@ hr {
     font-size: 1.5em;
   }
   #welcome {
-    width: 70%;
-    left: auto;
-    right: auto;
+    left: 2px;
+    right: 2px;
+    bottom: 4px;
   }
   #legend {
     display: none;
   }
   #footer {
-  font-size: 8px;
+  font-size: 9px;
   }
   .menu {
     position: absolute;
     height: 60%;
-    width: 60%;
+    width: 65%;
     padding: 0px 15px 0px 15px;
     overflow: scroll;
   }
   button {
   font-size: 18px;
+  padding: 5px 15px;
   }
   #closebtn{
     font-family: 'system-ui';
@@ -298,5 +295,8 @@ hr {
   }
   .container {
   flex-flow: row wrap-reverse;
+  gap: 10px;
+  top: 1px;
+  padding: 0px, 30px;
   }
 }
