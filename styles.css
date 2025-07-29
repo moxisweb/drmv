@@ -261,6 +261,7 @@ hr {
     left: 2px;
     right: 2px;
     bottom: 4px;
+    width: initial;
   }
   #legend {
     display: none;
