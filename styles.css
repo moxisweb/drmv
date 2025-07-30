@@ -255,13 +255,14 @@ hr {
     font-size: 1.8em;
   }
   h2 {
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
   #welcome {
-    left: 2px;
-    right: 2px;
-    bottom: 4px;
-    width: initial;
+    overflow: scroll;
+    width: 200px;
+    left: 1%;
+    bottom: 5%;
+    padding: 0px 10px 0px 10px;
   }
   #legend {
     display: none;
@@ -284,21 +285,23 @@ hr {
     font-family: 'system-ui';
   }
   #songinfo{
+  width: 260px;
   left: 1%;
   right: 1%;
   top: 1%;
   max-width: 80%;
-  padding: 15px 15px 5px 15px;
+  padding: 10px 10px 5px 10px;
   }
   #motifinfo{
-  left: 1%;
-  right: 1%;
-  bottom: 1%;
   top: initial;
+  left: 1%;
+  bottom: 3%;
   padding: 0px 10px;
   }
   .container {
-  flex-flow: row wrap-reverse;
+  margin-left: initial;
+  margin-right: initial;
+  flex-flow: row wrap;
   gap: 10px;
   top: 1px;
   padding: 0px, 30px;
