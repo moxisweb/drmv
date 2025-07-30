@@ -49,6 +49,8 @@ cy.nodes().forEach(function(node) {
 
 ///////////////////////////// Interactive functions
 
+var listedlist = [];
+
 // CLEAR
 cy.on('tap', function(e){
    if (e.target === cy)  {
@@ -58,6 +60,7 @@ cy.on('tap', function(e){
       document.getElementById('motifname').innerHTML = "";
       motifInfoOff();
       songInfoOff();
+      listedlist = [];
    }
 });
 
@@ -106,7 +109,7 @@ cy.on('tap', 'node', function(e){
   songInfoOn();
 });
 
-// EDGE HIGHLIGHT
+// EDGE HIGHLIGHT + MOTIF INFO
 cy.on('tap', 'edge', function(e){
   cy.elements().removeClass('fade');
   var edge = e.target;
@@ -129,8 +132,11 @@ cy.on('tap', 'edge', function(e){
     cy.nodes().difference("node." + m).forEach(function(node) { //fade other nodes
       node.addClass("fade");
     });
-    var infoList = '<span style="color:' + mc + '">' + mn + '</span><br>'; // prep latest motif name
-    document.getElementById('motifname').innerHTML += infoList; // add to list
+    //WIP
+    var outputHTML = '<span style="color:' + mc + '">' + mn + '</span><br>'; // prep latest motif name
+    document.getElementById('motifname').innerHTML += outputHTML; // add to list
+    listedlist += m; // add to list to exclude if clicked again
+    console.log("listedlist is: " + listedlist);
     motifInfoOn(); //open motif info element
     cy.maxZoom(4); //limit zoom
     cy.animate({
