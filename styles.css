@@ -171,12 +171,7 @@ input {
   color: #ffffff;
 }
 .menubutton {
-  display: inline-block;
-  position: relative;
-  z-index: 4;
-}
-button {
-  padding: 10px 30px;
+  margin: 10px 30px;
   text-align: center;
   font-size: 21px;
   font-family: '8bitoperator';
@@ -184,6 +179,7 @@ button {
   color: white;
   border: 2px solid rgb(90, 36, 82);
   cursor: pointer;
+  z-index: 4;
 }
 .menu{
   position: absolute;
@@ -278,10 +274,9 @@ hr {
     padding: 0px 15px 0px 15px;
     overflow: scroll;
   }
-  button {
-  display: none;
-  font-size: 18px;
-  padding: 5px 15px;
+  .menubutton {
+    font-size: 18px;
+    margin: 5px 15px;
   }
   #closebtn{
     font-family: 'system-ui';
