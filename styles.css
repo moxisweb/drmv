@@ -119,9 +119,11 @@ h4 {
   flex-flow: row nowrap;
   justify-content: flex-end;
   align-items: baseline;
+  margin-left: auto;
   margin-right: 30px;
   gap: 15px;
   top: 1px;
+  padding: 0px, 0px;
   width: 100%;
   z-index: 4;
 }
