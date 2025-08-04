@@ -92,7 +92,7 @@ h4 {
   z-index: 1;
 }
 #footer {
-  position: sticky;
+  position: fixed;
   align-items: center;
   text-align: center;
   width: 100%;
@@ -202,7 +202,7 @@ button {
   z-index: 9;
 }
 #welcome{
-  position: sticky;
+  position: fixed;
   left: 15px;
   bottom: 10px;
   width: 375px;
