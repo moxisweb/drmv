@@ -14,8 +14,6 @@ body {
 	height: 100%; 
 	width: 100%;
   position: absolute;
-  bottom: 0px;
-  left: 0px;
   background-image: url("img/bg0089.png");
   background-size: 900px;
   background-color: rgba(0,0,0,0.5);
@@ -85,7 +83,6 @@ h4 {
   align-items: center;
   text-align: center;
   width: 100%;
-  bottom: 0%;
   font-size: 10px;
   font-family: Tahoma;
   opacity: 40%;
@@ -96,10 +93,6 @@ h4 {
   display: none;
   width: 100%;
   height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   background-color: rgba(0,0,0,0.6); /* Black background with opacity */
   z-index: 8;
   cursor: pointer;
@@ -267,7 +260,6 @@ hr {
     display: none;
   }
   #footer {
-  display: none;
   font-size: 9px;
   }
   .menu {
