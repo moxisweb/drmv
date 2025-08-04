@@ -92,7 +92,7 @@ h4 {
   z-index: 1;
 }
 #footer {
-  position: absolute;
+  position: sticky;
   align-items: center;
   text-align: center;
   width: 100%;
@@ -202,7 +202,7 @@ button {
   z-index: 9;
 }
 #welcome{
-  position: absolute;
+  position: sticky;
   left: 15px;
   bottom: 10px;
   width: 375px;
@@ -261,7 +261,6 @@ hr {
     font-size: 1.4em;
   }
   #welcome {
-    overflow: scroll;
     width: 200px;
     left: 1%;
     bottom: 5%;
@@ -288,25 +287,28 @@ hr {
     font-family: 'system-ui';
   }
   #songinfo{
-  width: 260px;
-  left: 1%;
-  right: 1%;
-  top: 1%;
-  max-width: 80%;
-  padding: 10px 10px 5px 10px;
+    width: 260px;
+    left: 1%;
+    right: 1%;
+    top: 1%;
+    max-width: 80%;
+    padding: 10px 10px 5px 10px;
   }
   #motifinfo{
-  top: initial;
-  left: 1%;
-  bottom: 3%;
-  padding: 0px 10px;
+    top: initial;
+    left: 1%;
+    bottom: 5%;
+    padding: 0px 10px;
   }
   .container {
-  margin-left: initial;
-  margin-right: initial;
-  flex-flow: row wrap;
-  gap: 10px;
-  top: 1px;
-  padding: 0px, 30px;
+    flex-flow: column nowrap;
+    justify-content: initial;
+    margin-left: initial;
+    margin-right: initial;
+    width: initial;
+    gap: 5px;
+    top: 1%;
+    left: 1%;
+    padding: 0px, 30px;
   }
 }
