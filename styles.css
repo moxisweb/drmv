@@ -281,7 +281,7 @@ hr {
     overflow: scroll;
   }
   button {
-    width: 100px;
+    width: 90px;
     font-size: 18px;
     padding: 8px 16px;
   }
@@ -289,9 +289,7 @@ hr {
     font-family: 'system-ui';
   }
   #songinfo{
-    width: initial;
-    min-width: 210px;
-    max-width: 250px;
+    width: 240px;
     left: 1%;
     top: 1%;
     padding: 10px 10px 5px 10px;
