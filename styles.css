@@ -262,7 +262,7 @@ hr {
   }
   #welcome {
     font-size: 14px;
-    width: 240px;
+    width: 270px;
     left: 1%;
     bottom: 5%;
     padding: 0px 10px 0px 10px;
@@ -289,7 +289,7 @@ hr {
     font-family: 'system-ui';
   }
   #songinfo{
-    width: 250px;
+    width: 240px;
     left: 1%;
     top: 1%;
     padding: 10px 10px 5px 10px;
