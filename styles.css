@@ -216,7 +216,7 @@ button {
   display: none;
   top: 10px;
   left: 345px;
-  padding: 0px 20px;
+  padding: 2px 20px;
   font-family: '8bitoperator';
   font-size: 18px;
   background-color: #080808;
@@ -280,14 +280,16 @@ hr {
     overflow: scroll;
   }
   button {
+    min-width: 60px;
     font-size: 18px;
-    padding: 5px 15px;
+    padding: 8px 16px;
   }
   #closebtn{
     font-family: 'system-ui';
   }
   #songinfo{
-    width: 260px;
+    width: initial;
+    max-width: 250px;
     left: 1%;
     right: 1%;
     top: 1%;
@@ -295,10 +297,11 @@ hr {
     padding: 10px 10px 5px 10px;
   }
   #motifinfo{
+    position: fixed;
     top: initial;
     left: 1%;
     bottom: 5%;
-    padding: 0px 10px;
+    padding: 2px 10px;
   }
   .container {
     flex-flow: column nowrap;
@@ -306,7 +309,7 @@ hr {
     margin-left: initial;
     margin-right: initial;
     width: initial;
-    gap: 5px;
+    gap: 10px;
     top: 1%;
     left: 1%;
     padding: 0px, 30px;
