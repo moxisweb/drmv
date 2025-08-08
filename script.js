@@ -132,21 +132,23 @@ cy.on('tap', 'edge', function(e){
     cy.nodes().difference("node." + m).forEach(function(node) { //fade other nodes
       node.addClass("fade");
     });
-    //WIP
-    var outputHTML = '<span style="color:' + mc + '">' + mn + '</span><br>'; // prep latest motif name
-    document.getElementById('motifname').innerHTML += outputHTML; // add to list
-    listedlist += m; // add to list to exclude if clicked again
-    console.log("listedlist is: " + listedlist);
-    motifInfoOn(); //open motif info element
-    cy.maxZoom(4); //limit zoom
-    cy.animate({
-      fit: {
-        eles: cy.nodes("node.highlight"),
-        padding: 40
-      }
-    },
-    { duration: 800 });
-    cy.maxZoom(6); //reset zoom
+    if (listedlist.includes(m)) { // WIP TO EXCLUDE REPEAT SELECTION
+      console.log(m + "is already selected");
+    } else {
+      listedlist += m; // add to list to exclude if clicked again
+      var outputHTML = '<span style="color:' + mc + '">' + mn + '</span><br>'; // prep latest motif name
+      document.getElementById('motifname').innerHTML += outputHTML; // add to list
+      motifInfoOn(); //open motif info element
+      cy.maxZoom(4); //limit zoom
+      cy.animate({
+        fit: {
+          eles: cy.nodes("node.highlight"),
+          padding: 40
+        }
+      },
+      { duration: 800 });
+      cy.maxZoom(6); //reset zoom
+    }
   }
 });
 
