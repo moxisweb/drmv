@@ -291,9 +291,7 @@ hr {
     width: initial;
     max-width: 250px;
     left: 1%;
-    right: 1%;
     top: 1%;
-    max-width: 80%;
     padding: 10px 10px 5px 10px;
   }
   #motifinfo{
@@ -301,7 +299,7 @@ hr {
     top: initial;
     left: 1%;
     bottom: 5%;
-    padding: 2px 10px;
+    padding: 4px 10px;
   }
   .container {
     flex-flow: column nowrap;
