@@ -261,6 +261,7 @@ hr {
     font-size: 1.4em;
   }
   #welcome {
+    font-size: 14px;
     width: 200px;
     left: 1%;
     bottom: 5%;
@@ -289,6 +290,7 @@ hr {
   }
   #songinfo{
     width: initial;
+    min-width: 190px;
     max-width: 250px;
     left: 1%;
     top: 1%;
