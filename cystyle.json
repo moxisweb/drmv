@@ -195,6 +195,13 @@
       }
     },
     {
+      "selector": "[motif = 'darktruth']",
+      "style": {
+        "line-color": "#b23c22",
+        "target-arrow-color": "#b23c22"
+      }
+    },
+    {
       "selector": "[motif = 'hey']",
       "style": {
         "line-color": "#ffb300",

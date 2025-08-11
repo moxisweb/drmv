@@ -281,7 +281,9 @@ function showResults(input) {
 function fullMotif(m) {
     switch (m) {
       case "once": mn = "Once Upon a Time"; break;
+      case "ruins": mn = "Ruins/Waterfall"; break;
       case "ghost": mn = "Ghost Fight"; break;
+      case "rain": mn = "It's Raining Somewhere Else"; break;
       case "dont": mn = "Don't Forget"; break;
       case "nightmare": mn = "Your Best Nightmare"; break;
       case "neo": mn = "Power of NEO"; break;
@@ -309,10 +311,10 @@ function fullMotif(m) {
       case "hipshop": mn = "Hip Shop"; break;
       case "doomboard": mn = "Doom Board"; break;
       case "sanctuary": mn = "Dark Sanctuary"; break;
-      case "Justice": mn = "Spear of Justice"; break;
+      case "justice": mn = "Spear of Justice"; break;
       case "maracas": mn = "Dog Check (Maracas)"; break;
       case "dogg": mn = "d.ogg"; break;
-      case "darktruth": mn = "The Dark Truth (Your Best Nightmare)"; break;
+      case "darktruth": mn = "The Dark Truth (Your Best Nightmare?)"; break;
       default: mn = m;
     }
     return mn;
