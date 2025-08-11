@@ -132,7 +132,7 @@ cy.on('tap', 'edge', function(e){
     cy.nodes().difference("node." + m).forEach(function(node) { //fade other nodes
       node.addClass("fade");
     });
-    if (listedlist.includes(m)) { // WIP TO EXCLUDE REPEAT SELECTION
+    if (listedlist.includes(m)) { // to exclude repeat selection
       console.log(m + "is already selected");
     } else {
       listedlist += m; // add to list to exclude if clicked again
@@ -288,10 +288,10 @@ function fullMotif(m) {
       case "neo": mn = "Power of NEO"; break;
       case "gaster": mn = "Gaster's Theme"; break;
       case "hopes": mn = "Hopes and Dreams"; break;
-      case "door": mn = "The Door / Nightmare Knight"; break;
+      case "door": mn = "The Door"; break;
       case "girl": mn = "Lost Girl"; break;
       case "legend": mn = "The Legend"; break;
-      case "freedom": mn = "Freedom / The World Revolving"; break;
+      case "freedom": mn = "Freedom Motif"; break;
       case "bigshot": mn = "BIG SHOT"; break;
       case "hey": mn = "HEY EVERY !"; break;
       case "holy": mn = "The Holy"; break;
@@ -309,9 +309,11 @@ function fullMotif(m) {
       case "uwa": mn = "Uwa!!♫"; break;
       case "hipshop": mn = "Hip Shop"; break;
       case "doomboard": mn = "Doom Board"; break;
+      case "sanctuary": mn = "Dark Sanctuary"; break;
+      case "Justice": mn = "Spear of Justice"; break;
       case "maracas": mn = "Dog Check (Maracas)"; break;
       case "dogg": mn = "d.ogg"; break;
-      case "darktruth": mn = "The Dark Truth / Nightmare?"; break;
+      case "darktruth": mn = "The Dark Truth (Your Best Nightmare)"; break;
       default: mn = m;
     }
     return mn;

@@ -209,6 +209,13 @@
       }
     },
     {
+      "selector": "[motif = 'justice']",
+      "style": {
+        "line-color": "#11B808",
+        "target-arrow-color": "#11B808"
+      }
+    },
+    {
         "selector": "node.fade",
         "style": {
           "opacity": 0.25
