@@ -57,7 +57,7 @@
         "control-point-step-size": 4,
         "target-arrow-color": "LightGrey",
         "target-arrow-shape": "triangle",
-        "arrow-scale": 0.3,
+        "arrow-scale": 0.35,
         "target-distance-from-node": 2,
         "target-endpoint": "outside-to-line-or-label"
       }
@@ -71,8 +71,8 @@
     {
       "selector": "[motif = 'gaster']",
       "style": {
-        "line-color": "#e01b5d",
-        "target-arrow-color": "#e01b5d"
+        "line-color": "#e01b6d",
+        "target-arrow-color": "#e01b6d"
       }
     },
     {
@@ -162,8 +162,8 @@
     {
       "selector": "[motif = 'girl']",
       "style": {
-        "line-color": "#b9ec00",
-        "target-arrow-color": "#b9ec00"
+        "line-color": "#def200",
+        "target-arrow-color": "#def200"
       }
     },
     {
