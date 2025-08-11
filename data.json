@@ -9,7 +9,7 @@
     { "data": { "id": "666", "label": "Gaster's Theme", "img": "img/666.jpg" }, "classes": ["gaster"] },
 
     { "data": { "id": "001", "label": "Once Upon a Time", "img": "img/001.jpg" }, "classes": ["once"] },
-    { "data": { "id": "005", "label": "Ruins", "img": "img/006.jpg" }, "classes": ["Ruins"] },
+    { "data": { "id": "005", "label": "Ruins", "img": "img/005.jpg" }, "classes": ["Ruins"] },
     { "data": { "id": "006", "label": "Uwa!! So Temperate♫", "img": "img/006.jpg" }, "classes": ["uwa"] },
     { "data": { "id": "007", "label": "Anticipation", "img": "img/007.jpg" }, "classes": ["Anticipation"] },
     { "data": { "id": "010", "label": "Ghost Fight", "img": "img/010.jpg" }, "classes": ["ghost"] },
