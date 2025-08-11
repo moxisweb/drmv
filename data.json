@@ -133,7 +133,7 @@
     { "data": { "id": "317", "label": "Raft Ride", "img": "img/317.jpg" }, "classes": ["hey", "Tenna"] },
     { "data": { "id": "318", "label": "SOUTH OF THE BORDER!!", "img": "img/318.jpg" }, "classes": ["KEYGEN"] },
     { "data": { "id": "319", "label": "Sound Check", "img": "img/319.jpg" }, "classes": ["none"] },
-    { "data": { "id": "320", "label": "Raise Up Your Bat", "img": "img/320.jpg" }, "classes": ["girl", "sneaking"] },
+    { "data": { "id": "320", "label": "Raise Up Your Bat", "img": "img/320.jpg" }, "classes": ["dogg", "girl", "sneaking"] },
     { "data": { "id": "321", "label": "KING OF ROLYPOLY", "img": "img/321.jpg" }, "classes": ["hey"] },
     { "data": { "id": "322", "label": "Glowing Snow", "img": "img/322.jpg" }, "classes": ["uwa"] },
     { "data": { "id": "323", "label": "Big City Board", "img": "img/323.jpg" }, "classes": ["Tenna", "Paradise", "dont"] },
@@ -190,7 +190,7 @@
     { "data": { "id": "373", "label": "The LEGEND...?", "img": "img/373.jpg" }, "classes": ["legend"] },
     { "data": { "id": "374", "label": "With Hope Crossed On Our Hearts", "img": "img/374.jpg" }, "classes": ["dont"] },
     { "data": { "id": "375", "label": "Volume Adjustment", "img": "img/375.jpg" }, "classes": ["Sneaking"] },
-    { "data": { "id": "376", "label": "Catswing", "img": "img/376.jpg" }, "classes": ["Spamton", "hey", "bigshot", "Tenna"] },
+    { "data": { "id": "376", "label": "Catswing", "img": "img/376.jpg" }, "classes": ["Spamton", "hey", "bigshot", "Sneaking", "Tenna"] },
     { "data": { "id": "377", "label": "Air Waves", "img": "img/377.jpg" }, "classes": ["Spamton", "freedom"] },
     { "data": { "id": "378", "label": "Concert for you", "img": "img/378.jpg" }, "classes": ["hidden"] }
 
@@ -413,7 +413,7 @@
     { "data": { "source": "221", "target": "376", "motif": "hey" } },
     { "data": { "source": "223", "target": "376", "motif": "bigshot" } },
     { "data": { "source": "804", "target": "376", "motif": "Sneaking" } },
-    { "data": { "source": "304", "target": "376", "motif": "tenna" } },
+    { "data": { "source": "304", "target": "376", "motif": "Tenna" } },
     { "data": { "source": "222", "target": "377", "motif": "Spamton" } },
     { "data": { "source": "133", "target": "377", "motif": "freedom" } }
 

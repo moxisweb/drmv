@@ -11,7 +11,7 @@
         "border-width": 0.6,
         "border-color": "#3d1f3d",
         "label": "data(label)",
-        "font-size": 4,
+        "font-size": 5,
         "text-justification": "center",
         "text-wrap": "wrap",
         "text-max-width": "30px",
