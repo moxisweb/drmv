@@ -11,7 +11,7 @@
         "border-width": 0.6,
         "border-color": "#3d1f3d",
         "label": "data(label)",
-        "font-size": 5,
+        "font-size": 4.5,
         "text-justification": "center",
         "text-wrap": "wrap",
         "text-max-width": "30px",
@@ -71,15 +71,22 @@
     {
       "selector": "[motif = 'gaster']",
       "style": {
-        "line-color": "gold",
-        "target-arrow-color": "gold"
+        "line-color": "#D4EC00",
+        "target-arrow-color": "#D4EC00"
       }
     },
     {
       "selector": "[motif = 'once']",
       "style": {
-        "line-color": "#BF8227",
-        "target-arrow-color": "#BF8227"
+        "line-color": "#9F571D",
+        "target-arrow-color": "#9F571D"
+      }
+    },
+    {
+      "selector": "[motif = 'Hometown']",
+      "style": {
+        "line-color": "#FDB200",
+        "target-arrow-color": "#FDB200"
       }
     },
     {
@@ -169,15 +176,15 @@
     {
       "selector": "[motif = 'bigshot']",
       "style": {
-        "line-color": "hotpink",
-        "target-arrow-color": "hotpink"
+        "line-color": "#FF69FF",
+        "target-arrow-color": "#FF69FF"
       }
     },
     {
       "selector": "[motif = 'neo']",
       "style": {
-        "line-color": "#00d6ba",
-        "target-arrow-color": "#00d6ba"
+        "line-color": "#00DDCF",
+        "target-arrow-color": "#00DDCF"
       }
     },
     {
@@ -213,6 +220,13 @@
       "style": {
         "line-color": "#11B808",
         "target-arrow-color": "#11B808"
+      }
+    },
+    {
+      "selector": "[motif = 'Gerson']",
+      "style": {
+        "line-color": "#F869BA",
+        "target-arrow-color": "#F869BA"
       }
     },
     {

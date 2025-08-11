@@ -91,7 +91,7 @@ cy.on('tap', 'node', function(e){
     document.getElementById('songbandcamp').innerHTML = "Bandcamp";
     document.getElementById('linkor').innerHTML = " or ";
   } else {
-    document.getElementById('songbandcamp').href = ''; //empty bandcamp field
+    document.getElementById('songbandcamp').href = ''; //empty bandcamp field and connecting words if none
     document.getElementById('songbandcamp').innerHTML = '';
     document.getElementById('linkor').innerHTML = '';
   }
