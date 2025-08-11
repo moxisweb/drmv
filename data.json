@@ -3,7 +3,7 @@
     { "data": { "id": "901", "label": "Nightmare Knight (Cucumber Quest)", "img": "img/901.jpg" }, "classes": ["door"] },
     { "data": { "id": "902", "label": "Penumbra Phantasm", "img": "img/902.jpg" }, "classes": ["holy"] },
     { "data": { "id": "801", "label": "man", "img": "img/801.jpg" }, "classes": ["none"] },
-    { "data": { "id": "802", "label": "d.ogg", "img": "img/802.jpg" }, "classes": ["dogg", "none"] },
+    { "data": { "id": "802", "label": "d.ogg", "img": "img/802.jpg" }, "classes": ["dogg"] },
     { "data": { "id": "803", "label": "dog_check (Maracas)", "img": "img/803.jpg" }, "classes": ["maracas", "hidden"] },
     { "data": { "id": "804", "label": "sneaking (unused)", "img": "img/804.jpg" }, "classes": ["Sneaking", "girl"] },
     { "data": { "id": "666", "label": "Gaster's Theme", "img": "img/666.jpg" }, "classes": ["gaster"] },
