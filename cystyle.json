@@ -54,6 +54,7 @@
         "line-color": "LightGrey",
         "opacity": 0.6,
         "curve-style": "bezier",
+        "control-point-step-size": 4,
         "target-arrow-color": "LightGrey",
         "target-arrow-shape": "triangle",
         "arrow-scale": 0.3,
@@ -70,8 +71,8 @@
     {
       "selector": "[motif = 'gaster']",
       "style": {
-        "line-color": "#D4EC00",
-        "target-arrow-color": "#D4EC00"
+        "line-color": "#e01b5d",
+        "target-arrow-color": "#e01b5d"
       }
     },
     {
@@ -161,8 +162,8 @@
     {
       "selector": "[motif = 'girl']",
       "style": {
-        "line-color": "#63e5ff",
-        "target-arrow-color": "#63e5ff"
+        "line-color": "#b9ec00",
+        "target-arrow-color": "#b9ec00"
       }
     },
     {
@@ -212,6 +213,13 @@
       "style": {
         "line-color": "DarkViolet",
         "target-arrow-color": "DarkViolet"
+      }
+    },
+    {
+      "selector": "[motif = 'sanctuary']",
+      "style": {
+        "line-color": "#782ee6",
+        "target-arrow-color": "#782ee6"
       }
     },
     {
