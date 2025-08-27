@@ -272,16 +272,6 @@ function showResults(input) {
   }
 }
 
-// STORE POSITION
-function storePosition () {
-  const nodes = cy.nodes(); 
-  const nodePositions = {};
-  for (let i = 0; i < nodes.length; i++) {
-    nodePositions[i] = nodes[i].position();
-  }
-  console.info(nodePositions);
-}
-
 ////////////////////////////////// End of cy functions
 
 });
@@ -360,4 +350,14 @@ function songInfoOn() {
 }
 function songInfoOff() {
   document.getElementById("songinfo").style.display = "none";
+}
+
+// STORE POSITION
+function storePosition () {
+  const nodes = cy.nodes(); 
+  const nodePositions = {};
+  for (let i = 0; i < nodes.length; i++) {
+    nodePositions[i] = nodes[i].position();
+  }
+  console.log(nodePositions);
 }
