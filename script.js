@@ -272,6 +272,16 @@ function showResults(input) {
   }
 }
 
+// STORE POSITION
+function storePosition () {
+  const nodes = cy.nodes(); 
+  const nodePositions = {};
+  for (let i = 0; i < nodes.length; i++) {
+    nodePositions[i] = nodes[i].position();
+  }
+  console.info(nodePositions);
+}
+
 ////////////////////////////////// End of cy functions
 
 });
