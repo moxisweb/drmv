@@ -273,17 +273,26 @@ function showResults(input) {
 }
 
 
-const nodes = cy.nodes();
-/* storePositions();
-function storePositions() {
-  var currentFocus;
-  addEventListener("keydown", function(event) {
-    if(event.key === ñ) {
-      console.log('w was pressed'); 
-    }
-  });
-} */
+// STORE POSITIONS
+addEventListener('keydown', function(e) {
+  if (e.key === 's' && e.ctrlKey) { //ctrl + s
+    const nodes = cy.nodes();
+    const nodePositions = {};
+      for (let i = 0; i < nodes.length; i++) {
+      nodePositions[nodes[i].id()] = nodes[i].position();
+      }
+    console.log(nodePositions);
+  }
+});
 
+/* function storePositions() {
+  const nodes = cy.nodes();
+  const nodePositions = {};
+  for (let i = 0; i < nodes.length; i++) {
+    nodePositions[nodes[i].id()] = nodes[i].position();
+  }
+  return nodePositions;
+} */
 
 ////////////////////////////////// End of cy functions
 
@@ -357,19 +366,9 @@ function motifInfoOn() {
 function motifInfoOff() {
   document.getElementById("motifinfo").style.display = "none";
 }
-
 function songInfoOn() {
   document.getElementById("songinfo").style.display = "block";
 }
 function songInfoOff() {
   document.getElementById("songinfo").style.display = "none";
-}
-
-// STORE POSITIONS
-function storePositions() {
-  const nodePositions = {};
-  for (let i = 0; i < nodes.length; i++) {
-    nodePositions[nodes[i].id()] = nodes[i].position();
-  }
-  return nodePositions;
 }
