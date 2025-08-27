@@ -92,8 +92,8 @@
     {
       "selector": "[motif = 'freedom']",
       "style": {
-        "line-color": "gold",
-        "target-arrow-color": "gold"
+        "line-color": "#FFD700",
+        "target-arrow-color": "#FFD700"
       }
     },
     {
