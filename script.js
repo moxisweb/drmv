@@ -110,7 +110,7 @@ cy.on('tap', 'node', function(e){
     var mc = cyEdges.style("line-color");
     sMotifs += '<li><span style="color:' + mc + '">' + fullMotif(classlist[i]) + '</span>';
     if (notes != undefined) {
-      sMotifs += '<span>' + notes[i] + '</span>';
+      sMotifs += '<span style="color:Grey"> ' + notes[i] + '</span>';
     }
     sMotifs += '</li>';
   }
