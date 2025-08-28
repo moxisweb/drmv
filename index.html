@@ -28,7 +28,7 @@
 <body>
 
   <div id="welcome">
-    <span id="closebtn" onclick="this.parentElement.style.display='none';">&#10005;</span>
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&#10005;</span>
     <span>
       <h2>Welcome to Mox's Deltarune Music Visualizer!</h2>
       <div style="margin: 0.4em 0">WARNING: Contains spoilers! (Chapters 1-4)</div>
@@ -48,8 +48,11 @@
   </div>
 
   <div id="songinfo">
-    <span id="closebtn" onclick="this.parentElement.style.display='none';">&#10005;</span>
-    <div id="imgost"><img id="songimg" onerror="this.onerror=null; this.src='blank.jpg'" style ="width: 100px; height: 100px;"><span id="songost"></span></div>
+    <div id="songinfoflex">
+      <img id="songimg" onerror="this.onerror=null; this.src='blank.jpg'" style ="width: 100px; height: 100px;">
+      <span id="songost"></span>
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">&#10005;</span>
+    </div>
     <hr>
     <h2><span id="songname"></span></h2>
     <hr>
@@ -74,7 +77,7 @@
   <div id="overlay" onclick="menuOff()"></div>
 
   <div class="menu" id="about">
-    <span id="closebtn" onclick="menuOff()">&#10005;</span>
+    <span class="closebtn" onclick="menuOff()">&#10005;</span>
       <h1>About</h1>
       <p>This is a fan-made visualizer for the music of Deltarune.
         Songs connected by arrows which signify leitmotifs or other melodies and patterns.</p>
@@ -87,7 +90,7 @@
       <p><p>If you find a mistake or have suggestions, feel free to reach out on Discord (@moxis) or Reddit (m_oxis).</p></p>
   </div>
   <div class="menu" id="thanks">
-    <span id="closebtn" onclick="menuOff()">&#10005;</span>
+    <span class="closebtn" onclick="menuOff()">&#10005;</span>
       <h1>Special Thanks</h1>
       <p>This project aims to compile community knowledge, so many resources were essential! I want to thank:</p>
       <ul>

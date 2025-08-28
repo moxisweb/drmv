@@ -53,7 +53,7 @@ h4 {
   font-size: 1.3em;
   margin: 0.8em 0;
 }
-#closebtn{
+.closebtn{
   float: right;
   padding: 5px 0px;
   font-family: 'arial';
@@ -235,7 +235,11 @@ button {
   outline: 1.4px solid rgb(90, 36, 82);
   z-index: 5;
 }
-#imgost {
+#songinfoflex {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
   padding: 0px 0px 3px 5px;
 }
 #songimg {
@@ -285,7 +289,7 @@ hr {
     font-size: 18px;
     padding: 8px 16px;
   }
-  #closebtn{
+  .closebtn{
     font-family: 'system-ui';
   }
   #songinfo{
