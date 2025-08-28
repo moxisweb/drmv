@@ -101,6 +101,8 @@ cy.on('tap', 'node', function(e){
   }
   document.getElementById('songyoutube').href = sYoutube; //youtube
   var classlist = node.classes();
+  var weak = node.data("weak");
+  console.log( 'weak data is: ' + weak );
   var sMotifs = '';
   for (i = 0; i < classlist.length; i++) {
     if (classlist[i] === "fade" || classlist[i] === "highlight" || classlist[i] === "dogg" ) { continue; } //skip classes
