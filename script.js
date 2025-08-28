@@ -108,7 +108,7 @@ cy.on('tap', 'node', function(e){
     var cyEdges = cy.edges("edge[motif = '" + classlist[i] + "']");
     var mc = cyEdges.style("line-color");
     sMotifs += '<li style="color:' + mc + '">' + fullMotif(classlist[i]);
-    if (weak != 'undefined') {
+    if (weak != undefined) {
       sMotifs += ' <span>(?)</span>'; //add weak (?) if applicable
     }
     sMotifs += '</li>';
