@@ -240,16 +240,20 @@ button {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 0px 0px 3px 5px;
+  padding: 0px 0px 5px 0px;
 }
 #songimg {
   border: 1.3px solid #3d1f3d;
 }
 #songost {
-  padding-inline: 10px 0px;
   font-family: '8bitoperator';
   font-size: 18px;
   color: rgb(90, 36, 82);
+}
+#songclosebtn {
+  align-self: flex-start;
+  flex-grow: 2;
+  margin-left: auto;
 }
 hr {
   border: none;
