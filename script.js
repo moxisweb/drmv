@@ -114,6 +114,12 @@ cy.on('tap', 'node', function(e){
     sMotifs += '</li>';
   }
   document.getElementById('songmotifs').innerHTML = sMotifs; //colored motif list
+  var sDescription = dataArray[2].songs.find(song => song.id === sId).description;
+  if (sDescription) {
+    document.getElementById('songdescription').innerHTML = sDescription; //song description
+  } else {
+    document.getElementById('songdescription').innerHTML = "";
+  }
   songInfoOn();
 });
 

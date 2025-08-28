@@ -403,7 +403,7 @@
     { "data": { "source": "415", "target": "429", "motif": "Spooktune" }, "classes": ["weak"] },
     { "data": { "source": "412", "target": "430", "motif": "sanctuary" } },
     { "data": { "source": "412", "target": "430", "motif": "dont" } },
-    { "data": { "source": "429", "target": "430", "motif": "dont" } },
+    { "data": { "source": "429", "target": "430", "motif": "sanctuary" } },
     { "data": { "source": "418", "target": "431", "motif": "Gerson" } },
     { "data": { "source": "420", "target": "431", "motif": "ruins" } },
     { "data": { "source": "420", "target": "431", "motif": "justice" } },
