@@ -76,14 +76,18 @@ cy.on('tap', 'node', function(e){
     document.getElementById('songname').innerHTML = sName; //name
   var sId = node.id();
   var sOst = "no data";
+  var sTrack = "no data";
     if (sId > 100 && sId < 800) {
       sOst = "Chapter " + sId.charAt(0);
+      sTrack = "Track " + sId.charAt(1) + sId.charAt(2);
     } else if (sId < 100) {
       sOst = "Undertale";
+      sTrack = "Track " + sId.charAt(1) + sId.charAt(2);
     } else {
       sOst = "Other";
+      sTrack = "";
     }
-  document.getElementById('songost').innerHTML = sOst; //ost
+  document.getElementById('songost').innerHTML = sTrack + "<br>" + sOst; //ost
   var sBandcamp = dataArray[2].songs.find(song => song.id === sId).bandcamp;
   var sYoutube = dataArray[2].songs.find(song => song.id === sId).youtube;
   if ( sBandcamp != "none" ){
