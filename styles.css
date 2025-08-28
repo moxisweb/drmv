@@ -241,6 +241,7 @@ button {
   justify-content: space-between;
   align-items: flex-end;
   padding: 0px 0px 5px 0px;
+  gap: 10px;
 }
 #songimg {
   border: 1.3px solid #3d1f3d;
@@ -254,6 +255,7 @@ button {
   align-self: flex-start;
   flex-grow: 2;
   margin-left: auto;
+  text-align: end;
 }
 hr {
   border: none;
