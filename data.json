@@ -1,6 +1,6 @@
 { "nodes": [
 
-    { "data": { "id": "901", "label": "Nightmare Knight (from Cucumber Quest)", "img": "img/901.jpg", "weak": ["0"] }, "classes": ["door"] },
+    { "data": { "id": "901", "label": "Nightmare Knight (from Cucumber Quest)", "img": "img/901.jpg" }, "classes": ["door"] },
     { "data": { "id": "902", "label": "Penumbra Phantasm", "img": "img/902.jpg", "weak": ["0"] }, "classes": ["holy"] },
     { "data": { "id": "801", "label": "man", "img": "img/801.jpg" }, "classes": ["none"] },
     { "data": { "id": "802", "label": "d.ogg", "img": "img/802.jpg" }, "classes": ["dogg"] },
@@ -27,7 +27,7 @@
     { "data": { "id": "098", "label": "Battle Against a True Hero", "img": "img/098.jpg" }, "classes": ["neo"] },
     { "data": { "id": "099", "label": "Power of \"NEO\"", "img": "img/099.jpg" }, "classes": ["neo"] },
 
-    { "data": { "id": "101", "label": "ANOTHER HIM", "img": "img/101.jpg", "notes": ["[0:08]"] }, "classes": ["gaster"] },
+    { "data": { "id": "101", "label": "ANOTHER HIM", "img": "img/101.jpg" }, "classes": ["gaster"] },
     { "data": { "id": "102", "label": "Beginning", "img": "img/102.jpg", "notes": ["[0:06-0:38]", "[0:38-0:52]"] }, "classes": ["dont", "once"] },
     { "data": { "id": "103", "label": "School", "img": "img/103.jpg", "notes": ["[0:00-0:28]", "0:28-0:45", "0:45-1:20"] }, "classes": ["Hometown", "dont", "hopes"] },
     { "data": { "id": "104", "label": "Susie", "img": "img/104.jpg" }, "classes": ["Susie"] },

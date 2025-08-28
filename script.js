@@ -101,15 +101,16 @@ cy.on('tap', 'node', function(e){
   document.getElementById('songyoutube').href = sYoutube; //youtube
   var classlist = node.classes();
   var weak = node.data("weak");
+  var notes = node.data("notes");
   console.log( 'weak data is: ' + weak );
   var sMotifs = '';
   for (i = 0; i < classlist.length; i++) {
     if (classlist[i] === "fade" || classlist[i] === "highlight" || classlist[i] === "dogg" ) { continue; } //skip classes
     var cyEdges = cy.edges("edge[motif = '" + classlist[i] + "']");
     var mc = cyEdges.style("line-color");
-    sMotifs += '<li style="color:' + mc + '">' + fullMotif(classlist[i]);
-    if (weak != undefined && weak[i] == i) {
-      sMotifs += ' <span>(?)</span>'; //add weak (?) if applicable
+    sMotifs += '<li><span style="color:' + mc + '">' + fullMotif(classlist[i]) + '</span>';
+    if (notes != undefined) {
+      sMotifs += '<span>' + notes[i] + '</span>';
     }
     sMotifs += '</li>';
   }
