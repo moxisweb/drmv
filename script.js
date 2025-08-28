@@ -67,7 +67,6 @@ cy.on('tap', function(e){
 // SONG INFO
 cy.on('tap', 'node', function(e){
   var node = e.target;
-  console.info( 'slabel is ' + node.data("slabel") ); // slabel check console info
   var sImg = node.data("img");
   var sImgBorder = node.style("border-color");
     document.getElementById('songimg').src = sImg; //img
@@ -108,7 +107,11 @@ cy.on('tap', 'node', function(e){
     if (classlist[i] === "fade" || classlist[i] === "highlight" || classlist[i] === "dogg" ) { continue; } //skip classes
     var cyEdges = cy.edges("edge[motif = '" + classlist[i] + "']");
     var mc = cyEdges.style("line-color");
-    sMotifs += '<li style="color:' + mc + '">' + fullMotif(classlist[i]) + '</li>';
+    sMotifs += '<li style="color:' + mc + '">' + fullMotif(classlist[i]);
+    if (weak[i] === classlist[i]) {
+      sMotifs += ' <span>(?)</span>'; //add weak (?) if applicable
+    }
+    sMotifs += '</li>';
   }
   document.getElementById('songmotifs').innerHTML = sMotifs; //colored motif list
   songInfoOn();
@@ -138,7 +141,6 @@ cy.on('tap', 'edge', function(e){
       node.addClass("fade");
     });
     if (listedlist.includes(m)) { // to exclude repeat selection
-      console.log(m + "is already selected");
     } else {
       listedlist += m; // add to list to exclude if clicked again
       var outputHTML = '<span style="color:' + mc + '">' + mn + '</span><br>'; // prep latest motif name
@@ -165,7 +167,6 @@ function autocomplete(inp, arr) {
   /*execute a function when someone writes in the text field:*/
   inp.addEventListener("input", function(e) {
       var a, b, i, val = this.value;
-      console.info("on input, this.value is: " + val)
       /*close any already open lists of autocompleted values*/
       closeAllLists();
       if (!val) { return false;}
@@ -193,7 +194,6 @@ function autocomplete(inp, arr) {
               /* SHOW RESULTS (CY FUNCTION) */
               var lInput = inp.value
               showResults(lInput);
-              console.log('on div click, this.value is: ' + this.value);
               /*close the list of autocompleted values,
               (or any other open lists of autocompleted values:*/
               closeAllLists();
@@ -205,8 +205,7 @@ function autocomplete(inp, arr) {
   /*execute a function presses a key on the keyboard:*/
   inp.addEventListener("keydown", function(e) {
       var x = document.getElementById(this.id + "autocomplete-list");
-      var inp = this.value; //WIP
-      console.info("on key press, this.value is: " + inp)
+      var inp = this.value;
       if (x) x = x.getElementsByTagName("div");
       if (e.keyCode == 40) {
         /*If the arrow DOWN key is pressed,
