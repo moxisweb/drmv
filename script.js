@@ -81,7 +81,7 @@ cy.on('tap', 'node', function(e){
       sTrack = "#" + sId.charAt(1) + sId.charAt(2);
     } else if (sId < 100) {
       sOst = "Undertale";
-      sTrack = "Track " + sId.charAt(1) + sId.charAt(2);
+      sTrack = "#" + sId.charAt(1) + sId.charAt(2);
     } else {
       sOst = "Other";
       sTrack = "";
@@ -108,7 +108,7 @@ cy.on('tap', 'node', function(e){
     var cyEdges = cy.edges("edge[motif = '" + classlist[i] + "']");
     var mc = cyEdges.style("line-color");
     sMotifs += '<li style="color:' + mc + '">' + fullMotif(classlist[i]);
-    if (weak != undefined && weak[i] == classlist[i]) { //check if weak
+    if (weak != undefined && weak[i] == i) {
       sMotifs += ' <span>(?)</span>'; //add weak (?) if applicable
     }
     sMotifs += '</li>';

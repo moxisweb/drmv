@@ -25,9 +25,11 @@ body {
 }
 a { /* For links to not be formatted */
   color: inherit;
+}
+.menubutton a {
   text-decoration: none;
 }
-u { /* For links to not be underlined */
+u {
   color: purple;
 }
 h1 {
