@@ -79,7 +79,7 @@ cy.on('tap', 'node', function(e){
   var sTrack = "no data";
     if (sId > 100 && sId < 800) {
       sOst = "Chapter " + sId.charAt(0);
-      sTrack = "Track " + sId.charAt(1) + sId.charAt(2);
+      sTrack = "#" + sId.charAt(1) + sId.charAt(2);
     } else if (sId < 100) {
       sOst = "Undertale";
       sTrack = "Track " + sId.charAt(1) + sId.charAt(2);
