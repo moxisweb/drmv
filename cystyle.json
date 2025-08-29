@@ -24,6 +24,16 @@
       }
     },
     {
+      "selector": "node.mini",
+      "style": {
+        "shape": "rectangle",
+        "height": "12px",
+        "width": "12px",
+        "background-image": "none",
+        "background-color": "LightGrey"
+      }
+    },
+    {
       "selector": "[id < '100']",
       "style": {
         "border-color": "#1E4E1E"

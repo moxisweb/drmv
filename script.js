@@ -105,7 +105,7 @@ cy.on('tap', 'node', function(e){
   console.log( 'weak data is: ' + weak );
   var sMotifs = '';
   for (i = 0; i < classlist.length; i++) {
-    if (classlist[i] === "fade" || classlist[i] === "highlight" || classlist[i] === "dogg" ) { continue; } //skip classes
+    if (classlist[i] === "fade" || classlist[i] === "highlight" || classlist[i] === "dogg" || classlist[i] === "mini" ) { continue; } //skip classes
     var cyEdges = cy.edges("edge[motif = '" + classlist[i] + "']");
     var mc = cyEdges.style("line-color");
     sMotifs += '<li><span style="color:' + mc + '">' + fullMotif(classlist[i]) + '</span>';
