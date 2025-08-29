@@ -26,9 +26,9 @@
     {
       "selector": "node.mini",
       "style": {
-        "shape": "rectangle",
-        "height": "12px",
-        "width": "12px",
+        "shape": "diamond",
+        "height": "9px",
+        "width": "9px",
         "background-image": "none",
         "background-color": "LightGrey"
       }

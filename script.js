@@ -348,7 +348,6 @@ function fullMotif(m) {
       case "justice": mn = "Spear of Justice"; break;
       case "maracas": mn = "Dog Check (Maracas)"; break;
       case "dogg": mn = "d.ogg"; break;
-      case "darktruth": mn = "The Dark Truth (Your Best Nightmare?)"; break;
       default: mn = m;
     }
     return mn;
