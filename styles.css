@@ -64,17 +64,6 @@ h4 {
   color: rgb(90, 36, 82);
   cursor: pointer;
 }
-#wip{
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  opacity: 50%;
-  font-family: '8bitoperator';
-  font-size: 42px;
-  transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  z-index: 9;
-}
 #legend {
   position: absolute;
   column-count: 2;
@@ -178,7 +167,7 @@ input {
 .menubutton {
   display: inline-block;
   position: relative;
-  z-index: 4;
+  z-index: 3;
 }
 button {
   padding: 10px 30px;
