@@ -28,7 +28,7 @@ var cy = cytoscape({
     nodeRepulsion: 120000,
     componentSpacing: 800,
     nodeOverlap: 200,
-    gravity: 0.1,
+    gravity: 0,
     idealEdgeLength: 40,
     quality: "proof"
   },
@@ -296,15 +296,6 @@ addEventListener('keydown', function(e) {
     console.log(nodePositions);
   }
 });
-
-/* function storePositions() {
-  const nodes = cy.nodes();
-  const nodePositions = {};
-  for (let i = 0; i < nodes.length; i++) {
-    nodePositions[nodes[i].id()] = nodes[i].position();
-  }
-  return nodePositions;
-} */
 
 ////////////////////////////////// End of cy functions
 
