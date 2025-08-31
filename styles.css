@@ -24,13 +24,10 @@ body {
   background-blend-mode: multiply;
 }
 a { /* For links to not be formatted */
-  color: inherit;
+  color: purple;
 }
 .menubutton a {
   text-decoration: none;
-}
-u {
-  color: purple;
 }
 h1 {
   font-family: '8bitoperator';

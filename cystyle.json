@@ -81,8 +81,8 @@
     {
       "selector": "[motif = 'gaster']",
       "style": {
-        "line-color": "#feff00",
-        "target-arrow-color": "#feff00"
+        "line-color": "#e01b6d",
+        "target-arrow-color": "#e01b6d"
       }
     },
     {
@@ -102,8 +102,8 @@
     {
       "selector": "[motif = 'freedom']",
       "style": {
-        "line-color": "#ffd100",
-        "target-arrow-color": "#ffd100"
+        "line-color": "#ffc400",
+        "target-arrow-color": "#ffc400"
       }
     },
     {
@@ -179,8 +179,8 @@
     {
       "selector": "[motif = 'girlnextdoor']",
       "style": {
-        "line-color": "#d9ff00",
-        "target-arrow-color": "#d9ff00"
+        "line-color": "#b7ff00",
+        "target-arrow-color": "#b7ff00"
       }
     },
     {
