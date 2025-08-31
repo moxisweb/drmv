@@ -276,7 +276,7 @@
     { "data": { "source": "126", "target": "229", "motif": "rouxls" }},
     { "data": { "source": "109", "target": "229", "motif": "Lancer" } },
     { "data": { "source": "202", "target": "230", "motif": "girlnextdoor" }},
-    { "data": { "source": "101", "target": "230", "motif": "gaster" } },
+    { "data": { "source": "101", "target": "230", "motif": "gaster" }, "classes": ["weak"] },
     { "data": { "source": "202", "target": "231", "motif": "girlnextdoor" }},
     { "data": { "source": "230", "target": "231", "motif": "lostgirl" } },
     { "data": { "source": "220", "target": "232", "motif": "Queen" }},
