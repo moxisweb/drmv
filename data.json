@@ -6,7 +6,7 @@
     { "data": { "id": "802", "label": "d.ogg", "img": "img/802.jpg" }, "classes": ["mini", "dogg"] },
     { "data": { "id": "803", "label": "dog_check (Maracas)", "img": "img/803.jpg" }, "classes": ["hidden", "maracas"] },
     { "data": { "id": "804", "label": "sneaking (unused)", "img": "img/804.jpg" }, "classes": ["mini", "Sneaking", "girl"] },
-    { "data": { "id": "666", "label": "Gaster's Theme", "img": "img/666.jpg" }, "classes": ["mini", "gaster"] },
+    { "data": { "id": "866", "label": "Gaster's Theme", "img": "img/866.jpg" }, "classes": ["mini", "gaster"] },
 
     { "data": { "id": "001", "label": "Once Upon a Time", "img": "img/001.jpg" }, "classes": ["once"] },
     { "data": { "id": "005", "label": "Ruins", "img": "img/005.jpg" }, "classes": ["ruins"] },
@@ -206,7 +206,7 @@
     { "data": { "source": "079", "target": "088", "motif": "nightmare" } },
     { "data": { "source": "098", "target": "099", "motif": "neo" } },
 
-    { "data": { "source": "666", "target": "101", "motif": "gaster" }},
+    { "data": { "source": "866", "target": "101", "motif": "gaster" }},
     { "data": { "source": "001", "target": "102", "motif": "once" } },
     { "data": { "source": "139", "target": "102", "motif": "dont" }},
     { "data": { "source": "137", "target": "103", "motif": "Hometown" }},
