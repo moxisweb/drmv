@@ -316,7 +316,8 @@ function fullMotif(m) {
       case "gaster": mn = "Gaster's Theme"; break;
       case "hopes": mn = "Hopes and Dreams"; break;
       case "door": mn = "The Door"; break;
-      case "girl": mn = "Lost Girl"; break;
+      case "lostgirl": mn = "Lost Girl"; break;
+      case "girlnextdoor": mn = "Girl Next Door"; break;
       case "legend": mn = "The Legend"; break;
       case "freedom": mn = "Freedom Motif"; break;
       case "bigshot": mn = "BIG SHOT"; break;
