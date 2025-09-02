@@ -69,7 +69,7 @@
     { "id": "140", "youtube": "https://www.youtube.com/watch?v=r9shwL1h-qA", "bandcamp": "https://tobyfox.bandcamp.com/track/before-the-story" },
 
     { "id": "201", "youtube": "https://www.youtube.com/watch?v=J0sZRB3KI3s", "bandcamp": "https://tobyfox.bandcamp.com/track/faint-glow" },
-    { "id": "202", "youtube": "https://www.youtube.com/watch?v=KhrhhWFIwXw", "bandcamp": "https://tobyfox.bandcamp.com/track/girl-next-door", "description": "Lost Girl and Girl Next Door are split into two motifs to differentiate the parts of the songs. Both may contain Gaster's Theme." },
+    { "id": "202", "youtube": "https://www.youtube.com/watch?v=KhrhhWFIwXw", "bandcamp": "https://tobyfox.bandcamp.com/track/girl-next-door", "description": "Lost Girl and Girl Next Door are split into two motifs to differentiate the parts of the songs. GND may contain Gaster's Theme in one of its melodies." },
     { "id": "203", "youtube": "https://www.youtube.com/watch?v=RKQUblO-iCs", "bandcamp": "https://tobyfox.bandcamp.com/track/my-castle-town" },
     { "id": "204", "youtube": "https://www.youtube.com/watch?v=xPCyzXoB7WY", "bandcamp": "https://tobyfox.bandcamp.com/track/ohhhhohohoho" },
     { "id": "205", "youtube": "https://www.youtube.com/watch?v=nELEtn5MUEM", "bandcamp": "https://tobyfox.bandcamp.com/track/queen" },
@@ -114,7 +114,7 @@
     { "id": "244", "youtube": "https://www.youtube.com/watch?v=K_4zcC2ExaM", "bandcamp": "https://tobyfox.bandcamp.com/track/you-can-always-come-home" },
     { "id": "245", "youtube": "https://www.youtube.com/watch?v=Zm_-c8DwLes", "bandcamp": "https://tobyfox.bandcamp.com/track/until-next-time" },
 
-    { "id": "301", "youtube": "https://www.youtube.com/watch?v=tQ5WnrSNHIg", "bandcamp": "https://tobyfox.bandcamp.com/track/flashback-excerpt" },
+    { "id": "301", "youtube": "https://www.youtube.com/watch?v=tQ5WnrSNHIg", "bandcamp": "https://tobyfox.bandcamp.com/track/flashback-excerpt", "description": "* Flashback may be a simplified form of the loop in Lost Girl." },
     { "id": "302", "youtube": "https://www.youtube.com/watch?v=vGn0HeIjEbg", "bandcamp": "https://tobyfox.bandcamp.com/track/feature-presentation" },
     { "id": "303", "youtube": "https://www.youtube.com/watch?v=j69knNADinw", "bandcamp": "https://tobyfox.bandcamp.com/track/and-now-for-today-s-sponsors" },
     { "id": "304", "youtube": "https://www.youtube.com/watch?v=YsZoTTl59hg", "bandcamp": "https://tobyfox.bandcamp.com/track/mike-the-board-please" },
@@ -143,7 +143,7 @@
     { "id": "327", "youtube": "https://www.youtube.com/watch?v=F2PJbTuZlTU", "bandcamp": "https://tobyfox.bandcamp.com/track/it-s-tv-time" },
     { "id": "328", "youtube": "https://www.youtube.com/watch?v=qV2wWw1f4KE", "bandcamp": "https://tobyfox.bandcamp.com/track/hall-of-fame" },
     { "id": "329", "youtube": "https://www.youtube.com/watch?v=3LMmXO01F7s", "bandcamp": "https://tobyfox.bandcamp.com/track/breath" },
-    { "id": "330", "youtube": "https://www.youtube.com/watch?v=B8Us0DZgexw", "bandcamp": "https://tobyfox.bandcamp.com/track/black-knife" },
+    { "id": "330", "youtube": "https://www.youtube.com/watch?v=B8Us0DZgexw", "bandcamp": "https://tobyfox.bandcamp.com/track/black-knife", "description": "Comparison: <a href=\"https://www.youtube.com/watch?v=HCcITHmqp9o\">YouTube</a>" },
     { "id": "331", "youtube": "https://www.youtube.com/watch?v=kScDdlhORBw", "bandcamp": "https://tobyfox.bandcamp.com/track/crickets" },
     { "id": "332", "youtube": "https://www.youtube.com/watch?v=xVvCCqC3Cik", "bandcamp": "none" },
     { "id": "333", "youtube": "https://www.youtube.com/watch?v=KAtudLu42vA", "bandcamp": "none" },

@@ -283,7 +283,6 @@ function showResults(input) {
   }
 }
 
-
 // STORE POSITIONS
 addEventListener('keydown', function(e) {
   if (e.key === 's' && e.ctrlKey) { //ctrl + s
