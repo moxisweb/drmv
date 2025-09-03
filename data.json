@@ -5,7 +5,7 @@
     { "data": { "id": "801", "label": "man", "img": "img/801.jpg" }, "classes": ["none"] },
     { "data": { "id": "802", "label": "d.ogg", "img": "img/802.jpg" }, "classes": ["mini", "dogg"] },
     { "data": { "id": "803", "label": "dog_check (Maracas)", "img": "img/803.jpg" }, "classes": ["hidden", "maracas"] },
-    { "data": { "id": "804", "label": "sneaking (unused)", "img": "img/804.jpg", "notes": ["", "[0:00-0:22] *", "[0:22-] (B)"] }, "classes": ["mini", "Heartache", "lostgirl"] },
+    { "data": { "id": "804", "label": "sneaking (unused)", "img": "img/804.jpg", "notes": ["", "[0:00-0:22] (B)*", "[0:22-] (B)"] }, "classes": ["mini", "Heartache", "lostgirl"] },
     { "data": { "id": "866", "label": "Gaster's Theme", "img": "img/866.jpg" }, "classes": ["mini", "gaster"] },
 
     { "data": { "id": "001", "label": "Once Upon a Time", "img": "img/001.jpg" }, "classes": ["once"] },
