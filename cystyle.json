@@ -172,8 +172,8 @@
     {
       "selector": "[motif = 'lostgirl']",
       "style": {
-        "line-color": "#EE560B",
-        "target-arrow-color": "#EE560B"
+        "line-color": "#b7ff00",
+        "target-arrow-color": "#b7ff00"
       }
     },
     {
