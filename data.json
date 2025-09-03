@@ -5,7 +5,7 @@
     { "data": { "id": "801", "label": "man", "img": "img/801.jpg" }, "classes": ["none"] },
     { "data": { "id": "802", "label": "d.ogg", "img": "img/802.jpg" }, "classes": ["mini", "dogg"] },
     { "data": { "id": "803", "label": "dog_check (Maracas)", "img": "img/803.jpg" }, "classes": ["hidden", "maracas"] },
-    { "data": { "id": "804", "label": "sneaking (unused)", "img": "img/804.jpg", "notes": ["", "", "[0:22-] (B)"] }, "classes": ["mini", "Sneaking", "lostgirl"] },
+    { "data": { "id": "804", "label": "sneaking (unused)", "img": "img/804.jpg", "notes": ["", "[0:00-0:22] *", "[0:22-] (B)"] }, "classes": ["mini", "Heartache", "lostgirl"] },
     { "data": { "id": "866", "label": "Gaster's Theme", "img": "img/866.jpg" }, "classes": ["mini", "gaster"] },
 
     { "data": { "id": "001", "label": "Once Upon a Time", "img": "img/001.jpg" }, "classes": ["once"] },
@@ -15,6 +15,7 @@
     { "data": { "id": "010", "label": "Ghost Fight", "img": "img/010.jpg" }, "classes": ["ghost"] },
     { "data": { "id": "011", "label": "Determination", "img": "img/011.jpg" }, "classes": ["Determination"] },
     { "data": { "id": "012", "label": "Home", "img": "img/012.jpg" }, "classes": ["Home", "once"] },
+    { "data": { "id": "014", "label": "Heartache", "img": "img/014.jpg", "notes": ["[0:00-0:12] (A) [0:12-0:16] (B)"] }, "classes": ["Heartache"] },
     { "data": { "id": "015", "label": "sans.", "img": "img/015.jpg" }, "classes": ["Sans"] },
     { "data": { "id": "022", "label": "Snowdin Town", "img": "img/022.jpg", "notes": ["[0:00-0:56] (A) [0:56-] (B)"] }, "classes": ["hopes"] },
     { "data": { "id": "028", "label": "Premonition", "img": "img/028.jpg" }, "classes": ["Premonition"] },
@@ -133,7 +134,7 @@
     { "data": { "id": "317", "label": "Raft Ride", "img": "img/317.jpg" }, "classes": ["hey", "Tenna"] },
     { "data": { "id": "318", "label": "SOUTH OF THE BORDER!!", "img": "img/318.jpg" }, "classes": ["KEYGEN"] },
     { "data": { "id": "319", "label": "Sound Check", "img": "img/319.jpg" }, "classes": ["none"] },
-    { "data": { "id": "320", "label": "Raise Up Your Bat", "img": "img/320.jpg", "notes": ["", "[0:58-0:31] (B)", "[0:37-0:45] (?)"] }, "classes": ["dogg", "lostgirl", "Sneaking"] },
+    { "data": { "id": "320", "label": "Raise Up Your Bat", "img": "img/320.jpg", "notes": ["", "[0:58-0:31] (B)"] }, "classes": ["dogg", "lostgirl"] },
     { "data": { "id": "321", "label": "KING OF ROLYPOLY", "img": "img/321.jpg" }, "classes": ["hey"] },
     { "data": { "id": "322", "label": "Glowing Snow", "img": "img/322.jpg" }, "classes": ["uwa"] },
     { "data": { "id": "323", "label": "Big City Board", "img": "img/323.jpg" }, "classes": ["Tenna", "Paradise", "dont"] },
@@ -189,8 +190,8 @@
     { "data": { "id": "434", "label": "Neverending Night", "img": "img/434.jpg", "notes": ["", "[0:30-] (Dark Truth variant)"] }, "classes": ["sanctuary", "nightmare"] },
     { "data": { "id": "435", "label": "The LEGEND...?", "img": "img/435.jpg", "notes": ["(A)"] }, "classes": ["legend"] },
     { "data": { "id": "436", "label": "With Hope Crossed On Our Hearts", "img": "img/436.jpg" }, "classes": ["dont"] },
-    { "data": { "id": "437", "label": "Volume Adjustment", "img": "img/437.jpg", "notes": ["[0:11-]"] }, "classes": ["Sneaking"] },
-    { "data": { "id": "438", "label": "Catswing", "img": "img/438.jpg", "notes": ["[0:06-0:21]", "[0:21-0:36]", "[0:36, 1:06-1:29, etc]", "[0:36-]", "[1:13-1:28]"] }, "classes": ["Sneaking", "Spamton", "hey", "bigshot", "Tenna"] },
+    { "data": { "id": "437", "label": "Volume Adjustment", "img": "img/437.jpg", "notes": ["[0:11-]"] }, "classes": ["Heartache"] },
+    { "data": { "id": "438", "label": "Catswing", "img": "img/438.jpg", "notes": ["[0:06-0:21]", "[0:21-0:36]", "[0:36, 1:06-1:29, etc]", "[0:36-]", "[1:13-1:28]"] }, "classes": ["Heartache", "Spamton", "hey", "bigshot", "Tenna"] },
     { "data": { "id": "439", "label": "Air Waves", "img": "img/439.jpg", "classes": ["", "[1:30-]"] }, "classes": ["Spamton", "freedom"] },
     { "data": { "id": "440", "label": "Concert for you", "img": "img/440.jpg" }, "classes": ["hidden"] }
 
@@ -198,6 +199,7 @@
 "edges": [
 
     { "data": { "source": "230", "target": "804", "motif": "lostgirl" } },
+    { "data": { "source": "014", "target": "804", "motif": "Heartache" }, "classes": ["weak"] },
     { "data": { "source": "001", "target": "012", "motif": "once" } },
     { "data": { "source": "010", "target": "036", "motif": "ghost" } },
     { "data": { "source": "005", "target": "046", "motif": "ruins" } },
@@ -326,7 +328,6 @@
     { "data": { "source": "227", "target": "318", "motif": "KEYGEN" } },
     { "data": { "source": "230", "target": "320", "motif": "lostgirl" } },
     { "data": { "source": "802", "target": "320", "motif": "dogg" } },
-    { "data": { "source": "804", "target": "320", "motif": "Sneaking" }, "classes": ["weak"] },
     { "data": { "source": "221", "target": "321", "motif": "hey" } },
     { "data": { "source": "006", "target": "322", "motif": "uwa" } },
     { "data": { "source": "304", "target": "323", "motif": "Tenna" } },
@@ -418,8 +419,8 @@
     { "data": { "source": "236", "target": "434", "motif": "nightmare" } },
     { "data": { "source": "108", "target": "435", "motif": "legend" } },
     { "data": { "source": "139", "target": "436", "motif": "dont" } },
-    { "data": { "source": "804", "target": "437", "motif": "Sneaking" } },
-    { "data": { "source": "437", "target": "438", "motif": "Sneaking" } },
+    { "data": { "source": "804", "target": "437", "motif": "Heartache" } },
+    { "data": { "source": "437", "target": "438", "motif": "Heartache" } },
     { "data": { "source": "222", "target": "438", "motif": "Spamton" } },
     { "data": { "source": "221", "target": "438", "motif": "hey" } },
     { "data": { "source": "223", "target": "438", "motif": "bigshot" } },

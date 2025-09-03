@@ -5,7 +5,7 @@
     { "id": "801", "youtube": "https://www.youtube.com/watch?v=Dnx_4k05p74", "bandcamp": "none" },
     { "id": "802", "youtube": "https://www.youtube.com/watch?v=hJv0clKGaR0", "bandcamp": "none" },
     { "id": "803", "youtube": "https://www.youtube.com/watch?v=pj0V28bWTLc", "bandcamp": "none" },
-    { "id": "804", "youtube": "https://www.youtube.com/watch?v=Fl_DwOEGvBw", "bandcamp": "none", "description": "" },
+    { "id": "804", "youtube": "https://www.youtube.com/watch?v=Fl_DwOEGvBw", "bandcamp": "none", "description": "* Comparison: [<a href=\"https://www.youtube.com/watch?v=IYPnyHK-nIs\">YouTube</a>]" },
     { "id": "866", "youtube": "https://www.youtube.com/watch?v=DzVLULTUc7o", "bandcamp": "none", "description": "Gaster's Theme is present in the Freedom motif and Lost Girl/Girl Next Door in a similar way.</p><p>Comparison: [<a href=\"https://www.youtube.com/watch?v=-A16gStXMjU\">YouTube</a>]" },
 
     { "id": "001", "youtube": "https://www.youtube.com/watch?v=0AQMAth2gio", "bandcamp": "https://tobyfox.bandcamp.com/track/once-upon-a-time" },
@@ -15,6 +15,7 @@
     { "id": "010", "youtube": "https://www.youtube.com/watch?v=C_5enfN8V8w", "bandcamp": "https://tobyfox.bandcamp.com/track/ghost-fight" },
     { "id": "011", "youtube": "https://www.youtube.com/watch?v=sRLQnlglfrI", "bandcamp": "https://tobyfox.bandcamp.com/track/determination" },
     { "id": "012", "youtube": "https://www.youtube.com/watch?v=0UkRqMFMZic", "bandcamp": "https://tobyfox.bandcamp.com/track/home" },
+    { "id": "014", "youtube": "https://www.youtube.com/watch?v=mNWArmA5wMw", "bandcamp": "https://tobyfox.bandcamp.com/track/heartache" },
     { "id": "015", "youtube": "https://www.youtube.com/watch?v=9cGrP9w5E7M", "bandcamp": "https://tobyfox.bandcamp.com/track/sans" },
     { "id": "022", "youtube": "https://www.youtube.com/watch?v=LETChg7kPJo", "bandcamp": "https://tobyfox.bandcamp.com/track/snowdin-town" },
     { "id": "028", "youtube": "https://www.youtube.com/watch?v=Yk8EQW0TJ3U", "bandcamp": "https://tobyfox.bandcamp.com/track/premonition" },
