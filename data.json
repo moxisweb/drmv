@@ -144,7 +144,7 @@
     { "data": { "id": "327", "label": "It's TV Time!", "img": "img/327.jpg", "notes": ["", "", "", ""] }, "classes": ["Tenna", "doomboard", "hey", "Feature"] },
     { "data": { "id": "328", "label": "Hall of Fame", "img": "img/328.jpg" }, "classes": ["hey"] },
     { "data": { "id": "329", "label": "Breath", "img": "img/329.jpg" }, "classes": ["none"] },
-    { "data": { "id": "330", "label": "Black Knife", "img": "img/330.jpg", "notes": ["(drums)", "[0:25-0:53] (A) [0:53-1:18] (B)", "[1:18-] (B)*", "[1:23, 1:36] **"] }, "classes": ["burn", "door", "lostgirl", "freedom"] },
+    { "data": { "id": "330", "label": "Black Knife", "img": "img/330.jpg", "notes": ["(drums)", "[0:25-0:53] (A) [0:53-1:18] (B)", "[1:18-] (B)*"] }, "classes": ["burn", "door", "lostgirl"] },
     { "data": { "id": "331", "label": "Crickets", "img": "img/331.jpg" }, "classes": ["none"] },
     { "data": { "id": "332", "label": "Dump", "img": "img/332.jpg", "notes": ["", "[0:20-]", "[0:30-] (B)"] }, "classes": ["hipshop", "hey", "holy"] },
     { "data": { "id": "333", "label": "SWORD", "img": "img/333.jpg", "notes": ["[0:13-0:33, etc]", "[1:32-] (strings)"] }, "classes": ["Tenna", "holy"] },

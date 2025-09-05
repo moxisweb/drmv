@@ -1,7 +1,7 @@
 { "songs": [
 
     { "id": "901", "youtube": "https://www.youtube.com/watch?v=t43ZIrsfof0", "bandcamp": "none" },
-    { "id": "902", "youtube": "https://www.youtube.com/watch?v=OdntMzdkFnk", "bandcamp": "none", "description": "Penumbra Phantasm is an unreleased song by Toby Fox. Its motif shows up in Homestuck, often alongside [<a href=\"https://homestuck.bandcamp.com/track/doctor-3\">Doctor</a>], by George Buzinkai, which is the origin of a melody present in this unfinished version of the song.</p><p>History lesson by somefeatures: [<a href=\"https://www.youtube.com/watch?v=jTaibdPA8jU\">YouTube</a>]" },
+    { "id": "902", "youtube": "https://www.youtube.com/watch?v=OdntMzdkFnk", "bandcamp": "none", "description": "Penumbra Phantasm is an unreleased song by Toby Fox. Its melody shows up in Homestuck, often alongside  a modified quote of [<a href=\"https://homestuck.bandcamp.com/track/doctor-3\">Doctor</a>], by George Buzinkai.</p><p>History lesson by somefeatures: [<a href=\"https://www.youtube.com/watch?v=jTaibdPA8jU\">YouTube</a>]" },
     { "id": "801", "youtube": "https://www.youtube.com/watch?v=Dnx_4k05p74", "bandcamp": "none" },
     { "id": "802", "youtube": "https://www.youtube.com/watch?v=hJv0clKGaR0", "bandcamp": "none" },
     { "id": "803", "youtube": "https://www.youtube.com/watch?v=pj0V28bWTLc", "bandcamp": "none" },
@@ -144,7 +144,7 @@
     { "id": "327", "youtube": "https://www.youtube.com/watch?v=F2PJbTuZlTU", "bandcamp": "https://tobyfox.bandcamp.com/track/it-s-tv-time" },
     { "id": "328", "youtube": "https://www.youtube.com/watch?v=qV2wWw1f4KE", "bandcamp": "https://tobyfox.bandcamp.com/track/hall-of-fame" },
     { "id": "329", "youtube": "https://www.youtube.com/watch?v=3LMmXO01F7s", "bandcamp": "https://tobyfox.bandcamp.com/track/breath" },
-    { "id": "330", "youtube": "https://www.youtube.com/watch?v=B8Us0DZgexw", "bandcamp": "https://tobyfox.bandcamp.com/track/black-knife", "description": "* Comparison: <a href=\"https://www.youtube.com/watch?v=HCcITHmqp9o\">YouTube</a></p><p>** Very debatable. Comparison: <a href=\"https://www.youtube.com/watch?v=n6HN4OXcQSc\">YouTube</a>" },
+    { "id": "330", "youtube": "https://www.youtube.com/watch?v=B8Us0DZgexw", "bandcamp": "https://tobyfox.bandcamp.com/track/black-knife", "description": "* Comparison: <a href=\"https://www.youtube.com/watch?v=HCcITHmqp9o\">YouTube</a></p><p>. [1:23] & Freedom Motif comparison: <a href=\"https://www.youtube.com/watch?v=n6HN4OXcQSc\">YouTube</a>" },
     { "id": "331", "youtube": "https://www.youtube.com/watch?v=kScDdlhORBw", "bandcamp": "https://tobyfox.bandcamp.com/track/crickets" },
     { "id": "332", "youtube": "https://www.youtube.com/watch?v=xVvCCqC3Cik", "bandcamp": "none" },
     { "id": "333", "youtube": "https://www.youtube.com/watch?v=KAtudLu42vA", "bandcamp": "none" },
