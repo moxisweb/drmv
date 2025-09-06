@@ -60,7 +60,7 @@
     { "data": { "id": "130", "label": "Chaos King", "img": "img/130.jpg" }, "classes": ["cardcastle", "Lancer", "legend"] },
     { "data": { "id": "131", "label": "Darkness Falls", "img": "img/131.jpg" }, "classes": ["gaster", "darknessfalls"] },
     { "data": { "id": "132", "label": "The Circus", "img": "img/132.jpg" }, "classes": ["freedom"] },
-    { "data": { "id": "133", "label": "THE WORLD REVOLVING", "img": "img/133.jpg", "notes": ["(A)*", "", "**", ""] }, "classes": ["door", "freedom", "gaster", "dont"] },
+    { "data": { "id": "133", "label": "THE WORLD REVOLVING", "img": "img/133.jpg", "notes": ["(A)", "", "**", ""] }, "classes": ["door", "freedom", "gaster", "dont"] },
     { "data": { "id": "134", "label": "Friendship", "img": "img/134.jpg" }, "classes": ["dont"] },
     { "data": { "id": "135", "label": "THE HOLY", "img": "img/135.jpg", "notes": ["[0:06-0:20, 0:34-] (A) [0:20-0:34] (B)"] }, "classes": ["holy"] },
     { "data": { "id": "136", "label": "Your Power", "img": "img/136.jpg" }, "classes": ["dont"] },
