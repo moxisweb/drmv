@@ -312,7 +312,7 @@ function fullMotif(m) {
       case "neo": mn = "Power of NEO"; break;
       case "gaster": mn = "Gaster's Theme"; break;
       case "hopes": mn = "Hopes and Dreams"; break;
-      case "door": mn = "The Door"; break;
+      case "chase": mn = "The Chase"; break;
       case "lostgirl": mn = "Lost Girl"; break;
       case "girlnextdoor": mn = "Girl Next Door"; break;
       case "legend": mn = "The Legend"; break;
