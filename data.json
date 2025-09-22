@@ -1,6 +1,6 @@
 { "nodes": [
 
-    { "data": { "id": "901", "label": "Nightmare Knight (from Cucumber Quest)", "img": "img/901.jpg", "notes": ["[0:47-1:11, etc] (A)"] }, "classes": ["chase"] },
+    { "data": { "id": "901", "label": "Nightmare Knight (from Cucumber Quest)", "img": "img/901.jpg", "notes": ["[0:47-1:11, etc] (A)","(B) *"] }, "classes": ["chase", "lostgirl"] },
     { "data": { "id": "902", "label": "Penumbra Phantasm", "img": "img/902.jpg", "notes": ["[0:00-1:06, etc]", "[1:08-1:11, etc] (C)"] }, "classes": ["Doctor", "holy"] },
     { "data": { "id": "801", "label": "man", "img": "img/801.jpg" }, "classes": ["none"] },
     { "data": { "id": "802", "label": "d.ogg", "img": "img/802.jpg" }, "classes": ["mini", "dogg"] },
@@ -70,7 +70,7 @@
     { "data": { "id": "140", "label": "Before The Story", "img": "img/140.jpg" }, "classes": ["Premonition", "once", "holy"] },
 
     { "data": { "id": "201", "label": "Faint Glow", "img": "img/201.jpg" }, "classes": ["dont"] },
-    { "data": { "id": "202", "label": "Girl Next Door", "img": "img/202.jpg", "notes": ["<br>[0:00-] (A)<br>[0:37-] (B)", "[0:17-0:20] (in A), [0:40-0:44] (in B)*"] }, "classes": ["lostgirl", "gaster"] },
+    { "data": { "id": "202", "label": "Girl Next Door", "img": "img/202.jpg", "notes": ["<br>[0:00-] (A)<br>[0:37-] (B)", "<br>[0:17-0:20] (in A)<br>[0:40-0:44] (in B)*"] }, "classes": ["lostgirl", "gaster"] },
     { "data": { "id": "203", "label": "My Castle Town", "img": "img/203.jpg" }, "classes": ["legend"] },
     { "data": { "id": "204", "label": "Ohhhhohohoho!", "img": "img/204.jpg" }, "classes": ["none"] },
     { "data": { "id": "205", "label": "Queen", "img": "img/205.jpg" }, "classes": ["Queen"] },
@@ -198,6 +198,7 @@
 ],
 "edges": [
 
+    { "data": { "source": "901", "target": "203", "motif": "lostgirl" }, "classes": ["weak"] },
     { "data": { "source": "230", "target": "804", "motif": "lostgirl" } },
     { "data": { "source": "014", "target": "804", "motif": "Heartache" }, "classes": ["weak"] },
     { "data": { "source": "001", "target": "012", "motif": "once" } },
@@ -254,6 +255,7 @@
 
     { "data": { "source": "139", "target": "201", "motif": "dont" } },
     { "data": { "source": "101", "target": "202", "motif": "gaster" } },
+    { "data": { "source": "230", "target": "202", "motif": "lostgirl" }},
     { "data": { "source": "108", "target": "203", "motif": "legend" }},
     { "data": { "source": "208", "target": "206", "motif": "sweet" } },
     { "data": { "source": "220", "target": "207", "motif": "Queen" }},

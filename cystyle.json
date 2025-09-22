@@ -114,7 +114,7 @@
       }
     },
     {
-      "selector": "[motif = 'door']",
+      "selector": "[motif = 'chase']",
       "style": {
         "line-color": "#451ff0",
         "target-arrow-color": "#451ff0"
