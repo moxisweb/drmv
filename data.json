@@ -60,7 +60,7 @@
     { "data": { "id": "130", "label": "Chaos King", "img": "img/130.jpg" }, "classes": ["cardcastle", "Lancer", "legend"] },
     { "data": { "id": "131", "label": "Darkness Falls", "img": "img/131.jpg" }, "classes": ["gaster", "darknessfalls"] },
     { "data": { "id": "132", "label": "The Circus", "img": "img/132.jpg" }, "classes": ["freedom"] },
-    { "data": { "id": "133", "label": "THE WORLD REVOLVING", "img": "img/133.jpg", "notes": ["(A)", "", "**", ""] }, "classes": ["chase", "freedom", "gaster", "dont"] },
+    { "data": { "id": "133", "label": "THE WORLD REVOLVING", "img": "img/133.jpg", "notes": ["(A)*", "", "**", ""] }, "classes": ["chase", "freedom", "gaster", "dont"] },
     { "data": { "id": "134", "label": "Friendship", "img": "img/134.jpg" }, "classes": ["dont"] },
     { "data": { "id": "135", "label": "THE HOLY", "img": "img/135.jpg", "notes": ["<br>(A) Background strings<br>[0:06-0:20, 0:34-] (B) Vocals<br>[0:20-0:34] (C)"] }, "classes": ["holy"] },
     { "data": { "id": "136", "label": "Your Power", "img": "img/136.jpg" }, "classes": ["dont"] },
@@ -198,7 +198,7 @@
 ],
 "edges": [
 
-    { "data": { "source": "901", "target": "203", "motif": "lostgirl" }, "classes": ["weak"] },
+    { "data": { "source": "901", "target": "230", "motif": "lostgirl" }, "classes": ["weak"] },
     { "data": { "source": "230", "target": "804", "motif": "lostgirl" } },
     { "data": { "source": "014", "target": "804", "motif": "Heartache" }, "classes": ["weak"] },
     { "data": { "source": "001", "target": "012", "motif": "once" } },
@@ -278,7 +278,6 @@
     { "data": { "source": "120", "target": "228", "motif": "Lancer" } },
     { "data": { "source": "126", "target": "229", "motif": "rouxls" }},
     { "data": { "source": "109", "target": "229", "motif": "Lancer" } },
-    { "data": { "source": "202", "target": "230", "motif": "lostgirl" }},
     { "data": { "source": "101", "target": "230", "motif": "gaster" }, "classes": ["weak"] },
     { "data": { "source": "202", "target": "231", "motif": "lostgirl" }},
     { "data": { "source": "230", "target": "231", "motif": "lostgirl" } },
