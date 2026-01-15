@@ -3,6 +3,7 @@
     { "data": { "id": "901", "label": "Nightmare Knight (from Cucumber Quest)", "img": "img/901.jpg", "notes": ["[0:47-1:11, etc] (A)","(B) *"] }, "classes": ["chase", "lostgirl"] },
     { "data": { "id": "902", "label": "Penumbra Phantasm", "img": "img/902.jpg", "notes": ["[0:00-1:06, etc]", "[1:08-1:11, etc] (C)"] }, "classes": ["Doctor", "holy"] },
     { "data": { "id": "903", "label": "Abandoned Town", "img": "img/903.jpg", "notes": ["", "[0:30-] (A)"] }, "classes": ["darknessfalls", "holy"] },
+    { "data": { "id": "904", "label": "Underwater Town", "img": "img/903.jpg", "notes": ["[0:47-] (C)"] }, "classes": ["holy"] },
     { "data": { "id": "801", "label": "man", "img": "img/801.jpg" }, "classes": ["none"] },
     { "data": { "id": "802", "label": "d.ogg", "img": "img/802.jpg" }, "classes": ["mini", "dogg"] },
     { "data": { "id": "803", "label": "dog_check (Maracas)", "img": "img/803.jpg" }, "classes": ["hidden", "maracas"] },
@@ -204,6 +205,7 @@
     { "data": { "source": "014", "target": "804", "motif": "Heartache" }, "classes": ["weak"] },
     { "data": { "source": "216", "target": "903", "motif": "darknessfalls" } },
     { "data": { "source": "135", "target": "903", "motif": "holy" } },
+    { "data": { "source": "135", "target": "904", "motif": "holy" }, "classes": ["weak"] },
 
     { "data": { "source": "001", "target": "012", "motif": "once" } },
     { "data": { "source": "010", "target": "036", "motif": "ghost" } },
