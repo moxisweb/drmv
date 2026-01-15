@@ -182,7 +182,7 @@
     { "data": { "id": "425", "label": "The Third Sanctuary", "img": "img/425.jpg", "notes": ["", "[1:18-1:26, etc] (B)"] }, "classes": ["sanctuary", "legend"] },
     { "data": { "id": "426", "label": "Dark Place", "img": "img/426.jpg", "notes": ["[0:00-0:27] (Dark Truth variant)", "[0:27-]"] }, "classes": ["nightmare", "dont"] },
     { "data": { "id": "427", "label": "Heavy Footsteps", "img": "img/427.jpg", "notes": ["[0:04-]"] }, "classes": ["SPAWN"] },
-    { "data": { "id": "428", "label": "Crumbling Tower", "img": "img/428.jpg", "notes": ["[0:00-1:39, 2:21-]", "[0:33-1:39] (SPAWN variant), [1:39-2:13, etc] (From Now On variant)", "[1:47, etc]*"] }, "classes": ["SPAWN", "sanctuary", "dont"] },
+    { "data": { "id": "428", "label": "Crumbling Tower", "img": "img/428.jpg", "notes": ["[0:00-1:39, 2:21-]", "<br>[0:33-1:39] (SPAWN variant)<br>[1:39-2:13, etc] (From Now On variant)", "[1:47, etc]*"] }, "classes": ["SPAWN", "sanctuary", "dont"] },
     { "data": { "id": "429", "label": "SPAWN", "img": "img/429.jpg", "notes": ["[0:00-0:14, etc]", "[0:14-0:31, 0:35-0:39] (SPAWN variant)", "[0:42-] (?)"] }, "classes": ["SPAWN", "sanctuary", "Spooktune"] },
     { "data": { "id": "430", "label": "GUARDIAN", "img": "img/430.jpg", "notes": ["<br>[0:13-0:27, etc] (SPAWN variant)<br>[0:57-1:25, etc] (From Now On variant)", "[1:03, etc]*"] }, "classes": ["sanctuary", "dont"] },
     { "data": { "id": "431", "label": "Need a hand!?", "img": "img/431.jpg", "notes": ["[0:00-0:22]", "[0:22-]", "[0:22-]"] }, "classes": ["Gerson", "ruins", "justice"] },
