@@ -200,7 +200,6 @@
 ],
 "edges": [
 
-    { "data": { "source": "901", "target": "230", "motif": "lostgirl" }, "classes": ["weak"] },
     { "data": { "source": "230", "target": "804", "motif": "lostgirl" } },
     { "data": { "source": "014", "target": "804", "motif": "Heartache" }, "classes": ["weak"] },
     { "data": { "source": "216", "target": "903", "motif": "darknessfalls" } },
@@ -394,7 +393,6 @@
     { "data": { "source": "108", "target": "415", "motif": "legend" } },
     { "data": { "source": "412", "target": "417", "motif": "sanctuary" } },
     { "data": { "source": "412", "target": "417", "motif": "dont" } },
-    { "data": { "source": "135", "target": "417", "motif": "holy" }, "classes": ["weak"] },
     { "data": { "source": "413", "target": "418", "motif": "Gerson" } },
     { "data": { "source": "139", "target": "419", "motif": "dont" } },
     { "data": { "source": "413", "target": "420", "motif": "justice" } },

@@ -76,8 +76,8 @@
       "selector": ".weak",
       "style": {
         "line-style": "dashed",
-        "line-dash-pattern": [2, 2],
-        "width": 0.5
+        "line-dash-pattern": [0.8, 0.8],
+        "width": 0.4
       }
     },
     {
@@ -283,8 +283,7 @@
     {
         "selector": "edge.highlight",
         "style": {
-          "opacity": 1,
-          "width": 0.6
+          "opacity": 1
         }
     }
   ]
