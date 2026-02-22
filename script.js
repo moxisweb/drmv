@@ -48,6 +48,13 @@ cy.nodes().forEach(function(node) {
   node.data( "slabel", nodeSLabel );
   });
 
+// CREATE LONG EDGES
+cy.add({
+    group: 'edges',
+    data: { source: 133, target: 206, motif: "freedom" },
+    classes: ["weak"]
+});
+
 ///////////////////////////// Interactive functions
 
 var listedlist = [];
