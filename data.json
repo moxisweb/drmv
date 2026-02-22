@@ -159,7 +159,7 @@
     { "data": { "id": "401", "label": "Old wooden rafters", "img": "img/401.png", "notes": ["[0:20-0:56] (A)"] }, "classes": ["legend"] },
     { "data": { "id": "402", "label": "Hymn", "img": "img/402.png" }, "classes": ["dont"] },
     { "data": { "id": "403", "label": "Another day in hometown", "img": "img/403.png", "notes": ["<br>[0:00-0:07] (A)<br>[1:12-1:38] (B)", "[0:07-0:33, etc]", "[0:33-1:12, etc]"] }, "classes": ["hopes", "Hometown", "dont"] },
-    { "data": { "id": "404", "label": "Friends", "img": "img/404.png", "notes": ["[0:00-0:19] (?)", "[0:29-0:51] (A)", "[1:07-]"] }, "classes": ["Susie", "lostgirl", "dont"] },
+    { "data": { "id": "404", "label": "Friends", "img": "img/404.png", "notes": ["[0:00-0:19]", "[0:29-0:51] (A)", "[1:07-]"] }, "classes": ["Susie", "lostgirl", "dont"] },
     { "data": { "id": "405", "label": "Castle Funk", "img": "img/405.png", "notes": ["[0:22-0:53, etc] (B)", "[1:06, etc]"] }, "classes": ["legend", "dont"] },
     { "data": { "id": "406", "label": "Knock You Down!! (Rhythm Ver.)", "img": "img/406.png" }, "classes": ["powers", "Anticipation", "Queen", "Berdly"] },
     { "data": { "id": "407", "label": "Gingerbread House", "img": "img/407.png", "notes": ["[0:10-0:33, etc] (A)"] }, "classes": ["lostgirl"] },
@@ -256,7 +256,6 @@
     { "data": { "source": "137", "target": "138", "motif": "dont" } },
     { "data": { "source": "001", "target": "140", "motif": "once" } },
     { "data": { "source": "028", "target": "140", "motif": "Premonition" }, "classes": ["weak"] },
-    { "data": { "source": "135", "target": "140", "motif": "holy" }, "classes": ["weak"] },
 
     { "data": { "source": "139", "target": "201", "motif": "dont" } },
     { "data": { "source": "101", "target": "202", "motif": "gaster" } },
@@ -297,7 +296,6 @@
     { "data": { "source": "220", "target": "235", "motif": "Queen" } },
     { "data": { "source": "214", "target": "235", "motif": "Berdly" }, "classes": ["weak"] },
     { "data": { "source": "139", "target": "236", "motif": "dont" } },
-    { "data": { "source": "079", "target": "236", "motif": "nightmare" }, "classes": ["weak"] },
     { "data": { "source": "079", "target": "237", "motif": "nightmare" } },
     { "data": { "source": "222", "target": "238", "motif": "Spamton" }},
     { "data": { "source": "223", "target": "239", "motif": "bigshot" }},
@@ -310,7 +308,6 @@
     { "data": { "source": "139", "target": "245", "motif": "dont" } },
 
     { "data": { "source": "135", "target": "301", "motif": "holy" } },
-    { "data": { "source": "202", "target": "301", "motif": "lostgirl" }, "classes": ["weak"] },
     { "data": { "source": "221", "target": "302", "motif": "hey" } },
     { "data": { "source": "803", "target": "303", "motif": "maracas" } },
     { "data": { "source": "302", "target": "304", "motif": "Tenna" } },
