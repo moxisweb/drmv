@@ -71,8 +71,8 @@
     { "data": { "id": "139", "label": "Don't Forget", "img": "img/139.png" }, "classes": ["dont"] },
     { "data": { "id": "140", "label": "Before The Story", "img": "img/140.png", "notes": ["", "[0:29-]", "[0:59-]"] }, "classes": ["Premonition", "once", "holy"] },
 
-    { "data": { "id": "201", "label": "Faint Glow", "img": "img/201.png" }, "classes": ["dont"] },
-    { "data": { "id": "202", "label": "Girl Next Door", "img": "img/202.png", "notes": ["<br>[0:00-] (A)<br>[0:37-] (B)", "<br>[0:17-0:20] (in A)<br>[0:40-0:44] (in B)*"] }, "classes": ["lostgirl", "gaster"] },
+    { "data": { "id": "201", "label": "Faint Glow", "img": "img/201.png", "notes": ["[0:05-]"] }, "classes": ["dont"] },
+    { "data": { "id": "202", "label": "Girl Next Door", "img": "img/202.png", "notes": ["<br>[0:00-] (A)<br>[0:37-] (B)", "<br>[0:17-0:20]*<br>[0:38-0:44]**"] }, "classes": ["lostgirl", "gaster"] },
     { "data": { "id": "203", "label": "My Castle Town", "img": "img/203.png" }, "classes": ["legend"] },
     { "data": { "id": "204", "label": "Ohhhhohohoho!", "img": "img/204.png" }, "classes": ["none"] },
     { "data": { "id": "205", "label": "Queen", "img": "img/205.png" }, "classes": ["Queen"] },
