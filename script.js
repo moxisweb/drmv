@@ -49,11 +49,10 @@ cy.nodes().forEach(function(node) {
   });
 
 // CREATE LONG EDGES
-cy.add({
-    group: 'edges',
-    data: { source: 133, target: 206, motif: "freedom" },
-    classes: ["weak"]
-});
+cy.add([
+  { group: 'edges', data: { source: '133', target: '206', motif: "freedom" }, classes: ["weak"] },
+  { group: 'edges', data: { source: '036', target: '239', motif: "dummy" } }
+]);
 
 ///////////////////////////// Interactive functions
 
