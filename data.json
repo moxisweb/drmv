@@ -252,6 +252,7 @@
     { "data": { "source": "012", "target": "138", "motif": "once" } },
     { "data": { "source": "137", "target": "138", "motif": "dont" } },
     { "data": { "source": "001", "target": "140", "motif": "once" } },
+    { "data": { "source": "135", "target": "140", "motif": "holy" }, "classes": ["weak"] },
     { "data": { "source": "028", "target": "140", "motif": "Premonition" }, "classes": ["weak"] },
 
     { "data": { "source": "139", "target": "201", "motif": "dont" } },
@@ -405,7 +406,7 @@
     { "data": { "source": "412", "target": "430", "motif": "sanctuary" } },
     { "data": { "source": "412", "target": "430", "motif": "dont" } },
     { "data": { "source": "429", "target": "430", "motif": "sanctuary" } },
-    { "data": { "source": "418", "target": "431", "motif": "Gerson" } },
+    { "data": { "source": "420", "target": "431", "motif": "Gerson" } },
     { "data": { "source": "420", "target": "431", "motif": "ruins" } },
     { "data": { "source": "420", "target": "431", "motif": "justice" } },
     { "data": { "source": "063", "target": "432", "motif": "rain" } },
