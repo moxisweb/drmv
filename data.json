@@ -293,7 +293,6 @@
     { "data": { "source": "234", "target": "235", "motif": "Anticipation" }, "classes": ["weak"] },
     { "data": { "source": "220", "target": "235", "motif": "Queen" } },
     { "data": { "source": "214", "target": "235", "motif": "Berdly" }, "classes": ["weak"] },
-    { "data": { "source": "139", "target": "236", "motif": "dont" } },
     { "data": { "source": "079", "target": "237", "motif": "nightmare" } },
     { "data": { "source": "222", "target": "238", "motif": "Spamton" }},
     { "data": { "source": "223", "target": "239", "motif": "bigshot" }},
@@ -347,7 +346,6 @@
     { "data": { "source": "114", "target": "328", "motif": "Fanfare" }, "classes": ["weak"] },
     { "data": { "source": "088", "target": "330", "motif": "burn" }, "classes": ["weak"] },
     { "data": { "source": "107", "target": "330", "motif": "chase" } },
-    { "data": { "source": "230", "target": "330", "motif": "lostgirl" }, "classes": ["weak"] },
     { "data": { "source": "314", "target": "332", "motif": "hipshop" } },
     { "data": { "source": "221", "target": "332", "motif": "hey" } },
     { "data": { "source": "135", "target": "332", "motif": "holy" } },
@@ -357,7 +355,6 @@
     { "data": { "source": "237", "target": "336", "motif": "nightmare" } },
     { "data": { "source": "330", "target": "338", "motif": "burn" } },
     { "data": { "source": "099", "target": "338", "motif": "neo" } },
-    { "data": { "source": "130", "target": "338", "motif": "Lancer" }, "classes": ["weak"] },
 
     { "data": { "source": "108", "target": "401", "motif": "legend" } },
     { "data": { "source": "139", "target": "402", "motif": "dont" } },
