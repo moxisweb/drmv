@@ -76,7 +76,7 @@
       "selector": ".weak",
       "style": {
         "line-style": "dashed",
-        "line-dash-pattern": [0.8, 0.8],
+        "line-dash-pattern": [1, 1],
         "width": 0.5
       }
     },
