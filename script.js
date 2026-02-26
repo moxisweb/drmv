@@ -64,7 +64,8 @@ cy.add([
   { group: 'edges', data: { source: '139', target: '404', motif: "dont" } },
   { group: 'edges', data: { source: '139', target: '412', motif: "dont" } },
   { group: 'edges', data: { source: '139', target: '422', motif: "dont" } },
-  { group: 'edges', data: { source: '415', target: '429', motif: "Spooktune" }, classes: ["weak"] }
+  { group: 'edges', data: { source: '415', target: '429', motif: "Spooktune" }, classes: ["weak"] },
+  { group: 'edges', data: { source: '302', target: '438', motif: "hey" } }
 
 ]);
 
