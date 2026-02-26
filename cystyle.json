@@ -36,12 +36,14 @@
     {
       "selector": "[id < '100']",
       "style": {
+        "shape": "diamond",
         "border-color": "#1E4E1E"
       }
     },
     {
       "selector": "[id > '800']",
       "style": {
+        "shape": "diamond",
         "border-color": "#595959"
       }
     },
