@@ -59,6 +59,8 @@ cy.add([
   { group: 'edges', data: { source: '079', target: '236', motif: "nightmare" }, classes: ["weak"] },
   { group: 'edges', data: { source: '139', target: '302', motif: "dont"}, classes: ["weak"] },
   { group: 'edges', data: { source: '139', target: '307', motif: "dont"}, classes: ["weak"] },
+  { group: 'edges', data: { source: '302', target: '317', motif: "hey" } },
+  { group: 'edges', data: { source: '302', target: '312', motif: "Feature" } },
   { group: 'edges', data: { source: '139', target: '323', motif: "dont" } },
   { group: 'edges', data: { source: '230', target: '330', motif: "lostgirl" }, classes: ["weak"] },
   { group: 'edges', data: { source: '130', target: '338', motif: "Lancer" }, classes: ["weak"] },
