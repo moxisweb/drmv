@@ -64,12 +64,12 @@ cy.add([
   { group: 'edges', data: { source: '230', target: '330', motif: "lostgirl" }, classes: ["weak"] },
   { group: 'edges', data: { source: '130', target: '338', motif: "Lancer" }, classes: ["weak"] },
   { group: 'edges', data: { source: '139', target: '404', motif: "dont" } },
-  { group: 'edges', data: { source: '108', target: '411', motif: "legend" } },
+  { group: 'edges', data: { source: '139', target: '411', motif: "dont" } },
   { group: 'edges', data: { source: '139', target: '412', motif: "dont" } },
+  { group: 'edges', data: { source: '135', target: '417', motif: "holy" }, classes: ["weak"] },
   { group: 'edges', data: { source: '139', target: '422', motif: "dont" }, classes: ["weak"] },
-  { group: 'edges', data: { source: '302', target: '438', motif: "hey" } },
-  { group: 'edges', data: { source: '222', target: '438', motif: "Spamton" } },
-  { group: 'edges', data: { source: '223', target: '438', motif: "bigshot" } },
+  { group: 'edges', data: { source: '108', target: '422', motif: "legend" } },
+  { group: 'edges', data: { source: '302', target: '438', motif: "hey" } }
 
 ]);
 
