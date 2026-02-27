@@ -50,10 +50,10 @@ cy.nodes().forEach(function(node) {
 
 // CREATE LONG EDGES
 cy.add([
-  { group: "edges", data: { source: "005", target: "098", motif: "ruins" } },
   { group: "edges", data: { source: "135", target: "903", motif: "holy" }, classes: ["weak"] },
   { group: 'edges', data: { source: '101', target: '119', motif: "gaster" }, classes: ["weak"] },
   { group: 'edges', data: { source: '139', target: '133', motif: "dont" } },
+  { group: 'edges', data: { source: '107', target: '133', motif: "chase" }, classes: ["weak"] },
   { group: 'edges', data: { source: '139', target: '137', motif: "dont" } },
   { group: 'edges', data: { source: '135', target: '140', motif: "holy" }, classes: ["weak"] },
   { group: 'edges', data: { source: '302', target: '221', motif: "hey" } },
