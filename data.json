@@ -242,7 +242,6 @@
     { "data": { "source": "108", "target": "130", "motif": "legend" } },
     { "data": { "source": "101", "target": "131", "motif": "gaster" } },
     { "data": { "source": "133", "target": "132", "motif": "freedom" } },
-    { "data": { "source": "101", "target": "133", "motif": "gaster" } },
     { "data": { "source": "139", "target": "134", "motif": "dont" }},
     { "data": { "source": "902", "target": "135", "motif": "holy" }, "classes": ["weak"] },
     { "data": { "source": "139", "target": "136", "motif": "dont" }},
