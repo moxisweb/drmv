@@ -61,7 +61,6 @@ cy.add([
   { group: 'edges', data: { source: '079', target: '236', motif: "nightmare" }, classes: ["weak"] },
   { group: 'edges', data: { source: '202', target: '301', motif: "lostgirl" }, classes: ["weak"] },
   { group: 'edges', data: { source: '139', target: '302', motif: "dont"}, classes: ["weak"] },
-  { group: 'edges', data: { source: '302', target: '304', motif: "Tenna" } },
   { group: 'edges', data: { source: '139', target: '307', motif: "dont"}, classes: ["weak"] },
   { group: 'edges', data: { source: '139', target: '323', motif: "dont" }, classes: ["weak"] },
   { group: 'edges', data: { source: '230', target: '330', motif: "lostgirl" }, classes: ["weak"] },
@@ -71,7 +70,9 @@ cy.add([
   { group: 'edges', data: { source: '139', target: '411', motif: "dont" } },
   { group: 'edges', data: { source: '139', target: '412', motif: "dont" } },
   { group: 'edges', data: { source: '139', target: '422', motif: "dont" }, classes: ["weak"] },
-  { group: 'edges', data: { source: '108', target: '422', motif: "legend" } }  
+  { group: 'edges', data: { source: '108', target: '422', motif: "legend" } },
+  { group: 'edges', data: { source: '304', target: '438', motif: "Tenna" } }
+  
 ]);
 
 ///////////////////////////// Interactive functions
