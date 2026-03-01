@@ -306,7 +306,6 @@
     { "data": { "source": "135", "target": "301", "motif": "holy" } },
     { "data": { "source": "803", "target": "303", "motif": "maracas" } },
     { "data": { "source": "304", "target": "303", "motif": "Tenna" } },
-    { "data": { "source": "302", "target": "304", "motif": "Tenna" } },
     { "data": { "source": "304", "target": "305", "motif": "Tenna" } },
     { "data": { "source": "304", "target": "306", "motif": "Tenna" } },
     { "data": { "source": "302", "target": "307", "motif": "Tenna" } },
