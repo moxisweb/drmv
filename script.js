@@ -70,9 +70,7 @@ cy.add([
   { group: 'edges', data: { source: '139', target: '411', motif: "dont" } },
   { group: 'edges', data: { source: '139', target: '412', motif: "dont" } },
   { group: 'edges', data: { source: '139', target: '422', motif: "dont" }, classes: ["weak"] },
-  { group: 'edges', data: { source: '108', target: '422', motif: "legend" } },
-  { group: 'edges', data: { source: '304', target: '438', motif: "Tenna" } }
-
+  { group: 'edges', data: { source: '108', target: '422', motif: "legend" } }  
 ]);
 
 ///////////////////////////// Interactive functions
