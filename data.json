@@ -194,7 +194,7 @@
     { "data": { "id": "435", "label": "The LEGEND...?", "img": "img/435.png", "notes": ["(A)"] }, "classes": ["legend"] },
     { "data": { "id": "436", "label": "With Hope Crossed On Our Hearts", "img": "img/436.png" }, "classes": ["dont"] },
     { "data": { "id": "437", "label": "Volume Adjustment", "img": "img/437.png", "notes": ["[0:11-]"] }, "classes": ["Heartache"] },
-    { "data": { "id": "438", "label": "Catswing", "img": "img/438.png", "notes": ["[0:06-0:21]", "[0:21-0:36]", "[0:36, 1:06-1:29, etc]", "[0:36-]", "[1:13-1:28] (A)"] }, "classes": ["Heartache", "Spamton", "hey", "bigshot", "Tenna"] },
+    { "data": { "id": "438", "label": "Catswing", "img": "img/438.png", "notes": ["[0:06-0:21]", "[0:21-0:36]", "[0:36, 0:51, 1:06-1:28, 1:28, 1:43]", "[0:36-]", "[1:13-1:28] (A)"] }, "classes": ["Heartache", "Spamton", "hey", "bigshot", "Tenna"] },
     { "data": { "id": "439", "label": "Air Waves", "img": "img/439.png", "notes": ["(throughout)", "[1:30-]"] }, "classes": ["Spamton", "freedom"] },
     { "data": { "id": "440", "label": "Concert for you", "img": "img/440.png" }, "classes": ["hidden"] }
 
@@ -414,7 +414,7 @@
     { "data": { "source": "222", "target": "438", "motif": "Spamton" } },
     { "data": { "source": "223", "target": "438", "motif": "bigshot" } },
     { "data": { "source": "304", "target": "438", "motif": "Tenna" } },
-    { "data": { "source": "302", "target": "438", "motif": "hey" } },
+    { "data": { "source": "321", "target": "438", "motif": "hey" } },
     { "data": { "source": "222", "target": "439", "motif": "Spamton" } },
     { "data": { "source": "133", "target": "439", "motif": "freedom" } }
 
