@@ -15,6 +15,10 @@ Promise.all([
     .then(function(res) {
       return res.json()
     }),
+  fetch('savedlayout.json', {mode: 'no-cors'})
+    .then(function(res) {
+      return res.json()
+    }),
 ])
 .then(function(dataArray) {
 
@@ -64,6 +68,7 @@ cy.add([
   { group: 'edges', data: { source: '302', target: '304', motif: "Tenna" } },
   { group: 'edges', data: { source: '139', target: '307', motif: "dont"}, classes: ["weak"] },
   { group: 'edges', data: { source: '302', target: '312', motif: "Feature" }, classes: ["weak"] },
+  { group: 'edges', data: { source: '302', target: '317', motif: "hey" }, classes: ["weak"] },
   { group: 'edges', data: { source: '139', target: '323', motif: "dont" }, classes: ["weak"] },
   { group: 'edges', data: { source: '302', target: '327', motif: "dont" }, classes: ["weak"] },
   { group: 'edges', data: { source: '230', target: '330', motif: "lostgirl" }, classes: ["weak"] },
@@ -77,6 +82,12 @@ cy.add([
   { group: 'edges', data: { source: '304', target: '438', motif: "Tenna" } }
 
 ]);
+
+// APPLY SAVED LAYOUT
+/* var savedPositions = dataArray[4];
+cy.nodes().forEach(function(node) {
+  var id = node.id();
+  }); */
 
 ///////////////////////////// Interactive functions
 
@@ -313,7 +324,7 @@ function showResults(input) {
   }
 }
 
-// STORE POSITIONS
+// STORE SAVE LAYOUT POSITIONS
 addEventListener('keydown', function(e) {
   if (e.key === 's' && e.ctrlKey) { //ctrl + s
     const nodes = cy.nodes();
