@@ -414,7 +414,7 @@
     { "data": { "source": "222", "target": "438", "motif": "Spamton" } },
     { "data": { "source": "223", "target": "438", "motif": "bigshot" } },
     { "data": { "source": "304", "target": "438", "motif": "Tenna" } },
-    { "data": { "source": "321", "target": "438", "motif": "hey" } },
+    { "data": { "source": "221", "target": "438", "motif": "hey" } },
     { "data": { "source": "222", "target": "439", "motif": "Spamton" } },
     { "data": { "source": "133", "target": "439", "motif": "freedom" } }
 
