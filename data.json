@@ -270,7 +270,6 @@
     { "data": { "source": "211", "target": "219", "motif": "sweet" } },
     { "data": { "source": "205", "target": "220", "motif": "Queen" }},
     { "data": { "source": "207", "target": "220", "motif": "Queen" }},
-    { "data": { "source": "302", "target": "221", "motif": "hey" } },
     { "data": { "source": "222", "target": "223", "motif": "Spamton" }},
     { "data": { "source": "205", "target": "224", "motif": "Queen" }},
     { "data": { "source": "214", "target": "225", "motif": "Berdly" }},
