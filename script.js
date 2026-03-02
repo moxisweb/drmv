@@ -84,13 +84,7 @@ cy.add([
 ]);
 
 // APPLY SAVED LAYOUT
-var savedPositions = dataArray[4];
-for (var key in savedPositions) {
-  var node = cy.getElementById(key);
-  console.log("Got element with id: " + key);
-  node.position(savedPositions[key]);
-  console.log("Set position of node " + key + " to: " + savedPositions[key].x + ", " + savedPositions[key].y);
-};
+
 
 
 ///////////////////////////// Interactive functions
@@ -339,6 +333,15 @@ addEventListener('keydown', function(e) {
       }
     console.log(nodePositions);
   }
+  else if (e.key === 'p' && e.ctrlKey)
+    var savedPositions = dataArray[4];
+    for (var key in savedPositions) {
+      var node = cy.getElementById(key);
+      console.log("Got element with id: " + key);
+      node.position(savedPositions[key]);
+      console.log("Set position of node " + key + " to: " + savedPositions[key].x + ", " + savedPositions[key].y);
+};
+  
 });
 
 ////////////////////////////////// End of cy functions
