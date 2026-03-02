@@ -88,7 +88,7 @@ var savedPositions = dataArray[4];
 cy.nodes().forEach(function(node) {
   var id = node.id();
   var newPosition = savedPositions[id];
-  if ( position != undefined ){
+  if ( newPosition != undefined ){
     node.position(newPosition);
   } else {
     console.log("no saved position for node " + id);
