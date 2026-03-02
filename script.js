@@ -50,7 +50,7 @@ cy.nodes().forEach(function(node) {
   var nodeLabel = node.data('label');
   var nodeSLabel = nodeLabel.replace( /[\W_\s]+/g, '' ).toLowerCase();
   node.data( "slabel", nodeSLabel );
-  });
+});
 
 // CREATE LONG EDGES
 cy.add([
@@ -84,14 +84,20 @@ cy.add([
 ]);
 
 // APPLY SAVED LAYOUT
-
-
+var savedPositions = dataArray[4];
+cy.on('layoutstop', function() {
+  for (var key in savedPositions) {
+    var node = cy.getElementById(key);
+    console.log("Got element with id: " + key);
+    node.position(savedPositions[key]);
+    console.log("Set position of node " + key + " to: " + savedPositions[key].x + ", " + savedPositions[key].y);
+  };
+});
 
 ///////////////////////////// Interactive functions
 
-var listedlist = [];
-
 // CLEAR
+var listedlist = [];
 cy.on('tap', function(e){
    if (e.target === cy)  {
       cy.elements().removeClass('fade');
@@ -333,15 +339,6 @@ addEventListener('keydown', function(e) {
       }
     console.log(nodePositions);
   }
-  else if (e.key === 'p' && e.ctrlKey)
-    var savedPositions = dataArray[4];
-    for (var key in savedPositions) {
-      var node = cy.getElementById(key);
-      console.log("Got element with id: " + key);
-      node.position(savedPositions[key]);
-      console.log("Set position of node " + key + " to: " + savedPositions[key].x + ", " + savedPositions[key].y);
-};
-  
 });
 
 ////////////////////////////////// End of cy functions
