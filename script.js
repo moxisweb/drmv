@@ -27,7 +27,7 @@ var cy = cytoscape({
   layout: {
     name: 'fcose',
     randomize: true,
-    animate: true,
+    animate: false,
     fit: true,
     nodeRepulsion: 25000,
     componentSpacing: 500,
@@ -85,7 +85,7 @@ cy.add([
 
 // APPLY SAVED LAYOUT
 var savedPositions = dataArray[4];
-cy.on('layoutready', function() {
+cy.on('layoutstop', function() {
   for (var key in savedPositions) {
     var node = cy.getElementById(key);
     console.log("Got element with id: " + key);
