@@ -86,7 +86,7 @@ cy.add([
 // APPLY SAVED LAYOUT
 var savedPositions = dataArray[4];
 for (var key in savedPositions) {
-  var node = eles.getElementById(key);
+  var node = cy.getElementById(key);
   console.log("Got element with id: " + key);
   node.position(savedPositions[key]);
   console.log("Set position of node " + key + " to: " + savedPositions[key].x + ", " + savedPositions[key].y);
