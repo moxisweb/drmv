@@ -86,13 +86,13 @@ cy.add([
 // APPLY SAVED LAYOUT
 var savedPositions = dataArray[4];
 cy.nodes().forEach(function(node) {
-  var id = node.id();
-  var newPosition = savedPositions[id];
+  var newPosition = savedPositions[node.id()];
   if ( newPosition != undefined ){
     node.position(newPosition);
   } else {
-    console.log("no saved position for node " + id);
+    console.log("no saved position for node " + node.id());
   }
+console.log("Saved positions loaded.");
   });
 
 ///////////////////////////// Interactive functions
