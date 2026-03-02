@@ -144,7 +144,7 @@
     { "data": { "id": "324", "label": "Doom Board", "img": "img/324.png", "notes": ["[0:07-] (A, Doom Board version)"] }, "classes": ["Tenna"] },
     { "data": { "id": "325", "label": "Metaphysical Challenge", "img": "img/325.png", "notes": ["[0:07-] (A, Doom Board version)"] }, "classes": ["Tenna"] },
     { "data": { "id": "326", "label": "TV WORLD", "img": "img/326.png", "notes": ["[1:00-1:40]", "[1:14-1:40] (A)", "[1:40-]"] }, "classes": ["hipshop", "Tenna", "hey"] },
-    { "data": { "id": "327", "label": "It's TV Time!", "img": "img/327.png", "notes": ["(A)<br>[0:12-0:45] (Physical Challenge version)<br>[1:40-1:53] (Doom Board version)<br>[1:53-] (TV World version)", "[0:25-0:29, 0:38-0:42, 2:32-]", "[1:27-1:53]"] }, "classes": ["Tenna", "dont", "hey"] },
+    { "data": { "id": "327", "label": "It's TV Time!", "img": "img/327.png", "notes": ["(A)<br>[0:19-0:45] (Physical Challenge + Don't Forget)<br>[1:40-1:53] (Doom Board)<br>[1:53-2:32] (TV World + HEY EVERY !)", "[0:25, 0:38, 2:32-]", "[1:27-1:53, 1:59, 2:12, 2:25]"] }, "classes": ["Tenna", "dont", "hey"] },
     { "data": { "id": "328", "label": "Hall of Fame", "img": "img/328.png", "notes": ["[-0:03, 0:13-0:17]", "[0:03-0:10, 0:17-0:24]"] }, "classes": ["hey", "Fanfare"] },
     { "data": { "id": "329", "label": "Breath", "img": "img/329.png" }, "classes": ["none"] },
     { "data": { "id": "330", "label": "Black Knife", "img": "img/330.png", "notes": ["(drums)", "<br>[0:25-0:53] (A)<br>[0:53-1:18] (B)", "[1:18-] (B)*"] }, "classes": ["burn", "chase", "lostgirl"] },
