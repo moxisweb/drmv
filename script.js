@@ -25,7 +25,7 @@ Promise.all([
 var cy = cytoscape({
   container: document.getElementById('cy'),
   layout: {
-    name: 'fcose',
+    name: 'preset',
     position: dataArray[4],
     randomize: true,
     animate: true,
