@@ -26,16 +26,17 @@ var cy = cytoscape({
   container: document.getElementById('cy'),
   layout: {
     name: 'fcose',
+    position: dataArray[4],
     randomize: true,
     animate: true,
     fit: true,
-    nodeRepulsion: 25000,
+/*     nodeRepulsion: 25000,
     componentSpacing: 500,
     nodeOverlap: 1,
     gravity: 0.1,
     idealEdgeLength: 40,
     edgeElasticity: 0.5,
-    quality: "proof"
+    quality: "proof" */
   },
   minZoom: 0.5,
   maxZoom: 6,
@@ -84,7 +85,7 @@ cy.add([
 ]);
 
 // APPLY SAVED LAYOUT
-var savedPositions = dataArray[4];
+/* var savedPositions = dataArray[4];
 cy.ready(function() {
   for (var key in savedPositions) {
     var node = cy.getElementById(key);
@@ -92,7 +93,7 @@ cy.ready(function() {
     node.position(savedPositions[key]);
     console.log("Set position of node " + key + " to: " + savedPositions[key].x + ", " + savedPositions[key].y);
   };
-});
+}); */
 
 ///////////////////////////// Interactive functions
 
