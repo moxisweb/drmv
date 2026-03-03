@@ -338,7 +338,6 @@
     { "data": { "source": "312", "target": "327", "motif": "Tenna" } },
     { "data": { "source": "324", "target": "327", "motif": "Tenna" } },
     { "data": { "source": "326", "target": "327", "motif": "hey" } },
-    { "data": { "source": "239", "target": "327", "motif": "bigshot" }, "classes": ["weak"] },
     { "data": { "source": "302", "target": "328", "motif": "hey" } },
     { "data": { "source": "114", "target": "328", "motif": "Fanfare" }, "classes": ["weak"] },
     { "data": { "source": "107", "target": "330", "motif": "chase" } },
