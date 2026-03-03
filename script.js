@@ -329,18 +329,15 @@ addEventListener('keydown', function(e) {
     console.log(nodePositions);
   }
   else if (e.key === 'r') {
-
 // APPLY SAVED LAYOUT
-var savedPositions = dataArray[4];
-cy.on('layoutstop', function() {
+  var savedPositions = dataArray[4];
   for (var key in savedPositions) {
     var node = cy.getElementById(key);
     console.log("Got element with id: " + key);
     node.position(savedPositions[key]);
     console.log("Set position of node " + key + " to: " + savedPositions[key].x + ", " + savedPositions[key].y);
   };
-});
-}
+  }
 
 });
 
