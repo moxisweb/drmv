@@ -324,7 +324,6 @@ addEventListener('keydown', function(e) {
     const nodes = cy.nodes();
     const nodePositions = {};
       for (let i = 0; i < nodes.length; i++) {
-      nodePositions[i] = nodes[i].id();
       nodePositions[nodes[i].id()] = nodes[i].position();
       }
     console.log(nodePositions);
