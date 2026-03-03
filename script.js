@@ -25,18 +25,17 @@ Promise.all([
 var cy = cytoscape({
   container: document.getElementById('cy'),
   layout: {
-    name: 'preset',
-    position: dataArray[4],
+    name: 'fcose',
     randomize: true,
     animate: true,
     fit: true,
-/*     nodeRepulsion: 25000,
+    nodeRepulsion: 25000,
     componentSpacing: 500,
     nodeOverlap: 1,
     gravity: 0.1,
     idealEdgeLength: 40,
     edgeElasticity: 0.5,
-    quality: "proof" */
+    quality: "proof"
   },
   minZoom: 0.5,
   maxZoom: 6,
@@ -83,17 +82,6 @@ cy.add([
   { group: 'edges', data: { source: '304', target: '438', motif: "Tenna" } }
 
 ]);
-
-// APPLY SAVED LAYOUT
-/* var savedPositions = dataArray[4];
-cy.ready(function() {
-  for (var key in savedPositions) {
-    var node = cy.getElementById(key);
-    console.log("Got element with id: " + key);
-    node.position(savedPositions[key]);
-    console.log("Set position of node " + key + " to: " + savedPositions[key].x + ", " + savedPositions[key].y);
-  };
-}); */
 
 ///////////////////////////// Interactive functions
 
@@ -340,7 +328,22 @@ addEventListener('keydown', function(e) {
       }
     console.log(nodePositions);
   }
+  else if (e.key === 'r') {
+
+// APPLY SAVED LAYOUT
+var savedPositions = dataArray[4];
+cy.on('layoutstop', function() {
+  for (var key in savedPositions) {
+    var node = cy.getElementById(key);
+    console.log("Got element with id: " + key);
+    node.position(savedPositions[key]);
+    console.log("Set position of node " + key + " to: " + savedPositions[key].x + ", " + savedPositions[key].y);
+  };
 });
+}
+
+});
+
 
 ////////////////////////////////// End of cy functions
 
