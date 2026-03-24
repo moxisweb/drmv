@@ -1,6 +1,6 @@
 { "songs": [
 
-    { "id": "901", "youtube": "https://www.youtube.com/watch?v=t43ZIrsfof0", "bandcamp": "none", "description": "* Lost Girl (B) bears a resemblance to The Chase/Nightmare Knight motif. Comparison: [<a href=\"https://www.youtube.com/watch?v=3EH-zvlkO0U\">YouTube</a>]" },
+    { "id": "901", "youtube": "https://www.youtube.com/watch?v=t43ZIrsfof0", "bandcamp": "none", "description": "Lost Girl (B) also bears a resemblance to The Chase/Nightmare Knight motif. Comparison: [<a href=\"https://www.youtube.com/watch?v=3EH-zvlkO0U\">YouTube</a>]" },
     { "id": "902", "youtube": "https://www.youtube.com/watch?v=OdntMzdkFnk", "bandcamp": "none", "description": "Penumbra Phantasm is an unreleased song by Toby Fox. Its melody shows up in Homestuck, often alongside  a modified quote of [<a href=\"https://homestuck.bandcamp.com/track/doctor-3\">Doctor</a>], by George Buzinkai.</p><p>History lesson by somefeatures: [<a href=\"https://www.youtube.com/watch?v=jTaibdPA8jU\">YouTube</a>]" },
     { "id": "903", "youtube": "https://www.youtube.com/watch?v=Jfw_ybL3UkE", "bandcamp": "none", "description": "UNDERTALE 10th Anniversary Soundtrack" },
     { "id": "904", "youtube": "https://www.youtube.com/watch?v=EbCnagAhfVw", "bandcamp": "none", "description": "UNDERTALE 10th Anniversary Soundtrack" },
@@ -92,8 +92,8 @@
     { "id": "218", "youtube": "https://www.youtube.com/watch?v=sY7jYYGVH9Y", "bandcamp": "https://tobyfox.bandcamp.com/track/mini-studio" },
     { "id": "219", "youtube": "https://www.youtube.com/watch?v=bJ5A-K2EavY", "bandcamp": "https://tobyfox.bandcamp.com/track/holiday-studio" },
     { "id": "220", "youtube": "https://www.youtube.com/watch?v=j9wrMpaffGY", "bandcamp": "https://tobyfox.bandcamp.com/track/cool-mixtape" },
-    { "id": "221", "youtube": "https://www.youtube.com/watch?v=1voYPPWllPU", "bandcamp": "https://tobyfox.bandcamp.com/track/hey-every", "description": "Retroactively understood as the theme of TV Time." },
-    { "id": "222", "youtube": "https://www.youtube.com/watch?v=Nv7-Mud8OR8", "bandcamp": "https://tobyfox.bandcamp.com/track/spamton" },
+    { "id": "221", "youtube": "https://www.youtube.com/watch?v=1voYPPWllPU", "bandcamp": "https://tobyfox.bandcamp.com/track/hey-every", "description": "Motif also referred to as &#34;HEY EVERY !&#34;, but retroactively understood as the theme of TV Time." },
+    { "id": "222", "youtube": "https://www.youtube.com/watch?v=Nv7-Mud8OR8", "bandcamp": "https://tobyfox.bandcamp.com/track/spamton", "description": "As part of Spamton's main leitmotif. Specifically, the last five notes of each section." },
     { "id": "223", "youtube": "https://www.youtube.com/watch?v=VsM-1WNGeAw", "bandcamp": "https://tobyfox.bandcamp.com/track/nows-your-chance-to-be-a" },
     { "id": "224", "youtube": "https://www.youtube.com/watch?v=a-T1b-_O3XA", "bandcamp": "https://tobyfox.bandcamp.com/track/elegant-entrance" },
     { "id": "225", "youtube": "https://www.youtube.com/watch?v=k7K-fclKRgw", "bandcamp": "https://tobyfox.bandcamp.com/track/bluebird-of-misfortune" },
@@ -177,10 +177,10 @@
     { "id": "418", "youtube": "https://www.youtube.com/watch?v=JkEhQ3qJubU", "bandcamp": "https://tobyfox.bandcamp.com/track/wise-words" },
     { "id": "419", "youtube": "https://www.youtube.com/watch?v=Y9XRMC0ez7w", "bandcamp": "https://tobyfox.bandcamp.com/track/piano-that-may-not-be-played-that-well" },
     { "id": "420", "youtube": "https://www.youtube.com/watch?v=tBdLO8u-0L8", "bandcamp": "none" },
-    { "id": "421", "youtube": "https://www.youtube.com/watch?v=j1fPfxLYg-w", "bandcamp": "https://tobyfox.bandcamp.com/track/12am" },
+    { "id": "421", "youtube": "https://www.youtube.com/watch?v=j1fPfxLYg-w", "bandcamp": "https://tobyfox.bandcamp.com/track/12am", "description": "*Final three notes of melody." },
     { "id": "422", "youtube": "https://www.youtube.com/watch?v=Jp7kfYH4VaE", "bandcamp": "https://tobyfox.bandcamp.com/track/the-second-sanctuary", "description": "* Made up of notes 3 to 6 of Dark Sanctuary.<br>** As part of The Legend (A)." },
     { "id": "423", "youtube": "https://www.youtube.com/watch?v=lHR_z-hldgY", "bandcamp": "https://tobyfox.bandcamp.com/track/ripple" },
-    { "id": "424", "youtube": "https://www.youtube.com/watch?v=sbzmYjE49N4", "bandcamp": "https://tobyfox.bandcamp.com/track/13am" },
+    { "id": "424", "youtube": "https://www.youtube.com/watch?v=sbzmYjE49N4", "bandcamp": "https://tobyfox.bandcamp.com/track/13am", "description": "Notes 2, 4, 5-6-7 only." },
     { "id": "425", "youtube": "https://www.youtube.com/watch?v=7f1RK1m7qvc", "bandcamp": "https://tobyfox.bandcamp.com/track/the-third-sanctuary", "description": "Breakdown: [<a href=\"https://www.youtube.com/watch?v=L_mbQ2sTDpM\">YouTube</a>]" },
     { "id": "426", "youtube": "https://www.youtube.com/watch?v=SG177cepVfk", "bandcamp": "https://tobyfox.bandcamp.com/track/dark-place" },
     { "id": "427", "youtube": "https://www.youtube.com/watch?v=qGpW9CLlxwM", "bandcamp": "https://tobyfox.bandcamp.com/track/heavy-footsteps" },
@@ -195,7 +195,7 @@
     { "id": "436", "youtube": "https://www.youtube.com/watch?v=dXzvCCljzXY", "bandcamp": "https://tobyfox.bandcamp.com/track/with-hope-crossed-on-our-hearts" },
     { "id": "437", "youtube": "https://www.youtube.com/watch?v=SBvEH9yV9yw", "bandcamp": "none" },
     { "id": "438", "youtube": "https://www.youtube.com/watch?v=r-DvoCTarMQ", "bandcamp": "none" },
-    { "id": "439", "youtube": "https://www.youtube.com/watch?v=jsXXKQ_nl30", "bandcamp": "none" },
+    { "id": "439", "youtube": "https://www.youtube.com/watch?v=jsXXKQ_nl30", "bandcamp": "none", "description": "* The notes looping at [0:34-1:01] and [1:17-] and are the ones that match the \"BIT ROOTS\" version of the \"Your Best Nightmare\" motif." },
     { "id": "440", "youtube": "https://www.youtube.com/watch?v=HQj78oXGrhw", "bandcamp": "none" }
 
   ]
