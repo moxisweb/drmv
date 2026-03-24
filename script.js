@@ -160,9 +160,9 @@ cy.on('tap', 'node', function(e){
   }
   var sFilename = dataArray[2].songs.find(song => song.id === sId).filename;
   if (sFilename) {
-    document.getElementById('filename').innerHTML = sFilename; //song filename
+    document.getElementById('songfilename').innerHTML = "Filename: " + sFilename; //song filename
   } else {
-    document.getElementById('filename').innerHTML = "";
+    document.getElementById('songfilename').innerHTML = "";
   }
   songInfoOn();
 });

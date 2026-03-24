@@ -240,6 +240,10 @@ button {
   color: rgb(90, 36, 82);
   line-height: 14px;
 }
+#songfilename {
+  font-size: smaller;
+  color: rgb(130, 130, 130);
+}
 #songclosebtn {
   padding: 0px 0px;
   margin: -5px 0 0 0;
