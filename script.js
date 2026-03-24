@@ -114,6 +114,7 @@ cy.on('tap', 'node', function(e){
   var sId = node.id();
   var sOst = "no data";
   var sTrack = "no data";
+  var sFilename = "no data";
     if (sId > 100 && sId < 800) {
       sOst = "Chapter " + sId.charAt(0);
       sTrack = "#" + sId.charAt(1) + sId.charAt(2);
@@ -156,6 +157,12 @@ cy.on('tap', 'node', function(e){
     document.getElementById('songdescription').innerHTML = sDescription; //song description
   } else {
     document.getElementById('songdescription').innerHTML = "";
+  }
+  var sFilename = dataArray[2].songs.find(song => song.id === sId).filename;
+  if (sFilename) {
+    document.getElementById('filename').innerHTML = sFilename; //song filename
+  } else {
+    document.getElementById('filename').innerHTML = "";
   }
   songInfoOn();
 });
