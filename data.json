@@ -133,7 +133,7 @@
     { "data": { "id": "313", "label": "Board Clear!", "img": "img/313.png", "notes": ["[-0:06]", "[0:07-] (A)"] }, "classes": ["Mantle", "Tenna"] },
     { "data": { "id": "314", "label": "Welcome to the Green Room", "img": "img/314.png" }, "classes": ["hipshop"] },
     { "data": { "id": "315", "label": "Vapor Buster", "img": "img/315.png", "notes": ["", "[0:48-1:07]"] }, "classes": ["rudebuster", "Determination"] },
-    { "data": { "id": "316", "label": "Paradise, Paradise", "img": "img/316.png", "notes": ["[-1:22, 1:49-]<br>[0:54-1:22] (extended melody)", "[0:27-0:54, 1:22-1:49] (A + Paradise)"] }, "classes": ["Paradise", "Tenna"] },
+    { "data": { "id": "316", "label": "Paradise, Paradise", "img": "img/316.png", "notes": ["* [-1:22, 1:49-]<br>[0:54-1:22] (extended melody)", "[0:27-0:54, 1:22-1:49] (A + Paradise)"] }, "classes": ["Paradise", "Tenna"] },
     { "data": { "id": "317", "label": "Raft Ride", "img": "img/317.png", "notes": ["(first five notes of melody)", "[-0:34] (A)"] }, "classes": ["hey", "Tenna"] },
     { "data": { "id": "318", "label": "SOUTH OF THE BORDER!!", "img": "img/318.png", "notes": ["(sliding notes)"] }, "classes": ["KEYGEN"] },
     { "data": { "id": "319", "label": "Sound Check", "img": "img/319.png" }, "classes": ["none"] },
@@ -196,7 +196,7 @@
     { "data": { "id": "437", "label": "Volume Adjustment", "img": "img/437.png", "notes": ["[0:11-]"] }, "classes": ["Heartache"] },
     { "data": { "id": "438", "label": "Catswing", "img": "img/438.png", "notes": ["[0:06-0:21]", "[0:21-0:36]", "[0:36, 0:51, 1:06-1:28, 1:28, 1:43]", "[0:36-]", "[1:13-1:28] (A)"] }, "classes": ["Heartache", "Spamton", "hey", "bigshot", "Tenna"] },
     { "data": { "id": "439", "label": "Air Waves", "img": "img/439.png", "notes": ["(throughout)*", "[1:30-]"] }, "classes": ["Spamton", "freedom"] },
-    { "data": { "id": "440", "label": "Concert for you", "img": "img/440.png" }, "classes": ["hidden"] }
+    { "data": { "id": "440", "label": "Concert for you", "img": "img/440.png" }, "classes": ["none"] }
 
 ],
 "edges": [
