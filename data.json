@@ -65,7 +65,7 @@
     { "data": { "id": "132", "label": "The Circus", "img": "img/132.png", "notes": ["[0:14-] (B)"] }, "classes": ["freedom"] },
     { "data": { "id": "133", "label": "THE WORLD REVOLVING", "img": "img/133.png", "notes": ["[0:02, 0:12] (A)*", "[0:20-1:00] (A) [1:00-1:20] (B)", "**", "[1:20-]"] }, "classes": ["chase", "freedom", "gaster", "dont"] },
     { "data": { "id": "134", "label": "Friendship", "img": "img/134.png" }, "classes": ["dont"] },
-    { "data": { "id": "135", "label": "THE HOLY", "img": "img/135.png", "notes": ["<br>(A) Background strings<br>[0:06-0:20, 0:34-] (B) Vocals<br>[0:20-0:34] (C)"] }, "classes": ["holy"] },
+    { "data": { "id": "135", "label": "THE HOLY", "img": "img/135.png", "notes": ["<br>(A) Background trill<br>[0:06-0:20, 0:34-] (B) Vocals<br>[0:20-0:34] (C)"] }, "classes": ["holy"] },
     { "data": { "id": "136", "label": "Your Power", "img": "img/136.png" }, "classes": ["dont"] },
     { "data": { "id": "137", "label": "A Town Called Hometown", "img": "img/137.png", "notes": ["[-1:01]", "[1:01-1:27]", "[1:27-1:42] (B)"] }, "classes": ["Hometown", "dont", "hopes"] },
     { "data": { "id": "138", "label": "You Can Always Come Home", "img": "img/138.png", "notes": ["[-0:56]", "[0:19-0:56, 1:18-]", "[0:56-]"] }, "classes": ["Home", "once", "dont"] },
