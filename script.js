@@ -215,7 +215,7 @@ function autocomplete(inp, arr) {
   var currentFocus;
   /*execute a function when someone writes in the text field:*/
   inp.addEventListener("input", function(e) {
-      var a, b, i, val = this.value;
+      var a, b, i, val = this.value.replace(/"/g, "&#34;").replace(/'/g, "&#039;");
       /*close any already open lists of autocompleted values*/
       closeAllLists();
       if (!val) { return false;}
@@ -336,7 +336,7 @@ addEventListener('keydown', function(e) {
       }
     console.log(nodePositions);
   }
-  else if (e.key === 'r') {
+  else if (e.key === 'r' && e.ctrlKey) {
 // APPLY SAVED LAYOUT
   var savedPositions = dataArray[4];
   for (var key in savedPositions) {

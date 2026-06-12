@@ -2,7 +2,7 @@
 
     { "data": { "id": "901", "label": "Nightmare Knight (from Cucumber Quest)", "img": "img/901.png", "notes": ["[0:47-1:11, etc] (A)"] }, "classes": ["chase"] },
     { "data": { "id": "902", "label": "Penumbra Phantasm", "img": "img/902.png", "notes": ["[-1:06, etc]", "[1:08-1:11, etc] (C)"] }, "classes": ["Doctor", "holy"] },
-    { "data": { "id": "903", "label": "Abandoned Town", "img": "img/903.png", "notes": ["", "[0:30-] (A)"] }, "classes": ["darknessfalls", "holy"] },
+    { "data": { "id": "903", "label": "Abandoned Town", "img": "img/903.png", "notes": ["", "(as part of Darkness Falls)", "[0:30-] (A)"] }, "classes": ["darknessfalls", "Determination", "holy"] },
     { "data": { "id": "904", "label": "Underwater Town", "img": "img/903.png", "notes": ["[0:47-] (C)"] }, "classes": ["holy"] },
     { "data": { "id": "801", "label": "man.ogg", "img": "img/801.png" }, "classes": ["none"] },
     { "data": { "id": "802", "label": "d.ogg", "img": "img/802.png" }, "classes": ["mini", "dogg"] },
@@ -266,7 +266,6 @@
     { "data": { "source": "214", "target": "215", "motif": "Berdly" }},
     { "data": { "source": "205", "target": "215", "motif": "Queen" } },
     { "data": { "source": "131", "target": "216", "motif": "darknessfalls" }},
-    { "data": { "source": "131", "target": "216", "motif": "Determination" }},
     { "data": { "source": "206", "target": "217", "motif": "cyber" } },
     { "data": { "source": "206", "target": "217", "motif": "sweet" }, "classes": ["weak"] },
     { "data": { "source": "206", "target": "217", "motif": "freedom" }, "classes": ["weak"] },
