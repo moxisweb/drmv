@@ -215,7 +215,7 @@ function autocomplete(inp, arr) {
   var currentFocus;
   /*execute a function when someone writes in the text field:*/
   inp.addEventListener("input", function(e) {
-      var a, b, i, val = this.value.replace(/"/g, "&#34;").replace(/'/g, "&#039;");
+      var a, b, i, val = this.value.replace(/"/g, "&#34;").replace(/'/g, "&#39;");
       /*close any already open lists of autocompleted values*/
       closeAllLists();
       if (!val) { return false;}
