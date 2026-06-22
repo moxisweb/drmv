@@ -393,6 +393,7 @@ function fullMotif(m) {
       case "justice": mn = "Spear of Justice"; break;
       case "maracas": mn = "Dog Check (Maracas)"; break;
       case "dogg": mn = "d.ogg"; break;
+      case "man": mn = "waltz of seccom masada"; break;
       default: mn = m;
     }
     return mn;
