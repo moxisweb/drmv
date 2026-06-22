@@ -120,6 +120,9 @@ cy.on('tap', 'node', function(e){
     } else if (sId < 100) {
       sOst = "Undertale";
       sTrack = "#" + sId.charAt(1) + sId.charAt(2);
+    } else if (sId > 800 && sId < 900) {
+      sOst = "Unlisted";
+      sTrack = "";
     } else {
       sOst = "Other";
       sTrack = "";
