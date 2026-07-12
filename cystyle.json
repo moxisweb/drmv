@@ -37,14 +37,20 @@
       "selector": "[id < '100']",
       "style": {
         "shape": "diamond",
-        "border-color": "#1E4E1E"
+        "height": "9px",
+        "width": "9px",
+        "background-image": "none",
+        "background-color": "LightGrey"
       }
     },
     {
       "selector": "[id > '800']",
       "style": {
         "shape": "diamond",
-        "border-color": "#595959"
+        "height": "9px",
+        "width": "9px",
+        "background-image": "none",
+        "background-color": "LightGrey"
       }
     },
     {
