@@ -29,28 +29,33 @@ a { /* For links to not be formatted */
 .menubutton a {
   text-decoration: none;
 }
-h1 {
+h1 { /* About, Special thanks */
   font-family: '8bitoperator';
   font-size: 2.4em;
 }
-h2 {
+h2 { /* Welcome to Mox's Deltarune Music Visualizer! */
   font-family: '8bitoperator';
   font-size: 1.7em;
   line-height: 85%;
   margin-top: .50em;
   margin-bottom: .50em;
 }
-h3 {
+h3 { /* Legend */
   font-family: '8bitoperator';
   column-span: all;
   font-size: 1.4em;
   margin-top: .90em;
   margin-bottom: .60em;
 }
-h4 {
+h4 { /* Contact, further thanks, etc */
   font-family: '8bitoperator';
   font-size: 1.3em;
   margin: 0.8em 0;
+}
+.highlighted {
+  color: rgb(255, 242, 0);
+  font-family: '8bitoperator';
+  font-size: 1.4em;
 }
 .closebtn{
   float: right;

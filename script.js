@@ -81,7 +81,8 @@ cy.add([
   { group: 'edges', data: { source: '139', target: '412', motif: "dont" } },
   { group: 'edges', data: { source: '139', target: '422', motif: "dont" }, classes: ["weak"] },
   { group: 'edges', data: { source: '108', target: '422', motif: "legend" } },
-  { group: 'edges', data: { source: '304', target: '438', motif: "Tenna" } }
+  { group: 'edges', data: { source: '304', target: '438', motif: "Tenna" } },
+  { group: 'edges', data: { source: '011', target: '077', motif: "Determination" } }
 
 ]);
 
@@ -397,6 +398,11 @@ function fullMotif(m) {
       case "maracas": mn = "Dog Check (Maracas)"; break;
       case "dogg": mn = "d.ogg"; break;
       case "man": mn = "waltz of seccom masada"; break;
+      case "checkerdance": mn = "Checker Dance"; break;
+      case "fieldofhopes": mn = "Field of Hopes and Dreams"; break;
+      case "sunsetof7suns": mn = "Sunset of Seven Suns"; break;
+      case "violettactics": mn = "Violet Tactics"; break;
+      case "yourbestfriend": mn = "Your Best Friend"; break;
       default: mn = m;
     }
     return mn;

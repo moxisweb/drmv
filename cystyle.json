@@ -265,6 +265,20 @@
       }
     },
     {
+      "selector": "[motif = 'sunsetof7suns']",
+      "style": {
+        "line-color": "#00f7ff",
+        "target-arrow-color": "#00f7ff"
+      }
+    },
+    {
+      "selector": "[motif = 'Flowery']",
+      "style": {
+        "line-color": "#ffee00",
+        "target-arrow-color": "#ffee00"
+      }
+    },
+    {
         "selector": "node.fade",
         "style": {
           "opacity": 0.25
