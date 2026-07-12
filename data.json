@@ -240,7 +240,7 @@
     { "data": { "id": "534", "label": "Dreamwatchers", "img": "img/534.png" }, "classes": ["Flowery"] },
     { "data": { "id": "535", "label": "Weak Flowers", "img": "img/535.png" }, "classes": ["Flowery"] },
     { "data": { "id": "536", "label": "Walking Home", "img": "img/536.png" }, "classes": ["Susie", "lostgirl"] },
-    { "data": { "id": "537", "label": "Field of Hopes and Dreams (From \"DELTARUNE Piano Collections Vol. 1\") (Credits Version)", "img": "img/537.png" }, "classes": ["fieldofhopes", "dont"] },
+    { "data": { "id": "537", "label": "Field of Hopes and Dreams (Credits Version)", "img": "img/537.png" }, "classes": ["fieldofhopes", "dont"] },
     { "data": { "id": "538", "label": "Goodnight, Sweet Prince", "img": "img/538.png" }, "classes": ["Flowery"] }
 
 ],
@@ -480,7 +480,7 @@
     { "data": { "source": "139", "target": "508", "motif": "dont" } },
     { "data": { "source": "112", "target": "509", "motif": "Birds" } },
     { "data": { "source": "113", "target": "511", "motif": "fieldofhopes" } },
-    { "data": { "source": "101", "target": "511", "motif": "once" } },
+    { "data": { "source": "001", "target": "511", "motif": "once" } },
     { "data": { "source": "113", "target": "511", "motif": "dont" } },
     { "data": { "source": "110", "target": "512", "motif": "rudebuster" } },
     { "data": { "source": "404", "target": "513", "motif": "Susie" } },
@@ -511,7 +511,7 @@
     { "data": { "source": "139", "target": "532", "motif": "dont" } },
     { "data": { "source": "003", "target": "532", "motif": "yourbestfriend" } },
     { "data": { "source": "077", "target": "533", "motif": "ASGORE" } },
-    { "data": { "source": "530", "target": "534", "motif": "Flowery" } },
+    { "data": { "source": "510", "target": "534", "motif": "Flowery" } },
     { "data": { "source": "534", "target": "535", "motif": "Flowery" } },
     { "data": { "source": "404", "target": "536", "motif": "Susie" } },
     { "data": { "source": "404", "target": "536", "motif": "lostgirl" } },
