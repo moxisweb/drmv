@@ -409,7 +409,6 @@
     { "data": { "source": "137", "target": "403", "motif": "dont" } },
     { "data": { "source": "202", "target": "404", "motif": "lostgirl" } },
     { "data": { "source": "108", "target": "405", "motif": "legend" } },
-    { "data": { "source": "139", "target": "405", "motif": "dont" } },
     { "data": { "source": "235", "target": "406", "motif": "Queen" } },
     { "data": { "source": "235", "target": "406", "motif": "Anticipation" }, "classes": ["weak"] },
     { "data": { "source": "235", "target": "406", "motif": "Berdly" }, "classes": ["weak"] },
@@ -518,7 +517,6 @@
     { "data": { "source": "113", "target": "537", "motif": "dont" } },
     { "data": { "source": "534", "target": "538", "motif": "Flowery" } },
     { "data": { "source": "540", "target": "539", "motif": "Pink" } },
-    { "data": { "source": "139", "target": "540", "motif": "dont" } },
     { "data": { "source": "038", "target": "540", "motif": "Spooktune" } }
 
 ]
