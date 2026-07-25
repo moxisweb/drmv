@@ -231,8 +231,8 @@
     {
       "selector": "[motif = 'hey']",
       "style": {
-        "line-color": "#ffb300",
-        "target-arrow-color": "#ffb300"
+        "line-color": "#ff9500",
+        "target-arrow-color": "#ff9500"
       }
     },
     {
