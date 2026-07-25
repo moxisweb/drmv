@@ -285,6 +285,13 @@
       }
     },
     {
+      "selector": "[motif = 'Pink']",
+      "style": {
+        "line-color": "#ff709b",
+        "target-arrow-color": "#ff709b"
+      }
+    },
+    {
         "selector": "node.fade",
         "style": {
           "opacity": 0.25

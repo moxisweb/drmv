@@ -31,7 +31,7 @@
     { "data": { "id": "046", "label": "Spear of Justice", "img": "img/046.png", "notes": ["[-0:36]", "[0:36-1:55]"] }, "classes": ["justice", "ruins"] },
     { "data": { "id": "056", "label": "Confession", "img": "img/056.png" }, "classes": ["hopes"] },
     { "data": { "id": "063", "label": "It's Raining Somewhere Else", "img": "img/063.png", "notes": ["", "[0:20-]"] }, "classes": ["rain", "sans"] },
-    { "data": { "id": "077", "label": "ASGORE", "img": "img/077.png" }, "classes": ["ASGORE", "Heartache", "Determination"] },
+    { "data": { "id": "077", "label": "ASGORE", "img": "img/077.png", "notes": ["[-0:34]", "[0:34-1:24]", "[1:49-2:06]"] }, "classes": ["ASGORE", "Heartache", "Determination"] },
     { "data": { "id": "079", "label": "Your Best Nightmare", "img": "img/079.png" }, "classes": ["nightmare"] },
     { "data": { "id": "088", "label": "Burn in Despair!", "img": "img/088.png" }, "classes": ["burn", "nightmare"] },
     { "data": { "id": "098", "label": "Battle Against a True Hero", "img": "img/098.png", "notes": ["", "[0:44-1:35]"] }, "classes": ["neo", "ruins"] },
@@ -241,7 +241,9 @@
     { "data": { "id": "535", "label": "Weak Flowers", "img": "img/535.png" }, "classes": ["Flowery"] },
     { "data": { "id": "536", "label": "Walking Home", "img": "img/536.png" }, "classes": ["Susie", "lostgirl"] },
     { "data": { "id": "537", "label": "Field of Hopes and Dreams (Credits Version)", "img": "img/537.png" }, "classes": ["fieldofhopes", "dont"] },
-    { "data": { "id": "538", "label": "Goodnight, Sweet Prince", "img": "img/538.png" }, "classes": ["Flowery"] }
+    { "data": { "id": "538", "label": "Goodnight, Sweet Prince", "img": "img/538.png" }, "classes": ["Flowery"] },
+    { "data": { "id": "539", "label": "Pink", "img": "img/539.png", "notes": ["[-0:14] (A); [0:14-] (B)"] }, "classes": ["Pink"] },
+    { "data": { "id": "540", "label": "Cutie Mew Mew Magic", "img": "img/540.png", "notes": ["<br>[-0:10, 1:12-1:17, 2:48-] (A)<br>[0:41-0:58, 1:09-1:12, 2:16-2:32] (B)", "[0:31-0:40, 1:38-1:46]", "[2:00-2:11]", "[2:46]"] }, "classes": ["Pink", "dont", "freedom", "Spooktune"] }
 
 ],
 "edges": [
@@ -249,7 +251,6 @@
     { "data": { "source": "801", "target": "806", "motif": "man" } },
     { "data": { "source": "801", "target": "807", "motif": "man" } },
     { "data": { "source": "230", "target": "804", "motif": "lostgirl" } },
-    { "data": { "source": "014", "target": "804", "motif": "Heartache" }, "classes": ["weak"] },
     { "data": { "source": "216", "target": "903", "motif": "darknessfalls" } },
     { "data": { "source": "135", "target": "904", "motif": "holy" }, "classes": ["weak"] },
 
@@ -257,6 +258,7 @@
     { "data": { "source": "010", "target": "036", "motif": "ghost" } },
     { "data": { "source": "005", "target": "046", "motif": "ruins" } },
     { "data": { "source": "242", "target": "063", "motif": "Sans" } },
+    { "data": { "source": "014", "target": "077", "motif": "Heartache" } },
     { "data": { "source": "011", "target": "077", "motif": "Determination" } },
     { "data": { "source": "079", "target": "088", "motif": "nightmare" } },
     { "data": { "source": "005", "target": "098", "motif": "ruins" }, "classes": ["weak"] },
@@ -514,7 +516,10 @@
     { "data": { "source": "404", "target": "536", "motif": "lostgirl" } },
     { "data": { "source": "113", "target": "537", "motif": "fieldofhopes" } },
     { "data": { "source": "113", "target": "537", "motif": "dont" } },
-    { "data": { "source": "534", "target": "538", "motif": "Flowery" } }
+    { "data": { "source": "534", "target": "538", "motif": "Flowery" } },
+    { "data": { "source": "540", "target": "539", "motif": "Pink" } },
+    { "data": { "source": "139", "target": "540", "motif": "dont" } },
+    { "data": { "source": "038", "target": "540", "motif": "Spooktune" } }
 
 ]
 }
