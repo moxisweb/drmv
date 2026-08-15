@@ -112,8 +112,8 @@
     {
       "selector": "[motif = 'freedom']",
       "style": {
-        "line-color": "#ffc400",
-        "target-arrow-color": "#ffc400"
+        "line-color": "#ffff12",
+        "target-arrow-color": "#ffff12"
       }
     },
     {
@@ -168,8 +168,8 @@
         {
       "selector": "[motif = 'sweet']",
       "style": {
-        "line-color": "green",
-        "target-arrow-color": "green"
+        "line-color": "#4ba666",
+        "target-arrow-color": "#4ba666"
       }
     },
             {
@@ -189,8 +189,8 @@
     {
       "selector": "[motif = 'girlnextdoor']",
       "style": {
-        "line-color": "#00ab0b",
-        "target-arrow-color": "#00ab0b"
+        "line-color": "#008f3e",
+        "target-arrow-color": "#008f3e"
       }
     },
     {
@@ -231,8 +231,8 @@
     {
       "selector": "[motif = 'hey']",
       "style": {
-        "line-color": "#ff9500",
-        "target-arrow-color": "#ff9500"
+        "line-color": "#ff8c00",
+        "target-arrow-color": "#ff8c00"
       }
     },
     {

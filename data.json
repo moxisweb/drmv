@@ -266,6 +266,7 @@
     { "data": { "source": "119", "target": "810", "motif": "scarletforest" } },
     { "data": { "source": "021", "target": "811", "motif": "Dogsong" } },
     { "data": { "source": "050", "target": "811", "motif": "metalcrusher" } },
+    { "data": { "source": "021", "target": "812", "motif": "Dogsong" } },
     { "data": { "source": "216", "target": "903", "motif": "darknessfalls" } },
     { "data": { "source": "135", "target": "904", "motif": "holy" }, "classes": ["weak"] },
 
@@ -472,7 +473,6 @@
     { "data": { "source": "139", "target": "436", "motif": "dont" } },
     { "data": { "source": "804", "target": "437", "motif": "Heartache" } },
     { "data": { "source": "437", "target": "438", "motif": "Heartache" } },
-    { "data": { "source": "222", "target": "438", "motif": "Spamton" } },
     { "data": { "source": "223", "target": "438", "motif": "bigshot" } },
     { "data": { "source": "221", "target": "438", "motif": "hey" } },
     { "data": { "source": "222", "target": "439", "motif": "Spamton" } },
