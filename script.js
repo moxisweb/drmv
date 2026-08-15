@@ -60,7 +60,6 @@ cy.add([
   { group: 'edges', data: { source: '139', target: '133', motif: "dont" } },
   { group: 'edges', data: { source: '107', target: '133', motif: "chase" }, classes: ["weak"] },
   { group: 'edges', data: { source: '139', target: '137', motif: "dont" } },
-  { group: 'edges', data: { source: '133', target: '206', motif: "freedom" }, classes: ["weak"] },
   { group: 'edges', data: { source: '302', target: '221', motif: "hey" } },
   { group: 'edges', data: { source: '336', target: '222', motif: "nightmare" }, classes: ["weak"] },
   { group: 'edges', data: { source: '139', target: '236', motif: "dont" } },
@@ -89,7 +88,9 @@ cy.add([
   { group: 'edges', data: { source: '404', target: '508', motif: "Susie" } },
   { group: 'edges', data: { source: '139', target: '532', motif: "dont" } },
   { group: 'edges', data: { source: '014', target: '804', motif: "Heartache" }, classes: ["weak"] },
-  { group: 'edges', data: { source: '139', target: '540', motif: "dont" } }
+  { group: 'edges', data: { source: '139', target: '540', motif: "dont" } },
+  { group: 'edges', data: { source: '003', target: '811', motif: "yourbestfriend" } },
+  { group: 'edges', data: { source: '046', target: '811', motif: "justice" } }
 
 ]);
 
@@ -410,6 +411,7 @@ function fullMotif(m) {
       case "sunsetof7suns": mn = "Sunset of Seven Suns"; break;
       case "violettactics": mn = "Violet Tactics"; break;
       case "yourbestfriend": mn = "Your Best Friend"; break;
+      case "metalcrusher": mn = "Metal Crusher"; break;
       default: mn = m;
     }
     return mn;
