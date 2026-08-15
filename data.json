@@ -17,7 +17,7 @@
     { "data": { "id": "807", "label": "man_2.ogg", "img": "img/807.png" }, "classes": ["man"] },
     { "data": { "id": "808", "label": "ch5_inversion_lake_chant.ogg", "img": "img/808.png" }, "classes": ["girlnextdoor"] },
     { "data": { "id": "809", "label": "ch5_weird_monologue_deep.ogg", "img": "img/809.png" }, "classes": ["Flashback"] },
-    { "data": { "id": "810", "label": "Scarlet Forest", "img": "img/810.png" }, "classes": ["scarletforest"] },
+    { "data": { "id": "810", "label": "Scarlet Forest (Piano Collections)", "img": "img/810.png" }, "classes": ["scarletforest"] },
     { "data": { "id": "811", "label": "honksong.ogg", "img": "img/811.png", "notes": ["[0:06-0:14]", "[0:17-0:23]", "[0:27-0:38]", "[0:57-]"] }, "classes": ["yourbestfriend", "justice", "Dogsong", "metalcrusher"] },
     { "data": { "id": "812", "label": "inukuma_wip.ogg", "img": "img/812.png" }, "classes": ["Dogsong"] },
 
