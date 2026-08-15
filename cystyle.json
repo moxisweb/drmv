@@ -189,8 +189,8 @@
     {
       "selector": "[motif = 'girlnextdoor']",
       "style": {
-        "line-color": "#b7ff00",
-        "target-arrow-color": "#b7ff00"
+        "line-color": "#00ab0b",
+        "target-arrow-color": "#00ab0b"
       }
     },
     {
