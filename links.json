@@ -79,7 +79,7 @@
     { "id": "140", "youtube": "https://www.youtube.com/watch?v=r9shwL1h-qA", "bandcamp": "https://tobyfox.bandcamp.com/track/before-the-story", "filename": "AUDIO_STORY.ogg" },
 
     { "id": "201", "youtube": "https://www.youtube.com/watch?v=J0sZRB3KI3s", "bandcamp": "https://tobyfox.bandcamp.com/track/faint-glow", "filename": "menu.ogg" },
-    { "id": "202", "youtube": "https://www.youtube.com/watch?v=KhrhhWFIwXw", "bandcamp": "https://tobyfox.bandcamp.com/track/girl-next-door", "filename": "noelle_school.ogg", "description": "* As part of Lost Girl (A).<br>** As part of Lost Girl (B)." },
+    { "id": "202", "youtube": "https://www.youtube.com/watch?v=KhrhhWFIwXw", "bandcamp": "https://tobyfox.bandcamp.com/track/girl-next-door", "filename": "noelle_school.ogg", "description": "* As part of Lost Girl (B).<br>** As part of Lost Girl (A), repeating the relevant notes." },
     { "id": "203", "youtube": "https://www.youtube.com/watch?v=RKQUblO-iCs", "bandcamp": "https://tobyfox.bandcamp.com/track/my-castle-town", "filename": "castletown.ogg" },
     { "id": "204", "youtube": "https://www.youtube.com/watch?v=xPCyzXoB7WY", "bandcamp": "https://tobyfox.bandcamp.com/track/ohhhhohohoho", "filename": "queen_intro.ogg" },
     { "id": "205", "youtube": "https://www.youtube.com/watch?v=nELEtn5MUEM", "bandcamp": "https://tobyfox.bandcamp.com/track/queen", "filename": "queen.ogg" },
@@ -107,7 +107,7 @@
     { "id": "227", "youtube": "https://www.youtube.com/watch?v=vGrm3yFlWdU", "bandcamp": "https://tobyfox.bandcamp.com/track/keygen", "filename": "KEYGEN.ogg" },
     { "id": "228", "youtube": "https://www.youtube.com/watch?v=nLc0RvWdKjY", "bandcamp": "https://tobyfox.bandcamp.com/track/acid-tunnel-of-love", "filename": "acid_tunnel.ogg" },
     { "id": "229", "youtube": "https://www.youtube.com/watch?v=2nlbYPHb20w", "bandcamp": "https://tobyfox.bandcamp.com/track/its-pronounced-rules", "filename": "rouxls_battle.ogg" },
-    { "id": "230", "youtube": "https://www.youtube.com/watch?v=ArtRuJiTYbI", "bandcamp": "https://tobyfox.bandcamp.com/track/lost-girl", "filename": "noelle_normal.ogg", "description": "* As part of Lost Girl (B)." },
+    { "id": "230", "youtube": "https://www.youtube.com/watch?v=ArtRuJiTYbI", "bandcamp": "https://tobyfox.bandcamp.com/track/lost-girl", "filename": "noelle_normal.ogg", "description": "* As part of Lost Girl (A)." },
     { "id": "231", "youtube": "https://www.youtube.com/watch?v=2ZDp_OwXXsc", "bandcamp": "https://tobyfox.bandcamp.com/track/ferris-wheel", "filename": "noelle_ferriswheel.ogg", "description": "" },
     { "id": "232", "youtube": "https://www.youtube.com/watch?v=XR2QQMfeJbg", "bandcamp": "https://tobyfox.bandcamp.com/track/attack-of-the-killer-queen", "filename": "queen_boss.ogg", "description": "feat. Lena Raine & Marcy Nabors" },
     { "id": "233", "youtube": "https://www.youtube.com/watch?v=NJ3Z7yA1pIE", "bandcamp": "https://tobyfox.bandcamp.com/track/giga-size", "filename": "giant_queen_appears.ogg" },
