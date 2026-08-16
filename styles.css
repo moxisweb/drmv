@@ -67,6 +67,7 @@ h4 { /* Contact, further thanks, etc */
   cursor: pointer;
 }
 #legend {
+  display: none;
   position: absolute;
   column-count: 2;
   column-fill: balance;

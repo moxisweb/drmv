@@ -414,6 +414,7 @@ function fullMotif(m) {
       case "violettactics": mn = "Violet Tactics"; break;
       case "yourbestfriend": mn = "Your Best Friend"; break;
       case "metalcrusher": mn = "Metal Crusher"; break;
+      case "mysteriousshrine": mn = "Mysterious Shrine"; break;
       default: mn = m;
     }
     return mn;

@@ -24,23 +24,13 @@
       }
     },
     {
-      "selector": "node.mini",
-      "style": {
-        "shape": "diamond",
-        "height": "9px",
-        "width": "9px",
-        "background-image": "none",
-        "background-color": "LightGrey"
-      }
-    },
-    {
       "selector": "[id < '100']",
       "style": {
         "shape": "diamond",
         "height": "9px",
         "width": "9px",
         "background-image": "none",
-        "background-color": "LightGrey"
+        "background-color": "Black"
       }
     },
     {

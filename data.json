@@ -6,11 +6,12 @@
     { "data": { "id": "904", "label": "Underwater Town", "img": "img/903.png", "notes": ["[0:47-] (C)"] }, "classes": ["holy"] },
     { "data": { "id": "906", "label": "KEYGEN (Credits)", "img": "img/906.png" }, "classes": ["KEYGEN"] },
     { "data": { "id": "907", "label": "Sunset of 7 Suns", "img": "img/907.png" }, "classes": ["sunsetof7suns"] },
+    { "data": { "id": "908", "label": "Mysterious_Door_music_Dogroom.ogg", "img": "img/908.png" }, "classes": ["mysteriousshrine"] },
     { "data": { "id": "999", "label": "Gaster's Theme", "img": "img/999.png" }, "classes": ["gaster"] },
 
     { "data": { "id": "801", "label": "man.ogg", "img": "img/801.png" }, "classes": ["man"] },
     { "data": { "id": "802", "label": "d.ogg", "img": "img/blank.png" }, "classes": ["dogg"] },
-    { "data": { "id": "803", "label": "dogcheck", "img": "img/803.png" }, "classes": ["hidden"] },
+    { "data": { "id": "803", "label": "dogcheck", "img": "img/803.png", "notes": ["[0:13-0:17]", "[0:27-0:30]", "[0:33-]"] }, "classes": ["Dogsong", "once", "dont"] },
     { "data": { "id": "804", "label": "stealth.ogg", "img": "img/804.png", "notes": ["[-0:22] (B)*", "[0:22-] (A)"] }, "classes": ["Heartache", "lostgirl"] },
     { "data": { "id": "805", "label": "findher.ogg", "img": "img/805.png" }, "classes": ["lostgirl"] },
     { "data": { "id": "806", "label": "man_nes.ogg", "img": "img/806.png" }, "classes": ["man"] },
@@ -20,6 +21,10 @@
     { "data": { "id": "810", "label": "Scarlet Forest (Piano Collections)", "img": "img/810.png" }, "classes": ["scarletforest"] },
     { "data": { "id": "811", "label": "honksong.ogg", "img": "img/811.png", "notes": ["[0:06-0:14]", "[0:17-0:23]", "[0:27-0:38]", "[0:57-]"] }, "classes": ["yourbestfriend", "justice", "Dogsong", "metalcrusher"] },
     { "data": { "id": "812", "label": "inukuma_wip.ogg", "img": "img/812.png" }, "classes": ["Dogsong"] },
+    { "data": { "id": "813", "label": "alarm_titlescreen.ogg", "img": "img/813.png" }, "classes": ["none"] },
+    { "data": { "id": "814", "label": "annoying_prophecy.ogg", "img": "img/814.png" }, "classes": ["sanctuary"] },
+    { "data": { "id": "815", "label": "dog_balloon.ogg", "img": "img/815.png" }, "classes": ["Dogsong"] },
+    { "data": { "id": "816", "label": "dogroom.ogg", "img": "img/816.png" }, "classes": ["mysteriousshrine"] },
 
     { "data": { "id": "001", "label": "Once Upon a Time", "img": "img/001.png" }, "classes": ["once"] },
     { "data": { "id": "003", "label": "Your Best Friend", "img": "img/003.png" }, "classes": ["yourbestfriend"] },
@@ -259,6 +264,8 @@
 
     { "data": { "source": "801", "target": "806", "motif": "man" } },
     { "data": { "source": "801", "target": "807", "motif": "man" } },
+    { "data": { "source": "021", "target": "803", "motif": "Dogsong" } },
+    { "data": { "source": "001", "target": "803", "motif": "once" } },
     { "data": { "source": "230", "target": "804", "motif": "lostgirl" } },
     { "data": { "source": "230", "target": "805", "motif": "lostgirl" } },
     { "data": { "source": "505", "target": "808", "motif": "girlnextdoor" } },
@@ -267,6 +274,8 @@
     { "data": { "source": "021", "target": "811", "motif": "Dogsong" } },
     { "data": { "source": "050", "target": "811", "motif": "metalcrusher" } },
     { "data": { "source": "021", "target": "812", "motif": "Dogsong" } },
+    { "data": { "source": "411", "target": "814", "motif": "sanctuary" } },
+    { "data": { "source": "908", "target": "816", "motif": "mysteriousshrine" } },
     { "data": { "source": "216", "target": "903", "motif": "darknessfalls" } },
     { "data": { "source": "135", "target": "904", "motif": "holy" }, "classes": ["weak"] },
 

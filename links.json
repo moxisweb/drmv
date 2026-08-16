@@ -6,11 +6,12 @@
     { "id": "904", "youtube": "https://www.youtube.com/watch?v=EbCnagAhfVw", "bandcamp": "none", "description": "UNDERTALE 10th Anniversary Soundtrack" },
     { "id": "906", "youtube": "https://www.youtube.com/watch?v=GRwKUWEe6fY", "bandcamp": "none", "description": "Extended version from the Spamton Sweepstakes." },
     { "id": "907", "youtube": "https://www.youtube.com/watch?v=ohBLWsjZD4w", "bandcamp": "none", "description": "Posted to social media as a teaser for chapter 5." },
+    { "id": "908", "youtube": "https://www.youtube.com/watch?v=cn6b4XX0zCg", "bandcamp": "none", "description": "Undertale unlisted track." },
     { "id": "999", "youtube": "https://www.youtube.com/watch?v=DzVLULTUc7o", "bandcamp": "none", "description": "Lost Girl (A) and the Freedom Motif share some notes which match Gaster's Theme.<br>Comparison: [<a href=\"https://www.youtube.com/watch?v=-A16gStXMjU\">YouTube</a>]" },
-
+    
     { "id": "801", "youtube": "https://www.youtube.com/watch?v=Dnx_4k05p74", "bandcamp": "none", "filename": "man.ogg", "description": "Originally \"waltz of seccom masada\" from 2012 Yume Nikki fan album \"made up yume nikkis\"" },
     { "id": "802", "youtube": "https://www.youtube.com/watch?v=hJv0clKGaR0", "bandcamp": "none", "filename": "d.ogg", "description": "A slowed down excerpt of \"Raise Up Your Bat\"." },
-    { "id": "803", "youtube": "https://www.youtube.com/watch?v=pj0V28bWTLc", "bandcamp": "none" },
+    { "id": "803", "youtube": "https://www.youtube.com/watch?v=bDDhYZCsdPo", "bandcamp": "none", "filename": "dogcheck.ogg", "description": "Dogcheck room song for Chapter 1." },
     { "id": "804", "youtube": "https://www.youtube.com/watch?v=Fl_DwOEGvBw", "bandcamp": "none", "filename": "stealth.ogg", "description": "* Comparison: [<a href=\"https://www.youtube.com/watch?v=IYPnyHK-nIs\">YouTube</a>]" },
     { "id": "805", "youtube": "https://www.youtube.com/watch?v=HCPw6QftCCI", "bandcamp": "none", "filename": "findher.ogg", "description": "From the Spamton Sweepstakes." },
     { "id": "806", "youtube": "https://www.youtube.com/watch?v=k0JgIqfssIQ", "bandcamp": "none", "filename": "man_ness.ogg", "description": "Originally \"waltz of seccom masada (8 bit)\" from 2012 Yume Nikki fan album \"made up yume nikkis\"" },
@@ -19,8 +20,12 @@
     { "id": "809", "youtube": "https://www.youtube.com/watch?v=xYScugBAWQ4", "bandcamp": "none", "filename": "ch5_weird_monologue_deep.ogg", "description": "Breakdown: [<a href=\"https://www.youtube.com/watch?v=IYPnyHK-nIs\">YouTube</a>]" },
     { "id": "810", "youtube": "https://www.youtube.com/watch?v=5QXn1SAvFtw", "bandcamp": "none", "filename": "deltarune_piano_collections_by_trevor_alan_gomes.ogg", "description": "From \"DELTARUNE Piano Collections<br> Vol. 1\", arrangement by Trevor Alan Gomes." },
     { "id": "811", "youtube": "https://www.youtube.com/watch?v=UY0i4i45Is4", "bandcamp": "none", "filename": "honksong.ogg", "description": "" },
-    { "id": "812", "youtube": "https://www.youtube.com/watch?v=fm8D6nyu8U0", "bandcamp": "none", "filename": "inukuma_wip.ogg", "description": "References track \"Mr. Monokuma's Lesson\" from Danganronpa videogame series." },
-    
+    { "id": "812", "youtube": "https://www.youtube.com/watch?v=fm8D6nyu8U0", "bandcamp": "none", "filename": "inukuma_wip.ogg", "description": "Dogcheck room song for Chapter 5. References track \"Mr. Monokuma's Lesson\" from Danganronpa videogame series." },
+    { "id": "813", "youtube": "https://www.youtube.com/watch?v=LfgBPTYCM-g", "bandcamp": "none", "filename": "alarm_titlescreen.ogg", "description": "Dogcheck room song for Chapter 2." },
+    { "id": "814", "youtube": "https://www.youtube.com/watch?v=vGwvk_FqIAg", "bandcamp": "none", "filename": "annoying_prophecy.ogg", "description": "Dogcheck room song for Chapter 4." },
+    { "id": "815", "youtube": "https://www.youtube.com/watch?v=C0y78YmvTbQ", "bandcamp": "none", "filename": "dog_balloon.ogg", "description": "Plays before the egg room in Chapter 5." },
+    { "id": "816", "youtube": "https://www.youtube.com/watch?v=XXDmkzZYpFc", "bandcamp": "none", "filename": "dogroom.ogg", "description": "Plays in secret Dog Room in Chapter 5." },
+
     { "id": "001", "youtube": "https://www.youtube.com/watch?v=0AQMAth2gio", "bandcamp": "https://tobyfox.bandcamp.com/track/once-upon-a-time", "filename": "story.ogg" },
     { "id": "003", "youtube": "https://www.youtube.com/watch?v=MacoenOy9Ss", "bandcamp": "https://tobyfox.bandcamp.com/track/your-best-friend-2", "filename": "flowey.ogg" },
     { "id": "005", "youtube": "https://www.youtube.com/watch?v=oHZDWwW6iXs", "bandcamp": "https://tobyfox.bandcamp.com/track/ruins", "filename": "ruins.ogg" },
@@ -155,7 +160,7 @@
     { "id": "320", "youtube": "https://www.youtube.com/watch?v=85WD93lz5GU", "bandcamp": "https://tobyfox.bandcamp.com/track/raise-up-your-bat", "filename": "ch3_karaoke_full.ogg" },
     { "id": "321", "youtube": "https://www.youtube.com/watch?v=bNry5GiIqHs", "bandcamp": "https://tobyfox.bandcamp.com/track/king-of-rolypoly", "filename": "trank.ogg" },
     { "id": "322", "youtube": "https://www.youtube.com/watch?v=pCF3YY9BwBs", "bandcamp": "https://tobyfox.bandcamp.com/track/glowing-snow", "filename": "tv_results_screen.ogg" },
-    { "id": "323", "youtube": "https://www.youtube.com/watch?v=UqPfyWC1I3I", "bandcamp": "https://tobyfox.bandcamp.com/track/big-city-board", "filename": "ch3_board3.ogg", "description": "Unused in-game." },
+    { "id": "323", "youtube": "https://www.youtube.com/watch?v=UqPfyWC1I3I", "bandcamp": "https://tobyfox.bandcamp.com/track/big-city-board", "filename": "ch3_board3.ogg", "description": "Dogcheck room song for Chapter 3. Originally intended for a scrapped board 3 in-game." },
     { "id": "324", "youtube": "https://www.youtube.com/watch?v=aDPOR4hfe-U", "bandcamp": "https://tobyfox.bandcamp.com/track/doom-board", "filename": "board_4.ogg" },
     { "id": "325", "youtube": "https://www.youtube.com/watch?v=yPwjadZiNnU", "bandcamp": "https://tobyfox.bandcamp.com/track/metaphysical-challenge", "filename": "board_4_challenge.ogg" },
     { "id": "326", "youtube": "https://www.youtube.com/watch?v=DstO9slC_5U", "bandcamp": "https://tobyfox.bandcamp.com/track/tv-world", "filename": "tv_world.ogg" },
