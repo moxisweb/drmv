@@ -17,7 +17,7 @@
     { "id": "807", "youtube": "https://www.youtube.com/watch?v=IZ8WG4vzYmE", "bandcamp": "none", "filename": "man_2.ogg" },
     { "id": "808", "youtube": "https://www.youtube.com/watch?v=PxFMlfZzPQo", "bandcamp": "none", "filename": "ch5_inversion_lake_chant.ogg", "description": "Comparison: [<a href=\"https://www.youtube.com/watch?v=S-GS3KcVWW8\">YouTube</a>]" },
     { "id": "809", "youtube": "https://www.youtube.com/watch?v=xYScugBAWQ4", "bandcamp": "none", "filename": "ch5_weird_monologue_deep.ogg", "description": "Breakdown: [<a href=\"https://www.youtube.com/watch?v=IYPnyHK-nIs\">YouTube</a>]" },
-    { "id": "810", "youtube": "https://www.youtube.com/watch?v=5QXn1SAvFtw", "bandcamp": "none", "filename": "deltarune_piano_collections_by_trevor_alan_gomes.ogg", "description": "From \"DELTARUNE Piano Collections Vol. 1\", arrangement by Trevor Alan Gomes." },
+    { "id": "810", "youtube": "https://www.youtube.com/watch?v=5QXn1SAvFtw", "bandcamp": "none", "filename": "deltarune_piano_collections_by_trevor_alan_gomes.ogg", "description": "From \"DELTARUNE Piano Collections<br> Vol. 1\", arrangement by Trevor Alan Gomes." },
     { "id": "811", "youtube": "https://www.youtube.com/watch?v=UY0i4i45Is4", "bandcamp": "none", "filename": "honksong.ogg", "description": "" },
     { "id": "812", "youtube": "https://www.youtube.com/watch?v=fm8D6nyu8U0", "bandcamp": "none", "filename": "inukuma_wip.ogg", "description": "References track \"Mr. Monokuma's Lesson\" from Danganronpa videogame series." },
     
@@ -249,7 +249,7 @@
     { "id": "534", "youtube": "https://www.youtube.com/watch?v=TkAa3zc4rlU", "bandcamp": "https://tobyfox.bandcamp.com/track/dreamwatchers", "filename": "flowery_iog_extended.ogg" },
     { "id": "535", "youtube": "https://www.youtube.com/watch?v=7cw2UNfdrEc", "bandcamp": "https://tobyfox.bandcamp.com/track/weak-flowers", "filename": "flowery_sad.ogg" },
     { "id": "536", "youtube": "https://www.youtube.com/watch?v=W-ef0vk66HM", "bandcamp": "https://tobyfox.bandcamp.com/track/walking-home", "filename": "festival_night.ogg" },
-    { "id": "537", "youtube": "https://www.youtube.com/watch?v=hrkQdid5VxM", "bandcamp": "https://tobyfox.bandcamp.com/track/field-of-hopes-and-dreams-from-deltarune-piano-collections-vol-1-credits-version", "filename": "ch5_credits.ogg", "description": "From \"DELTARUNE Piano Collections Vol. 1\", arrangement by Trevor Alan Gomes.<br>Originally mislabelled as &#34;Scarlet Forest&#34." },
+    { "id": "537", "youtube": "https://www.youtube.com/watch?v=hrkQdid5VxM", "bandcamp": "https://tobyfox.bandcamp.com/track/field-of-hopes-and-dreams-from-deltarune-piano-collections-vol-1-credits-version", "filename": "ch5_credits.ogg", "description": "From \"DELTARUNE Piano Collections<br> Vol. 1\", arrangement by Trevor Alan Gomes.<br>Originally mislabelled as &#34;Scarlet Forest&#34." },
     { "id": "538", "youtube": "https://www.youtube.com/watch?v=QBf09fw0OhQ", "bandcamp": "https://tobyfox.bandcamp.com/track/goodnight-sweet-prince", "filename": "Not included in game files." },
     { "id": "539", "youtube": "https://www.youtube.com/watch?v=WFEO_1zVCuA", "bandcamp": "none", "filename": "pink_theme.ogg" },
     { "id": "540", "youtube": "https://www.youtube.com/watch?v=ii81enXEL6g", "bandcamp": "none", "filename": "pink.ogg", "description": "feat. Camellia" }
