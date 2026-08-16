@@ -228,6 +228,9 @@ button {
   outline: 1.4px solid rgb(90, 36, 82);
   z-index: 5;
 }
+#songname {
+  word-wrap: break-word;
+}
 #songinfoflex {
   display: flex;
   flex-flow: row nowrap;
