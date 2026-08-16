@@ -55,6 +55,7 @@ cy.nodes().forEach(function(node) {
 // CREATE LONG EDGES
 cy.add([
   { group: 'edges', data: { source: '135', target: '903', motif: "holy" }, classes: ["weak"] },
+  { group: 'edges', data: { source: '139', target: '102', motif: "dont" }},
   { group: 'edges', data: { source: '139', target: '113', motif: "dont" } },
   { group: 'edges', data: { source: '101', target: '119', motif: "gaster" }, classes: ["weak"] },
   { group: 'edges', data: { source: '139', target: '133', motif: "dont" } },
@@ -415,6 +416,7 @@ function fullMotif(m) {
       case "yourbestfriend": mn = "Your Best Friend"; break;
       case "metalcrusher": mn = "Metal Crusher"; break;
       case "mysteriousshrine": mn = "Mysterious Shrine"; break;
+      case "shop3": mn = "Shop 3"; break;
       default: mn = m;
     }
     return mn;

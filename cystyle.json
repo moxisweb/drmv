@@ -44,6 +44,12 @@
       }
     },
     {
+      "selector": "[id > '900']",
+      "style": {
+        "background-color": "Grey"
+      }
+    },
+    {
       "selector": ".none",
       "style": {
         "opacity": "0.3"
