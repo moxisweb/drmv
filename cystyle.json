@@ -238,8 +238,8 @@
     {
       "selector": "[motif = 'Tenna']",
       "style": {
-        "line-color": "#fc5842",
-        "target-arrow-color": "#fc5842"
+        "line-color": "#FF2D3A",
+        "target-arrow-color": "#FF2D3A"
       }
     },
     {
