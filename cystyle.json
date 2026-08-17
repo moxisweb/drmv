@@ -29,8 +29,8 @@
         "border-width": 0,
         "background-image": "https://moxisweb.github.io/drmv/img/flowey_icon.png",
         "shape": "rectangle",
-        "height": "5px",
-        "width": "8px",
+        "height": "6px",
+        "width": "9px",
         "background-opacity": 0
       }
     },
@@ -40,7 +40,7 @@
         "border-width": 0,
         "background-image": "https://moxisweb.github.io/drmv/img/file_icon.png",
         "shape": "rectangle",
-        "height": "8px",
+        "height": "11px",
         "width": "6px",
         "background-opacity": 0
       }
@@ -79,7 +79,8 @@
         "target-arrow-shape": "triangle",
         "arrow-scale": 0.35,
         "target-distance-from-node": 2,
-        "target-endpoint": "outside-to-line-or-label"
+        "target-endpoint": "outside-to-line-or-label",
+        "source-endpoint": "inside-to-node"
       }
     },
     {
