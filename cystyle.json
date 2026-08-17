@@ -28,7 +28,6 @@
       "style": {
         "border-width": 0,
         "background-image": "/img/flowey_icon.png",
-        "background-fit": "cover",
         "shape": "rectangle",
         "height": "14px",
         "width": "11px"
