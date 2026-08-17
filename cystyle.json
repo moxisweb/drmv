@@ -27,9 +27,9 @@
       "selector": "[id < '100']",
       "style": {
         "border-width": 0,
-        "background-image": "/img/flowey_icon.png",
+        "background-image": "https://moxisweb.github.io/drmv/img/flowey_icon.png",
         "shape": "rectangle",
-        "height": "14px",
+        "height": "7px",
         "width": "11px"
       }
     },
