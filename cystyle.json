@@ -28,11 +28,9 @@
       "style": {
         "border-width": 0,
         "background-image": "/img/flowey_icon.png",
-        "background-fit": "contain",
-        "background-opacity": 0,
         "shape": "rectangle",
         "height": "14px",
-        "width": "21px"
+        "width": "11px"
       }
     },
     {
@@ -48,7 +46,7 @@
     {
       "selector": "[id > '900']",
       "style": {
-        "background-color": "Grey"
+        "background-color": "DarkGrey"
       }
     },
     {

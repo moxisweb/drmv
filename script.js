@@ -94,7 +94,7 @@ cy.add([
   { group: 'edges', data: { source: '139', target: '540', motif: "dont" } },
   { group: 'edges', data: { source: '003', target: '811', motif: "yourbestfriend" } },
   { group: 'edges', data: { source: '046', target: '811', motif: "justice" } },
-  { group: 'edges', data: { source: '539', target: '526', motif: "Pink" } }
+  { group: 'edges', data: { source: '539', target: '526', motif: "Pink" } },
 
 ]);
 
