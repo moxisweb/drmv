@@ -28,6 +28,7 @@
       "style": {
         "border-width": 0,
         "background-image": "https://moxisweb.github.io/drmv/img/flowey_icon.png",
+        "background-opacity": 0,
         "shape": "rectangle",
         "height": "7px",
         "width": "11px"
@@ -36,17 +37,22 @@
     {
       "selector": "[id > '800']",
       "style": {
-        "shape": "diamond",
-        "height": "9px",
-        "width": "9px",
-        "background-image": "none",
-        "background-color": "LightGrey"
+        "border-width": 0,
+        "background-image": "https://moxisweb.github.io/drmv/img/file_icon.png",
+        "shape": "rectangle",
+        "height": "10px",
+        "width": "7px",
+        "background-opacity": 0
       }
     },
     {
       "selector": "[id > '900']",
       "style": {
-        "background-color": "DarkGrey"
+        "shape": "diamond",
+        "background-image": "none",
+        "background-color": "White",
+        "height": "7px",
+        "width": "7px"
       }
     },
     {
