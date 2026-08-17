@@ -28,8 +28,7 @@ var cy = cytoscape({
     name: 'fcose',
     randomize: true,
     animate: true,
-    fit: false,
-    zoom: 1,
+    fit: true,
     nodeRepulsion: 25000,
     componentSpacing: 500,
     nodeOverlap: 1,
@@ -212,7 +211,7 @@ cy.on('tap', 'edge', function(e){
       var outputHTML = '<span style="color:' + mc + '">' + mn + '</span><br>'; // prep latest motif name
       document.getElementById('motifname').innerHTML += outputHTML; // add to list
       motifInfoOn(); //open motif info element
-      cy.maxZoom(4); //limit zoom
+      cy.maxZoom(5); //limit zoom
       cy.animate({
         fit: {
           eles: cy.nodes("node.highlight"),
