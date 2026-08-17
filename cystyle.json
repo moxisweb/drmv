@@ -8,8 +8,8 @@
         "background-image": "data(img)",
         "background-fit": "contain",
         "background-color": "#000",
-        "border-width": 0.6,
-        "border-color": "#3d1f3d",
+        "outline-width": 0.6,
+        "outline-color": "#3d1f3d",
         "label": "data(label)",
         "font-size": 4.5,
         "text-justification": "center",
@@ -26,11 +26,10 @@
     {
       "selector": "[id < '100']",
       "style": {
-        "border-width": 0,
-        "border-position": "outside",
+        "outline-width": 0,
         "background-image": "https://moxisweb.github.io/drmv/img/flowey_icon_1x1.png",
         "shape": "polygon",
-        "shape-polygon-points": "0 -0.7 0.5 -0.7 1 -0.1 0.8 0.2 0.9 0.5 0.6 0.7 0 0.6 -0.6 0.65 -0.85 0.45 -0.8 0.2 -1 -0.1 -0.5 -0.7",
+        "shape-polygon-points": "0 -0.6 0.5 -0.7 1 -0.1 0.8 0.2 0.9 0.5 0.6 0.65 0 0.6 -0.6 0.65 -0.9 0.5 -0.8 0.2 -1 -0.1 -0.5 -0.7",
         "height": "10px",
         "width": "10px",
         "background-opacity": 0,
@@ -42,8 +41,7 @@
       "selector": "[id > '799']",
       "style": {
         "text-overflow-wrap": "anywhere",
-        "border-width": 0,
-        "border-position": "inside",
+        "outline-width": 0,
         "background-image": "https://moxisweb.github.io/drmv/img/file_icon.png",
         "shape": "rectangle",
         "height": "9px",
@@ -54,7 +52,6 @@
     {
       "selector": "[id > '899']",
       "style": {
-        "border-position": "center",
         "text-overflow-wrap": "whitespace",
         "shape": "diamond",
         "background-image": "none",

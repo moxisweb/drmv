@@ -119,9 +119,9 @@ cy.on('tap', function(e){
 cy.on('tap', 'node', function(e){
   var node = e.target;
   var sImg = node.data("img");
-  var sImgBorder = node.style("border-color");
+  var sImgOutline = node.style("outline-color");
     document.getElementById('songimg').src = sImg; //img
-    document.getElementById('songimg').style.border = "1.4px solid " + sImgBorder; //img border
+    document.getElementById('songimg').style.outline = "1.4px solid " + sImgOutline; //img outline
   var sName = node.data("label");
     document.getElementById('songname').innerHTML = sName; //name
   var sId = node.id();
@@ -195,9 +195,9 @@ cy.on('tap', 'edge', function(e){
     cy.edges("edge[motif = '" + m + "']").forEach(function(edge) { //highlight edges
       edge.addClass("highlight");
     });
-    cy.nodes("node." + m).forEach(function(node) { //color node borders and highlight
-      node.style("border-color", mc );
-      node.style("border-width", 0.5 );
+    cy.nodes("node." + m).forEach(function(node) { //color node outlines and highlight
+      node.style("outline-color", mc );
+      node.style("outline-width", 0.5 );
       node.addClass("highlight");
     });
     cy.edges().difference("edge[motif = '" + m + "']").forEach(function(edge) { //fade other edges
