@@ -26,11 +26,13 @@
     {
       "selector": "[id < '100']",
       "style": {
-        "shape": "diamond",
-        "height": "9px",
-        "width": "9px",
-        "background-image": "none",
-        "background-color": "Black"
+        "border-width": 0,
+        "background-image": "/img/flowey_icon.png",
+        "background-fit": "contain",
+        "background-opacity": 0,
+        "shape": "rectangle",
+        "height": "14px",
+        "width": "21px"
       }
     },
     {

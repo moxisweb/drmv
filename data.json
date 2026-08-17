@@ -137,7 +137,7 @@
     { "data": { "id": "236", "label": "The Dark Truth", "img": "img/236.png", "notes": ["[-0:28]*", "[0:28-]"] }, "classes": ["nightmare", "dont"] },
     { "data": { "id": "237", "label": "Digital Roots", "img": "img/237.png" }, "classes": ["nightmare"] },
     { "data": { "id": "238", "label": "Deal Gone Wrong", "img": "img/238.png" }, "classes": ["Spamton"] },
-    { "data": { "id": "239", "label": "BIG SHOT", "img": "img/239.png", "notes": ["[-0:13, 0:27-0:40, 1:49-2:17]", "[0:13-0:27, 0:40-0:54, 1:22-1:35]", "[0:54-1:22]", "[0:54-1:22, 2:08-2:10]", "[1:35-1:49, 2:17-]"] }, "classes": ["bigshot", "Spamton", "freedom", "neo", "dummy"] },
+    { "data": { "id": "239", "label": "BIG SHOT", "img": "img/239.png", "notes": ["[-0:13, 0:27-0:40, 1:49-2:17]", "[0:13-0:27, 0:40-0:54, 1:22-1:35]", "[0:54-1:22] (A)", "[0:54-1:22, 2:08-2:10]", "[1:35-1:49, 2:17-]"] }, "classes": ["bigshot", "Spamton", "freedom", "neo", "dummy"] },
     { "data": { "id": "240", "label": "A Real Boy!", "img": "img/240.png" }, "classes": ["hey"] },
     { "data": { "id": "241", "label": "Dialtone", "img": "img/241.png", "notes": ["(B)"] }, "classes": ["freedom"] },
     { "data": { "id": "242", "label": "sans.", "img": "img/242.png" }, "classes": ["sans"] },
@@ -203,7 +203,7 @@
     { "data": { "id": "417", "label": "Ever Higher", "img": "img/417.png", "notes": ["(From Now On variant)", "[0:20, etc]*", "[1:05-] (A)"] }, "classes": ["sanctuary", "dont", "holy"] },
     { "data": { "id": "418", "label": "Wise words", "img": "img/418.png" }, "classes": ["Gerson"] },
     { "data": { "id": "419", "label": "Piano that may not be played that well", "img": "img/419.png" }, "classes": ["dont"] },
-    { "data": { "id": "420", "label": "Hammer of Justice", "img": "img/420.png", "notes": ["[-0:58]", "[0:23-0:58]", "[0:58-0:49]", "[0:49-]"] }, "classes": ["justice", "ruins", "Gerson", "freedom"] },
+    { "data": { "id": "420", "label": "Hammer of Justice", "img": "img/420.png", "notes": ["[-0:58]", "[0:23-0:58]", "[0:58-0:49]", "[0:49-] (A)"] }, "classes": ["justice", "ruins", "Gerson", "freedom"] },
     { "data": { "id": "421", "label": "12am", "img": "img/421.png", "notes": ["(Dark Truth Variant)*"] }, "classes": ["nightmare"] },
     { "data": { "id": "422", "label": "The Second Sanctuary", "img": "img/422.png", "notes": ["[-1:07, 1:28-2:11] (Second)*", "[0:34-0:48, 1:37-2:11 ect] (A)<br>[1:07-1:28] (First five notes of A repeated) [1:14-1:28] (B)", "[0:48, 1:51]**"] }, "classes": ["sanctuary", "legend", "dont"] },
     { "data": { "id": "423", "label": "Ripple", "img": "img/423.png" }, "classes": ["none"] },
@@ -222,11 +222,11 @@
     { "data": { "id": "436", "label": "With Hope Crossed On Our Hearts", "img": "img/436.png" }, "classes": ["dont"] },
     { "data": { "id": "437", "label": "Volume Adjustment", "img": "img/437.png", "notes": ["[0:11-]"] }, "classes": ["Heartache"] },
     { "data": { "id": "438", "label": "Catswing", "img": "img/438.png", "notes": ["[0:06-0:21]", "[0:21-0:36]", "[0:36, 0:51, 1:06-1:28, 1:28, 1:43]", "[0:36-]", "[1:13-1:28] (A)"] }, "classes": ["Heartache", "Spamton", "hey", "bigshot", "Tenna"] },
-    { "data": { "id": "439", "label": "Air Waves", "img": "img/439.png", "notes": ["(throughout)*", "[1:30-]"] }, "classes": ["Spamton", "freedom"] },
+    { "data": { "id": "439", "label": "Air Waves", "img": "img/439.png", "notes": ["(throughout)*", "[1:30-] (A)"] }, "classes": ["Spamton", "freedom"] },
     { "data": { "id": "440", "label": "Concert for you", "img": "img/440.png" }, "classes": ["none"] },
 
     { "data": { "id": "501", "label": "Chapter 5 Logo", "img": "img/501.png" }, "classes": ["none"] },
-    { "data": { "id": "502", "label": "Inappropriate Recycling", "img": "img/502.png", "notes": ["", "[0:23-0:35, 1:23-]"] }, "classes": ["checkerdance", "freedom"] },
+    { "data": { "id": "502", "label": "Inappropriate Recycling", "img": "img/502.png", "notes": ["", "[0:23-0:35, 1:23-] (A)"] }, "classes": ["checkerdance", "freedom"] },
     { "data": { "id": "503", "label": "Pirate Dojo", "img": "img/503.png" }, "classes": ["none"] },
     { "data": { "id": "504", "label": "4rd Sanctuary", "img": "img/504.png" }, "classes": ["sanctuary"] },
     { "data": { "id": "505", "label": "Festival", "img": "img/505.png", "notes": ["[-0:15, 1:35-]", "[0:15-0:47]", "[0:34, 0:41]", "[0:47-1:35]"] }, "classes": ["Susie", "girlnextdoor", "freedom", "dont"] },
@@ -250,7 +250,7 @@
     { "data": { "id": "523", "label": "Flower Foyer", "img": "img/523.png", "notes": ["", "[0:26-]"] }, "classes": ["violettactics", "sunsetof7suns"] },
     { "data": { "id": "524", "label": "Flower Castle", "img": "img/524.png", "notes": ["[2:18-2:32]", "[2:32-2:43]; [2:43-2:46] (Petal Dance version)"] }, "classes": ["violettactics", "sunsetof7suns"] },
     { "data": { "id": "525", "label": "Thousand Cafe Zukan", "img": "img/525.png" }, "classes": ["none"] },
-    { "data": { "id": "526", "label": "I'm Telling!", "img": "img/526.png" }, "classes": ["sunsetof7suns"] },
+    { "data": { "id": "526", "label": "I'm Telling!", "img": "img/526.png" }, "classes": ["sunsetof7suns", "Pink"] },
     { "data": { "id": "527", "label": "Stop, Criminell!", "img": "img/527.png" }, "classes": ["sunsetof7suns"] },
     { "data": { "id": "528", "label": "Loving Steps", "img": "img/528.png", "notes": ["[0:30-]"] }, "classes": ["sunsetof7suns"] },
     { "data": { "id": "529", "label": "Onsen", "img": "img/529.png" }, "classes": ["none"] },
@@ -264,7 +264,7 @@
     { "data": { "id": "537", "label": "Field of Hopes and Dreams (Credits Version)", "img": "img/537.png" }, "classes": ["fieldofhopes", "dont"] },
     { "data": { "id": "538", "label": "Goodnight, Sweet Prince", "img": "img/538.png" }, "classes": ["Flowery"] },
     { "data": { "id": "539", "label": "Pink", "img": "img/539.png", "notes": ["[-0:14] (A); [0:14-] (B)"] }, "classes": ["Pink"] },
-    { "data": { "id": "540", "label": "Cutie Mew Mew Magic", "img": "img/540.png", "notes": ["<br>[-0:10, 1:12-1:17, 2:48-] (A)<br>[0:41-0:58, 1:09-1:12, 2:16-2:32] (B)", "[0:31-0:40, 1:38-1:46]", "[2:00-2:11]", "[2:46]"] }, "classes": ["Pink", "dont", "freedom", "Spooktune"] }
+    { "data": { "id": "540", "label": "Cutie Mew Mew Magic", "img": "img/540.png", "notes": ["<br>[-0:10, 1:12-1:17, 2:48-] (A)<br>[0:41-0:58, 1:09-1:12, 2:16-2:32] (B)", "[0:31-0:40, 1:38-1:46]", "[2:00-2:11] (A)", "[2:46]"] }, "classes": ["Pink", "dont", "freedom", "Spooktune"] }
 
 ],
 "edges": [
