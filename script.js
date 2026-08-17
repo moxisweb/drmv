@@ -28,7 +28,8 @@ var cy = cytoscape({
     name: 'fcose',
     randomize: true,
     animate: true,
-    fit: true,
+    fit: false,
+    zoom: 1,
     nodeRepulsion: 25000,
     componentSpacing: 500,
     nodeOverlap: 1,
@@ -37,7 +38,7 @@ var cy = cytoscape({
     edgeElasticity: 0.5,
     quality: "proof"
   },
-  minZoom: 0.5,
+  minZoom: 0.6,
   maxZoom: 6,
   style: dataArray[0],
   elements: dataArray[1]
