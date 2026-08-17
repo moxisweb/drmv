@@ -47,7 +47,7 @@
     {
       "selector": "[id > '900']",
       "style": {
-        "background-color": "Grey"
+        "background-color": "DarkGrey"
       }
     },
     {
