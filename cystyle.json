@@ -6,7 +6,7 @@
         "height": "16px",
         "width": "16px",
         "background-image": "data(img)",
-        "background-fit": "cover",
+        "background-fit": "contain",
         "background-color": "#000",
         "border-width": 0.6,
         "border-color": "#3d1f3d",
@@ -28,7 +28,8 @@
       "style": {
         "border-width": 0,
         "background-image": "https://moxisweb.github.io/drmv/img/flowey_icon.png",
-        "shape": "rectangle",
+        "shape": "polygon",
+        "shape-polygon-points": "0 60 50 60 95 10 70 -20 80 -40 60 -60 0 -50 -55 -65 -80 -45 -70 -20 -100 10 -50 45",
         "height": "6px",
         "width": "9px",
         "background-opacity": 0
