@@ -87,7 +87,6 @@ cy.add([
   { group: 'edges', data: { source: '108', target: '422', motif: "legend" } },
   { group: 'edges', data: { source: '313', target: '429', motif: "Mantle" }, classes: ["weak"] },
   { group: 'edges', data: { source: '304', target: '438', motif: "Tenna" } },
-  { group: 'edges', data: { source: '221', target: '438', motif: "hey" } },
   { group: 'edges', data: { source: '222', target: '438', motif: "Spamton" } },
   { group: 'edges', data: { source: '133', target: '505', motif: "freedom" }, classes: ["weak"] },
   { group: 'edges', data: { source: '139', target: '505', motif: "dont" } },
@@ -95,7 +94,6 @@ cy.add([
   { group: 'edges', data: { source: '139', target: '532', motif: "dont" } },
   { group: 'edges', data: { source: '014', target: '804', motif: "Heartache" }, classes: ["weak"] },
   { group: 'edges', data: { source: '139', target: '540', motif: "dont" } },
-  { group: 'edges', data: { source: '003', target: '811', motif: "yourbestfriend" } },
   { group: 'edges', data: { source: '046', target: '811', motif: "justice" } },
   { group: 'edges', data: { source: '539', target: '526', motif: "Pink" } },
 

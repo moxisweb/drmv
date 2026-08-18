@@ -44,7 +44,7 @@
         "outline-width": 0,
         "background-image": "https://moxisweb.github.io/drmv/img/file_icon.png",
         "shape": "polygon",
-        "shape-polygon-points": "0.2 -1 1 -0.3 1 1 -1 1 -1 -1",
+        "shape-polygon-points": "0.3 -1 1 -0.44 1 1 -1 1 -1 -1",
         "height": "8px",
         "width": "6px"
       }

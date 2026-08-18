@@ -280,6 +280,7 @@
     { "data": { "source": "119", "target": "810", "motif": "scarletforest" } },
     { "data": { "source": "021", "target": "811", "motif": "Dogsong" } },
     { "data": { "source": "050", "target": "811", "motif": "metalcrusher" } },
+    { "data": { "source": "003", "target": "811", "motif": "yourbestfriend" } },
     { "data": { "source": "021", "target": "812", "motif": "Dogsong" } },
     { "data": { "source": "411", "target": "814", "motif": "sanctuary" } },
     { "data": { "source": "021", "target": "815", "motif": "Dogsong" } },
@@ -298,6 +299,7 @@
     { "data": { "source": "001", "target": "012", "motif": "once" } },
     { "data": { "source": "010", "target": "036", "motif": "ghost" } },
     { "data": { "source": "005", "target": "046", "motif": "ruins" } },
+    { "data": { "source": "022", "target": "056", "motif": "hopes" } },
     { "data": { "source": "242", "target": "063", "motif": "Sans" } },
     { "data": { "source": "014", "target": "077", "motif": "Heartache" } },
     { "data": { "source": "011", "target": "077", "motif": "Determination" } },
@@ -493,6 +495,7 @@
     { "data": { "source": "804", "target": "437", "motif": "Heartache" } },
     { "data": { "source": "437", "target": "438", "motif": "Heartache" } },
     { "data": { "source": "223", "target": "438", "motif": "bigshot" } },
+    { "data": { "source": "221", "target": "438", "motif": "hey" } },
     { "data": { "source": "222", "target": "439", "motif": "Spamton" } },
     { "data": { "source": "133", "target": "439", "motif": "freedom" } },
 
