@@ -380,6 +380,7 @@
     { "data": { "source": "220", "target": "235", "motif": "Queen" } },
     { "data": { "source": "214", "target": "235", "motif": "Berdly" }, "classes": ["weak"] },
     { "data": { "source": "226", "target": "235", "motif": "pandora" }, "classes": ["weak"] },
+    { "data": { "source": "139", "target": "236", "motif": "dont" } },
     { "data": { "source": "079", "target": "237", "motif": "nightmare" } },
     { "data": { "source": "222", "target": "238", "motif": "Spamton" }},
     { "data": { "source": "223", "target": "239", "motif": "bigshot" }},
@@ -549,8 +550,7 @@
     { "data": { "source": "113", "target": "537", "motif": "dont" } },
     { "data": { "source": "534", "target": "538", "motif": "Flowery" } },
     { "data": { "source": "539", "target": "540", "motif": "Pink" } },
-    { "data": { "source": "133", "target": "540", "motif": "freedom" } },
-    { "data": { "source": "038", "target": "540", "motif": "Spooktune" } }
+    { "data": { "source": "133", "target": "540", "motif": "freedom" } }
 
 ]
 }
