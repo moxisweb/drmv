@@ -250,7 +250,7 @@
     { "data": { "id": "523", "label": "Flower Foyer", "img": "img/523.png", "notes": ["", "[0:26-]"] }, "classes": ["violettactics", "sunsetof7suns"] },
     { "data": { "id": "524", "label": "Flower Castle", "img": "img/524.png", "notes": ["[2:18-2:32]", "[2:32-2:43]; [2:43-2:46] (Petal Dance version)"] }, "classes": ["violettactics", "sunsetof7suns"] },
     { "data": { "id": "525", "label": "Thousand Cafe Zukan", "img": "img/525.png" }, "classes": ["none"] },
-    { "data": { "id": "526", "label": "I'm Telling!", "img": "img/526.png" }, "classes": ["sunsetof7suns", "Pink"] },
+    { "data": { "id": "526", "label": "I'm Telling!", "img": "img/526.png", "notes": ["", "[0:38-] (A)"] }, "classes": ["sunsetof7suns", "Pink"] },
     { "data": { "id": "527", "label": "Stop, Criminell!", "img": "img/527.png" }, "classes": ["sunsetof7suns"] },
     { "data": { "id": "528", "label": "Loving Steps", "img": "img/528.png", "notes": ["[0:30-]"] }, "classes": ["sunsetof7suns"] },
     { "data": { "id": "529", "label": "Onsen", "img": "img/529.png" }, "classes": ["none"] },
@@ -342,7 +342,6 @@
     { "data": { "source": "137", "target": "138", "motif": "dont" } },
     { "data": { "source": "001", "target": "140", "motif": "once" } },
     { "data": { "source": "028", "target": "140", "motif": "Premonition" }, "classes": ["weak"] },
-    { "data": { "source": "135", "target": "140", "motif": "holy" }, "classes": ["weak"] },
 
     { "data": { "source": "139", "target": "201", "motif": "dont" } },
     { "data": { "source": "101", "target": "202", "motif": "gaster" } },
@@ -479,7 +478,6 @@
     { "data": { "source": "412", "target": "428", "motif": "dont" } },
     { "data": { "source": "428", "target": "429", "motif": "SPAWN" } },
     { "data": { "source": "428", "target": "429", "motif": "sanctuary" } },
-    { "data": { "source": "313", "target": "429", "motif": "Mantle" } },
     { "data": { "source": "412", "target": "430", "motif": "sanctuary" } },
     { "data": { "source": "412", "target": "430", "motif": "dont" } },
     { "data": { "source": "429", "target": "430", "motif": "sanctuary" } },
@@ -495,7 +493,6 @@
     { "data": { "source": "804", "target": "437", "motif": "Heartache" } },
     { "data": { "source": "437", "target": "438", "motif": "Heartache" } },
     { "data": { "source": "223", "target": "438", "motif": "bigshot" } },
-    { "data": { "source": "221", "target": "438", "motif": "hey" } },
     { "data": { "source": "222", "target": "439", "motif": "Spamton" } },
     { "data": { "source": "133", "target": "439", "motif": "freedom" } },
 
