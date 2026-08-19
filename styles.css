@@ -20,6 +20,7 @@ body {
   top: 0;
   background-image: url("img/dark_bg.png");
   background-repeat: repeat;
+  background-size: 500px;
   /* background-image: url("img/bg0089.png");
   background-size: 900px;
   background-color: rgba(0,0,0,0.5);
@@ -66,6 +67,13 @@ h4 { /* Contact, further thanks, etc */
   font-weight: bold;
   font-size: 24px;
   color: rgb(90, 36, 82);
+  cursor: pointer;
+}
+.okbtn{
+  float: right;
+  padding: 0px 0px;
+  font-family: '8bitoperator';
+  font-size: 24px;
   cursor: pointer;
 }
 #legend {

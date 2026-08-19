@@ -224,15 +224,15 @@
     {
       "selector": "[motif = 'nightmare']",
       "style": {
-        "line-color": "FireBrick",
-        "target-arrow-color": "FireBrick"
+        "line-color": "#911717",
+        "target-arrow-color": "#911717"
       }
     },
     {
       "selector": "[motif = 'ROOTS']",
       "style": {
-        "line-color": "#db0000",
-        "target-arrow-color": "#db0000"
+        "line-color": "#f50021",
+        "target-arrow-color": "#f50021"
       }
     },
     {
@@ -240,13 +240,6 @@
       "style": {
         "line-color": "#b04565",
         "target-arrow-color": "#b04565"
-      }
-    },
-    {
-      "selector": "[motif = 'darktruth']",
-      "style": {
-        "line-color": "#b23c22",
-        "target-arrow-color": "#b23c22"
       }
     },
     {
