@@ -471,7 +471,7 @@
     { "data": { "source": "133", "target": "420", "motif": "freedom" } },
     { "data": { "source": "236", "target": "421", "motif": "darktruth" }, "classes": ["weak"] },
     { "data": { "source": "411", "target": "422", "motif": "sanctuary" } },
-    { "data": { "source": "411", "target": "423", "motif": "justice" }, "classes": ["weak"] },
+    { "data": { "source": "413", "target": "423", "motif": "justice" }, "classes": ["weak"] },
     { "data": { "source": "230", "target": "424", "motif": "lostgirl" }, "classes": ["weak"] },
     { "data": { "source": "422", "target": "425", "motif": "sanctuary" } },
     { "data": { "source": "422", "target": "425", "motif": "legend" } },
