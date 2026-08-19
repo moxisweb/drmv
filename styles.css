@@ -206,8 +206,10 @@ button {
   z-index: 9;
 }
 #welcome{
-  display: flex;
-  justify-content: center;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   align-items: center;
   width: 390px;
   padding: 5px 16px 5px 16px;
