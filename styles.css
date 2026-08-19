@@ -296,7 +296,9 @@ hr {
     font-size: 1.4em;
   }
   #welcome {
-    font-size: 14px;
+    position: absolute;
+    height: 30%;
+    width: 75%;
   }
   #legend {
     display: none;
