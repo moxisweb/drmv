@@ -63,7 +63,7 @@ cy.add([
   { group: 'edges', data: { source: '139', target: '137', motif: "dont" } },
   { group: 'edges', data: { source: '135', target: '140', motif: "holy" }, classes: ["weak"] },
   { group: 'edges', data: { source: '302', target: '221', motif: "hey" } },
-  { group: 'edges', data: { source: '336', target: '222', motif: "nightmare" }, classes: ["weak"] },
+  { group: 'edges', data: { source: '336', target: '222', motif: "ROOTS" }, classes: ["weak"] },
   { group: 'edges', data: { source: '079', target: '236', motif: "nightmare" }, classes: ["weak"] },
   { group: 'edges', data: { source: '202', target: '301', motif: "lostgirl" }, classes: ["weak"] },
   { group: 'edges', data: { source: '139', target: '302', motif: "dont"}, classes: ["weak"] },
@@ -419,6 +419,7 @@ function fullMotif(m) {
       case "metalcrusher": mn = "Metal Crusher"; break;
       case "mysteriousshrine": mn = "Mysterious Shrine"; break;
       case "shop3": mn = "Shop 3"; break;
+      case "darktruth": mn = "Dark Truth"; break;
       default: mn = m;
     }
     return mn;

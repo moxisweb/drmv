@@ -229,6 +229,20 @@
       }
     },
     {
+      "selector": "[motif = 'ROOTS']",
+      "style": {
+        "line-color": "#db0000",
+        "target-arrow-color": "#db0000"
+      }
+    },
+    {
+      "selector": "[motif = 'darktruth']",
+      "style": {
+        "line-color": "#b04565",
+        "target-arrow-color": "#b04565"
+      }
+    },
+    {
       "selector": "[motif = 'darktruth']",
       "style": {
         "line-color": "#b23c22",

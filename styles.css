@@ -18,10 +18,12 @@ body {
   left: 0;
   right: 0;
   top: 0;
-  background-image: url("img/bg0089.png");
+  background-image: url("img/dark_bg.png");
+  background-repeat: repeat;
+  /* background-image: url("img/bg0089.png");
   background-size: 900px;
   background-color: rgba(0,0,0,0.5);
-  background-blend-mode: multiply;
+  background-blend-mode: multiply; */
 }
 a { /* For links to not be formatted */
   color: purple;
