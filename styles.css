@@ -73,8 +73,16 @@ h4 { /* Contact, further thanks, etc */
   font-family: '8bitoperator';
   font-size: 28px;
   outline: 2px solid rgb(90, 36, 82);
-  padding: 4px 10px 4px 10px;
+  padding: 4px 20px 4px 20px;
   cursor: pointer;
+}
+.okbtn:hover{
+  color: 2px solid rgb(255, 242, 0);
+}
+.okbtn:active{
+  background-color: rgb(255, 255, 255);
+  color: 2px solid rgb(0, 0, 0);
+  outline: 2px solid rgb(3, 3, 3);
 }
 #legend {
   display: none;
@@ -211,8 +219,9 @@ button {
   top: 50%;
   transform: translate(-50%, -50%);
   align-items: center;
+  text-align: center;
   width: 390px;
-  padding: 5px 16px 5px 16px;
+  padding: 15px 20px 5px 20px;
   background-color: #080808;
   outline: 1.4px solid rgb(90, 36, 82);
   z-index: 7;
