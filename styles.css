@@ -297,8 +297,8 @@ hr {
   }
   #welcome {
     position: absolute;
-    height: 30%;
     width: 75%;
+    padding: 0px 6px 0px 6px;
   }
   #legend {
     display: none;
