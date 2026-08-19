@@ -1,6 +1,6 @@
 @font-face {
   font-family: "8bitoperator";
-  font-display: optional;
+  font-display: swap;
   src:
     local("8bitoperator"),
     url("fonts/8bitoperator.otf") format("opentype"),

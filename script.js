@@ -38,7 +38,7 @@ var cy = cytoscape({
     quality: "proof"
   },
   minZoom: 0.6,
-  maxZoom: 6,
+  maxZoom: 5,
   style: dataArray[0],
   elements: dataArray[1]
 });
@@ -95,6 +95,7 @@ cy.add([
   { group: 'edges', data: { source: '139', target: '540', motif: "dont" } },
   { group: 'edges', data: { source: '046', target: '811', motif: "justice" } },
   { group: 'edges', data: { source: '539', target: '526', motif: "Pink" } },
+  { group: 'edges', data: { source: '139', target: '508', motif: "dont" } },
 
 ]);
 
