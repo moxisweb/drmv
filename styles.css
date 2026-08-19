@@ -208,8 +208,8 @@ button {
   position: fixed;
   left: 15px;
   bottom: 10px;
-  width: 375px;
-  padding: 5px 14px 5px 16px;
+  width: 400px;
+  padding: 5px 12px 5px 16px;
   background-color: #080808;
   outline: 1.4px solid rgb(90, 36, 82);
   z-index: 7;
