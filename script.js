@@ -60,7 +60,6 @@ cy.add([
   { group: 'edges', data: { source: '101', target: '119', motif: "gaster" }, classes: ["weak"] },
   { group: 'edges', data: { source: '139', target: '133', motif: "dont" } },
   { group: 'edges', data: { source: '107', target: '133', motif: "chase" }, classes: ["weak"] },
-  { group: 'edges', data: { source: '139', target: '137', motif: "dont" } },
   { group: 'edges', data: { source: '135', target: '140', motif: "holy" }, classes: ["weak"] },
   { group: 'edges', data: { source: '302', target: '221', motif: "hey" } },
   { group: 'edges', data: { source: '079', target: '236', motif: "nightmare" }, classes: ["weak"] },
@@ -94,8 +93,8 @@ cy.add([
   { group: 'edges', data: { source: '038', target: '540', motif: "Spooktune" } },
   { group: 'edges', data: { source: '139', target: '540', motif: "dont" } },
   { group: 'edges', data: { source: '046', target: '811', motif: "justice" } },
-  { group: 'edges', data: { source: '539', target: '526', motif: "Pink" } },
   { group: 'edges', data: { source: '139', target: '508', motif: "dont" } },
+  { group: 'edges', data: { source: '139', target: '531', motif: "dont" } },
 
 ]);
 
