@@ -91,7 +91,6 @@ cy.add([
   { group: 'edges', data: { source: '139', target: '532', motif: "dont" } },
   { group: 'edges', data: { source: '014', target: '804', motif: "Heartache" }, classes: ["weak"] },
   { group: 'edges', data: { source: '038', target: '540', motif: "Spooktune" } },
-  { group: 'edges', data: { source: '139', target: '540', motif: "dont" } },
   { group: 'edges', data: { source: '046', target: '811', motif: "justice" } },
   { group: 'edges', data: { source: '139', target: '508', motif: "dont" } },
   { group: 'edges', data: { source: '139', target: '531', motif: "dont" } },
@@ -211,7 +210,7 @@ cy.on('tap', 'edge', function(e){
       var outputHTML = '<span style="color:' + mc + '">' + mn + '</span><br>'; // prep latest motif name
       document.getElementById('motifname').innerHTML += outputHTML; // add to list
       motifInfoOn(); //open motif info element
-      cy.maxZoom(5); //limit zoom
+      /*cy.maxZoom(5); //limit zoom
       cy.animate({
         fit: {
           eles: cy.nodes("node.highlight"),
@@ -219,7 +218,7 @@ cy.on('tap', 'edge', function(e){
         }
       },
       { duration: 800 });
-      cy.maxZoom(6); //reset zoom
+      cy.maxZoom(6); //reset zoom*/
     }
   }
 });
