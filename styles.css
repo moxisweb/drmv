@@ -206,12 +206,13 @@ button {
   z-index: 9;
 }
 #welcome{
-  position: fixed;
+  display: flex;
+  justify-content: center;
   align-items: center;
   left: 15px;
   bottom: 10px;
   width: 390px;
-  padding: 5px 12px 5px 16px;
+  padding: 5px 16px 5px 16px;
   background-color: #080808;
   outline: 1.4px solid rgb(90, 36, 82);
   z-index: 7;
