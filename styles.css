@@ -69,12 +69,11 @@ h4 { /* Contact, further thanks, etc */
   cursor: pointer;
 }
 .okbtn{
-  margin: auto;
-  padding: 0px 0px;
+  text-align: center;
   font-family: '8bitoperator';
-  font-size: 24px;
-  outline: 1.4px solid rgb(90, 36, 82);
-  padding: 0px 4px 0px 4px;
+  font-size: 28px;
+  outline: 1.6px solid rgb(90, 36, 82);
+  padding: 4px 6px 4px 6px;
   cursor: pointer;
 }
 #legend {
@@ -208,6 +207,7 @@ button {
 }
 #welcome{
   position: fixed;
+  align-items: center;
   left: 15px;
   bottom: 10px;
   width: 390px;
