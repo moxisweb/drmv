@@ -1,5 +1,6 @@
 @font-face {
   font-family: "8bitoperator";
+  font-display: optional;
   src:
     local("8bitoperator"),
     url("fonts/8bitoperator.otf") format("opentype"),
@@ -18,7 +19,7 @@ body {
   left: 0;
   right: 0;
   top: 0;
-  background-image: url("img/dark_bg.png");
+  background-image: url("img/dark_bg.webp");
   background-repeat: repeat;
   /* background-image: url("img/bg0089.png");
   background-size: 900px;
@@ -80,7 +81,9 @@ h4 { /* Contact, further thanks, etc */
   color: rgb(255, 242, 0);
 }
 .okbtn:active{
+  color: rgb(255, 255, 255);
   background-color: rgb(36, 36, 36);
+  outline-color: rgb(255, 255, 255);
 }
 #legend {
   display: none;
@@ -218,8 +221,7 @@ button {
   transform: translate(-50%, -50%);
   align-items: center;
   text-align: center;
-  width: 380px;
-  padding: 15px 30px 5px 30px;
+  padding: 10px 30px 3px 30px;
   background-color: #080808;
   outline: 1.4px solid rgb(90, 36, 82);
   z-index: 7;
