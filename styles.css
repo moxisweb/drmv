@@ -297,10 +297,6 @@ hr {
   }
   #welcome {
     font-size: 14px;
-    width: 270px;
-    left: 1%;
-    bottom: 5%;
-    padding: 0px 10px 0px 10px;
   }
   #legend {
     display: none;

@@ -33,12 +33,12 @@ var cy = cytoscape({
     componentSpacing: 500,
     nodeOverlap: 1,
     gravity: 0.1,
-    idealEdgeLength: 40,
+    idealEdgeLength: 42,
     edgeElasticity: 0.5,
     quality: "proof"
   },
   minZoom: 0.6,
-  maxZoom: 5,
+  maxZoom: 4,
   style: dataArray[0],
   elements: dataArray[1]
 });
