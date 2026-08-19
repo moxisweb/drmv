@@ -72,8 +72,8 @@ h4 { /* Contact, further thanks, etc */
   text-align: center;
   font-family: '8bitoperator';
   font-size: 28px;
-  outline: 1.6px solid rgb(90, 36, 82);
-  padding: 4px 6px 4px 6px;
+  outline: 2px solid rgb(90, 36, 82);
+  padding: 4px 10px 4px 10px;
   cursor: pointer;
 }
 #legend {
