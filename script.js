@@ -436,10 +436,13 @@ function thanksOn() {
   document.getElementById("overlay").style.display = "block";
   document.getElementById("thanks").style.display = "block";
 }
+function optionsOn() {
+  document.getElementById("overlay").style.display = "block";
+  document.getElementById("options").style.display = "block";
+}
 function menuOff() {
   document.getElementById("overlay").style.display = "none";
-  document.getElementById("about").style.display = "none";
-  document.getElementById("thanks").style.display = "none";
+  document.getElementsByClassName("menu").style.display = "none";
 }
 
 // Motif/Song info
