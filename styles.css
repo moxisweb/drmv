@@ -191,6 +191,8 @@ button {
 .menubutton {
   display: inline-block;
   position: relative;
+  font-size: 0.7em;
+  padding: 10px 30px;
   z-index: 3;
 }
 .menu{
