@@ -10,7 +10,7 @@
 body {
   font-family: 'Times New Roman', 'Tinos', Tahoma, '8bitoperator', 'Roboto', 'Arial', sans-serif;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
 }
 #cy {  
 	height: 100dvh; 
@@ -159,6 +159,15 @@ input {
   background-color: purple !important;
   color: #ffffff;
 }
+.closebtn{
+  float: right;
+  padding: 5px 0px;
+  font-family: 'arial';
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(90, 36, 82);
+  cursor: pointer;
+}
 button a {
   text-decoration: none;
 }
@@ -180,25 +189,11 @@ button {
   cursor: pointer;
 }
 .okbtn{
-  text-align: center;
-  font-family: '8bitoperator';
-  font-size: 28px;
-  outline: 2px solid rgb(90, 36, 82);
-  padding: 8px 20px 5px 20px;
-  cursor: pointer;
-}
-.closebtn{
-  float: right;
-  padding: 5px 0px;
-  font-family: 'arial';
-  font-weight: bold;
-  font-size: 24px;
-  color: rgb(90, 36, 82);
-  cursor: pointer;
+  font-size: 1.6em;
 }
 .menubutton {
   display: inline-block;
-  font-size: 21px;
+  font-size: 1.4em;
   position: relative;
   z-index: 3;
 }
