@@ -128,7 +128,6 @@ input {
   background-color: #f1f1f1;
   padding: 10px;
   font-family: Arial;
-  font-size: 16px;
   left: 0;
   right: 0;
   z-index: 4;
@@ -164,7 +163,7 @@ input {
   padding: 5px 0px;
   font-family: 'arial';
   font-weight: bold;
-  font-size: 24px;
+  font-size: 1.5em;
   color: rgb(90, 36, 82);
   cursor: pointer;
 }
@@ -180,6 +179,7 @@ button a {
   outline-color: rgb(255, 255, 255);
 }
 button {
+  font-size: 2em;
   padding: 10px 30px;
   text-align: center;
   font-family: '8bitoperator';
@@ -188,12 +188,9 @@ button {
   border: 2px solid rgb(90, 36, 82);
   cursor: pointer;
 }
-.okbtn{
-  font-size: 1.6em;
-}
 .menubutton {
   display: inline-block;
-  font-size: 1.4em;
+  font-size: 1.5em;
   position: relative;
   z-index: 3;
 }
@@ -262,7 +259,6 @@ button {
 }
 #songost {
   font-family: '8bitoperator';
-  font-size: 18px;
   color: rgb(90, 36, 82);
   line-height: 14px;
 }
@@ -292,7 +288,7 @@ hr {
     font-size: 1.4em;
   }
   #welcome {
-    font-size: 14px;
+    font-size: 0.8em;
     position: absolute;
     width: 80%;
     padding: 0px 6px 0px 6px;
@@ -312,7 +308,7 @@ hr {
   }
   button {
     width: 90px;
-    font-size: 18px;
+    font-size: 1em;
     padding: 8px 16px;
   }
   .closebtn{
