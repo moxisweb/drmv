@@ -442,7 +442,9 @@ function optionsOn() {
 }
 function menuOff() {
   document.getElementById("overlay").style.display = "none";
-  document.getElementsByClassName("menu").style.display = "none";
+  document.getElementById("about").style.display = "none";
+  document.getElementById("thanks").style.display = "none";
+  document.getElementById("options").style.display = "none";
 }
 
 // Motif/Song info
