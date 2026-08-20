@@ -29,7 +29,7 @@ body {
 a { /* For links to not be formatted */
   color: purple;
 }
-.menubutton a {
+button a {
   text-decoration: none;
 }
 h1 { /* About, Special thanks */
