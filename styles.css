@@ -110,7 +110,7 @@ h4 { /* Contact, further thanks, etc */
   align-items: baseline;
   margin-left: auto;
   margin-right: auto;
-  gap: 15px;
+  gap: 6px;
   top: 1px;
   padding: 0px, 0px;
   width: 100%;
@@ -179,9 +179,9 @@ button a {
   outline-color: rgb(255, 255, 255);
 }
 button {
-  font-size: 2em;
+  font-size: 1.8em;
   text-align: center;
-  padding: 5px 20px;
+  padding: 3px 18px;
   font-family: '8bitoperator';
   background-color: #080808;
   color: white;
@@ -191,7 +191,6 @@ button {
 .menubutton {
   display: inline-block;
   padding: 10px 30px;
-  font-size: 1.5em;
   position: relative;
   z-index: 3;
 }
