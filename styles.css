@@ -10,6 +10,7 @@
 body {
   font-family: 'Times New Roman', 'Tinos', Tahoma, '8bitoperator', 'Roboto', 'Arial', sans-serif;
   color: white;
+  font-size: 18px;
 }
 #cy {  
 	height: 100dvh; 
@@ -28,9 +29,6 @@ body {
 }
 a { /* For links to not be formatted */
   color: purple;
-}
-button a {
-  text-decoration: none;
 }
 h1 { /* About, Special thanks */
   font-family: '8bitoperator';
@@ -59,32 +57,6 @@ h4 { /* Contact, further thanks, etc */
   color: rgb(255, 242, 0);
   font-family: '8bitoperator';
   font-size: 1.4em;
-}
-.closebtn{
-  float: right;
-  padding: 5px 0px;
-  font-family: 'arial';
-  font-weight: bold;
-  font-size: 24px;
-  color: rgb(90, 36, 82);
-  cursor: pointer;
-}
-.okbtn{
-  text-align: center;
-  font-family: '8bitoperator';
-  font-size: 28px;
-  outline: 2px solid rgb(90, 36, 82);
-  padding: 8px 20px 5px 20px;
-  cursor: pointer;
-}
-.okbtn:hover{
-  color: rgb(255, 242, 0);
-  background-color: rgb(36, 36, 36);
-}
-.okbtn:active{
-  color: rgb(255, 255, 255);
-  background-color: rgb(36, 36, 36);
-  outline-color: rgb(255, 255, 255);
 }
 #legend {
   display: none;
@@ -187,20 +159,48 @@ input {
   background-color: purple !important;
   color: #ffffff;
 }
-.menubutton {
-  display: inline-block;
-  position: relative;
-  z-index: 3;
+button a {
+  text-decoration: none;
+}
+.button:hover{
+  color: rgb(255, 242, 0);
+  background-color: rgb(36, 36, 36);
+}
+.button:active{
+  color: rgb(255, 255, 255);
+  outline-color: rgb(255, 255, 255);
 }
 button {
   padding: 10px 30px;
   text-align: center;
-  font-size: 21px;
   font-family: '8bitoperator';
   background-color: #080808;
   color: white;
   border: 2px solid rgb(90, 36, 82);
   cursor: pointer;
+}
+.okbtn{
+  text-align: center;
+  font-family: '8bitoperator';
+  font-size: 28px;
+  outline: 2px solid rgb(90, 36, 82);
+  padding: 8px 20px 5px 20px;
+  cursor: pointer;
+}
+.closebtn{
+  float: right;
+  padding: 5px 0px;
+  font-family: 'arial';
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(90, 36, 82);
+  cursor: pointer;
+}
+.menubutton {
+  display: inline-block;
+  font-size: 21px;
+  position: relative;
+  z-index: 3;
 }
 .menu{
   position: absolute;
