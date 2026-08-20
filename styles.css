@@ -128,6 +128,7 @@ input {
   background-color: #f1f1f1;
   padding: 10px;
   font-family: Arial;
+  font-size: 16px;
   left: 0;
   right: 0;
   z-index: 4;
@@ -260,6 +261,7 @@ button {
 }
 #songost {
   font-family: '8bitoperator';
+  font-size: 16px;
   color: rgb(90, 36, 82);
   line-height: 14px;
 }
