@@ -110,7 +110,7 @@ h4 { /* Contact, further thanks, etc */
   align-items: baseline;
   margin-left: auto;
   margin-right: auto;
-  gap: 6px;
+  gap: 0px;
   top: 1px;
   padding: 0px, 0px;
   width: 100%;
@@ -190,7 +190,6 @@ button {
 }
 .menubutton {
   display: inline-block;
-  padding: 10px 30px;
   position: relative;
   z-index: 3;
 }
