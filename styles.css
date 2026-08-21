@@ -187,7 +187,7 @@ button a {
 button {
   font-size: 1.8em;
   text-align: center;
-  padding: 6px 20px;
+  padding: 5px 20px;
   font-family: '8bitoperator';
   background-color: #080808;
   color: white;
@@ -202,17 +202,15 @@ button {
   z-index: 3;
 }
 .okbutton {
-  padding: 8px 5px;
+  padding: 5px 5px;
 }
 .optionbutton {
   font-size: 0.6em;
   padding: 6px 3px;
 }
-.optionflex {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between;
-  gap: 10px;
+.optiongrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
   padding: 2em 0px 0px 0px;
 }
 .menu{
