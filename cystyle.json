@@ -307,6 +307,48 @@
       }
     },
     {
+        "selector": "edge.edgeUndertale",
+        "style": {
+          "line-color": "white"
+        }
+    },
+    {
+        "selector": "edge.edgeCh1",
+        "style": {
+          "line-color": "royalblue"
+        }
+    },
+    {
+        "selector": "edge.edgeCh2",
+        "style": {
+          "line-color": "#b7ff00"
+        }
+    },
+    {
+        "selector": "edge.edgeCh3",
+        "style": {
+          "line-color": "#FF2D3A"
+        }
+    },
+    {
+        "selector": "edge.edgeCh4",
+        "style": {
+          "line-color": "#782ee6"
+        }
+    },
+    {
+        "selector": "edge.edgeCh5",
+        "style": {
+          "line-color": "#ffee00"
+        }
+    },
+    {
+        "selector": "edge.edgeOther",
+        "style": {
+          "line-color": "white"
+        }
+    },
+    {
         "selector": "node.fade",
         "style": {
           "opacity": 0.25
