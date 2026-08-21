@@ -159,6 +159,11 @@ input {
   background-color: purple !important;
   color: #ffffff;
 }
+.checkbox {
+  cursor: pointer;
+  font-size: 1.2em;
+  accent-color: rgb(90, 36, 82);
+}
 .closebtn{
   float: right;
   padding: 5px 0px;
@@ -193,8 +198,22 @@ button {
   display: inline-block;
   position: relative;
   font-size: 0.8em;
-  padding: 10px 5px;
+  padding: 12px 5px;
   z-index: 3;
+}
+.okbutton {
+  padding: 8px 5px;
+}
+.optionbutton {
+  font-size: 0.6em;
+  padding: 6px 3px;
+}
+.optionflex {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 2em 0px 0px 0px;
 }
 .menu{
   position: absolute;
@@ -296,9 +315,6 @@ hr {
     width: 80%;
     padding: 0px 6px 0px 6px;
   }
-  #legend {
-    display: none;
-  }
   #footer {
   font-size: 9px;
   }
@@ -311,7 +327,7 @@ hr {
   }
   button {
     width: 90px;
-    font-size: 1em;
+    font-size: 1.1em;
     padding: 8px 16px;
   }
   .closebtn{
@@ -336,9 +352,9 @@ hr {
     margin-left: initial;
     margin-right: initial;
     width: initial;
-    gap: 10px;
+    gap: 4px;
     top: 1%;
     left: 1%;
-    padding: 0px, 30px;
+    padding: 0px, 0px;
   }
 }

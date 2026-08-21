@@ -125,11 +125,19 @@
     <span class="closebtn" onclick="menuOff()">&#10005;</span>
       <h1>OPTIONS</h1>
       <p>These are a work in progress and <span class="highlighted">won't work</span>.</p>
-      <p>Color by <button>MOTIF</button> <button>CHAPTER</button></p>
-      <p>Zoom to fit motif <input type="checkbox"></p>
-      <p>Hide unlisted tracks <input type="checkbox"></p>
-      <p>Hide motifless tracks <input type="checkbox"></p>
-      <p>Hide Undertale tracks <input type="checkbox"></p>
+      <div class="optionflex">
+        <div>Color by </div>
+        <div>Zoom to fit motif</div>
+        <div>Hide unlisted tracks</div>
+        <div>Hide motifless tracks</div>
+        <div style="flex-basis: 100%;">Hide Undertale tracks</div>
+
+        <div><button class="optionbutton">MOTIF</button> <button class="optionbutton">CHAPTER</button></div>
+        <div><input type="checkbox" class="checkbox"></div>
+        <div><input type="checkbox" class="checkbox"></div>
+        <div><input type="checkbox" class="checkbox"></div>
+        <div><input type="checkbox" class="checkbox"></div>
+      </div>
   </div>
 
   <div id="footer">

@@ -1,7 +1,7 @@
 { "nodes": [
 
     { "data": { "id": "901", "label": "Nightmare Knight (from Cucumber Quest)", "img": "img/901.png", "notes": ["[0:47-1:11, etc] (A)"] }, "classes": ["chase"] },
-    { "data": { "id": "902", "label": "Penumbra Phantasm", "img": "img/902.png", "notes": ["[-1:06, etc]", "[1:08-1:11, etc] (C)"] }, "classes": ["Doctor", "holy"] },
+    { "data": { "id": "902", "label": "Penumbra Phantasm", "img": "img/902.png", "notes": ["[-1:06, etc]", "[1:08-1:11, etc] (C)*"] }, "classes": ["Doctor", "holy"] },
     { "data": { "id": "903", "label": "Abandoned Town", "img": "img/903.png", "notes": ["", "(as part of Darkness Falls)", "[0:30-] (A)"] }, "classes": ["darknessfalls", "Determination", "holy"] },
     { "data": { "id": "904", "label": "Underwater Town", "img": "img/903.png", "notes": ["[0:47-] (C)"] }, "classes": ["holy"] },
     { "data": { "id": "906", "label": "KEYGEN (Credits)", "img": "img/906.png" }, "classes": ["KEYGEN"] },
@@ -10,7 +10,7 @@
     { "data": { "id": "999", "label": "Gaster's Theme", "img": "img/999.png" }, "classes": ["gaster"] },
 
     { "data": { "id": "801", "label": "man.ogg", "img": "img/801.png" }, "classes": ["man"] },
-    { "data": { "id": "802", "label": "d.ogg", "img": "img/blank.png" }, "classes": ["dogg"] },
+    { "data": { "id": "802", "label": "d.ogg", "img": "img/802.png" }, "classes": ["dogg"] },
     { "data": { "id": "803", "label": "dogcheck.ogg", "img": "img/803.png", "notes": ["[0:13-0:17]", "[0:27-0:30]", "[0:33-]"] }, "classes": ["Dogsong", "once", "dont"] },
     { "data": { "id": "804", "label": "stealth.ogg", "img": "img/804.png", "notes": ["[-0:22] (B)*", "[0:22-] (A)"] }, "classes": ["Heartache", "lostgirl"] },
     { "data": { "id": "805", "label": "findher.ogg", "img": "img/805.png" }, "classes": ["lostgirl"] },
