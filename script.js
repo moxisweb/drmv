@@ -365,7 +365,37 @@ addEventListener('keydown', function(e) {
 });
 
 //NEW!!! CHANGE EDGE COLOR CLASSIFICATION
-
+function colorByMotif() {
+  cy.edges().forEach(function(edge) {
+    edge.removeClass("edgeUndertale", "edgeCh1", "edgeCh2", "edgeCh3", "edgeCh4", "edgeCh5", "edgeUnlisted", "edgeOther");
+  });
+}
+function colorByChapter() {
+  cy.edges("edge[target < 100]").forEach(function(edge) {
+    edge.addClass("edgeUndertale");
+  });
+  cy.edges("edge[target > 99 && target < 200]").forEach(function(edge) {
+    edge.addClass("edgeCh1");
+  });
+  cy.edges("edge[target > 199 && target < 300]").forEach(function(edge) {
+    edge.addClass("edgeCh2");
+  });
+  cy.edges("edge[target > 299 && target < 400]").forEach(function(edge) {
+    edge.addClass("edgeCh3");
+  });
+  cy.edges("edge[target > 399 && target < 500]").forEach(function(edge) {
+    edge.addClass("edgeCh4");
+  });
+  cy.edges("edge[target > 499 && target < 600]").forEach(function(edge) {
+    edge.addClass("edgeCh5");
+  });
+  cy.edges("edge[target > 799 && target < 900]").forEach(function(edge) {
+    edge.addClass("edgeUnlisted");
+  });
+  cy.edges("edge[target > 899]").forEach(function(edge) {
+    edge.addClass("edgeOther");
+  });
+}
 
 
 ////////////////////////////////// End of cy functions

@@ -205,13 +205,19 @@ button {
   padding: 5px 5px;
 }
 .optionbutton {
-  font-size: 0.6em;
+  font-size: 0.8em;
   padding: 6px 3px;
 }
 .optiongrid {
   display: grid;
+  font-size: 1.2em;
   grid-template-columns: 2fr 1fr;
-  padding: 2em 0px 0px 0px;
+  padding: 0px 0px 0px 20px;
+  row-gap: 1em;
+}
+input[type=checkbox] {
+  transform: scale(1.5);
+  align-items: right;
 }
 .menu{
   position: absolute;
