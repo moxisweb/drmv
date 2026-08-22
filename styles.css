@@ -178,11 +178,11 @@ button a {
 }
 button:hover{
   color: rgb(255, 242, 0);
-  background-color: rgb(36, 36, 36);
 }
 button:active{
   color: rgb(255, 255, 255);
-  outline-color: rgb(255, 255, 255);
+  background-color: rgb(36, 36, 36);
+  border-color: rgb(255, 255, 255);
 }
 button {
   font-size: 1.8em;

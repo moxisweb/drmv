@@ -370,12 +370,13 @@ addEventListener('keydown', function(e) {
 const colorbtn = document.getElementById("colormotifbutton");
 const chapterbtn = document.getElementById("colorchapterbutton");
 colorbtn.addEventListener("click", function() {
-  cy.edges().removeClass('edgeUndertale', 'edgeCh1', 'edgeCh2', 'edgeCh3', 'edgeCh4', 'edgeCh5', 'edgeUnlisted', 'edgeOther');
+  cy.edges().removeClass('edgeUndertale');
 });
 chapterbtn.addEventListener("click", function() {
   cy.edges("edge[target < '100' ]").forEach(function(edge) {
     edge.addClass('edgeUndertale');
   });
+  /*
   cy.edges("edge[target > '99' && target < '200' ]").forEach(function(edge) {
     edge.addClass('edgeCh1');
   });
@@ -397,6 +398,7 @@ chapterbtn.addEventListener("click", function() {
   cy.edges("edge[target > '899' ]").forEach(function(edge) {
     edge.addClass('edgeOther');
   });
+  */
 });
 
 
