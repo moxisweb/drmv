@@ -362,7 +362,7 @@ addEventListener('keydown', function(e) {
   };
   }
 
-});
+})
 
 //NEW!!! CHANGE EDGE COLOR CLASSIFICATION
 function colorByMotif() {
@@ -370,9 +370,6 @@ function colorByMotif() {
     edge.removeClass("edgeUndertale", "edgeCh1", "edgeCh2", "edgeCh3", "edgeCh4", "edgeCh5", "edgeUnlisted", "edgeOther");
   });
 }
-
-addEventListener('keydown', function(e) {
-  if (e.key === 'c' && e.ctrlKey) { //ctrl + s
 function colorByChapter() {
   cy.edges("edge[target < 100]").forEach(function(edge) {
     edge.addClass("edgeUndertale");
@@ -399,8 +396,6 @@ function colorByChapter() {
     edge.addClass("edgeOther");
   });
 }
-  }
-});
 
 
 ////////////////////////////////// End of cy functions
