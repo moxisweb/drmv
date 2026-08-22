@@ -370,7 +370,7 @@ addEventListener('keydown', function(e) {
 const colorbtn = document.getElementById("colormotifbutton");
 const chapterbtn = document.getElementById("colorchapterbutton");
 colorbtn.addEventListener("click", function() {
-  cy.edges().removeClass('edgeUndertale', 'edgeCh1', 'edgeCh2', 'edgeCh3', 'edgeCh4', 'edgeCh5', 'edgeUnlisted', 'edgeOther');
+  cy.edges().removeClass('edgeUndertale edgeCh1 edgeCh2 edgeCh3 edgeCh4 edgeCh5 edgeUnlisted edgeOther');
 });
 chapterbtn.addEventListener("click", function() {
   cy.edges("edge[target < '100' ]").forEach(function(edge) {
@@ -498,5 +498,10 @@ function songInfoOff() {
 // Toggle button
 
 function toggleButton(button) {
-  button.classList.toggle("selected");
+  if (element.classList.contains("selected")){
+    element.classList.remove("selected");
+  }
+  else {
+    element.classList.add("selected");
+  }
 }
