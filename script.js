@@ -222,6 +222,9 @@ cy.on('tap', 'edge', function(e){
   }
 });
 
+//NEW!!! HIDE TRACKS PER OPTIONS
+
+
 // SEARCH AUTOCOMPLETE
 var songlist = dataArray[3];
 autocomplete(document.getElementById("myInput"), songlist);
@@ -364,6 +367,15 @@ addEventListener('keydown', function(e) {
 })
 
 //NEW!!! CHANGE EDGE COLOR CLASSIFICATION
+const colorbtn = document.getElementById("colormotifbutton");
+const chapterbtn = document.getElementById("colorchapterbutton");
+colorbtn.addEventListener("click", function() {
+  colorByMotif();
+});
+chapterbtn.addEventListener("click", function() {
+  colorByChapter();
+});
+
 function colorByMotif() {
   cy.edges().forEach(function(edge) {
     edge.removeClass("edgeUndertale", "edgeCh1", "edgeCh2", "edgeCh3", "edgeCh4", "edgeCh5", "edgeUnlisted", "edgeOther");

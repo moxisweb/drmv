@@ -68,6 +68,12 @@
       }
     },
     {
+      "selector": ".nodisplay",
+      "style": {
+        "display": "none"
+      }
+    },
+    {
       "selector": ".hidden",
       "style": {
         "display": "none"
@@ -239,8 +245,8 @@
     {
       "selector": "[motif = 'darktruth']",
       "style": {
-        "line-color": "#b04565",
-        "target-arrow-color": "#b04565"
+        "line-color": "#a1354e",
+        "target-arrow-color": "#a1354e"
       }
     },
     {
