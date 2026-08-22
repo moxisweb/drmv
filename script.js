@@ -210,15 +210,14 @@ cy.on('tap', 'edge', function(e){
       var outputHTML = '<span style="color:' + mc + '">' + mn + '</span><br>'; // prep latest motif name
       document.getElementById('motifname').innerHTML += outputHTML; // add to list
       motifInfoOn(); //open motif info element
-      /*cy.maxZoom(5); //limit zoom
-      cy.animate({
-        fit: {
-          eles: cy.nodes("node.highlight"),
-          padding: 40
-        }
-      },
-      { duration: 800 });
-      cy.maxZoom(6); //reset zoom*/
+      if (document.getElementById('zoomFitMotif').checked) { //zoom to fit motif if option is checked
+        cy.animate({
+          fit: {
+            eles: cy.nodes("node.highlight"),
+            padding: 40
+          }},
+        { duration: 800 });
+      }
     }
   }
 });
