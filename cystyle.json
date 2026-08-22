@@ -315,8 +315,8 @@
     {
         "selector": "edge.edgeUndertale",
         "style": {
-          "line-color": "white",
-          "target-arrow-color": "white"
+          "line-color": "LightGrey",
+          "target-arrow-color": "LightGrey"
         }
     },
     {
@@ -357,15 +357,15 @@
     {
         "selector": "edge.edgeUnlisted",
         "style": {
-          "line-color": "white",
-          "target-arrow-color": "white"
+          "line-color": "LightGrey",
+          "target-arrow-color": "LightGrey"
         }
     },
     {
         "selector": "edge.edgeOther",
         "style": {
-          "line-color": "white",
-          "target-arrow-color": "white"
+          "line-color": "LightGrey",
+          "target-arrow-color": "LightGrey"
         }
     },
     {

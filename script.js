@@ -376,12 +376,12 @@ chapterbtn.addEventListener("click", function() {
   cy.edges("edge[target < '100' ]").forEach(function(edge) {
     edge.addClass('edgeUndertale');
   });
+  cy.edges("edge[target > '199' && target < '300' ]").forEach(function(edge) {
+    edge.addClass('edgeCh2');
+  });
   /*
   cy.edges("edge[target > '99' && target < '200' ]").forEach(function(edge) {
     edge.addClass('edgeCh1');
-  });
-  cy.edges("edge[target > '199' && target < '300' ]").forEach(function(edge) {
-    edge.addClass('edgeCh2');
   });
   cy.edges("edge[target > '299' && target < '400' ]").forEach(function(edge) {
     edge.addClass('edgeCh3');
