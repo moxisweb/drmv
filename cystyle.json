@@ -315,43 +315,57 @@
     {
         "selector": "edge.edgeUndertale",
         "style": {
-          "line-color": "white"
+          "line-color": "white",
+          "target-arrow-color": "white"
         }
     },
     {
         "selector": "edge.edgeCh1",
         "style": {
-          "line-color": "royalblue"
+          "line-color": "royalblue",
+          "target-arrow-color": "royalblue"
         }
     },
     {
         "selector": "edge.edgeCh2",
         "style": {
-          "line-color": "#b7ff00"
+          "line-color": "#b7ff00",
+          "target-arrow-color": "#b7ff00"
         }
     },
     {
         "selector": "edge.edgeCh3",
         "style": {
-          "line-color": "#FF2D3A"
+          "line-color": "#FF2D3A",
+          "target-arrow-color": "#FF2D3A"
         }
     },
     {
         "selector": "edge.edgeCh4",
         "style": {
-          "line-color": "#782ee6"
+          "line-color": "#782ee6",
+          "target-arrow-color": "#782ee6"
         }
     },
     {
         "selector": "edge.edgeCh5",
         "style": {
-          "line-color": "#ffee00"
+          "line-color": "#ffee00",
+          "target-arrow-color": "#ffee00"
+        }
+    },
+    {
+        "selector": "edge.edgeUnlisted",
+        "style": {
+          "line-color": "white",
+          "target-arrow-color": "white"
         }
     },
     {
         "selector": "edge.edgeOther",
         "style": {
-          "line-color": "white"
+          "line-color": "white",
+          "target-arrow-color": "white"
         }
     },
     {

@@ -397,9 +397,6 @@ function colorByChapter() {
   cy.edges("edge[target > 399 && target < 500]").forEach(function(edge) {
     edge.addClass("edgeCh4");
   });
-  cy.edges("edge[target > 499 && target < 600]").forEach(function(edge) {
-    edge.addClass("edgeCh5");
-  });
   cy.edges("edge[target > 799 && target < 900]").forEach(function(edge) {
     edge.addClass("edgeUnlisted");
   });
