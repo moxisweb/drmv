@@ -528,7 +528,9 @@ function songInfoOff() {
 // Toggle button style
 
 function toggleButton(button) {
+  console.log("function toggleButton");
   if (!button.classList.contains("selected")){
+    console.log("button was not classed as selected, adding selected");
     button.parentElement.children.classList.remove("selected")
     button.classList.add("selected");
   }

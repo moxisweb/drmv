@@ -322,36 +322,36 @@
     {
         "selector": "edge.edgeCh1",
         "style": {
-          "line-color": "royalblue",
-          "target-arrow-color": "royalblue"
+          "line-color": "#612ABA",
+          "target-arrow-color": "#612ABA"
         }
     },
     {
         "selector": "edge.edgeCh2",
         "style": {
-          "line-color": "#b7ff00",
-          "target-arrow-color": "#b7ff00"
+          "line-color": "#31D88A",
+          "target-arrow-color": "#31D88A"
         }
     },
     {
         "selector": "edge.edgeCh3",
         "style": {
-          "line-color": "#FF2D3A",
-          "target-arrow-color": "#FF2D3A"
+          "line-color": "#f74e48",
+          "target-arrow-color": "#f74e48"
         }
     },
     {
         "selector": "edge.edgeCh4",
         "style": {
-          "line-color": "#782ee6",
-          "target-arrow-color": "#782ee6"
+          "line-color": "#272de3",
+          "target-arrow-color": "#272de3"
         }
     },
     {
         "selector": "edge.edgeCh5",
         "style": {
-          "line-color": "#ffee00",
-          "target-arrow-color": "#ffee00"
+          "line-color": "#ed5380",
+          "target-arrow-color": "#ed5380"
         }
     },
     {
