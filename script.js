@@ -528,10 +528,8 @@ function songInfoOff() {
 // Toggle button style
 
 function toggleButton(button) {
-  if (button.classList.contains("selected")){
-    button.classList.remove("selected");
-  }
-  else {
+  if (!button.classList.contains("selected")){
+    button.parentElement.children.classList.remove("selected")
     button.classList.add("selected");
   }
 }
