@@ -405,9 +405,9 @@ chapterbtn.addEventListener("click", function() {
 const hideunlistedcheck = document.getElementById("hideUnlisted")
 hideunlistedcheck.addEventListener("click", function() {
   if (hideunlistedcheck.checked) {
-    cy.elements("node[id > '799']").addClass("hidden");
+    cy.nodes("[id > '799']").addClass("hidden");
   } else {
-    cy.elements("node[id > '799']").removeClass("hidden");
+    cy.nodes("[id > '799']").removeClass("hidden");
   }
 });
 
@@ -415,9 +415,9 @@ hideunlistedcheck.addEventListener("click", function() {
 const hidemotiflesscheck = document.getElementById("hideMotifless")
 hidemotiflesscheck.addEventListener("click", function() {
   if (hidemotiflesscheck.checked) {
-    cy.elements("node[motif = 'none']").addClass("hidden");
+    cy.nodes().classes("none").addClass("hidden");
   } else {
-    cy.elements("node[motif = 'none']").removeClass("hidden");
+    cy.nodes().classes("none").removeClass("hidden");
   }
 });
 
@@ -425,9 +425,9 @@ hidemotiflesscheck.addEventListener("click", function() {
 const hideundertalecheck = document.getElementById("hideUndertale")
 hideundertalecheck.addEventListener("click", function() {
   if (hideundertalecheck.checked) {
-    cy.elements("node[id < '100']").addClass("hidden");
+    cy.nodes("[id < '100']").addClass("hidden");
   } else {
-    cy.elements("node[id < '100']").removeClass("hidden");
+    cy.nodes("[id < '100']").removeClass("hidden");
   }
 });
 
