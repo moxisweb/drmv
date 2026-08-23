@@ -54,7 +54,7 @@
     { "data": { "id": "063", "label": "It's Raining Somewhere Else", "img": "img/063.png", "notes": ["", "[0:20-]"] }, "classes": ["rain", "sans"] },
     { "data": { "id": "077", "label": "ASGORE", "img": "img/077.png", "notes": ["[-0:34]", "[0:34-1:24]", "[1:49-2:06]"] }, "classes": ["ASGORE", "Heartache", "Determination"] },
     { "data": { "id": "079", "label": "Your Best Nightmare", "img": "img/079.png" }, "classes": ["nightmare"] },
-    { "data": { "id": "088", "label": "Burn in Despair!", "img": "img/088.png" }, "classes": ["burn", "nightmare", "hidden"] },
+    { "data": { "id": "088", "label": "Burn in Despair!", "img": "img/088.png" }, "classes": ["burn", "nightmare", "nodisplay"] },
     { "data": { "id": "098", "label": "Battle Against a True Hero", "img": "img/098.png", "notes": ["", "[0:44-1:35]"] }, "classes": ["neo", "ruins"] },
     { "data": { "id": "099", "label": "Power of \"NEO\"", "img": "img/099.png" }, "classes": ["neo"] },
 

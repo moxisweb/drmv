@@ -366,7 +366,7 @@ addEventListener('keydown', function(e) {
 
 })
 
-//NEW!!! CHANGE EDGE COLOR CLASSIFICATION
+//NEW!!! OPTION 1: CHANGE EDGE COLOR CLASSIFICATION
 const colorbtn = document.getElementById("colormotifbutton");
 const chapterbtn = document.getElementById("colorchapterbutton");
 colorbtn.addEventListener("click", function() {
@@ -399,7 +399,29 @@ chapterbtn.addEventListener("click", function() {
   });
 });
 
+//OPTION 2: ZOOM TO FIT MOTIF IS BUILT INTO MOTIF CLICK SCRIPT
 
+//OPTION 3: HIDE UNLISTED
+const hideunlistedcheck = document.getElementById("hideUnlisted")
+hideunlistedcheck.addEventListener("click", function() {
+  if (hideunlistedcheck.checked) {
+    cy.elements("node[id > '799'], edge[target > '799']").addClass("hidden");
+  } else {
+    cy.elements("node[id > '799'], edge[target > '799']").removeClass("hidden");
+  }
+});
+
+//OPTION 4: HIDE MOTIFLESS
+const hidemotiflesscheck = document.getElementById("hideMotifless")
+hidemotiflesscheck.addEventListener("click", function() {
+
+});
+
+//OPTION 3: HIDE UNDERTALE
+const hideundertalecheck = document.getElementById("hideUndertale")
+hideundertalecheck.addEventListener("click", function() {
+
+});
 
 ////////////////////////////////// End of cy functions
 
@@ -495,13 +517,13 @@ function songInfoOff() {
   document.getElementById("songinfo").style.display = "none";
 }
 
-// Toggle button
+// Toggle button style
 
 function toggleButton(button) {
-  if (element.classList.contains("selected")){
-    element.classList.remove("selected");
+  if (button.classList.contains("selected")){
+    button.classList.remove("selected");
   }
   else {
-    element.classList.add("selected");
+    button.classList.add("selected");
   }
 }
