@@ -376,7 +376,7 @@ chapterbtn.addEventListener("click", function() {
   cy.edges("edge[target < '100' ]").forEach(function(edge) {
     edge.addClass('edgeUndertale');
   });
-  cy.edges("edge[target > '99'][target < '200']").forEach(function(edge) {
+  cy.edges("edge[target > '099'][target < '200']").forEach(function(edge) {
     edge.addClass('edgeCh1');
   });
   cy.edges("edge[target > '199'][target < '300']").forEach(function(edge) {
@@ -405,22 +405,30 @@ chapterbtn.addEventListener("click", function() {
 const hideunlistedcheck = document.getElementById("hideUnlisted")
 hideunlistedcheck.addEventListener("click", function() {
   if (hideunlistedcheck.checked) {
-    cy.elements("node[id > '799'], edge[target > '799']").addClass("hidden");
+    cy.elements("node[id > '799']").addClass("hidden");
   } else {
-    cy.elements("node[id > '799'], edge[target > '799']").removeClass("hidden");
+    cy.elements("node[id > '799']").removeClass("hidden");
   }
 });
 
 //OPTION 4: HIDE MOTIFLESS
 const hidemotiflesscheck = document.getElementById("hideMotifless")
 hidemotiflesscheck.addEventListener("click", function() {
-
+  if (hidemotiflesscheck.checked) {
+    cy.elements("node[motif = 'none']").addClass("hidden");
+  } else {
+    cy.elements("node[motif = 'none']").removeClass("hidden");
+  }
 });
 
 //OPTION 3: HIDE UNDERTALE
 const hideundertalecheck = document.getElementById("hideUndertale")
 hideundertalecheck.addEventListener("click", function() {
-
+  if (hideundertalecheck.checked) {
+    cy.elements("node[id < '100']").addClass("hidden");
+  } else {
+    cy.elements("node[id < '100']").removeClass("hidden");
+  }
 });
 
 ////////////////////////////////// End of cy functions
