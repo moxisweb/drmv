@@ -529,16 +529,10 @@ function songInfoOff() {
 
 // Toggle button style
 
-const optionbuttons = document.getElementsByClassName("optionbutton")
 function toggleButton(button) {
-  console.log("button with toggleButton function is pressed");
   if (!button.classList.contains("selected")){
-    console.log("button was not classed as selected");
-    console.log(optionbuttons);
-    optionbuttons.forEach(function (elem) {
-      elem.classList.remove("selected");
-    });
-    console.log("adding selected class to this button");
+    document.getElementById("colormotifbutton").classList.remove("selected");
+    document.getElementById("colorchapterbutton").classList.remove("selected");
     button.classList.add("selected");
   }
 }
