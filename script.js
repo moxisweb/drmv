@@ -415,8 +415,10 @@ hideunlistedcheck.addEventListener("click", function() {
 const hidemotiflesscheck = document.getElementById("hideMotifless")
 hidemotiflesscheck.addEventListener("click", function() {
   if (hidemotiflesscheck.checked) {
+    console.log("hide is checked, adding hidden to motifless");
     cy.nodes().classes("motifless").addClass("hidden");
   } else {
+    console.log("hide is unchecked, removing hidden from motifless");
     cy.nodes().classes("motifless").removeClass("hidden");
   }
 });
@@ -528,10 +530,13 @@ function songInfoOff() {
 // Toggle button style
 
 function toggleButton(button) {
-  console.log("function toggleButton");
+  console.log("button with toggleButton function is pressed");
   if (!button.classList.contains("selected")){
-    console.log("button was not classed as selected, adding selected");
-    getElementsByClassName("optionbutton").classList.remove("selected");
+    console.log("button was not classed as selected, removing selected from both");
+    let optionbuttons = getElementsByClassName("optionbutton")
+    console.log(optionbuttons);
+    optionbutton.classList.remove("selected");
+    console.log("adding selected class to this button");
     button.classList.add("selected");
   }
 }
