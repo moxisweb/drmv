@@ -532,10 +532,9 @@ function songInfoOff() {
 function toggleButton(button) {
   console.log("button with toggleButton function is pressed");
   if (!button.classList.contains("selected")){
-    /*console.log("button was not classed as selected, removing selected from both");
+    console.log("button was not classed as selected");
     let optionbuttons = getElementsByClassName("optionbutton")
     console.log(optionbuttons);
-    optionbutton.classList.remove("selected");*/
     console.log("adding selected class to this button");
     button.classList.add("selected");
   }
