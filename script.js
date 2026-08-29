@@ -529,7 +529,7 @@ function songInfoOff() {
 
 // Toggle button style
 
-const optionbuttons = getElementsByClassName("optionbutton")
+const optionbuttons = document.getElementsByClassName("optionbutton")
 function toggleButton(button) {
   console.log("button with toggleButton function is pressed");
   if (!button.classList.contains("selected")){
