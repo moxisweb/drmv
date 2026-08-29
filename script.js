@@ -416,10 +416,10 @@ const hidemotiflesscheck = document.getElementById("hideMotifless")
 hidemotiflesscheck.addEventListener("click", function() {
   if (hidemotiflesscheck.checked) {
     console.log("hide is checked, adding hidden to motifless");
-    cy.nodes().classes("motifless").addClass("hidden");
+    cy.nodes("node.motifless").addClass("hidden");
   } else {
     console.log("hide is unchecked, removing hidden from motifless");
-    cy.nodes().classes("motifless").removeClass("hidden");
+    cy.nodes("node.motifless").removeClass("hidden");
   }
 });
 
@@ -535,6 +535,9 @@ function toggleButton(button) {
   if (!button.classList.contains("selected")){
     console.log("button was not classed as selected");
     console.log(optionbuttons);
+    optionbuttons.forEach(function (elem) {
+      elem.classList.remove("selected");
+    });
     console.log("adding selected class to this button");
     button.classList.add("selected");
   }
