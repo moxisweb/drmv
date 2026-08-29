@@ -322,8 +322,8 @@
     {
         "selector": "edge.edgeCh1",
         "style": {
-          "line-color": "#612ABA",
-          "target-arrow-color": "#612ABA"
+          "line-color": "#7c2aba",
+          "target-arrow-color": "#7c2aba"
         }
     },
     {
@@ -336,8 +336,8 @@
     {
         "selector": "edge.edgeCh3",
         "style": {
-          "line-color": "#f74e48",
-          "target-arrow-color": "#f74e48"
+          "line-color": "#fc5230",
+          "target-arrow-color": "#fc5230"
         }
     },
     {
