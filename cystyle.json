@@ -62,7 +62,7 @@
       }
     },
     {
-      "selector": ".none",
+      "selector": ".motifless",
       "style": {
         "opacity": "0.3"
       }

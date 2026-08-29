@@ -415,9 +415,9 @@ hideunlistedcheck.addEventListener("click", function() {
 const hidemotiflesscheck = document.getElementById("hideMotifless")
 hidemotiflesscheck.addEventListener("click", function() {
   if (hidemotiflesscheck.checked) {
-    cy.nodes().classes("none").addClass("hidden");
+    cy.nodes().classes("motifless").addClass("hidden");
   } else {
-    cy.nodes().classes("none").removeClass("hidden");
+    cy.nodes().classes("motifless").removeClass("hidden");
   }
 });
 
@@ -531,7 +531,7 @@ function toggleButton(button) {
   console.log("function toggleButton");
   if (!button.classList.contains("selected")){
     console.log("button was not classed as selected, adding selected");
-    button.parentElement.children.classList.remove("selected");
+    getElementsByClassName("optionbutton").classList.remove("selected");
     button.classList.add("selected");
   }
 }
