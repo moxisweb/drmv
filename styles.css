@@ -188,6 +188,7 @@ button.selected{
   color: rgb(90, 36, 82);
   background-color: rgb(36, 36, 36);
   border-color: rgb(90, 36, 82);
+  cursor: auto;
 }
 button {
   font-size: 1.8em;
@@ -215,8 +216,10 @@ button {
 }
 .optiongrid {
   display: grid;
-  font-size: 1.2em;
+  font-size: 1.1em;
   grid-template-columns: 2fr 1fr;
+  align-content: space-between;
+  justify-content: space-between;
   padding: 0px 0px 0px 20px;
   row-gap: 1em;
 }

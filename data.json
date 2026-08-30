@@ -545,7 +545,7 @@
     { "data": { "source": "516", "target": "532", "motif": "sunsetof7suns" } },
     { "data": { "source": "003", "target": "532", "motif": "yourbestfriend" } },
     { "data": { "source": "107", "target": "533", "motif": "chase" } },
-    { "data": { "source": "077", "target": "533", "motif": "ASGORE" } },
+    { "data": { "source": "522", "target": "533", "motif": "ASGORE" } },
     { "data": { "source": "510", "target": "534", "motif": "Flowery" } },
     { "data": { "source": "534", "target": "535", "motif": "Flowery" } },
     { "data": { "source": "404", "target": "536", "motif": "Susie" } },
