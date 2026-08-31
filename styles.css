@@ -365,9 +365,12 @@ hr {
     margin-left: initial;
     margin-right: initial;
     width: initial;
-    gap: 4px;
+    gap: 0px;
     top: 1%;
     left: 1%;
     padding: 0px, 0px;
+  }
+  .optiongrid {
+  align-items: right;
   }
 }
