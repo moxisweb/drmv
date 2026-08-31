@@ -332,7 +332,7 @@ hr {
   font-size: 9px;
   }
   .menubutton {
-  padding: 2px 5px;
+  padding: 2px 0px;
   }
   .menu {
     position: absolute;
@@ -368,10 +368,12 @@ hr {
     margin-left: initial;
     margin-right: initial;
     width: initial;
+    gap: 2px;
     top: 1%;
     left: 1%;
   }
   .optiongrid {
-  align-items: right;
+  text-align: end;
+  font-size: 1em;
   }
 }
