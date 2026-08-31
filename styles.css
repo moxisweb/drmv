@@ -331,6 +331,9 @@ hr {
   #footer {
   font-size: 9px;
   }
+  .menubutton {
+  padding: 2px 5px;
+  }
   .menu {
     position: absolute;
     height: 60%;
