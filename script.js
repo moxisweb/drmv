@@ -82,7 +82,6 @@ cy.add([
   { group: 'edges', data: { source: '135', target: '417', motif: "holy" }, classes: ["weak"] },
   { group: 'edges', data: { source: '139', target: '422', motif: "dont" }, classes: ["weak"] },
   { group: 'edges', data: { source: '108', target: '422', motif: "legend" } },
-  { group: 'edges', data: { source: '313', target: '429', motif: "Mantle" }, classes: ["weak"] },
   { group: 'edges', data: { source: '304', target: '438', motif: "Tenna" } },
   { group: 'edges', data: { source: '222', target: '438', motif: "Spamton" } },
   { group: 'edges', data: { source: '133', target: '505', motif: "freedom" }, classes: ["weak"] },
@@ -96,6 +95,13 @@ cy.add([
   { group: 'edges', data: { source: '139', target: '531', motif: "dont" } },
 
 ]);
+
+// AUTO APPLY SAVEDLAYOUT
+var savedPositions = dataArray[4];
+for (var key in savedPositions) {
+  var node = cy.getElementById(key);
+  node.position(savedPositions[key]);
+};
 
 ///////////////////////////// Interactive functions
 
@@ -221,9 +227,6 @@ cy.on('tap', 'edge', function(e){
     }
   }
 });
-
-//NEW!!! HIDE TRACKS PER OPTIONS
-
 
 // SEARCH AUTOCOMPLETE
 var songlist = dataArray[3];
@@ -353,7 +356,7 @@ addEventListener('keydown', function(e) {
       }
     console.log(nodePositions);
   }
-  else if (e.key === 'r' && e.ctrlKey) {
+  else if (e.key === 'l' && e.ctrlKey) { //ctrl + l
 // APPLY SAVED LAYOUT
   var savedPositions = dataArray[4];
   for (var key in savedPositions) {
