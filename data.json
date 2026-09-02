@@ -52,7 +52,7 @@
     { "data": { "id": "050", "label": "Metal Crusher", "img": "img/050.png" }, "classes": ["metalcrusher"] },
     { "data": { "id": "056", "label": "Confession", "img": "img/056.png" }, "classes": ["hopes"] },
     { "data": { "id": "063", "label": "It's Raining Somewhere Else", "img": "img/063.png", "notes": ["", "[0:20-]"] }, "classes": ["rain", "sans"] },
-    { "data": { "id": "077", "label": "ASGORE", "img": "img/077.png", "notes": ["[-0:34]", "[0:34-1:24]", "[1:49-2:06]"] }, "classes": ["ASGORE", "Heartache", "Determination"] },
+    { "data": { "id": "077", "label": "ASGORE", "img": "img/077.png", "notes": ["[-0:34]", "[0:34-1:24] (A) [1:24-1:46] (B)", "[1:49-]"] }, "classes": ["ASGORE", "Heartache", "Determination"] },
     { "data": { "id": "079", "label": "Your Best Nightmare", "img": "img/079.png" }, "classes": ["nightmare"] },
     { "data": { "id": "088", "label": "Burn in Despair!", "img": "img/088.png" }, "classes": ["burn", "nightmare", "nodisplay"] },
     { "data": { "id": "098", "label": "Battle Against a True Hero", "img": "img/098.png", "notes": ["", "[0:44-1:35]"] }, "classes": ["neo", "ruins"] },
@@ -220,8 +220,8 @@
     { "data": { "id": "434", "label": "Neverending Night", "img": "img/434.png", "notes": ["(throughout)", "[0:30-]"] }, "classes": ["sanctuary", "darktruth"] },
     { "data": { "id": "435", "label": "The LEGEND...?", "img": "img/435.png", "notes": ["(A)"] }, "classes": ["legend"] },
     { "data": { "id": "436", "label": "With Hope Crossed On Our Hearts", "img": "img/436.png" }, "classes": ["dont"] },
-    { "data": { "id": "437", "label": "Volume Adjustment", "img": "img/437.png", "notes": ["[0:11-]"] }, "classes": ["Heartache"] },
-    { "data": { "id": "438", "label": "Catswing", "img": "img/438.png", "notes": ["[0:06-0:21]", "[0:21-0:36]", "[0:36, 0:51, 1:06-1:28, 1:28, 1:43]", "[0:36-]", "[1:13-1:28] (A)"] }, "classes": ["Heartache", "Spamton", "hey", "bigshot", "Tenna"] },
+    { "data": { "id": "437", "label": "Volume Adjustment", "img": "img/437.png", "notes": ["[0:11-] (B)"] }, "classes": ["Heartache"] },
+    { "data": { "id": "438", "label": "Catswing", "img": "img/438.png", "notes": ["[0:06-0:21] (B)", "[0:21-0:36]", "[0:36, 0:51, 1:06-1:28, 1:28, 1:43]", "[0:36-]", "[1:13-1:28] (A)"] }, "classes": ["Heartache", "Spamton", "hey", "bigshot", "Tenna"] },
     { "data": { "id": "439", "label": "Air Waves", "img": "img/439.png", "notes": ["(throughout)*", "[1:30-] (A)"] }, "classes": ["Spamton", "freedom"] },
     { "data": { "id": "440", "label": "Concert for you", "img": "img/440.png" }, "classes": ["motifless"] },
 
@@ -304,7 +304,7 @@
     { "data": { "source": "014", "target": "077", "motif": "Heartache" } },
     { "data": { "source": "011", "target": "077", "motif": "Determination" } },
     { "data": { "source": "079", "target": "088", "motif": "nightmare" } },
-    { "data": { "source": "005", "target": "098", "motif": "ruins" }, "classes": ["weak"] },
+    { "data": { "source": "005", "target": "098", "motif": "ruins" } },
     { "data": { "source": "098", "target": "099", "motif": "neo" } },
 
     { "data": { "source": "999", "target": "101", "motif": "gaster" }},
@@ -348,7 +348,6 @@
 
     { "data": { "source": "139", "target": "201", "motif": "dont" } },
     { "data": { "source": "101", "target": "202", "motif": "gaster" } },
-    { "data": { "source": "101", "target": "202", "motif": "gaster" }, "classes": ["weak"] },
     { "data": { "source": "230", "target": "202", "motif": "lostgirl" }},
     { "data": { "source": "108", "target": "203", "motif": "legend" }},
     { "data": { "source": "133", "target": "206", "motif": "freedom" }, "classes": ["weak"] },
