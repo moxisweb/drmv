@@ -287,7 +287,7 @@
     { "data": { "source": "908", "target": "816", "motif": "mysteriousshrine" } },
     { "data": { "source": "228", "target": "817", "motif": "Lancer" } },
     { "data": { "source": "108", "target": "818", "motif": "legend" } },
-    { "data": { "source": "308", "target": "819", "motif": "Tenna" } },
+    { "data": { "source": "307", "target": "819", "motif": "Tenna" } },
     { "data": { "source": "229", "target": "820", "motif": "rouxls" } },
     { "data": { "source": "229", "target": "820", "motif": "Lancer" } },
     { "data": { "source": "520", "target": "822", "motif": "shop3" } },

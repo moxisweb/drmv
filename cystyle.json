@@ -3,8 +3,8 @@
       "selector": "node",
       "style": {
         "shape": "rectangle",
-        "height": "16px",
-        "width": "16px",
+        "height": "27px",
+        "width": "27px",
         "background-image": "data(img)",
         "background-fit": "contain",
         "background-color": "#000",
@@ -12,7 +12,7 @@
         "outline-width": 0.6,
         "outline-color": "#3d1f3d",
         "label": "data(label)",
-        "font-size": 4.5,
+        "font-size": 6.5,
         "min-zoomed-font-size": 14,
         "text-justification": "center",
         "text-wrap": "wrap",
@@ -32,8 +32,8 @@
         "background-image": "https://moxisweb.github.io/drmv/img/flowey_icon_1x1.png",
         "shape": "polygon",
         "shape-polygon-points": "0 -0.6 0.5 -0.65 1 -0.1 0.8 0.2 0.85 0.5 0.6 0.65 0 0.55 -0.6 0.65 -0.85 0.5 -0.8 0.2 -1 -0.1 -0.5 -0.65",
-        "height": "10px",
-        "width": "10px",
+        "height": "15px",
+        "width": "15px",
         "background-clip": "none",
         "bounds-expansion": "5px"
       }
@@ -46,8 +46,8 @@
         "background-image": "https://moxisweb.github.io/drmv/img/file_icon.png",
         "shape": "polygon",
         "shape-polygon-points": "0.3 -1 1 -0.44 1 1 -1 1 -1 -1",
-        "height": "8px",
-        "width": "6px"
+        "height": "12px",
+        "width": "9px"
       }
     },
     {
@@ -57,8 +57,8 @@
         "shape": "diamond",
         "background-image": "none",
         "background-color": "White",
-        "height": "5px",
-        "width": "5px"
+        "height": "7px",
+        "width": "7px"
       }
     },
     {
