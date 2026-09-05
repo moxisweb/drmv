@@ -37,8 +37,8 @@ var cy = cytoscape({
     edgeElasticity: 0.5,
     quality: "proof"
   },
-  minZoom: 0.6,
-  maxZoom: 4,
+  minZoom: 0.5,
+  maxZoom: 3.5,
   style: dataArray[0],
   elements: dataArray[1]
 });

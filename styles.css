@@ -374,8 +374,9 @@ hr {
   }
   .optiongrid {
   font-size: 1em;
-  gap: 3px;
-  padding: 0px 0px 20px 10px;
+  column-gap: 0.5em;
+  row-gap: 1em;
+  padding: 0px 0px 5px 10px;
   grid-template-columns: 3fr 1fr;
   }
 }

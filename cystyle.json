@@ -13,7 +13,7 @@
         "outline-color": "#3d1f3d",
         "label": "data(label)",
         "font-size": 4.6,
-        "min-zoomed-font-size": 14,
+        "min-zoomed-font-size": 18,
         "text-justification": "center",
         "text-wrap": "wrap",
         "text-max-width": "30px",
